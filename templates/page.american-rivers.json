@@ -1,0 +1,174 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0765ee19-8ee6-476d-996f-2c36df8050ea": {
+      "type": "section-double",
+      "blocks": {
+        "template--14894322810969__0765ee19-8ee6-476d-996f-2c36df8050ea-16746686911fd09938-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/American-Rivers-Logo_1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "template--14894322810969__0765ee19-8ee6-476d-996f-2c36df8050ea-16746686911fd09938-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Water is as important as life. Clean water is crucial for every living thing on our planet.",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14894322810969__0765ee19-8ee6-476d-996f-2c36df8050ea-16746686911fd09938-1",
+        "template--14894322810969__0765ee19-8ee6-476d-996f-2c36df8050ea-16746686911fd09938-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e5ee24ee-6610-4378-903e-2fd10ba10977": {
+      "type": "section-richtext",
+      "blocks": {
+        "8125fe0a-6f31-473c-aeb1-d1704209beb6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>Peak Scents Gives Back - American Rivers</h1>",
+            "text_size": 5
+          }
+        },
+        "template--14894322810969__e5ee24ee-6610-4378-903e-2fd10ba10977-16746647081c4bd00b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All of us have a part to play in protecting our rivers and safeguarding clean water for people and nature. Wild, free-flowing rivers are not only beautiful to witness and explore but provide a backdrop for a diversity of native animal and plant life, enabling entire ecosystems to thrive. Free-flowing rivers filter and store clean water, and also provide some of the most amazing adventures to be found anywhere.</p><p>River rafting was actually the catalyst for my very first skincare line. This collection began an eagerness to help my fellow rafters combat the effects that extreme temperatures, wind, and dryness had on their skin. Being out in the elements, especially on extended river trips was taking its toll, and so many of my friends were developing rashes and other problems from chemical based sunscreens and skincare products.</p><p>Protecting rivers and clean drinking water are both very important to us, so when we found American Rivers, we were all in! This organization was established in 1973 and has become America's voice for its rivers. The members of American Rivers work hard every day on issues like clean drinking water, dam removal, and flood protection. American Rivers also works on the state and federal level to advocate for regulations and policies which will improve the practice of river restoration and conserve clean water.</p><p>Over the last 26 years, Peak Scents has grown vastly from that first product line, but one thing has remained the same; Our commitment to sourcing plants in their most pure, natural state to help everyone look and feel their best. But that can't happen without a healthy environment, healthy soils and clean water. </p><p>Peak Scents and American Rivers both share a belief that nature knows best. American Rivers knows that working to keep rivers wild and free-flowing, thus protecting nature's ability to work as it was meant to, is an integral part of preserving our environment and ensuring clean water for everyone and everything. Peak Scents knows that using plant-based, natural solutions for skincare enables nature to work as it was meant to. Plants provide us with everything necessary to make handcrafted products that care for your skin, as nature intended.<br/><br/>Our favorite thing about AR is the practical solutions they offer to the problems our rivers face. Just like our skincare products keep it simple, AR keeps their jargon to a minimum and their volunteer opportunities accessible. They demonstrate how individuals can band together and volunteer to help protect and restore our rivers. In 1991, the group began the National River Cleanup, and over the years, 1.3 million volunteers have participated, removing more than 25 million pounds of litter and other debris.</p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "8125fe0a-6f31-473c-aeb1-d1704209beb6",
+        "template--14894322810969__e5ee24ee-6610-4378-903e-2fd10ba10977-16746647081c4bd00b-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "976bcef0-587b-48a2-a1ff-b9d928e33019": {
+      "type": "section-double",
+      "blocks": {
+        "template--14894322810969__976bcef0-587b-48a2-a1ff-b9d928e33019-16746686911fd09938-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>By supporting Peak Scents, you are now able to support a fully engaged non-profit organization that is making a real impact on our rivers. By visiting the link to their website, you can find status reports on America's rivers. You'll see which rivers are currently threatened, and which are the most endangered. There are detailed explanations about each situation along with calls to action and plans for how to help. Individuals and businesses (like us!) can find a way to join the 355,000 donors who are supporting the American Rivers mission.</p><p><strong>We are grateful for your support of American Rivers, Peak Scents, and of course, our vital life source… WATER.</strong></p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#fffcf9"
+          }
+        },
+        "template--14894322810969__976bcef0-587b-48a2-a1ff-b9d928e33019-16746686911fd09938-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ShanaWatahomigie_2966_1_791f3af8-5910-481d-91e8-c0d52cc76e43_600x600_1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--14894322810969__976bcef0-587b-48a2-a1ff-b9d928e33019-16746686911fd09938-0",
+        "template--14894322810969__976bcef0-587b-48a2-a1ff-b9d928e33019-16746686911fd09938-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0765ee19-8ee6-476d-996f-2c36df8050ea",
+    "e5ee24ee-6610-4378-903e-2fd10ba10977",
+    "976bcef0-587b-48a2-a1ff-b9d928e33019"
+  ]
+}

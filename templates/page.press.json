@@ -1,0 +1,446 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1bbb22eb-f749-4440-90be-8a101a709ac5": {
+      "type": "section-hero",
+      "blocks": {
+        "template--14890262331481__1bbb22eb-f749-4440-90be-8a101a709ac5-1674071064b2db0118-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Press</p>",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--14890262331481__1bbb22eb-f749-4440-90be-8a101a709ac5-1674071064b2db0118-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ShellyStrazis-05251.jpg",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>All Peak Scents products are formulated with 100% plant-based ingredients that support and nurture the health of your skin. </p>",
+            "text_size": 7
+          }
+        },
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Made with love in the mountains of Flagstaff, Arizona.</p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-1",
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--white",
+        "bg": "palette--bright bg--bright",
+        "content_width": 800,
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "b145aac8-ce8f-40a0-8364-73c9acb82a04": {
+      "type": "section-columns",
+      "blocks": {
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": true,
+            "video_link": "https://vimeo.com/502780591?embedded=true&source=video_title&owner=102373664"
+          }
+        },
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "13861d88-71d5-47b7-82e9-38b836bf7a6e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "9aca0129-708f-430a-ab6a-f3ae05a30d6e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "0d0493e7-7893-4129-97d2-3ee25949def8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "5df479c2-c41a-4232-bc5b-b10aafe7da7b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "b403725a-742b-4b81-bb4f-cfdc20069943": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1606b857-87dc-4601-b6fc-487dcdbf9713": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "36a213b2-1968-4855-8d36-55c2989e6dec": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "58db1b89-3785-4137-a86d-b20e24f8bd4f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "a734d5a6-6f8f-4c83-a8c9-ca0d296efea5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "0d577370-0105-422a-9537-7f37d877f9c5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "62b3e0ac-7a34-40b2-9082-d258a7d1c33d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "d340fdf8-cd4d-4f18-9c1a-cf8eddaad98a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "0eb256f2-ea18-4d0b-a761-f7fedd7e9c03": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "b9741435-94de-4c1a-a833-6eaf53d6106b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1a173e66-6c54-449b-99e1-96970224a62e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "8bd82991-891f-40a9-a69a-4af6ad336b94": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "9cf80237-7411-4db6-bada-1c6f4ca3cce0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Feature images or videos",
+            "text": "<p>Add a video popup link to show a play button.  Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-0",
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-1",
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-2",
+        "13861d88-71d5-47b7-82e9-38b836bf7a6e",
+        "9aca0129-708f-430a-ab6a-f3ae05a30d6e",
+        "0d0493e7-7893-4129-97d2-3ee25949def8",
+        "5df479c2-c41a-4232-bc5b-b10aafe7da7b",
+        "b403725a-742b-4b81-bb4f-cfdc20069943",
+        "1606b857-87dc-4601-b6fc-487dcdbf9713",
+        "36a213b2-1968-4855-8d36-55c2989e6dec",
+        "58db1b89-3785-4137-a86d-b20e24f8bd4f",
+        "a734d5a6-6f8f-4c83-a8c9-ca0d296efea5",
+        "0d577370-0105-422a-9537-7f37d877f9c5",
+        "62b3e0ac-7a34-40b2-9082-d258a7d1c33d",
+        "d340fdf8-cd4d-4f18-9c1a-cf8eddaad98a",
+        "0eb256f2-ea18-4d0b-a761-f7fedd7e9c03",
+        "b9741435-94de-4c1a-a833-6eaf53d6106b",
+        "1a173e66-6c54-449b-99e1-96970224a62e",
+        "8bd82991-891f-40a9-a69a-4af6ad336b94",
+        "9cf80237-7411-4db6-bada-1c6f4ca3cce0"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "48d0eed3-fe49-4722-bf52-690df8dbe796": {
+      "type": "section-blog",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "homepage_blog": "press",
+        "homepage_blog_count": 12,
+        "progress_bar": "mobile",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "show_author": false,
+        "show_tags": true,
+        "show_date": true,
+        "show_preview": false,
+        "show_link": true,
+        "bg": "palette--light bg--neutral",
+        "color": "text--white",
+        "show_view_all": false,
+        "button_style": "btn--outline uppercase",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1bbb22eb-f749-4440-90be-8a101a709ac5",
+    "b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84",
+    "b145aac8-ce8f-40a0-8364-73c9acb82a04",
+    "48d0eed3-fe49-4722-bf52-690df8dbe796"
+  ]
+}

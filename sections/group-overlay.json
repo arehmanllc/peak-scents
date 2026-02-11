@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "cart": {
+      "type": "cart-drawer",
+      "settings": {
+        "cart_shipping_enable": false,
+        "cart_show_quantity": true,
+        "cart_notes_enable": false,
+        "show_free_shipping_message": false,
+        "message": "Spend ||amount|| more for free shipping",
+        "cart_custom_message_enable": false,
+        "cart_custom_message_text": "<p>Use code <strong>TENOFF</strong> at checkout for 10% off</p>",
+        "cart_color_bg": "palette--light bg--neutral",
+        "cart_show_additional_buttons": false
+      }
+    },
+    "popups": {
+      "type": "popups",
+      "blocks": {
+        "cookies": {
+          "type": "cookie",
+          "disabled": true,
+          "settings": {
+            "show_cookies_popup": true,
+            "text_title": "Are Cookies OK?",
+            "text_body": "<p>We use cookies to improve your browsing experience</p>",
+            "text_accept": "Accept",
+            "text_learn": "Learn more",
+            "learn_url": "shopify://policies/privacy-policy",
+            "text_color": "text--neutral",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "bg": "palette--light bg--neutral",
+            "position": "popup--bottom"
+          }
+        },
+        "newsletter_signup": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Join the Peak Scents Family",
+            "text": "<p>exclusive offers straight to you inbox</p><p> + 15% Off your first order!</p><p> No spam we promise!</p>",
+            "success": "We can't wait to see you glow. Welcome to the radiant Family.\nUse code: WELCOME15 \n15% Off your entire order",
+            "text_color": "text--primary",
+            "bg": "palette--light bg--neutral",
+            "position": "popup--left",
+            "trigger": "idle",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "af1f9b09-3be9-4146-ac6a-f244f6fc6669": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Sizzling Summer Sale!",
+            "text": "<p><strong>Take 20% Off Sizzling Summer Deals with code SIZZLE20 + free shipping on orders $75 + free sample with all orders. Sale Ends July 4th at midnight!</strong></p><p><strong>Use Code SIZZLE20</strong></p>",
+            "text_color": "text--white",
+            "bg": "palette--bright bg--bright",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase",
+            "position": "popup--left",
+            "trigger": "always",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "31c0fe53-78d0-44bb-b796-06dee702c52e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Free Shipping",
+            "text": "<p></p><p><em><strong>We're giving free shipping with all orders over $25</strong></em></p><p> <strong>use code</strong>: SHIPYES</p><p>in the USA only - May not to be combined w/ other offers or points</p>",
+            "text_color": "text--black",
+            "bg": "palette--bright bg--bright",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "position": "popup--left",
+            "trigger": "always",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "cookies",
+        "newsletter_signup",
+        "af1f9b09-3be9-4146-ac6a-f244f6fc6669",
+        "31c0fe53-78d0-44bb-b796-06dee702c52e"
+      ],
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "cart",
+    "popups"
+  ]
+}

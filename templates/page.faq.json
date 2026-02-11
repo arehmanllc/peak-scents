@@ -1,0 +1,431 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "kicker-block": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "Introducing",
+            "enable_line": false,
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "kicker-block"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/ShellyStrazis-08954_1af0327a-23ca-4aec-993b-fd689005cc31.jpg",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4e6ce5e2-f484-483f-a6be-3f75e785dabb": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14894278508633__4e6ce5e2-f484-483f-a6be-3f75e785dabb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Frequently Asked Questions",
+            "text_size": 10
+          }
+        },
+        "template--14894278508633__4e6ce5e2-f484-483f-a6be-3f75e785dabb-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Common Questions asked at Peak Scents. If you don't find an answer you are looking for please contact us directly at orders@peakscents.com.",
+            "link_1": "",
+            "button_size_1": "btn--medium",
+            "button_style_1": "caps--link",
+            "button_color_1": "btn--neutral",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278508633__4e6ce5e2-f484-483f-a6be-3f75e785dabb-heading-1",
+        "template--14894278508633__4e6ce5e2-f484-483f-a6be-3f75e785dabb-button-1"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "accordion-section-1": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_1_1": {
+          "type": "text",
+          "settings": {
+            "title": "Is my payment data safe with you?",
+            "content": "<p>All direct payment gateways adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express, and Discover.</p>"
+          }
+        },
+        "accordion_block_1_2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Do you accept online payments?",
+            "content": "<p>Yes, we accept online payments. All payment processing and vital customer information is quick, easy, and secure.<br/></p><p>Learn more about our store's safe checkout experience (powered by Shopify) <a href=\"https://www.shopify.com/legal/terms#DataProtection\" target=\"_blank\" title=\"https://www.shopify.com/legal/terms#DataProtection\">here</a>.</p>"
+          }
+        },
+        "accordion_block_1_3": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I learn more about the payment and processing on your store?",
+            "content": "<p>For more insight, you may also want to read Shopify’s Terms of Service <a href=\"https://www.shopify.com/legal/terms\" target=\"_blank\" title=\"https://www.shopify.com/legal/terms\">here</a> or Privacy Statement <a href=\"https://www.shopify.com/legal/privacy\" target=\"_blank\" title=\"https://www.shopify.com/legal/privacy\">here</a>.</p>"
+          }
+        },
+        "accordion_block_1_4": {
+          "type": "text",
+          "settings": {
+            "title": "What forms of payment do you accept?",
+            "content": "<p>We accept payments from major credit card companies like Visa, Mastercard, and American Express.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_1_1",
+        "accordion_block_1_2",
+        "accordion_block_1_3",
+        "accordion_block_1_4"
+      ],
+      "settings": {
+        "title": "Payments & Safety",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "accordion-section-2": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_2_0": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "content": "<p>Domestic shipping can take up to 5 business days.<br/><br/>Foreign shipping could take up to 21 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
+          }
+        },
+        "accordion_block_2_1": {
+          "type": "text",
+          "settings": {
+            "title": "How much does it cost?",
+            "content": "<p>Shipping rates can vary depending on your region and are calculated at checkout.<br/><br/>Here are the full details of our <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Shipping Policy</a>.</p>"
+          }
+        },
+        "accordion_block_2_2": {
+          "type": "text",
+          "settings": {
+            "title": "Is there free shipping?",
+            "content": "<p>Yes, we offer free shipping for orders $75 +</p>"
+          }
+        },
+        "accordion_block_2_3": {
+          "type": "text",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "content": "<p>Yes, we ship our products all over the globe.<br/><br/>Please note that free shipping is not applicable for international orders and that shipping rates could vary depending on your region.</p>"
+          }
+        },
+        "accordion_block_2_4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Do you ship to my area?",
+            "content": "<p>A full list of all of our shipping areas can be found <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">here</a>.<br/><br/>If your country or region is not mentioned, please feel free to reach out to see if we can work out the details.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_2_0",
+        "accordion_block_2_1",
+        "accordion_block_2_2",
+        "accordion_block_2_3",
+        "accordion_block_2_4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shipping & Delivery",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "accordion-section-3": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_3_0": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "content": "<p>Love it or your money back! </p><p>All our products are eligable for a 30 day money back guarantee. You just pay shipping costs. <br/><br/></p>"
+          }
+        },
+        "accordion_block_3_1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Do you offer extended warranty?",
+            "content": "<p>An extended warranty can be added to your products for an additional cost.<br/><br/>Please get in touch for more information about extended warranties.</p>"
+          }
+        },
+        "accordion_block_3_2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "How much does extended warranty cost?",
+            "content": "<p>The extended warranty could come at a different cost depending on the type of product and extended period.<br/><br/>Please get in touch for more information.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_3_0",
+        "accordion_block_3_1",
+        "accordion_block_3_2"
+      ],
+      "settings": {
+        "title": "Return Policy",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "accordion-section-4": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_4_0": {
+          "type": "text",
+          "settings": {
+            "title": "What is installments by Afterpay?",
+            "content": "<p>Installments by Afterpay is a service that allows you to make purchases now and pay for them in four equal payments made every 2 weeks without any interest.</p>"
+          }
+        },
+        "accordion_block_4_1": {
+          "type": "text",
+          "settings": {
+            "title": "How do I use installments by Afterpay?",
+            "content": "<p>Simply shop online and add items to your shopping bag and checkout as normal. At checkout choose Installments by Afterpay as your payment method. First time customers will need to register with Afterpay and provide payment details as usual, returning customers simply log in to make their purchase. It’s that easy! Please note that all items in your shopping bag must be eligible for Installments by Afterpay. A minimum purchase amount may apply and you must meet additional eligibility requirements to qualify.</p>"
+          }
+        },
+        "accordion_block_4_2": {
+          "type": "text",
+          "settings": {
+            "title": "Can I use installments by Afterpay if I’m an international customer?",
+            "content": "<p>Installments by Afterpay is only available to customers with a US billing address within the US and a US mobile phone number. Customers with international billing addresses will not be able to set up an account with Afterpay.</p>"
+          }
+        },
+        "accordion_block_4_3": {
+          "type": "text",
+          "settings": {
+            "title": "How does the payment schedule work?",
+            "content": "<p>All customers are required to make their first payment at the time of purchase, with the remaining three payments deducted automatically every two weeks from your chosen payment method. If you choose to make additional payments before your scheduled pay dates, you may do so through your Afterpay account. You can log in to your Afterpay account to view your payment schedule and make a payment before the due date if you choose to do so.</p>"
+          }
+        },
+        "accordion_block_4_4": {
+          "type": "text",
+          "settings": {
+            "title": "What if I can’t pay an Afterpay installment?",
+            "content": "<p>If you fail to make a payment, you will be charged an $8 late payment fee, and an additional $8 fee if the missed payment is not made within 7 days. Late fees will not exceed 25% of the total order amount. For more details, please see <a href=\"https://www.afterpay.com/purchase-payment-agreement\" target=\"_blank\">terms and conditions.</a></p>"
+          }
+        },
+        "bc9fbcda-d90a-45f9-ac10-57acd1021cf3": {
+          "type": "text",
+          "settings": {
+            "title": "When will my items be delivered if I use installments by Afterpay?",
+            "content": "<p>Afterpay orders are delivered as per our standard shipping timeframe after you complete your order online. Visit our shipping page for more information by clicking here.</p>"
+          }
+        },
+        "693447f1-acb7-4d3d-8b35-a996e95f6db5": {
+          "type": "text",
+          "settings": {
+            "title": "Is there a limit to how much I can spend on a single transaction?",
+            "content": "<p>Yes, transaction value limits apply to purchases made on peakscents.com using Installments by Afterpay.</p>"
+          }
+        },
+        "9b8e1507-f72f-4afe-b01d-8317b99ef5a7": {
+          "type": "text",
+          "settings": {
+            "title": "What products are not eligible for purchase using installments by Afterpay?",
+            "content": "<p>Afterpay is not available on purchases of gift cards. If youare purchasing gift cards along with Afterpay eligible products, you will need to place two separate orders.</p>"
+          }
+        },
+        "1edc4741-74a8-4383-99a0-6b22d8429ac4": {
+          "type": "text",
+          "settings": {
+            "title": "How do I return or exchange an item purchased using installments by Afterpay?",
+            "content": "<p>If you have changed your mind, you can return your Afterpay purchase in store or by mail for a refund. Please check that your return or exchange meets our Return policy <a href=\"https://peakscents.com/pages/return-and-replacement-policy\" target=\"_blank\">here.</a> Afterpay will be notified of your return and will process the appropriate refunds. Please do not return your purchase to Afterpay.</p><p>If you believe there is fault or concern with your Afterpay purchase payment, please contact Afterpay customer support at info@afterpay.com</p>"
+          }
+        },
+        "bfa921bd-ad31-442a-b74b-7aefbc5a2ef3": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I find out more about Afterpay?",
+            "content": "<p>If you would like to know more about Afterpay, visit the Afterpay website www.afterpay.com for a comprehensive list of FAQs, terms as well as Afterpay’s Privacy Policy which can be found <a href=\"https://www.afterpay.com/privacy-policy\" target=\"_blank\">here.</a></p><p>If you have any questions about your Afterpay account, please contact Afterpay directly via <a href=\"https://help.afterpay.com/hc/en-us\" target=\"_blank\">web form.</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_4_0",
+        "accordion_block_4_1",
+        "accordion_block_4_2",
+        "accordion_block_4_3",
+        "accordion_block_4_4",
+        "bc9fbcda-d90a-45f9-ac10-57acd1021cf3",
+        "693447f1-acb7-4d3d-8b35-a996e95f6db5",
+        "9b8e1507-f72f-4afe-b01d-8317b99ef5a7",
+        "1edc4741-74a8-4383-99a0-6b22d8429ac4",
+        "bfa921bd-ad31-442a-b74b-7aefbc5a2ef3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Afterpay",
+        "title_align": "text-left",
+        "title_size": 5,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 64,
+        "padding_bottom": 128
+      }
+    },
+    "icons": {
+      "type": "section-icons",
+      "blocks": {
+        "icons-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_color": "#aaaaaa",
+            "title": "Free returns",
+            "text": "<p>Returns within 30 days receive a full refund.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icons-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_color": "#aaaaaa",
+            "title": "Free Shipping",
+            "text": "<p>Orders $99+</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icons-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_color": "#aaaaaa",
+            "title": "Support",
+            "text": "<p> Phone (928) 556-9499 </p><p>Or email us orders<a href=\"mailto:info@peakscents.com\" target=\"_blank\" title=\"mailto:info@peakscents.com\">@peakscents.com</a></p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icons-0",
+        "icons-1",
+        "icons-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "icons_size": 30,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "4e6ce5e2-f484-483f-a6be-3f75e785dabb",
+    "main",
+    "accordion-section-1",
+    "accordion-section-2",
+    "accordion-section-3",
+    "accordion-section-4",
+    "icons"
+  ]
+}

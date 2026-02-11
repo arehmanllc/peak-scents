@@ -1,0 +1,286 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "story-hero-kicker-block": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Introducing</p>",
+            "text_size": 3
+          }
+        },
+        "story-hero-heading-block": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Our Story</p>",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "story-hero-kicker-block",
+        "story-hero-heading-block"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-content-2-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>When DeeAnn Tracy founded Peak Scents in 1993, it was the coming together of her upbringing, her love of the outdoors, and her professional training. Her mother is an ethnobotanist and herbalist who has had an herbal apothecary in Flagstaff, Arizona for the last 45 years. She grew up in the store, and over the years she went from cleaning bottles, to mixing herbal teas, to creating herbal tinctures and blends to help with customer's specific problems from sore throats and colds to nasty tumbles taken off of mountain bikes.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7"
+          }
+        },
+        "custom-content-2-1": {
+          "type": "video",
+          "settings": {
+            "object_position": "center-center",
+            "video_link": "",
+            "popup_text": "",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "link_text": "Our Pledge",
+            "link": "shopify://pages/faq",
+            "button_color": "btn--white",
+            "button_style": "btn--soft"
+          }
+        }
+      },
+      "block_order": [
+        "custom-content-2-0",
+        "custom-content-2-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom-content-1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-content-1-0": {
+          "type": "video",
+          "settings": {
+            "object_position": "center-center",
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "popup_text": "Learn our story",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 55,
+            "overlay_color": "#000000",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "custom-content-1-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "Quality first",
+            "title": "",
+            "text": "<p>DeeAnn knew there was a better, more healthy way to protect and heal their skin it didn't exist yet, so she created it.<br/>It's been her joy for the last 26 years to keep innovating products that give people the results they want, without the harmful chemicals found in most other brands.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "custom-content-1-0",
+        "custom-content-1-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cabab16c-f880-45b0-b7bd-6b389e275180": {
+      "type": "section-custom-content",
+      "blocks": {
+        "a5d28fbc-4825-4e37-91f5-e1511dbe6419": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>As an adult she trained intensively at the Southwest School of Botanical Medicine, where she learned plant anatomy, physiology, and pharmacy. She created her first skincare line, Power Repair, to help fellow river runners (people who navigate commercial recreational rafts through the whitewater in the Grand Canyon) whose skin got mercilessly pummeled by the sun and wind while on the river. They had been using regular old sunscreen, but the chemicals in it gave them rashes, and the sunscreen didn't do anything to soothe their dry, cracked skin.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "f32b7d9e-5814-4708-b30d-a5dfc097d7cb": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "a5d28fbc-4825-4e37-91f5-e1511dbe6419",
+        "f32b7d9e-5814-4708-b30d-a5dfc097d7cb"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "icons": {
+      "type": "section-icons",
+      "blocks": {
+        "icons-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_color": "#aaaaaa",
+            "title": "Free returns",
+            "text": "<p>Returns within 30 days receive a full refund.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icons-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_color": "#aaaaaa",
+            "title": "Worldwide shipping",
+            "text": "<p>Ship anywhere, rates available at checkout.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icons-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_color": "#aaaaaa",
+            "title": "24/7 support",
+            "text": "<p>Call us anytime at 1(800) 555-1234.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icons-0",
+        "icons-1",
+        "icons-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "custom-content-2",
+    "custom-content-1",
+    "cabab16c-f880-45b0-b7bd-6b389e275180",
+    "icons"
+  ]
+}

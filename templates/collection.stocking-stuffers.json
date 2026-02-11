@@ -1,0 +1,298 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_kEt8Ji": {
+      "type": "section-hero",
+      "blocks": {
+        "kicker_aAdTqn": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Little Luxuries for Every Stocking",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "heading_ADb7wU": {
+          "type": "heading",
+          "settings": {
+            "title": "Stocking stuffers that nourish, hydrate, and delight. Perfect little treats for those on your list.",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "kicker_aAdTqn",
+        "heading_ADb7wU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Peak_Scents_2025_Best_Organic_Skincare_Gifts63.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 850,
+        "text_align": "align--middle-center",
+        "text_color": "text--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1732306862ab1265b3": {
+      "type": "apps",
+      "blocks": {
+        "greenspark_static_widgets_v2_Qgeg7d": {
+          "type": "shopify://apps/greenspark/blocks/static-widgets-v2/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
+          "settings": {
+            "widget_type": "total_impact",
+            "horizontal_alignment": "center",
+            "greenspark_widget_color": "grey",
+            "size": "full_width",
+            "fullwidth_justification": "center",
+            "trees_stat_type": true,
+            "plastic_stat_type": true,
+            "carbon_stat_type": true,
+            "kelp_stat_type": true,
+            "water_stat_type": true,
+            "bees_stat_type": true,
+            "enable_popup": true,
+            "greenspark_popup_theme": "light"
+          }
+        }
+      },
+      "block_order": [
+        "greenspark_static_widgets_v2_Qgeg7d"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": true,
+        "show_description": false,
+        "show_description_below": false,
+        "color_bg": "palette--light bg--neutral",
+        "show_image": true,
+        "bg_position": "center-bottom",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 10,
+        "overlay_color": "#e3bba2",
+        "enable_overlay_text": false,
+        "text_color": "text--white",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width_text": "wrapper",
+        "padding_top_text": 36,
+        "padding_bottom_text": 0
+      }
+    },
+    "section_richtext_ktzrNk": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who Will Love These Stocking Stuffers?",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1"
+      ],
+      "custom_css": [
+        "p {color: #252525;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 700,
+        "width": "wrapper",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_Rz6VtK": {
+      "type": "section-icons",
+      "blocks": {
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_alt": "shopify://shop_images/5.png",
+            "icon_color": "#252525",
+            "title": "",
+            "text": "<p><strong>The Self-Care Enthusiast</strong> <br/>Mini masks for everyday luxury.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_alt": "shopify://shop_images/Untitleddesign_30.png",
+            "icon_color": "#252525",
+            "title": "",
+            "text": "<p><strong>The Outdoor Explorer</strong><br/>Travel-sized tinted sunscreens.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/shop-power-repair-vitamin-c-solution-1.jpg",
+            "icon_color": "#252525",
+            "title": "",
+            "text": "<p><strong>The Beauty Lover</strong><br/>All natural skincare solutions.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0",
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1",
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2"
+      ],
+      "custom_css": [
+        "p {font-size: 1em; /* equals 24px */ color: #252525;}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 78,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "section_richtext_KG97xX": {
+      "type": "section-richtext",
+      "blocks": {
+        "text_gwKCgK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Order now to ensure delivery by the holidays. <br/><strong>Our last day to order to ensure delivery before the holiday is December 17th.</strong></p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "countdown_HF6XzF": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "2025-12-17",
+            "end_time": "11:59",
+            "period": "am",
+            "end_message": "Your package may not make it to you before the holiday.",
+            "hide_on_complete": false,
+            "digit_size": 8,
+            "digit_size_mobile": 6
+          }
+        }
+      },
+      "block_order": [
+        "text_gwKCgK",
+        "countdown_HF6XzF"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "subcollections": [],
+        "limit": 6,
+        "color_bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "wh_ratio": 1.7,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_large": 3,
+        "grid_mobile": "2",
+        "enable_layout_toggle": true,
+        "color_bg": "palette--light bg--neutral",
+        "collection_sorting": true,
+        "hide_sidebar": true,
+        "collapse_filters": false,
+        "show_products_count": true,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "section_hero_kEt8Ji",
+    "1732306862ab1265b3",
+    "hero",
+    "section_richtext_ktzrNk",
+    "section_icons_Rz6VtK",
+    "section_richtext_KG97xX",
+    "subcollections",
+    "main"
+  ]
+}

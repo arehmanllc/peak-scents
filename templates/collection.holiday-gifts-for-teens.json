@@ -1,0 +1,353 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_kEt8Ji": {
+      "type": "section-hero",
+      "blocks": {
+        "kicker_aAdTqn": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "A holiday glow up for teens",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "heading_ADb7wU": {
+          "type": "heading",
+          "settings": {
+            "title": "It's never too early to start your skincare routine. Pure, plant-based goodness crafted for younger, radiant skin. Perfect for the holidays and beyond.",
+            "text_size": 7
+          }
+        },
+        "button_7dyB9J": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Take our Skincare Quiz to find the Perfect Products",
+            "link_1": "shopify://pages/build-your-own-routine",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--soft",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_aAdTqn",
+        "heading_ADb7wU",
+        "button_7dyB9J"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Gifts_for_Teens_Natural_Skincare_2025_Downstream_Creatives.png",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 850,
+        "text_align": "align--middle-center",
+        "text_color": "text--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_products_kiGm8e": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "collection_3iRAmq": {
+          "type": "collection",
+          "settings": {
+            "collection": "power-repair",
+            "title": "The Perfect Picks for Clear & Glowing Skin",
+            "link_text": "",
+            "enable_item": false,
+            "item_link_height": "full",
+            "text": "",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "collection_3iRAmq"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 4,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1732306862ab1265b3": {
+      "type": "apps",
+      "blocks": {
+        "greenspark_static_widgets_v2_Qgeg7d": {
+          "type": "shopify://apps/greenspark/blocks/static-widgets-v2/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
+          "settings": {
+            "widget_type": "total_impact",
+            "horizontal_alignment": "center",
+            "greenspark_widget_color": "grey",
+            "size": "full_width",
+            "fullwidth_justification": "center",
+            "trees_stat_type": true,
+            "plastic_stat_type": true,
+            "carbon_stat_type": true,
+            "kelp_stat_type": true,
+            "water_stat_type": true,
+            "bees_stat_type": true,
+            "enable_popup": true,
+            "greenspark_popup_theme": "light"
+          }
+        }
+      },
+      "block_order": [
+        "greenspark_static_widgets_v2_Qgeg7d"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": true,
+        "show_description": false,
+        "show_description_below": false,
+        "color_bg": "palette--light bg--neutral",
+        "show_image": true,
+        "bg_position": "center-bottom",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 10,
+        "overlay_color": "#e3bba2",
+        "enable_overlay_text": false,
+        "text_color": "text--white",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width_text": "wrapper",
+        "padding_top_text": 36,
+        "padding_bottom_text": 0
+      }
+    },
+    "section_richtext_ktzrNk": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Gifts for Teens collection introduces a natural, healthy skincare routine that’s both effective and gentle. These products are specially formulated for younger skin, free from toxic chemicals, synthetic fragrances, and harsh ingredients. Just pure, plant-based goodness.",
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1"
+      ],
+      "custom_css": [
+        "p {color: #252525;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 700,
+        "width": "wrapper",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_Rz6VtK": {
+      "type": "section-icons",
+      "blocks": {
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_alt": "shopify://shop_images/shop-power-repair-foaming-cleanser-1.jpg",
+            "icon_color": "#252525",
+            "title": "",
+            "text": "<p><strong>For Oily Skin</strong> <br/>Balancing cleansers and oil-free mists.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/Untitleddesign-2022-01-17T113731.068.jpg",
+            "icon_color": "#252525",
+            "title": "",
+            "text": "<p><strong>For Everyday Glow<br/></strong>It's never too early to being a full skincare routine.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_alt": "shopify://shop_images/shop-brands-face-popular-power-repair-face-mist-1.jpg",
+            "icon_color": "#252525",
+            "title": "",
+            "text": "<p><strong>For Dry Skin<br/></strong>Hydrating facial mists and moisturizers.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0",
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2",
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1"
+      ],
+      "custom_css": [
+        "p {font-size: 1em; /* equals 24px */ color: #252525;}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 78,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "section_richtext_KG97xX": {
+      "type": "section-richtext",
+      "blocks": {
+        "text_gwKCgK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Order now to ensure delivery by the holidays. <br/><strong>Our last day to order to ensure delivery before the holiday is December 17th.</strong></p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "countdown_t8hkKE": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "2025-12-17",
+            "end_time": "11:59",
+            "period": "am",
+            "end_message": "Your package may not make it to you before the holiday.",
+            "hide_on_complete": false,
+            "digit_size": 8,
+            "digit_size_mobile": 6
+          }
+        }
+      },
+      "block_order": [
+        "text_gwKCgK",
+        "countdown_t8hkKE"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "subcollections": [],
+        "limit": 6,
+        "color_bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "wh_ratio": 1.7,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_large": 3,
+        "grid_mobile": "2",
+        "enable_layout_toggle": true,
+        "color_bg": "palette--light bg--neutral",
+        "collection_sorting": true,
+        "hide_sidebar": true,
+        "collapse_filters": false,
+        "show_products_count": true,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "section_hero_kEt8Ji",
+    "section_list_collections_products_kiGm8e",
+    "1732306862ab1265b3",
+    "hero",
+    "section_richtext_ktzrNk",
+    "section_icons_Rz6VtK",
+    "section_richtext_KG97xX",
+    "subcollections",
+    "main"
+  ]
+}

@@ -1,0 +1,306 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": true,
+        "show_description": false,
+        "show_description_below": false,
+        "color_bg": "palette--light bg--neutral",
+        "show_image": true,
+        "bg_position": "center-bottom",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 10,
+        "overlay_color": "#e3bba2",
+        "enable_overlay_text": false,
+        "text_color": "text--white",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width_text": "wrapper",
+        "padding_top_text": 36,
+        "padding_bottom_text": 0
+      }
+    },
+    "section_richtext_AcJ4BQ": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_bd8FG4": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "heading_QweaVJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Peak Scents Collection",
+            "text_size": 8
+          }
+        },
+        "text_B6cVQF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Handmade by Peak Scents in Flagstaff, Arizona</p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "button_6bpc9N": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "View Products",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--secondary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_bd8FG4",
+        "heading_QweaVJ",
+        "text_B6cVQF",
+        "button_6bpc9N"
+      ],
+      "custom_css": [
+        ".standard__heading {color: #000000;}",
+        ".standard__kicker {color: #000000;}",
+        "p {color: #000000;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_b7zRKA": {
+      "type": "section-double",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2023-PeakScents-Jan-4.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Transform your skin with the Peak Scents Line.",
+            "text": "<p>Peak Scents' collection delivers visible transformations for your skin, addressing individual concerns with precision and efficacy. From enhancing texture and tone to boosting overall radiance, our products empower you to unveil a complexion that epitomizes your true beauty. Say hello to a radiant, revitalized you.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--white",
+            "button_style": "caps--link",
+            "text_color": "text--white",
+            "bg_color": "#252525"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": true,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_ktzrNk": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "What makes Peak Scents the right line for you?",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1"
+      ],
+      "custom_css": [
+        "p {color: #252525;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 700,
+        "width": "wrapper",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_Rz6VtK": {
+      "type": "section-icons",
+      "blocks": {
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_color": "#252525",
+            "title": "",
+            "text": "<p>Calming and nurturing </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_color": "#252525",
+            "title": "",
+            "text": "<p>Hydrating Formulas</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_color": "#252525",
+            "title": "",
+            "text": "<p>Boost radiance</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0",
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1",
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2"
+      ],
+      "custom_css": [
+        "p {font-size: 1.7em; /* equals 24px */ color: #252525;}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 42,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "subcollections": [],
+        "limit": 6,
+        "color_bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "wh_ratio": 1.7,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_large": 3,
+        "grid_mobile": "2",
+        "enable_layout_toggle": true,
+        "color_bg": "palette--light bg--neutral",
+        "collection_sorting": true,
+        "hide_sidebar": true,
+        "collapse_filters": false,
+        "show_products_count": true,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "section_richtext_AcJ4BQ",
+    "section_double_b7zRKA",
+    "section_richtext_ktzrNk",
+    "section_icons_Rz6VtK",
+    "subcollections",
+    "main"
+  ]
+}

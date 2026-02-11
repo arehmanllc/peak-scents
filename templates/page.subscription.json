@@ -1,0 +1,359 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_richtext_mAxHaK": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_Bfh4bH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Skincare Subscriptions at Peak Scents",
+            "text_size": 8
+          }
+        },
+        "text_Fay67P": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Consistency is key when it comes to loving your skin. We make it simple to keep up with ordering and staying in your routine at Peak Scents. </strong></p><p></p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "button_jaxhtr": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Build a Subscription",
+            "link_1": "#shopify-section-template--15463417380953__section_hero_WT4Rqr",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "Don't Have a Routine Yet? Take our personalized skincare quiz.",
+            "link_2": "shopify://pages/build-your-own-routine",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        },
+        "image_3rNBXV": {
+          "type": "image",
+          "settings": {
+            "image_max_limit": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bfh4bH",
+        "text_Fay67P",
+        "button_jaxhtr",
+        "image_3rNBXV"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 800,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/2022-PeakScents-April-28.jpg",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "section_richtext_4WQXVG": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_e3CkW7": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Build your own Product Subscription.",
+            "text_size": 8
+          }
+        },
+        "text_NyYUix": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>You can pause, change, or cancel at any time - 15% off every order - Thank you sample gift in every delivery</p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        },
+        "button_eDgfbr": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "",
+            "link_1": "shopify://collections/all",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "Why Subscribe",
+            "link_2": "#shopify-section-template--15463417380953__section_hero_WT4Rqr",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn",
+            "button_color_2": "btn--primary",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_e3CkW7",
+        "text_NyYUix",
+        "button_eDgfbr"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 850,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 22
+      }
+    },
+    "section_html_LBMRTb": {
+      "type": "section-html",
+      "disabled": true,
+      "settings": {
+        "html": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Skincare Subscription Process</title>\n\t<style>\n\t\tbody {\n\t\t\tfont-family: Arial, sans-serif;\n\t\t}\n\t\t.container {\n\t\t\tdisplay: flex;\n\t\t\tjustify-content: space-between;\n\t\t\twidth: 95%;\n\t\t\tmargin-bottom: 20px;\n\t\t}\n\t\t.step {\n\t\t\tdisplay: flex;\n\t\t\tflex-direction: column;\n\t\t\talign-items: center;\n\t\t\twidth: 15%;\n\t\t\tposition: relative;\n\t\t}\n\t\t {\n\t\t\tcontent: \"\";\n\t\t\tposition: absolute;\n\t\t\tright: -50%;\n\t\t\twidth: 50%;\n\t\t\theight: 1px;\n\t\t\tbackground-color: #000;\n\t\t}\n\t\t.step-number {\n\t\t\tfont-size: 30px;\n\t\t\tfont-weight: bold;\n\t\t\tmargin-bottom: 10px;\n\t\t}\n\t\t.step-description {\n\t\t\ttext-align: center;\n\t\t}\n\t</style>\n</head>\n<body>\n\t<div class=\"container\">\n\t\t<div class=\"step\">\n\t\t\t<div class=\"step-number\">1</div>\n\t\t\t<div class=\"step-description\">Never run out of the products in your daily routine.</div>\n\t\t</div>\n\t\t<div class=\"step\">\n\t\t\t<div class=\"step-number\">2</div>\n\t\t\t<div class=\"step-description\">All subscription packages recieve 15% off the total order.</div>\n\t\t</div>\n\t\t<div class=\"step\">\n\t\t\t<div class=\"step-number\">3</div>\n\t\t\t<div class=\"step-description\">Your purchases automatically link to your rewards at Peak Scents.</div>\n\t\t</div>\n\t\t<div class=\"step\">\n\t\t\t<div class=\"step-number\">4</div>\n\t\t\t<div class=\"step-description\">Recieve a free sample with every order as our little thank you gift.</div>\n\t\t</div>\n\t\t<div class=\"step\">\n\t\t\t<div class=\"step-number\">5</div>\n\t\t\t<div class=\"step-description\">Your can edit, pause or cancel anytime, no hard feelings.</div>\n\t\t</div>\n\t</div>\n</body>\n</html>",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "619dbe42-68e9-49b3-bd28-d8d448bc23f5": {
+      "type": "section-icons",
+      "blocks": {
+        "template--14890756079705__619dbe42-68e9-49b3-bd28-d8d448bc23f5-1674140805cf79b13c-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-star-rating",
+            "icon_color": "#aaaaaa",
+            "title": "Never Run Out",
+            "text": "<p>Similar to a gym membership, yielding results from your at-home skincare routine is built by consistency. By subscribing, you will never run out of your Peak Scents products and have to resort to inferior drug store goods!</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--14890756079705__619dbe42-68e9-49b3-bd28-d8d448bc23f5-1674140805cf79b13c-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-star-rating",
+            "icon_color": "#aaaaaa",
+            "title": "Flexibility",
+            "text": "<p>Peak Scents is flexible when it comes to subscription item frequency, additions, and cancellations. All can be done at the click of a button! </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--14890756079705__619dbe42-68e9-49b3-bd28-d8d448bc23f5-1674140805cf79b13c-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-star-rating",
+            "icon_color": "#aaaaaa",
+            "title": "Consistency",
+            "text": "<p>If you have specific skin care goals in mind, the most effective way to reach those goals is by said consistency. Approachable at-home treatments and habits are a realistic way to meet your skin goals.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "8d76203c-27d9-42b1-a688-42b0611da7dc": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-star-rating",
+            "icon_color": "#aaaaaa",
+            "title": "Family Owned Business",
+            "text": "<p>Because Peak Scents is a small, family-owned business with commitment to quality, our care for customer satisfaction, education, and support falls under that commitment to quality as well!</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "fa6377ab-af35-4947-9853-3daa22d33d99": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-star-rating",
+            "icon_color": "#aaaaaa",
+            "title": "Great Communication",
+            "text": "<p>We pride ourselves on quick and educational communication. You can talk one-on-one to one of our knowledgeable and passionate team members with any questions you may have anytime, just call our toll free number- 800-630-9499.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "f60eb59e-02bd-450a-8ad6-c91d4329df63": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-star-rating",
+            "icon_color": "#aaaaaa",
+            "title": "High-Quality Products",
+            "text": "<p>We stand behind our products 100%.  When it comes to caring for your skin <em>and</em> your wellbeing, we believe you deserve only the best, all-natural, toxic-free, safe, and affordable products. Let Peak Scents elevate your skincare. </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14890756079705__619dbe42-68e9-49b3-bd28-d8d448bc23f5-1674140805cf79b13c-0",
+        "template--14890756079705__619dbe42-68e9-49b3-bd28-d8d448bc23f5-1674140805cf79b13c-1",
+        "template--14890756079705__619dbe42-68e9-49b3-bd28-d8d448bc23f5-1674140805cf79b13c-2",
+        "8d76203c-27d9-42b1-a688-42b0611da7dc",
+        "fa6377ab-af35-4947-9853-3daa22d33d99",
+        "f60eb59e-02bd-450a-8ad6-c91d4329df63"
+      ],
+      "custom_css": [
+        ".icon__column {padding: 20px 0; /* add padding here */}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 26,
+        "icon_alignment": "icon--left",
+        "layout": "grid--slider",
+        "align_text": "text-left",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "171096208584064456": {
+      "type": "apps",
+      "blocks": {
+        "recharge_subscriptions_bundles_widget_AEtgp4": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/bundles-widget/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {
+            "product": "build-your-own-bundle",
+            "rb_theme_color": "#40656e",
+            "rb_theme_text": "#ffffff",
+            "rb_theme_other_text": "#252525",
+            "rb_theme_bg": "#ffffff",
+            "rb_text_size": "16px",
+            "rb_spacing_width": 1220,
+            "rb_spacing_margins": "10px",
+            "rb_buttons_size": "15px",
+            "rb_buttons_corners": "4",
+            "rb_builder_items_per_row_ns": 4,
+            "rb_builder_items_per_row": "1",
+            "rb_builder_aspect_ratio": "100%",
+            "rb_builder_radius": "4"
+          }
+        }
+      },
+      "block_order": [
+        "recharge_subscriptions_bundles_widget_AEtgp4"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_wMgbcn": {
+      "type": "section-hero",
+      "blocks": {
+        "button_8thYcy": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop Bestsellers",
+            "link_1": "shopify://collections/best-sellers",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "shopify://collections/bundles",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn--outline",
+            "button_color_2": "btn--black",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "button_8thYcy"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2023-PeakScentsAugust2023-11_1.jpg",
+        "height": "use_pixels_650",
+        "overlay_opacity": 10,
+        "overlay_color": "#bf7b6b",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--top-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_richtext_mAxHaK",
+    "hero",
+    "main",
+    "section_richtext_4WQXVG",
+    "section_html_LBMRTb",
+    "619dbe42-68e9-49b3-bd28-d8d448bc23f5",
+    "171096208584064456",
+    "section_hero_wMgbcn"
+  ]
+}

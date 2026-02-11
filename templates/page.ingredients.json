@@ -1,0 +1,582 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_Bt4iNR": {
+      "type": "section-double",
+      "blocks": {
+        "image_UytCi3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2022-PeakScents-142.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_3tdpGb": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "What will you find in Peak Scents Products?",
+            "text": "<p><em>All the radiant goodness that nature intended for you.</em></p>",
+            "font_size": 8,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Explore a Routine that is Right for you",
+            "button_url": "shopify://pages/build-your-own-routine",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UytCi3",
+        "text_3tdpGb"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_6JNYky": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plant Based. & Made with Love.",
+            "text_size": 9
+          }
+        },
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "All Peak Scents products are formulated with plant-based ingredients that support and nurture the health of your skin.",
+            "text_size": 7
+          }
+        },
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From the Mountains of Northern Arizona.</p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_6JNYky",
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-1",
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-2"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--white",
+        "bg": "palette--bright bg--bright--accent",
+        "content_width": 800,
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "146ac61f-694a-447d-9052-3bff9cb2ca5f": {
+      "type": "section-announcement",
+      "blocks": {
+        "template--14890262331481__146ac61f-694a-447d-9052-3bff9cb2ca5f-1674070607c3307797-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SLS free</p>"
+          }
+        },
+        "879a2078-a20f-4694-bf1a-9195121df760": {
+          "type": "text",
+          "settings": {
+            "text": "<p>alcohol free</p>"
+          }
+        },
+        "2d4ba7be-16ea-4313-bbf9-41f2f5798494": {
+          "type": "text",
+          "settings": {
+            "text": "<p>paraben free</p>"
+          }
+        },
+        "44ed6b5c-c3a9-4614-bedd-d0a9243a6116": {
+          "type": "text",
+          "settings": {
+            "text": "<p>cruelty free</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14890262331481__146ac61f-694a-447d-9052-3bff9cb2ca5f-1674070607c3307797-0",
+        "879a2078-a20f-4694-bf1a-9195121df760",
+        "2d4ba7be-16ea-4313-bbf9-41f2f5798494",
+        "44ed6b5c-c3a9-4614-bedd-d0a9243a6116"
+      ],
+      "settings": {
+        "bg_color": "#ebe6e0",
+        "color": "#736058",
+        "text_size": 6,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "b145aac8-ce8f-40a0-8364-73c9acb82a04": {
+      "type": "section-columns",
+      "blocks": {
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/alpha_lipoic_acid.png",
+            "shape_class": "",
+            "title": "Alpha lipoic acid",
+            "text": "<p>ALA is an au naturel enzyme & antioxidant found inside every cell in the human body. It's an anti-inflammatory that acts as a natural exfoliant, encouraging new cell growth and cell turnover. It can help prevent and treat damage to the skin from free radicals which can cause premature aging.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Alpine_Rose_Stem_Cells_and_Acai_Stem_Cells.png",
+            "shape_class": "",
+            "title": "alpine rose stem cells",
+            "text": "<p>The Alpine Rose is a thriving, high-altitude, regenerative plant. Grown high in the Swiss Alps, this flower is as gentle as it is tenacious. The stem cells of this plant increase stem cell activity, boosts epidermal regeneration, & improves the skin barrier function, protecting against environmental & sun damage. They contain powerful antioxidants & anti-aging benefits.<br/></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/beeswax.png",
+            "shape_class": "",
+            "title": "beeswax",
+            "text": "<p>Beeswax is a natural protector and water gatherer. It aims to keep your skin hydrated by creating a protective layer while also acting as a humectant. Despite rumors, beeswax does not clog pores. It offers antibacterial, anti-inflammatory, and antiviral properties, protecting skin at all costs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "13861d88-71d5-47b7-82e9-38b836bf7a6e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/coenzyme_q10.png",
+            "shape_class": "",
+            "title": "coenzyme q10",
+            "text": "<p>An antioxidant, antibacterial top performer, CoQ10, positively influences age-affected cellular metabolism and creates space to combat signs of aging starting at the cellular level. As a result, topical application of CoQ10 is beneficial as it rapidly improves mitochondrial function in skin in vivo.<br/></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "9aca0129-708f-430a-ab6a-f3ae05a30d6e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/cucumber.png",
+            "shape_class": "",
+            "title": "cucumber",
+            "text": "<p>A hydrating, vitamin-rich, dullness -slayer, cucumber is over 90% water, lending itself to extreme hydration. Soothing, refreshing, and anti-inflammatory, cucumber reduces puffiness in skin as well as shrinks the pores, resulting in less oil secretion. It can help treat sunburn and acne.<br/></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "0d0493e7-7893-4129-97d2-3ee25949def8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/dmae.png",
+            "shape_class": "",
+            "title": "dmae",
+            "text": "<p>DMAE is a lifting, firming, elastic megastar. This antioxidant membrane stabilizer, dimethylaminoethanol, works harmoniously with Vitamins A, E, & C. It visibly plumps the skin, works its magic against sagging, is easily absorbed, and protects against drying environmental stressors.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "5df479c2-c41a-4232-bc5b-b10aafe7da7b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/green_tea.png",
+            "shape_class": "",
+            "title": "green tea",
+            "text": "<p>Synergetic, antioxidant overachiever, Green Tea, is full of vitamins and works harmoniously with others, such as Vitamin C and E. Essential active ingredients in green tea are called polyphenols (catechins), which benefit the skin due to antioxidant and anti-inflammatory properties. It contains caffeine and tannins, which shrink blood vessels & decrease puffiness.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "b403725a-742b-4b81-bb4f-cfdc20069943": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/helichysim_extract.png",
+            "shape_class": "",
+            "title": "helicrysum extract",
+            "text": "<p>Helichrysum Extract is regenerative, protective, and anti-microbial. Helichrysum essential oil contains an anti-inflammatory substance called arzanol, which plays a part in healing wounds. It also has antioxidant properties that can help to prevent scarring by regenerating new cells & preventing the accumulation of free radicals.<br/></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "1606b857-87dc-4601-b6fc-487dcdbf9713": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/hibiscus_extract.png",
+            "shape_class": "",
+            "title": "hibiscus botanical extract",
+            "text": "<p>Hibiscus is a gentle purifying exfoliator. The natural acids present in hibiscus help to purify skin by breaking down dead skin and increasing cell turnover. It is rich in mucilage content that helps to keep skin hydrated for longer periods of time. Tightens skin, accelerates wound healing, & increases elasticity.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "36a213b2-1968-4855-8d36-55c2989e6dec": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/horsetail_herb.png",
+            "shape_class": "",
+            "title": "horsetail herb",
+            "text": "<p>Nutrient-dense and bioflavonoid rich, Horsetail is an herb with a natural source of nutrients such as: calcium, magnesium, zinc, manganese, phosphorus, potassium and many more. Cleansing properties help minimize the appearance of pores, naturally tone the skin, all while it continues to moisturize. Great for sensitive skin.<br/></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "58db1b89-3785-4137-a86d-b20e24f8bd4f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/hyaluronic_acid.png",
+            "shape_class": "",
+            "title": "hyaluronic acid",
+            "text": "<p>An anti-aging & moisture-locking standout, Hyaluronic Acid functions as a humectant, a substance that attracts and retains water and moisture. In turn, this compound gently tightens and hydrates, allowing skin to increase skin cell production without having to fight for hydration.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "a734d5a6-6f8f-4c83-a8c9-ca0d296efea5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/kakadu_plum_extract.png",
+            "shape_class": "",
+            "title": "kakadu plum extract",
+            "text": "<p>The antioxidant, antibacterial superstar, Kakadu Plum, native to Australia, has an extremely rare antioxidant profile. Due to its growing conditions, each plum develops a highly efficient defense mechanism made up of diverse antioxidants. This, in turn, lends itself to highly soothing & brightening properties.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "0d577370-0105-422a-9537-7f37d877f9c5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/organic_aloe_vera.png",
+            "shape_class": "",
+            "title": "organic aloe vera",
+            "text": "<p>An ultra-hydrating & soothing skin warrior. Aloe Vera prevents Tyrosinase (the enzyme responsible for discoloration) from damaging skin, suppresses UV-induced hyperpigmentation, and protects the skin-damaging effects of sunburns. The various antioxidants it contains can heal sun damage that's already formed.<br/></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "62b3e0ac-7a34-40b2-9082-d258a7d1c33d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/peptides.png",
+            "shape_class": "",
+            "title": "peptides",
+            "text": "<p>A key component in collagen production, Peptides are naturally occurring amino acids that make up the protein in the skin. We use five peptides in our formulas, focusing on the reduction of fine lines, wrinkles, and skin rejuvenation. Our vegan peptides improve evenness of skin texture and firmness at the dermal-epidermal junction.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "d340fdf8-cd4d-4f18-9c1a-cf8eddaad98a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/pomegranate_extract.png",
+            "shape_class": "",
+            "title": "pomegranate extract",
+            "text": "<p>Pomegranate Extract is a high antioxidant, hydrating sun protectant. It protects the skin against free radical damage, relieves sunburns, and helps defend against skin cancer by way of ellagic acid, a polyphenol antioxidant found in large quantitates in pomegranates.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "0eb256f2-ea18-4d0b-a761-f7fedd7e9c03": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/raspberry_seed_and_oil.png",
+            "shape_class": "",
+            "title": "raspberry seed and oil",
+            "text": "<p>A natural sun-blocker, this ingredient is a UV fighting celebrity. Raspberry seed is a protector at heart. It protects from sun damage, fights acne, age spots, wrinkles & premature aging. Not to mention, it helps to heal eczema and psoriasis. Raspberry Seed contains a high antioxidant content for fighting free radicals and firming skin thru collagen production.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "b9741435-94de-4c1a-a833-6eaf53d6106b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/rose.png",
+            "shape_class": "",
+            "title": "rose",
+            "text": "<p>Rose is the ultimate calming force. It has a variety of vitamins, antioxidants and minerals which renders it a champion against tackling dry skin. It also offers astringent properties, making it an excellent combatant of acne, redness, and inflammation.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "1a173e66-6c54-449b-99e1-96970224a62e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/rosehip_seed.png",
+            "shape_class": "",
+            "title": "rosehip seed",
+            "text": "<p></p><p>This is an unmatched rejuvenation hero, chock-full of goodness! Rosehip seed helps to protect and hydrate skin, fight free radical damage, & reduce wrinkles. But that's not all! The vitamin and antioxidant properties in rosehip seed renew the skin to restore elasticity, help to correct dark spots, and reduce the appearance of scars.<br/></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "8bd82991-891f-40a9-a69a-4af6ad336b94": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/vitamin_c_ester.png",
+            "shape_class": "",
+            "title": "vitamin c ester",
+            "text": "<p>This is a non-acidic, more stable form of Vitamin C. By stimulation of collagen fibers in the skin, potent Vitamin-C Ester improves skin elasticity, reduces the appearance of hyperpigmentation & redness, and brightens like nobody's business! Unlike traditional vitamin C, Vitamin C Ester is fat-soluble and easily absorbable for maximum antioxidant benefits.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-0",
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-1",
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-2",
+        "13861d88-71d5-47b7-82e9-38b836bf7a6e",
+        "9aca0129-708f-430a-ab6a-f3ae05a30d6e",
+        "0d0493e7-7893-4129-97d2-3ee25949def8",
+        "5df479c2-c41a-4232-bc5b-b10aafe7da7b",
+        "b403725a-742b-4b81-bb4f-cfdc20069943",
+        "1606b857-87dc-4601-b6fc-487dcdbf9713",
+        "36a213b2-1968-4855-8d36-55c2989e6dec",
+        "58db1b89-3785-4137-a86d-b20e24f8bd4f",
+        "a734d5a6-6f8f-4c83-a8c9-ca0d296efea5",
+        "0d577370-0105-422a-9537-7f37d877f9c5",
+        "62b3e0ac-7a34-40b2-9082-d258a7d1c33d",
+        "d340fdf8-cd4d-4f18-9c1a-cf8eddaad98a",
+        "0eb256f2-ea18-4d0b-a761-f7fedd7e9c03",
+        "b9741435-94de-4c1a-a833-6eaf53d6106b",
+        "1a173e66-6c54-449b-99e1-96970224a62e",
+        "8bd82991-891f-40a9-a69a-4af6ad336b94"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_kW9dBh": {
+      "type": "section-hero",
+      "blocks": {
+        "button_YgMUdb": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Recipes from Peak Scents",
+            "link_1": "shopify://blogs/recipes",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "Shop all Products",
+            "link_2": "shopify://collections/all",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn",
+            "button_color_2": "btn--primary",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "button_YgMUdb"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ShellyStrazis-06845.jpg",
+        "height": "use_pixels_500",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--top-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_double_Bt4iNR",
+    "b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84",
+    "146ac61f-694a-447d-9052-3bff9cb2ca5f",
+    "b145aac8-ce8f-40a0-8364-73c9acb82a04",
+    "section_hero_kW9dBh"
+  ]
+}

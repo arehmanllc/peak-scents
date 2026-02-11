@@ -1,0 +1,522 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_i7McPB": {
+      "type": "section-double",
+      "blocks": {
+        "text_M9iXaE": {
+          "type": "text",
+          "settings": {
+            "kicker": "Small batch - Big Love",
+            "title": "We Believe in Plants.",
+            "text": "<p>At peak scents, we believe in the powerful combination of antioxidants + plants to keep your skin radiant. Plants are a complete resource, providing us with all the necessary ingredients to make handcrafted products that care for your skin <strong>as nature intended.</strong></p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "ingredients",
+            "button_url": "shopify://pages/ingredients",
+            "button_color": "btn--black",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_tcD6UV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2023-PeakScentsAugust2023-60.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_M9iXaE",
+        "image_tcD6UV"
+      ],
+      "settings": {
+        "height": "use_screen_three_quarters",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_announcement_hpi3px": {
+      "type": "section-announcement",
+      "blocks": {
+        "icon_block_7i9aNq": {
+          "type": "icon_block",
+          "settings": {
+            "text": "<p>Plant Based & Cruelty Free </p>",
+            "icon_name": "icon-leaf",
+            "icon_color": "#fffcf9",
+            "icon_alt_width": 33
+          }
+        },
+        "icon_block_BzwYy7": {
+          "type": "icon_block",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Check out our <a href=\"/pages/ingredients\" title=\"Ingredients\"><strong>Ingredients List</strong></a></p>",
+            "icon_name": "icon-rating",
+            "icon_color": "#fffcf9",
+            "icon_alt_width": 33
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_7i9aNq",
+        "icon_block_BzwYy7"
+      ],
+      "settings": {
+        "bg_color": "#85918d",
+        "color": "#fffcf9",
+        "text_size": 6,
+        "padding_top": 18,
+        "padding_bottom": 18
+      }
+    },
+    "section_hero_VG4TNP": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/2023-Tulum-PeakScent-61.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_LhGWDp": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_qACqYW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Here at Peak Scents, we live by the principle:",
+            "text_size": 9
+          }
+        },
+        "text_gayadc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>If you can't eat it, why put it on your skin?</em> Did you know that your skin is your largest organ? What gets absorbed into our skin  effects all of our body systems.</p>",
+            "text_size": 7,
+            "text_columns": 1
+          }
+        },
+        "button_jffzfM": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Find your skincare routine",
+            "link_1": "shopify://pages/build-your-own-routine",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qACqYW",
+        "text_gayadc",
+        "button_jffzfM"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 650,
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 44
+      }
+    },
+    "section_hero_qFDk66": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_tdACKk": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "heading_tdACKk"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/2022-PeakScents-200.jpg",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 1150,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "0422ca02-3ec5-4313-bca6-f03b78305a7b": {
+      "type": "section-custom-content",
+      "blocks": {
+        "37c98a24-1a7b-4e36-92ac-01f15cbe0b55": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "We confidently use responsible sourcing.",
+            "text": "<p>• We source cold-pressed, raw, organic oils.<br/>• We source high-quality, non- gmo, organic vitamins and extracts.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "b3aa054b-1e3a-49ad-86bb-c08b2ac7a206": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2023-01-05T091942.304.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "37c98a24-1a7b-4e36-92ac-01f15cbe0b55",
+        "b3aa054b-1e3a-49ad-86bb-c08b2ac7a206"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_gpBPct": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_gNDzgQ": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Why Small Batch?",
+            "enable_line": true,
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "kicker_gNDzgQ"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "section_tabs_zywAca": {
+      "type": "section-tabs",
+      "blocks": {
+        "text_3aJXag": {
+          "type": "text",
+          "settings": {
+            "title": "Freshness",
+            "text": "<p>Our commitment to small batch production ensures that our products are always fresh when they reach our customers. With fewer products sitting on shelves for extended periods, our customers can trust that they're receiving the highest quality, most potent plant-based ingredients every time they purchase from us.</p>"
+          }
+        },
+        "text_7YL6ej": {
+          "type": "text",
+          "settings": {
+            "title": "Quality Control",
+            "text": "<p>By producing in small batches, we maintain rigorous control over every step of the production process. From sourcing the finest botanicals to carefully crafting each product, our attention to detail ensures that our skincare formulations consistently meet our high standards for quality and efficacy.</p>"
+          }
+        },
+        "text_yRGAAA": {
+          "type": "text",
+          "settings": {
+            "title": "Transparency",
+            "text": "<p>We believe in full transparency when it comes to our ingredients and processes. Small batch production allows us to be more transparent with our customers, providing them with detailed information about the origin of our ingredients, our sustainable practices, and our commitment to cruelty-free and eco-friendly skincare.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_3aJXag",
+        "text_7YL6ej",
+        "text_yRGAAA"
+      ],
+      "custom_css": [
+        ".items-center {display: flex; align-items: center; justify-content: center;}",
+        "p {text-align: center;}"
+      ],
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 78
+      }
+    },
+    "section_columns_888hJi": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_LPEeYb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2022-PeakScents-224.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "<p>We <strong>never</strong> use chemical emulsifiers or fragrances.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_VgjVwQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ShellyStrazis-04557.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "<p>High-quality, non- gmo, organic vitamins and extracts.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_bEyMEi": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2022-PeakScents-160.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "<p>Cold-pressed, raw, organic oils.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_BbBtUn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2023-PeakScents-Videoclips-91.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "<p>We use 100% pure essential oils (organic) when available.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_zWWfNJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2022-PeakScents-134_1.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "<p>We use food-grade preservatives, never scary chemical preservatives.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_3KAjQR": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ShellyStrazis-06327.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "<p>Organic herbs infused in oil, using a no heat method to ensure all nutrients are alive and potent.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_LPEeYb",
+        "text_block_VgjVwQ",
+        "text_block_bEyMEi",
+        "text_block_BbBtUn",
+        "text_block_zWWfNJ",
+        "text_block_3KAjQR"
+      ],
+      "settings": {
+        "title": "Responsibly sourced & thoughtfully designed",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 16,
+        "padding_bottom": 30
+      }
+    },
+    "e1212b68-8771-4427-8b9e-834b14f4f5a0": {
+      "type": "section-custom-content",
+      "blocks": {
+        "927e3e6e-12b3-4520-ac0a-bb63c98aab2b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2024-03-19T152646.740.jpg",
+            "overlay_opacity": 40,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "Plants Are Good For People",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Find a Routine that is right for you",
+            "link": "shopify://pages/build-your-own-routine",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "927e3e6e-12b3-4520-ac0a-bb63c98aab2b"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_double_i7McPB",
+    "section_announcement_hpi3px",
+    "section_hero_VG4TNP",
+    "section_richtext_LhGWDp",
+    "section_hero_qFDk66",
+    "0422ca02-3ec5-4313-bca6-f03b78305a7b",
+    "section_richtext_gpBPct",
+    "section_tabs_zywAca",
+    "section_columns_888hJi",
+    "e1212b68-8771-4427-8b9e-834b14f4f5a0"
+  ]
+}

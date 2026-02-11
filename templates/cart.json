@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "settings": {
+        "cart_shipping_enable": false,
+        "cart_show_quantity": true,
+        "cart_notes_enable": false,
+        "show_free_shipping_message": false,
+        "message": "Spend ||amount|| more for free shipping",
+        "cart_custom_message_enable": false,
+        "cart_custom_message_text": "<p>Use code <strong>TENOFF</strong> at checkout for 10% off</p>",
+        "cart_color_bg": "palette--light bg--neutral",
+        "cart_show_additional_buttons": false,
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1677703860d3caa65f": {
+      "type": "apps",
+      "blocks": {
+        "9dd2452b-0214-4884-813c-1b4f6fb5a4cc": {
+          "type": "shopify://apps/greenspark/blocks/current-order-impact-widget/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
+          "settings": {
+            "style": "simplified",
+            "horizontal_alignment": "left",
+            "size": "full_width",
+            "fullwidth_justification": "flex-start",
+            "greenspark_widget_color": "grey",
+            "enable_popup": true
+          }
+        },
+        "greenspark_full_width_banner_yUYfMD": {
+          "type": "shopify://apps/greenspark/blocks/full-width-banner/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
+          "settings": {
+            "text_color": "#494441",
+            "banner_height": 350,
+            "toggle_months": true,
+            "toggle_trees": true,
+            "toggle_plastic": true,
+            "toggle_co2": true,
+            "toggle_kelp": false,
+            "toggle_straws": false,
+            "toggle_miles": false,
+            "toggle_football": false
+          }
+        }
+      },
+      "block_order": [
+        "9dd2452b-0214-4884-813c-1b4f6fb5a4cc",
+        "greenspark_full_width_banner_yUYfMD"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1677703860d3caa65f"
+  ]
+}

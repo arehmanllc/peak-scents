@@ -1,0 +1,219 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": true,
+        "show_description": false,
+        "show_description_below": false,
+        "color_bg": "palette--light bg--neutral",
+        "show_image": true,
+        "bg_position": "center-bottom",
+        "image_height": "use_screen_one_half",
+        "overlay_opacity": 10,
+        "overlay_color": "#e3bba2",
+        "enable_overlay_text": false,
+        "text_color": "text--white",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width_text": "wrapper",
+        "padding_top_text": 36,
+        "padding_bottom_text": 0
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "disabled": true,
+      "settings": {
+        "subcollections": [],
+        "limit": 6,
+        "color_bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "wh_ratio": 1.7,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "1731969349ed9647c4": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_list_collections_cnp6i7": {
+      "type": "section-list-collections",
+      "blocks": {
+        "collection_iHDmbY": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-rose-phyto3",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_aK678F": {
+          "type": "collection",
+          "settings": {
+            "collection": "peak-scents",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_C8kpkA": {
+          "type": "collection",
+          "settings": {
+            "collection": "power-repair",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_cxtXtq": {
+          "type": "collection",
+          "settings": {
+            "collection": "body-nurish",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_peehrr": {
+          "type": "collection",
+          "settings": {
+            "collection": "wandering-the-west-apothecary-products",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "collection_iHDmbY",
+        "collection_aK678F",
+        "collection_C8kpkA",
+        "collection_cxtXtq",
+        "collection_peehrr"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Peak Scents Collections",
+        "bg": "palette--light bg--neutral",
+        "wh_ratio": 1.5,
+        "grid_large": 2,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "body",
+        "title_size": 8,
+        "accent_size": 3,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "disabled": true,
+      "settings": {
+        "product_limit": 36,
+        "grid_large": 3,
+        "grid_mobile": "2",
+        "enable_layout_toggle": true,
+        "color_bg": "palette--light bg--neutral",
+        "collection_sorting": true,
+        "hide_sidebar": true,
+        "collapse_filters": false,
+        "show_products_count": true,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "1731969349ed9647c4",
+    "section_list_collections_cnp6i7",
+    "main"
+  ]
+}

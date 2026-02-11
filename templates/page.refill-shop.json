@@ -1,0 +1,599 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 5,
+        "show_content": true,
+        "content_size": 4,
+        "align_text": "text-center",
+        "text_color": "text--black",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 62,
+        "padding_bottom": 58
+      }
+    },
+    "section_richtext_PKhBJz": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_6FTjA9": {
+          "type": "heading",
+          "settings": {
+            "heading": "In-Store Refill Station",
+            "text_size": 10
+          }
+        },
+        "kicker_ApQaKR": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Plastic & Waste Free",
+            "enable_line": true,
+            "text_size": 3
+          }
+        },
+        "text_fL8BfV": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>All of your Eco-Friendly, Non-toxic Home and Body Care needs available by the ounce with our in-store refill station. Bring your own containers or purchase one of ours. </h5><h5><strong>Refill your Peak Scents skincare products in store.</strong></h5>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_6FTjA9",
+        "kicker_ApQaKR",
+        "text_fL8BfV"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_8dNKxU": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "image": "shopify://shop_images/2024-may-peakscents-72_In_store_plastic_free_home_product_refill_shop.jpg",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 5,
+        "overlay_color": "#936257",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_spotlight_YTb6bk": {
+      "type": "section-text-spotlight",
+      "blocks": {
+        "spotlight_autohighlight_text_Knn96E": {
+          "type": "_spotlight-autohighlight-text",
+          "settings": {
+            "text": "Our goal is to make<em><strong> low-waste living</strong></em><strong> </strong><em>simple</em>, <strong>accessible</strong>, and <em><strong>stress-free</strong></em>.",
+            "break_newline": false,
+            "highlight_color": "#e5efea",
+            "highlight_appearance": "full"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "spotlight_autohighlight_text_Knn96E"
+      ],
+      "name": "Spotlight Text",
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "text_size": 10,
+        "font_family": "heading",
+        "enable_scroll_animation": true,
+        "width": "wrapper",
+        "padding_top": 58,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_wCMyUz": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_wwp9WM": {
+          "type": "heading",
+          "settings": {
+            "heading": "How the Refillery Works",
+            "text_size": 7
+          }
+        },
+        "text_bQhUA8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>The refill shop process for household & body products.</em><br/><br/>Everything you need to get started refilling is available at our self service refill station, including free reusable vessels. Bring your own vessel to reuse, grab a free reused vessel from our bin or purchase a sustainable new reusable one from us.</p><p> Please, don't hesitate to ask for assistance; we are happy to help do your refilling for you or along with you.<br/><em>If you are short on time, we can do your refills for you and you can pick them back up at your convenience.</em></p><h4></h4>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_wwp9WM",
+        "text_bQhUA8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert--accent",
+        "content_width": 850,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_icons_Ap9xNc": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_V6crJY": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify://shop_images/Icons_for_Peak_Scents_Refill_Page_Scale.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>Using the Refill Station scale, weigh your vessel and write the \"empty\" (tare) weight on the refill sheet </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_hhmnPG": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify://shop_images/Icons_for_Peak_Scents_Refill_Page_Jar.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>Fill your vessel to the desired level with whichever product you would like.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_kmHqha": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify://shop_images/Icons_for_Peak_Scents_Refill_Page_Sheet.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>Weigh your filled vessel and write the \"filled\" weight on the refill sheet</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_YWELxy": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/Icons_for_Peak_Scents_Refill_Page_Checkout.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>Bring your filled vessels and other items to the front counter. We will do the math to deduct the tare weight of your refilled vessels at checkout.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_V6crJY",
+        "icon_block_hhmnPG",
+        "icon_block_kmHqha",
+        "icon_block_YWELxy"
+      ],
+      "name": "Icon columns",
+      "settings": {
+        "title": "",
+        "bg": "palette--dark bg--invert--accent",
+        "icons_size": 80,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_3w3FLH": {
+      "type": "section-double",
+      "blocks": {
+        "text_Ebzxw3": {
+          "type": "text",
+          "settings": {
+            "kicker": "Available for Refill",
+            "title": "",
+            "text": "<p>Concentrated Laundry Detergent Liquid<br/>(Scented and Unscented)<br/>Oxy Boost (laundry supplement)<br/>Liquid Dish Soap, Assorted scents<br/>Dishwasher Powder<br/>Dishwasher Pods<br/>Toilet Bombs (cleanser tablets)<br/>Carpet Refresh Powder<br/>Scouring Powder<br/>Dr. Bronner’s Pure Castile Soap, Assorted scents<br/>Dr. Bronner’s Sal Suds Biodegradable All Purpose Cleanser<br/>Hand & Body Wash, Assorted scents<br/>Foaming Hand & Body Wash<br/>Hand & Body Lotion<br/>Shampoo, Assorted brands/scents/types<br/>Conditioner, Assorted brands/scents/types<br/>Cream Deodorant</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_ENxR8C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2024-may-peakscents-89_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_Ebzxw3",
+        "image_ENxR8C"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 98
+      }
+    },
+    "section_richtext_FnyiBV": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_yXy4Gc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Refilling your Peak Scents skincare  products",
+            "text_size": 8
+          }
+        },
+        "text_kXCBJ7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Organic Rose Phyto³<br/>Power Repair<br/>Body Nurish<br/>Peak Scents<br/>Wandering the West Apothecary </p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_yXy4Gc",
+        "text_kXCBJ7"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--bright bg--bright",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 94,
+        "padding_bottom": 22
+      }
+    },
+    "section_icons_jCRLRe": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_cPWPBx": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify://shop_images/How_to_refill_your_skincare_products_at_Peak_Scents2.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>Facial Oil & Body Oil bottles should <strong>NOT</strong> be washed</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_cnwNfc": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify://shop_images/How_to_refill_your_skincare_products_at_Peak_Scents3.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>All cream and serum containers <strong>MUST</strong> be brought in clean and dry, including the pump, cap or lid, in order for us to be able to refill.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_cPWPBx",
+        "icon_block_cnwNfc"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 1024px) {.icon__column__icon {width: 150px; height: 150px; }}"
+      ],
+      "name": "Icon columns",
+      "settings": {
+        "title": "Peak Scents refills save 10%",
+        "bg": "palette--bright bg--bright",
+        "icons_size": 80,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_rGaTQ9": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_UqBkEc": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify://shop_images/How_to_refill_your_skincare_products_at_Peak_Scents5.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>Balms and Airless Pumps<strong> can not</strong> be refilled</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_eMzPXH": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/How_to_refill_your_skincare_products_at_Peak_Scents4.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "<p>Our gentle food grade preservative may be compromised if mixed with older product. <br/></p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_UqBkEc",
+        "icon_block_eMzPXH"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 1024px) {.icon__column__icon {width: 150px; height: 150px; }}"
+      ],
+      "name": "Icon columns",
+      "settings": {
+        "title": "",
+        "bg": "palette--bright bg--bright",
+        "icons_size": 80,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_gallery_text_JtRfLX": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "text_JXQVqf": {
+          "type": "text",
+          "settings": {
+            "title": "How to clean your Peak Scents product containers for refilling:",
+            "title_size": 3,
+            "text": "<ol><li>Hand wash using hot water and dish soap.</li><li>Jars and lids are washed like a travel mug would be, using a dish cloth or sponge to remove all traces of product reside, rinsed clean and air dried.</li><li>Bottles should be filled with hot soapy water and shaken or bottle-brushed to remove all traces of product reside, rinsed clean and turned upside down overnight to air dry.</li><li>Pumps and caps also need to be clean and dry; hand wash and pump or squeeze hot soapy water through them.</li><li>It may take a couple of cycles of hot soapy water to get bottles, pumps and caps clean.</li><li>Rinse well, including pumping/squeezing a few cycles of clean water through the pump or cap, until the water runs clear, and then air dry completely overnight or as long as necessary.</li></ol>",
+            "body_size": 4,
+            "text_align": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "text_JXQVqf"
+      ],
+      "name": "Gallery text",
+      "settings": {
+        "bg": "palette--bright bg--bright",
+        "grid_large": 1,
+        "grid_medium": 1,
+        "grid_mobile": 1,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_faq_DpredL": {
+      "type": "section-faq",
+      "blocks": {
+        "text_qGECYV": {
+          "type": "text",
+          "settings": {
+            "title": "ORGANIC ROSE PHYTO³",
+            "content": "<p>Foaming Cleanser<br/>Cleansing Milk*<br/>Facial Toner<br/>Babchi Serum<br/>Facial Oil<br/>Facial Cream<br/>Night Cream<br/>Facial Mist<br/>Pomegranate Hand & Body Cream</p><p>*Subject to availability</p>"
+          }
+        },
+        "text_Ghcnxt": {
+          "type": "text",
+          "settings": {
+            "title": "POWER REPAIR",
+            "content": "<p>Foaming Cleanser<br/>Facial Toner<br/>Vitamin C Solution<br/>Hyaluronic & C Serum<br/>Skin Therapy Oil<br/>Face Cream<br/>Mineral Cream<br/>Facial Mist<br/>Green Clay Mask & Exfoliant<br/>Blemish Control Stick</p>"
+          }
+        },
+        "text_EDy3dP": {
+          "type": "text",
+          "settings": {
+            "title": "PEAK SCENTS",
+            "content": "<p>Hand & Surface Spray – All scents<br/>Organic Body Oils – All scents<br/>Hand & Body Wash – All scents</p>"
+          }
+        },
+        "text_HfnnjT": {
+          "type": "text",
+          "settings": {
+            "title": "BODY NÜRISH",
+            "content": "<p>Green Clay Facial Mask<br/>Coconut Sugar Scrub</p>"
+          }
+        },
+        "text_HptNrH": {
+          "type": "text",
+          "settings": {
+            "title": "WANDERING THE WEST",
+            "content": "<p>Hydrating Face Mists – All scents<br/>Palo Santo Clearing & Protection Spray</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qGECYV",
+        "text_Ghcnxt",
+        "text_EDy3dP",
+        "text_HfnnjT",
+        "text_HptNrH"
+      ],
+      "name": "Accordion group",
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 4,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_rrN7r8": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_HGPGey": {
+          "type": "heading",
+          "settings": {
+            "title": "Why Refill?",
+            "text_size": 10
+          }
+        },
+        "text_kRifLT": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>At Peak Scents, sustainability isn’t just a feature—it’s part of our foundation. From sourcing plant-based, non-toxic ingredients to choosing packaging that’s designed to be reused or refilled, every decision we make is rooted in care for people and the planet. Our refill shop brings that mission to life, offering a tangible way for our community to reduce waste and shop more mindfully. By making it easy to refill skincare, household products, and daily essentials, we’re helping shift the culture away from single-use consumption toward something more circular, responsible, and regenerative. It’s not just about what’s in the bottle—it’s about the impact beyond it.</p>",
+            "text_size": 4
+          }
+        },
+        "button_hEjxJd": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Learn More About Sustainability at Peak Scents",
+            "link_1": "shopify://pages/sustainability",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--secondary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HGPGey",
+        "text_kRifLT",
+        "button_hEjxJd"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image": "shopify://shop_images/2024-may-peakscents-65.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_map_NiBcBK": {
+      "type": "section-map",
+      "name": "Map",
+      "settings": {
+        "height": "use_screen_one_third",
+        "heading": "",
+        "address": "<h4>Visit The Refill Shop<br/></h4><p>No appointment needed. Just drop in!<br/>1000 E Butler Ave Suite 101, Flagstaff, AZ 86001<br/><br/>Mon–Tue: 9AM–4PM<br/>Wed–Fri: 9AM–5PM<br/>Sat: 10AM–3PM<br/>Closed Sunday<br/></p><p><strong>Questions?</strong> Give us a call at 1(800) 630-9499</p>",
+        "button": "",
+        "button_style": "btn",
+        "style": "light",
+        "zoom": 11,
+        "bg": "palette--light bg--neutral",
+        "api_key": "AIzaSyDfc-aIKeN_C0sA0IohSyDtE4g9MAC6n5I",
+        "map_address": "1000 E Butler Ave Suite 101, Flagstaff, AZ 86001",
+        "enable_latlong": false,
+        "lat": "",
+        "long": "",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_richtext_PKhBJz",
+    "section_hero_8dNKxU",
+    "section_text_spotlight_YTb6bk",
+    "section_richtext_wCMyUz",
+    "section_icons_Ap9xNc",
+    "section_double_3w3FLH",
+    "section_richtext_FnyiBV",
+    "section_icons_jCRLRe",
+    "section_icons_rGaTQ9",
+    "section_gallery_text_JtRfLX",
+    "section_faq_DpredL",
+    "section_hero_rrN7r8",
+    "section_map_NiBcBK"
+  ]
+}

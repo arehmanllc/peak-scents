@@ -1,0 +1,611 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_djD7tG": {
+      "type": "section-double",
+      "blocks": {
+        "text_BeLnLH": {
+          "type": "text",
+          "settings": {
+            "kicker": "Love for Peak Scents",
+            "title": "Client Testimonials",
+            "text": "<p>Hear what folks have to say about their experiences using Peak Scent's skincare products.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "#fdfdfd"
+          }
+        }
+      },
+      "block_order": [
+        "text_BeLnLH"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#fdfdfd",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_TmdFbz": {
+      "type": "section-double",
+      "blocks": {
+        "text_wdTrF3": {
+          "type": "text",
+          "settings": {
+            "kicker": "Image with text",
+            "title": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_YaGcP9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/D24CACA1-B998-4201-BDE6-9BEF913167C9.heic",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_wdTrF3",
+        "image_YaGcP9"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_pixels_650",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ss_testimonial_5_UwqttT": {
+      "type": "ss-testimonial-5",
+      "blocks": {
+        "slide_VbhJHj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2024-TaylorMiller--138_09504171-2417-4e67-b591-99df9232db77.jpg",
+            "stars_count": 5,
+            "text": "I am so happy my skin found Peak Scents. I use the Rose Phyto3 products as a daily routine and my skin LOVES it. I get complements all the time on how hydrated and glowing my complexion looks. I also use Peak Scents sunscreen products daily. I have very sensitive skin and live at high elevation so having sun protection I trust is a must. My skin stays safe and healthy on all of my adventures thanks to Peak Scents. I am so grateful that DeeAnn and team support the reuse of their products packaging with their refill station in store. It is so nice to know that my skincare routine is not adding to a landfill every time I need a new batch of products.",
+            "author": "T. Miller"
+          }
+        },
+        "slide_by8MXP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1575_1.jpg",
+            "stars_count": 5,
+            "text": "“The biggest and best compliment I always receive is about my clear and glowy skin, and I owe it all to Peak Scents! Their all-natural skincare products are perfectly compatible with my sensitive skin. The organic RosePhyto3 cleansing milk, facial toner, and facial oil make for the best 3-step skin care routine, I look forward to applying it every night!Their commitment to using all natural ingredients gives me peace of mind knowing that I'm nourishing my skin without harsh chemicals. I couldn't be happier with how my skin looks and feels, and I highly recommend Peak Scents to anyone looking for skincare products that deliver amazing results!”",
+            "author": "E. Plattner"
+          }
+        },
+        "slide_JPCK8T": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-02-29_at_3.17.09_PM.png",
+            "stars_count": 5,
+            "text": "I've experimented with numerous skincare products throughout the years, but none have impressed me quite like Peak Scents. Not only are their formulations entirely natural, but they're also incredibly effective. Witnessing visible results from products that harness the power of nature is truly remarkable. I'm thrilled to have stumbled upon Peak Scents and their all-natural effective skincare solutions. As someone who values supporting female-owned businesses, it's a privilege to endorse them. Among their exceptional range, the Babachi Serum, Eye Cream, and Hyaluronic C stand out as my ultimate favorites. Thank you, Peak Scents, for revolutionizing my skincare routine!",
+            "author": "R. Crenshaw"
+          }
+        },
+        "slide_94Lrj9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1825_3_1.heic",
+            "stars_count": 5,
+            "text": "I've been using Peak Scents regularly for the past year and my once acne prone, dull skin is so glow-y I truly rarely wear make-up. A make-up day for me a year or two ago would mean big insecurities, like \"Yeah, I know..somethings different...\", it now is my regular, confident daily. The Power Repair bundle truly repaired my acne scared skin and left me feeling beautiful, adding the Babchi Serum lifted any remaining dark spots and left me a glowing miracle.",
+            "author": "G.G."
+          }
+        },
+        "slide_mrrDpy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Avalon_Photo.heic",
+            "stars_count": 5,
+            "text": "I have been using Peak Scents' products exclusively since I was in middle school, and my skin could not be happier! I absolutely love PS products because of their natural ingredients, and I never have to worry about them irritating my skin. Peak Scents got me through the awkward stages of puberty without damaging my skin barrier with harmful ingredients. My skin feels fresh, plump, and rejuvenated because of PS products. Not only this, but I love the sustainably sourced ingredients and reusable/refillable glass options. I'll always go to Peak Scents to take care of my skin and support ethical & environmentally conscious causes.",
+            "author": "A. Moore"
+          }
+        },
+        "slide_qgLerx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2024-04-09T094218.985.jpg",
+            "stars_count": 5,
+            "text": "By the time you finish an experience like the Gaucho Derby, a 500 km multi-horse adventure race in Patagonia, you realize what things you brought that absolutely were essential and you were so grateful for. For me, the top of that short list were my Peak Scents skin products.I was so grateful for Peak Scents’ support of my adventure race. I have used Peak Scents skin products for decades as a Grand Canyon river guide, and as the oldest Gaucho Derby competitor by a decade, these products helped me keep that fact under wraps!",
+            "author": "M. Williams"
+          }
+        },
+        "slide_erqwbR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-03-18_at_9.18.38_AM.png",
+            "stars_count": 5,
+            "text": "After trying so many products and struggling for YEARS with dry skin and painful acne, I never thought there would ever be a day when I would wake up and be in awe of my own complexion. It all started when a dear friend gave me a travel set as a gift four years ago and now I'm a FOREVER fan. I'll never forget the first time I tried the products and was blown away by the difference overnight. My skin has never looked smoother or felt more hydrated. When people ask me what makeup I'm using to get this glow, I tell them it's not the makeup - it's the Babchi Beauty Bundle. I seriously can't live without these amazing products!! ",
+            "author": "K. Cotchen"
+          }
+        }
+      },
+      "block_order": [
+        "slide_VbhJHj",
+        "slide_by8MXP",
+        "slide_JPCK8T",
+        "slide_94Lrj9",
+        "slide_mrrDpy",
+        "slide_qgLerx",
+        "slide_erqwbR"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 46,
+        "heading_size_mobile": 36,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "slider_width": 82,
+        "slider_view": 1,
+        "slider_view_mobile": 1,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "slider_mt": 24,
+        "items_style": "slider",
+        "items_style_mobile": "slider",
+        "card_padding_vertical": 18,
+        "card_padding_vertical_mobile": 4,
+        "card_padding_horizontal": 16,
+        "card_padding_horizontal_mobile": 10,
+        "card_radius": 0,
+        "card_border_thickness": 1,
+        "card_gap": 20,
+        "card_gap_mobile": 12,
+        "image_width": 35,
+        "image_radius": 0,
+        "image_border_thickness": 2,
+        "image_ratio": "portrait",
+        "image_top": true,
+        "stars_size": 16,
+        "stars_align_card": "start",
+        "card_text_custom": false,
+        "card_text_font": "josefin_sans_n4",
+        "card_text_size": 18,
+        "card_text_size_mobile": 10,
+        "card_text_height": 130,
+        "card_text_align": "left",
+        "card_text_mt": 12,
+        "card_author_custom": false,
+        "card_author_font": "josefin_sans_n4",
+        "card_author_size": 14,
+        "card_author_size_mobile": 14,
+        "card_author_height": 130,
+        "card_author_align": "left",
+        "card_author_mt": 12,
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_icon_size": 16,
+        "arrow_icon_size_mobile": 16,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": false,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_show_desktop": true,
+        "dots_show_mobile": true,
+        "stars_color": "#252525",
+        "heading_color": "#0c0c0c",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0c0c0c",
+        "image_border_color": "#0c0c0c",
+        "card_text_color": "#252525",
+        "card_author_color": "#0c0c0c",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#0c0c0c",
+        "arrow_bg_hover_color": "#0c0c0c",
+        "arrow_border_color": "#0c0c0c",
+        "arrow_border_hover_color": "#0c0c0c",
+        "dots_color": "#252525",
+        "background_color": "#c3d6cd",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0
+      }
+    },
+    "section_gallery_text_ENUBx8": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "text_9z47R8": {
+          "type": "text",
+          "settings": {
+            "title": "Erica, Grand Canyon River Guide",
+            "title_size": 3,
+            "text": "<p>★★★★★<br/><br/>\"Despite all of the years in the sun, I still get compliments on my skin and people think I’m in my 30’s. I tell them, it’s the cream! I cannot recommend these products highly enough. Whatever your skin type may be, you will definitely feel and see the difference. And, you can also feel good about supporting a family owned business that is knowledgeable and truly dedicated to creating the highest quality, all natural, skin products on the market.\"</p>",
+            "body_size": 4,
+            "text_align": "text-left"
+          }
+        },
+        "text_QrT6mY": {
+          "type": "text",
+          "settings": {
+            "title": "Lyndsay, Huppybar Founder + grand canyon Guide",
+            "title_size": 3,
+            "text": "<p>★★★★★<br/><br/>\"In 20 years of working and adventuring in the mountains and canyons of the Southwest, these products have been a constant companion. From sunscreen to moisturizers to salves for soothing sore muscles, they have me covered, head to toe. With their commitment to only all natural, high quality ingredients, I don’t have to think twice about using any of their products. With every application it feels like a little “I love you” to my skin. From one woman business owner to another, thank you and well done, Peak Scents!\"</p>",
+            "body_size": 4,
+            "text_align": "text-left"
+          }
+        },
+        "text_hC9Vyj": {
+          "type": "text",
+          "settings": {
+            "title": "Christian, Adventure Athlete",
+            "title_size": 3,
+            "text": "<p>★★★★★<br/><br/>\"I only stand behind brands I believe in and align with. Not only do Peak Scents products actually work, but they are also all-natural, so you’re not putting overpriced chemicals on your face. The brand is owned and operated by women who are adventuring outdoor badasses as well, so if you’re in the outdoors like us and you just want something that you can count on to help your skin out, then give it a go!\"</p>",
+            "body_size": 4,
+            "text_align": "text-left"
+          }
+        },
+        "text_mHeCEa": {
+          "type": "text",
+          "settings": {
+            "title": "Karla, Backpacking Guide",
+            "title_size": 3,
+            "text": "<p>★★★★★<br/><br/>\"As a backpacking guide in the Grand Canyon,  I am carrying all my belongings for days at a time so I am very careful to bring only the essentials on a trip; I wouldn’t dare leave these skin care products behind! I appreciate that they are simple and all-natural; I can read every ingredient on the list. They smell amazing, and after a long day on the trail I feel like I am treating myself to a mini spa treatment every night.\"</p>",
+            "body_size": 4,
+            "text_align": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "text_9z47R8",
+        "text_QrT6mY",
+        "text_hC9Vyj",
+        "text_mHeCEa"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "grid_large": 2,
+        "grid_medium": 1,
+        "grid_mobile": 1,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "All Peak Scents products are formulated with 100% plant-based ingredients that support and nurture the health of your skin.",
+            "text_size": 5
+          }
+        },
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 7,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-1",
+        "template--14890262331481__b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84-16740708161c61dcd0-2"
+      ],
+      "custom_css": [
+        ".wrapper {background-color: #c3d6cd;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--black",
+        "bg": "palette--dark bg--invert",
+        "content_width": 800,
+        "width": "wrapper",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "b145aac8-ce8f-40a0-8364-73c9acb82a04": {
+      "type": "section-columns",
+      "blocks": {
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Alessandra.png",
+            "shape_class": "",
+            "title": "Alessandra",
+            "text": "<p>Peak Scents Customer</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": true,
+            "video_link": "https://vimeo.com/502780591?embedded=true&source=video_title&owner=102373664",
+            "video_button_color": "text--white"
+          }
+        },
+        "5df479c2-c41a-4232-bc5b-b10aafe7da7b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Robin.png",
+            "shape_class": "",
+            "title": "Robin",
+            "text": "<p>Peak Scents Customer</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": true,
+            "video_link": "https://vimeo.com/540775191?embedded=true&source=video_title&owner=102373664",
+            "video_button_color": "text--white"
+          }
+        },
+        "b403725a-742b-4b81-bb4f-cfdc20069943": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Sue_2.png",
+            "shape_class": "",
+            "title": "Sue",
+            "text": "<p>Peak Scents Customer</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": true,
+            "video_link": "https://vimeo.com/502793505?embedded=true&source=video_title&owner=102373664",
+            "video_button_color": "text--white"
+          }
+        },
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Roxanne_1.png",
+            "shape_class": "",
+            "title": "Roxanne",
+            "text": "<p>Peak Scents Customer</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": true,
+            "video_link": "https://vimeo.com/503217890?embedded=true&source=video_title&owner=102373664",
+            "video_button_color": "text--white"
+          }
+        },
+        "13861d88-71d5-47b7-82e9-38b836bf7a6e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Susan.png",
+            "shape_class": "",
+            "title": "Susan",
+            "text": "<p>Peak Scents Customer</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": true,
+            "video_link": "https://vimeo.com/503605263?embedded=true&source=video_title&owner=102373664",
+            "video_button_color": "text--white"
+          }
+        },
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Charlotte_2.png",
+            "shape_class": "",
+            "title": "Charlotte",
+            "text": "<p>Peak Scents Customer</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": true,
+            "video_link": "https://vimeo.com/503231772?embedded=true&source=video_title&owner=102373664",
+            "video_button_color": "text--white"
+          }
+        },
+        "9aca0129-708f-430a-ab6a-f3ae05a30d6e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Courtney.png",
+            "shape_class": "",
+            "title": "Courtney",
+            "text": "<p>Peak Scents Customer</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": true,
+            "video_link": "https://vimeo.com/503602580?embedded=true&source=video_title&owner=102373664",
+            "video_button_color": "text--white"
+          }
+        },
+        "0d0493e7-7893-4129-97d2-3ee25949def8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Claudia_2.png",
+            "shape_class": "",
+            "title": "Claudia",
+            "text": "<p>Peak Scents Customer</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft uppercase",
+            "enable_video": true,
+            "video_link": "https://vimeo.com/540780898?embedded=true&source=video_title&owner=102373664",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-0",
+        "5df479c2-c41a-4232-bc5b-b10aafe7da7b",
+        "b403725a-742b-4b81-bb4f-cfdc20069943",
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-1",
+        "13861d88-71d5-47b7-82e9-38b836bf7a6e",
+        "template--14890262331481__b145aac8-ce8f-40a0-8364-73c9acb82a04-1674070608c467e426-2",
+        "9aca0129-708f-430a-ab6a-f3ae05a30d6e",
+        "0d0493e7-7893-4129-97d2-3ee25949def8"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d04dece8-7160-4139-be7c-782117fb113c": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14890269245529__d04dece8-7160-4139-be7c-782117fb113c-1674133869f361f59c-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Send your Own Testimonial",
+            "text_size": 8
+          }
+        },
+        "template--14890269245529__d04dece8-7160-4139-be7c-782117fb113c-1674133869f361f59c-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Send your own to info@peakscents.com</p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--14890269245529__d04dece8-7160-4139-be7c-782117fb113c-1674133869f361f59c-1",
+        "template--14890269245529__d04dece8-7160-4139-be7c-782117fb113c-1674133869f361f59c-2"
+      ],
+      "custom_css": [
+        ".wrapper {background-color: #c3d6cd;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--black",
+        "bg": "palette--dark bg--invert",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17152052418fdcbf36": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_B8yyLy": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_B8yyLy"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_double_djD7tG",
+    "section_double_TmdFbz",
+    "ss_testimonial_5_UwqttT",
+    "section_gallery_text_ENUBx8",
+    "b40cb8ff-88c5-42b9-b99a-d20ed3ac7a84",
+    "b145aac8-ce8f-40a0-8364-73c9acb82a04",
+    "d04dece8-7160-4139-be7c-782117fb113c",
+    "17152052418fdcbf36"
+  ]
+}

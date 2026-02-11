@@ -1,0 +1,65 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "settings": {
+        "blog_show_meta": false,
+        "tags": false,
+        "color_bg": "palette--bright bg--bright",
+        "social": true,
+        "share_label": "Share",
+        "image_height": "use_screen_two_thirds",
+        "bg_position": "center-top",
+        "sidebar_tags": false,
+        "recent": false,
+        "wh_ratio": 1.6,
+        "show_author": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_preview": true,
+        "show_link": true,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_blog_pNjWe8": {
+      "type": "section-blog",
+      "settings": {
+        "title": "More Peak in the Press",
+        "homepage_blog": "press",
+        "homepage_blog_count": 6,
+        "progress_bar": "mobile",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "wh_ratio": 1.7,
+        "show_author": false,
+        "show_tags": true,
+        "show_date": false,
+        "show_preview": false,
+        "show_link": false,
+        "bg": "palette--dark bg--invert",
+        "color": "text--white",
+        "show_view_all": false,
+        "button_style": "btn--outline",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_blog_pNjWe8"
+  ]
+}

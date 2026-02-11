@@ -1,0 +1,392 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_kEt8Ji": {
+      "type": "section-hero",
+      "blocks": {
+        "kicker_aAdTqn": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Peak Scent's Holiday Gift Guide",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "heading_ADb7wU": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Thoughtful, natural gifts that celebrate wellness and beauty.",
+            "text_size": 7
+          }
+        },
+        "text_8WN4Bw": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Below, you’ll find an array of plant-based skincare essentials crafted to nourish, protect, and elevate daily routines. From indulgent self-care sets to travel-sized treats and stocking stuffers, every item is designed with love and powered by nature’s finest ingredients. <strong>Perfect for everyone on your list</strong>—from skincare enthusiasts to those seeking a little more relaxation—this collection of products offers<strong> gift ideas that bring a sense of calm, radiance, and luxury to the holiday season.</strong> Share the gift of glowing skin and a little extra joy this year!</p>",
+            "text_size": 3
+          }
+        },
+        "button_6HUtFQ": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Gifts for Her",
+            "link_1": "shopify://collections/body-care-gifts-for-her",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--soft",
+            "button_color_1": "btn--primary",
+            "link_text_2": "Gifts for Him",
+            "link_2": "shopify://collections/natural-skin-care-gifts-for-him",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn--outline",
+            "button_color_2": "btn--primary",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_aAdTqn",
+        "heading_ADb7wU",
+        "text_8WN4Bw",
+        "button_6HUtFQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/6.png",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 850,
+        "text_align": "align--middle-center",
+        "text_color": "text--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_products_watc9J": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "collection_bXKTEz": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "bundles",
+            "title": "The Perfect Gift Bundles",
+            "link_text": "",
+            "enable_item": false,
+            "item_link_height": "full",
+            "text": "",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "collection_bXKTEz"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 4,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1732306862ab1265b3": {
+      "type": "apps",
+      "blocks": {
+        "greenspark_static_widgets_v2_Qgeg7d": {
+          "type": "shopify://apps/greenspark/blocks/static-widgets-v2/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
+          "disabled": true,
+          "settings": {
+            "widget_type": "total_impact",
+            "horizontal_alignment": "center",
+            "greenspark_widget_color": "grey",
+            "size": "full_width",
+            "fullwidth_justification": "center",
+            "trees_stat_type": true,
+            "plastic_stat_type": true,
+            "carbon_stat_type": true,
+            "kelp_stat_type": true,
+            "water_stat_type": true,
+            "bees_stat_type": true,
+            "enable_popup": true,
+            "greenspark_popup_theme": "light"
+          }
+        }
+      },
+      "block_order": [
+        "greenspark_static_widgets_v2_Qgeg7d"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_Mjiqzb": {
+      "type": "section-hero",
+      "blocks": {
+        "text_NqAiUa": {
+          "type": "text",
+          "settings": {
+            "richtext": "<h1><strong>Wellness Wrapped<br/></strong></h1><p>Thoughtful gifts they’ll love and feel.</p>",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "text_NqAiUa"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image": "shopify://shop_images/Pine_Background_Downstream_Creatives_Design.png",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 0,
+        "overlay_color": "#4c656b",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--black",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": true,
+        "show_description": false,
+        "show_description_below": false,
+        "color_bg": "palette--light bg--neutral",
+        "show_image": true,
+        "bg_position": "center-bottom",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 10,
+        "overlay_color": "#e3bba2",
+        "enable_overlay_text": false,
+        "text_color": "text--white",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width_text": "wrapper",
+        "padding_top_text": 36,
+        "padding_bottom_text": 0
+      }
+    },
+    "section_richtext_ktzrNk": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Want to get more specific?",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1"
+      ],
+      "custom_css": [
+        "p {color: #252525;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 700,
+        "width": "wrapper",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_Rz6VtK": {
+      "type": "section-icons",
+      "blocks": {
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0": {
+          "type": "icon_block",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_alt": "shopify://shop_images/1_349f557c-d036-4f89-a391-67150d1125cc.png",
+            "icon_color": "#252525",
+            "title": "The Outdoor Adventurer",
+            "text": "<p>Spends significant time outdoors, requires skincare that protects against environmental stressors, and values portability.</p>",
+            "link_text": "Shop Here",
+            "link_url": "shopify://collections/sun-outdoors"
+          }
+        },
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1": {
+          "type": "icon_block",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_alt": "shopify://shop_images/2_049f29e7-5bc1-40f0-a63c-1e662d567252.png",
+            "icon_color": "#252525",
+            "title": "The Skincare Enthusiast",
+            "text": "<p>Passionate about skincare routines, enjoys trying new products, and seeks effective, high-quality formulations.</p>",
+            "link_text": "Shop Here",
+            "link_url": "shopify://collections/graceful-aging"
+          }
+        },
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2": {
+          "type": "icon_block",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/3_53830aa2-3f00-41cf-8131-93701c1840a2.png",
+            "icon_color": "#252525",
+            "title": "The Picky One",
+            "text": "<p>Give the gift of letting them choose.  For the one on your list you love to give to but just can't decide what.</p>",
+            "link_text": "Shop Here",
+            "link_url": "shopify://products/gift-card"
+          }
+        },
+        "icon_block_6WtC7L": {
+          "type": "icon_block",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/4_cc2ef613-c3d9-4663-ab47-271bea4a9bb8.png",
+            "icon_color": "#aaaaaa",
+            "title": "The Eco-Conscious Individual",
+            "text": "<p>Values sustainability, prefers products with natural ingredients, and is mindful of environmental impact.</p>",
+            "link_text": "Shop Here",
+            "link_url": "shopify://collections/best-sellers"
+          }
+        },
+        "icon_block_ewENpH": {
+          "type": "icon_block",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/5_bf7d2c2f-cf1f-49a2-9584-0bd39afb0f2f.png",
+            "icon_color": "#aaaaaa",
+            "title": "The Self-Care Aficionado",
+            "text": "<p>Prioritizes relaxation and wellness, enjoys pampering rituals, and seeks products that enhance the at-home spa experience.</p>",
+            "link_text": "Shop Here",
+            "link_url": "shopify://collections/body-nurish"
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0",
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1",
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2",
+        "icon_block_6WtC7L",
+        "icon_block_ewENpH"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p {font-size: 1em; /* equals 24px */ color: #252525;}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 78,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "subcollections": [],
+        "limit": 6,
+        "color_bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "wh_ratio": 1.7,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_large": 3,
+        "grid_mobile": "2",
+        "enable_layout_toggle": true,
+        "color_bg": "palette--light bg--neutral",
+        "collection_sorting": true,
+        "hide_sidebar": true,
+        "collapse_filters": false,
+        "show_products_count": true,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "section_hero_kEt8Ji",
+    "section_list_collections_products_watc9J",
+    "1732306862ab1265b3",
+    "section_hero_Mjiqzb",
+    "hero",
+    "section_richtext_ktzrNk",
+    "section_icons_Rz6VtK",
+    "subcollections",
+    "main"
+  ]
+}

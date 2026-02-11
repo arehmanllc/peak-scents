@@ -1,0 +1,582 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 9,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 62,
+        "padding_bottom": 58
+      }
+    },
+    "section_hero_qDGdeW": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_RwpzCx": {
+          "type": "heading",
+          "settings": {
+            "title": "Peak Scents is committed to making a difference.",
+            "text_size": 9
+          }
+        },
+        "text_ETUPtD": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>We care deeply for our planet. It is within our roots as a company to foster a community that is forward thinking, giving, and zero waste. Explore the many ways Peak Scents commits to a low impact on the planet.</p>",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "heading_RwpzCx",
+        "text_ETUPtD"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__content {border-radius: 3px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DeeAnn_Tracy_Owner_of_Peak_Scents_Buffalo_Park_Flagstaff_AZ_PHOTOGRAPH_BY_DAVID_ZICKL_602.751.6333_DSCO1426_RTBP.jpg",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 600,
+        "text_align": "align--middle-right",
+        "text_color": "text--white",
+        "color_bg": "palette--dark bg--invert",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_KNpPgj": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_8n3gTe": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "We are invested in the future",
+            "enable_line": false,
+            "text_size": 6
+          }
+        },
+        "heading_fb68MW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Partnering - Giving - Offering",
+            "text_size": 8
+          }
+        },
+        "text_4cmBGt": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "button_eXJwpi": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text_1": "Learn More About Peak Scents",
+            "link_1": "shopify://pages/about",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn--outline",
+            "button_color_1": "btn--black",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_8n3gTe",
+        "heading_fb68MW",
+        "text_4cmBGt",
+        "button_eXJwpi"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 1050,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_wFHq9r": {
+      "type": "section-double",
+      "blocks": {
+        "text_jHNLzA": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>Sustainability guides every part of Peak Scents. From responsibly sourced ingredients to refill options at our Flagstaff studio, we create skincare with care—for both skin and planet. We also believe in giving back, dedicating 1% of our profits to initiatives that support the environments and communities that inspire us.<br/><br/></p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "#shopify-section-template--15516041281625__1709161446631cfde3",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_jHNLzA"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--narrow",
+        "padding_top": 26,
+        "padding_bottom": 16
+      }
+    },
+    "section_double_k6A7aD": {
+      "type": "section-double",
+      "blocks": {
+        "image_PqC3gy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ShanaWatahomigie_2966_1_791f3af8-5910-481d-91e8-c0d52cc76e43_600x600_1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_kP3XMy": {
+          "type": "text",
+          "settings": {
+            "kicker": "Partnering",
+            "title": "Greenspark",
+            "text": "<p>We are passionate about creating sustainable change here at Peak Scents Plant Based Skincare. By partnering with Greenspark, Eden Projects, and Plastic Bank, we are able to offset our carbon footprint and work towards a healthier planet for all. With every online purchase, we are donating to Eden Projects to plant a tree. For each plastic container we sell, our donations to Plastic Bank support the collection of a plastic item from the ocean.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Check out our Impact stats",
+            "button_url": "#shopify-section-template--15516041281625__1709161446631cfde3",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PqC3gy",
+        "text_kP3XMy"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_FXC79f": {
+      "type": "section-double",
+      "blocks": {
+        "text_baGKbx": {
+          "type": "text",
+          "settings": {
+            "kicker": "Partnering",
+            "title": "United Plant  Savers",
+            "text": "<p>We support United Plant Savers in their mission to safeguard and raise public awareness about the challenges facing our wild medicinal plants. Their efforts focus on protecting these invaluable resources through organic cultivation, sustainable agricultural practices, and the reintroduction of native medicinal species into their original ecosystems. Their ultimate aim is to secure the preservation of these vital medicinal plants for the benefit of future generations, ensuring that they remain accessible for our grandchildren and beyond.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Learn More",
+            "button_url": "shopify://pages/united-plant-savers",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_mFJpi3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2024-03-19T152646.740.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify://pages/united-plant-savers",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_baGKbx",
+        "image_mFJpi3"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_WTK6GQ": {
+      "type": "section-double",
+      "blocks": {
+        "image_M9jbFx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lavender-frankincense-all-purpose-balm-5.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify://pages/american-rivers",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_AbMJUP": {
+          "type": "text",
+          "settings": {
+            "kicker": "Giving",
+            "title": "Protecting Rivers & Clean Water",
+            "text": "<p>Peak Scents has partnered with American Rivers to help protect wild rivers and conserve clean water for people and  nature. By supporting Peak Scents, you are able to support a fully engaged non-profit organization that is making a real impact for our rivers. </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Learn More",
+            "button_url": "shopify://pages/american-rivers",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_M9jbFx",
+        "text_AbMJUP"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 22,
+        "padding_bottom": 0
+      }
+    },
+    "section_logos_eUWwVw": {
+      "type": "section-logos",
+      "blocks": {
+        "logo_image_RydMUk": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Grand_Canyon_Youth_and_Peak_Scents.jpg",
+            "link": "https://gcyouth.org/",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_7WijPt": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-03-18_at_11.57.59_AM.png",
+            "link": "https://www.whalefoundation.org/",
+            "new_tab": true,
+            "width": 165,
+            "spacing": 50
+          }
+        },
+        "logo_image_zbgRd8": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/flyrs-back-logo-transparentbackground-small.png",
+            "link": "https://www.flyrsaz.com/",
+            "new_tab": true,
+            "width": 130,
+            "spacing": 50
+          }
+        },
+        "logo_image_b44wrN": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/WOW_LOGO_circle_vector_full_color3.webp",
+            "link": "https://www.womenonwavessurfcontest.com/",
+            "new_tab": true,
+            "width": 130,
+            "spacing": 50
+          }
+        },
+        "logo_image_AArpzW": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/FMFF_LOGO-500px.png",
+            "link": "https://flagstaffmountainfilms.org/",
+            "new_tab": true,
+            "width": 165,
+            "spacing": 50
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_RydMUk",
+        "logo_image_7WijPt",
+        "logo_image_zbgRd8",
+        "logo_image_b44wrN",
+        "logo_image_AArpzW"
+      ],
+      "settings": {
+        "title": "We Support",
+        "bg": "palette--light bg--neutral",
+        "enable_marquee": true,
+        "marquee_speed": 39,
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_mewheM": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_yXRRC9": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Offering",
+            "enable_line": true,
+            "text_size": 4
+          }
+        },
+        "heading_Td4RUL": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Refill Shop at Peak Scents in Flagstaff, AZ ",
+            "text_size": 8
+          }
+        },
+        "text_PxRYgF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At our refill shop, we offer a wide array of refillable products, ranging from luxurious shampoos to essential household items, as well as our own skincare products. Say goodbye to single-use plastic containers and hello to sustainable alternatives. Our shelves are stocked with thoughtfully curated products that not only minimize your environmental footprint but also elevate your everyday routines.</p><p>Whether you're in need of a refill for your favorite shampoo or searching for eco-conscious household essentials, we've got you covered. Our knowledgeable staff is always on hand to assist you, providing guidance on making sustainable choices that align with your lifestyle.</p><p>By choosing to refill and purchase sustainable products at our shop, you're making a positive impact on the planet right here in our local community. Join us in our mission to reduce plastic waste and embrace a greener way of living, one refill at a time.</p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "button_6bNzLa": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Learn More About Our Process",
+            "link_1": "shopify://pages/our-process",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn--outline",
+            "button_color_1": "btn--neutral",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_yXRRC9",
+        "heading_Td4RUL",
+        "text_PxRYgF",
+        "button_6bNzLa"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 550,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_4dnmbm": {
+      "type": "section-hero",
+      "blocks": {
+        "button_bfKr9U": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "",
+            "link_1": "shopify://pages/ingredients",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "shopify://pages/subscription",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn--outline",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "button_bfKr9U"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_-_2024-03-19T152646.740.jpg",
+        "mobile_image": "shopify://shop_images/Untitled_design_-_2024-03-19T152646.740.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--top-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1709161446631cfde3": {
+      "type": "apps",
+      "blocks": {
+        "greenspark_full_width_banner_KMrRPF": {
+          "type": "shopify://apps/greenspark/blocks/full-width-banner/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
+          "settings": {
+            "text_color": "#3b755f",
+            "banner_height": 650,
+            "toggle_months": true,
+            "toggle_trees": true,
+            "toggle_plastic": true,
+            "toggle_co2": false,
+            "toggle_kelp": false,
+            "toggle_straws": true,
+            "toggle_miles": false,
+            "toggle_football": false
+          }
+        }
+      },
+      "block_order": [
+        "greenspark_full_width_banner_KMrRPF"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_blog_nBcAGq": {
+      "type": "section-blog",
+      "disabled": true,
+      "settings": {
+        "title": "More from peak scents",
+        "homepage_blog": "peak-scents",
+        "homepage_blog_count": 6,
+        "progress_bar": "mobile",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "wh_ratio": 1.7,
+        "show_author": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_preview": false,
+        "show_link": false,
+        "bg": "palette--light bg--neutral",
+        "color": "text--white",
+        "show_view_all": false,
+        "button_style": "btn--outline",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_qDGdeW",
+    "section_richtext_KNpPgj",
+    "section_double_wFHq9r",
+    "section_double_k6A7aD",
+    "section_double_FXC79f",
+    "section_double_WTK6GQ",
+    "section_logos_eUWwVw",
+    "section_richtext_mewheM",
+    "section_hero_4dnmbm",
+    "1709161446631cfde3",
+    "section_blog_nBcAGq"
+  ]
+}

@@ -1,0 +1,735 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "custom-content-1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "dbeee1fe-a2a2-4c80-ab2f-da2ed7380104": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "custom-content-1-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
+            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a <strong>second-generation herbalist </strong>whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p><p>DeeAnn's journey to creating Peak Scents is enriched by her diverse experiences, including her<strong> years as a river guide in the awe-inspiring Grand Canyon</strong>. It was during these adventures that she firsthand witnessed the toll that harsh desert conditions could take on the skin of river guides and trip participants. Driven by her innate love for health and environmental sustainability, DeeAnn recognized the pressing need for skincare products that could <strong>provide essential protection in these demanding environments.</strong>  With an unyielding dedication to health and the planet, DeeAnn seamlessly integrates her values into the formulation of each and every Peak Scents product. The result is a range of skincare solutions that not only<strong> elevate the health and radiance of your skin but also reflect a deep-rooted commitment to environmental responsibility.</strong></p><p></p><p></p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--black",
+            "button_style": "btn--soft btn--long",
+            "text_color": "text--black",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "dbeee1fe-a2a2-4c80-ab2f-da2ed7380104",
+        "custom-content-1-1"
+      ],
+      "settings": {
+        "height": "use_pixels_650",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_jFCwad": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_f6rerJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Peak Scents is a plant based, cruelty free, woman owned skincare company in operation since 1993.",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "heading_f6rerJ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__content {background-color: rgba(255, 255, 255, 0.85); border-radius: 3px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ShellyStrazis-06222_85df6dd6-567d-4978-9394-c5cc9d3c769d.jpg",
+        "height": "use_screen_full",
+        "overlay_opacity": 10,
+        "overlay_color": "#bf7b6b",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--black",
+        "color_bg": "palette--bright bg--bright",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "e31c7a4c-7b99-489a-ae5c-3917ebf94532": {
+      "type": "section-video",
+      "blocks": {
+        "template--14885872795737__e31c7a4c-7b99-489a-ae5c-3917ebf94532-16740660577a3f2e27-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Story",
+            "text_size": 11
+          }
+        },
+        "template--14885872795737__e31c7a4c-7b99-489a-ae5c-3917ebf94532-16740660577a3f2e27-1": {
+          "type": "video",
+          "settings": {
+            "video_link": "https://vimeo.com/467464460",
+            "popup_text": "",
+            "button_width": 80,
+            "button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--14885872795737__e31c7a4c-7b99-489a-ae5c-3917ebf94532-16740660577a3f2e27-0",
+        "template--14885872795737__e31c7a4c-7b99-489a-ae5c-3917ebf94532-16740660577a3f2e27-1"
+      ],
+      "settings": {
+        "height": "use_screen_three_quarters",
+        "color_bg": "palette--light bg--neutral",
+        "object_position": "center-center",
+        "image": "shopify://shop_images/DeeAnn_Tracy_Founder_Peak_Scents_jpg_1.jpg",
+        "preload_image": false,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 14
+      }
+    },
+    "section_richtext_jRekHq": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_tq8cAL": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "Women Owned & Local to flagstaff Arizona",
+            "enable_line": true,
+            "text_size": 6
+          }
+        },
+        "heading_ztw8X3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Peak Scents creates intelligent formulations that synergize nature and science to deliver clean, results-driven skincare to awaken your natural radiance.",
+            "text_size": 7
+          }
+        },
+        "button_gadddy": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text_1": "Hear what our clients have to say",
+            "link_1": "shopify://pages/video-testimonials",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--secondary",
+            "link_text_2": "find a Routine that's right for you",
+            "link_2": "shopify://pages/build-your-own-routine",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn--outline",
+            "button_color_2": "btn--black",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        },
+        "image_968bdc": {
+          "type": "image",
+          "settings": {
+            "image_max_limit": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "kicker_tq8cAL",
+        "heading_ztw8X3",
+        "button_gadddy",
+        "image_968bdc"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 850,
+        "width": "wrapper",
+        "padding_top": 78,
+        "padding_bottom": 78
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-content-2-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "kicker": "",
+            "title": "Our Mission",
+            "text": "<p>At Peak Scents, our mission is to provide non-toxic, sustainable, plant-based skincare products that harness the inherent power of plants, vitamins, and super fruits. By blending the wisdom of nature with scientific advancements, we aim to deliver proven results that promote the health and radiance of your skin.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "custom-content-2-0"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".text__standard {width: 75%;}"
+      ],
+      "settings": {
+        "height": "image-height",
+        "brick_gutter": 8,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--full",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "section_icons_JnG3kA": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_m3tXgn": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_color": "#aaaaaa",
+            "title": "Plant Based - Vegan & Beegan",
+            "text": "<p>All products at Peak Scents are cruelty free, made from plants. Our products are either vegan or beegan. </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_A8BecQ": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-store",
+            "icon_color": "#aaaaaa",
+            "title": "Small Batch - Handmade",
+            "text": "<p>We create all of our formulas in our Lab located in the Mountains of Northern Arizona. </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_yDzdnK": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_color": "#aaaaaa",
+            "title": "Committed to Sustainability",
+            "text": "<p>We care deeply for our planet. Peak Scents is committed to sustainability and offsetting our carbon footprint.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_m3tXgn",
+        "icon_block_A8BecQ",
+        "icon_block_yDzdnK"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 42,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "section_custom_content_twBqbh": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_DrAdEB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "kicker": "Giving, Partnership, & Our in-store Refillery",
+            "title": "",
+            "text": "<p>Peak Scents is partnered with American Rivers, Greenspark, Eden Projects, & Plastic Bank to offset our carbon footprint. </p><p>We also have a product refill station in store to cut back on waste - located in Flagstaff, Arizona.</p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Sustainability at Peak Scents",
+            "button_url": "shopify://pages/sustainability",
+            "button_color": "btn--black",
+            "button_style": "btn--outline btn--long",
+            "text_color": "text--black",
+            "bg_color": "#fdfdfd"
+          }
+        }
+      },
+      "block_order": [
+        "text_DrAdEB"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "brick_gutter": 10,
+        "borders": true,
+        "bg_color": "#a5c2b7",
+        "preload_image": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_7bbWCR": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_chE7ed": {
+          "type": "heading",
+          "settings": {
+            "heading": "How we create our skincare products.",
+            "text_size": 8
+          }
+        },
+        "text_DPijHy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>We develop every formula in-house, blending plant intelligence with proven skin supportive actives. Each ingredient is chosen with intention for safety, performance, and long-term skin health. Nothing is added unless it truly serves the skin.<br/><br/></p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        },
+        "button_GcB4nG": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Our Process",
+            "link_1": "shopify://pages/our-process",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn",
+            "button_color_1": "btn--secondary",
+            "link_text_2": "Our Ingredients",
+            "link_2": "shopify://pages/ingredients",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn--outline",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_chE7ed",
+        "text_DPijHy",
+        "button_GcB4nG"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 850,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_gallery_DEBjfN": {
+      "type": "section-gallery",
+      "blocks": {
+        "image_KeYkQT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2022-PeakScents-201.jpg",
+            "link": ""
+          }
+        },
+        "image_88yxWn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2022-PeakScents-160.jpg",
+            "link": ""
+          }
+        },
+        "image_gBJ848": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2023-09-18T151901.420.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KeYkQT",
+        "image_88yxWn",
+        "image_gBJ848"
+      ],
+      "settings": {
+        "scale_image": true,
+        "wh_ratio": 1,
+        "bg": "palette--light bg--neutral",
+        "add_gutters": true,
+        "progress_bar": "mobile",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_3bF37p": {
+      "type": "section-hero",
+      "blocks": {
+        "kicker_cTrBLR": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "",
+            "enable_line": false,
+            "text_size": 7
+          }
+        },
+        "heading_j9fzBT": {
+          "type": "heading",
+          "settings": {
+            "title": "How Products are Created at Peak Scents",
+            "text_size": 8
+          }
+        },
+        "text_BJVBDM": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Peak Scents has curated ingredient sourcing relationships that ensure responsible practices so that each product boasts integrity. We don't use any synthetic fragrances, dyes, or preservatives...ever! Our products contain botanicals, vitamins, super fruit extracts, pure essential oils, non-toxic preservatives, and only the highest quality collagen boosting ingredients such as peptides, alpine rose stem cells, green tea, aloe, vitamin C, and hyaluronic acid. Our skincare line gives proof to the world that beauty products can be simultaneously clean and effective!</p>",
+            "text_size": 5
+          }
+        },
+        "button_KHH94P": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Ingredients",
+            "link_1": "shopify://pages/ingredients",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--neutral",
+            "link_text_2": "About Our Process",
+            "link_2": "shopify://pages/our-process",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--black",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_cTrBLR",
+        "heading_j9fzBT",
+        "text_BJVBDM",
+        "button_KHH94P"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__content {background-color: rgba(255, 255, 255, 0.95); border-radius: 3px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2022-PeakScents-210.jpg",
+        "height": "use_screen_full",
+        "overlay_opacity": 10,
+        "overlay_color": "#bf7b6b",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 750,
+        "text_align": "align--middle-center",
+        "text_color": "text--black",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--none",
+        "padding_top": 14,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_fjrzk3": {
+      "type": "section-double",
+      "blocks": {
+        "text_9MFeW7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "kicker": "",
+            "title": "We Handcraft Products for All Skin Types",
+            "text": "<p>Sensitive, Mature, Dry, Acne prone, Combination  and balanced skin. </p><p><strong>Not sure where to start? </strong></p><p><a href=\"/pages/build-your-own-routine\" title=\"Build Your Own Routine\"><em>Take our routine finding quiz. </em></a></p>",
+            "font_size": 6,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_Ad3Mhk": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/2023-PeakScentsAugust2023-24.jpg",
+            "overlay_opacity": 5,
+            "overlay_color": "#a68b80",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Get Started With a Custom Routine",
+            "link": "shopify://pages/build-your-own-routine",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_9MFeW7",
+        "image_Ad3Mhk"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_three_quarters",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 24,
+        "padding_bottom": 92
+      }
+    },
+    "section_list_collections_XkCtyW": {
+      "type": "section-list-collections",
+      "blocks": {
+        "collection_bJdzj6": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "organic-rose-phyto3",
+            "image": "shopify://shop_images/2022-PeakScents-126.jpg",
+            "overlay_color": "#736058",
+            "overlay_opacity": 45,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_QWVQCk": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "body-nurish",
+            "image": "shopify://shop_images/2022-PeakScents-192.jpg",
+            "overlay_color": "#736058",
+            "overlay_opacity": 45,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_mpUmq3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "power-repair",
+            "image": "shopify://shop_images/2022-PeakScents-139.jpg",
+            "overlay_color": "#736058",
+            "overlay_opacity": 45,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_cDYtrY": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/2023-PeakScents-Jan-4.jpg",
+            "overlay_color": "#736058",
+            "overlay_opacity": 45,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "Peak Scents",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "collection_bJdzj6",
+        "collection_QWVQCk",
+        "collection_mpUmq3",
+        "collection_cDYtrY"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Handcrafted Skincare as Nature Intended",
+        "bg": "palette--light bg--neutral",
+        "carousel_enabled_on": "mobile",
+        "collection_limit": 36,
+        "wh_ratio": 1,
+        "grid_large": 2,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "accent",
+        "title_size": 8,
+        "accent_size": 3,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "239c89a8-4313-43ae-a307-51db8d034a73": {
+      "type": "section-custom-content",
+      "blocks": {
+        "95426fd7-f379-484c-a1e2-492c11dba4d4": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/2023-PeakScents-Videoclips-46.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#fffcf9",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "95426fd7-f379-484c-a1e2-492c11dba4d4"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom-content-1",
+    "section_hero_jFCwad",
+    "e31c7a4c-7b99-489a-ae5c-3917ebf94532",
+    "section_richtext_jRekHq",
+    "custom-content-2",
+    "section_icons_JnG3kA",
+    "section_custom_content_twBqbh",
+    "section_richtext_7bbWCR",
+    "section_gallery_DEBjfN",
+    "section_hero_3bF37p",
+    "section_double_fjrzk3",
+    "section_list_collections_XkCtyW",
+    "239c89a8-4313-43ae-a307-51db8d034a73"
+  ]
+}

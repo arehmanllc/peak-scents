@@ -1,0 +1,188 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "kicker-block": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Introducing</p>",
+            "text_size": 3
+          }
+        },
+        "heading-block": {
+          "type": "heading",
+          "settings": {
+            "title": "<h1>Affiliate Program</h1>",
+            "text_size": 10
+          }
+        },
+        "74408e6f-8d2d-4ceb-a3d9-4c6078de42eb": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p> Become a Peak Scents Affiliate and earn cash! </p>",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "kicker-block",
+        "heading-block",
+        "74408e6f-8d2d-4ceb-a3d9-4c6078de42eb"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/holly1-3_1.jpg",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "accordion-section-1": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_1_1": {
+          "type": "text",
+          "settings": {
+            "title": "What is an Affiliate Program and is it right for me?",
+            "content": "<ul><li>If you have a website, Blog, IG or FB account you can post links on your site to peakscents.com</li><li>Each time someone visits your site or a social media post, links to our page and a sale is made, YOU earn a commission on that sale.</li><li>Your followers will have direct access to our full line of products and orders are shipped directly from our warehouse.</li></ul>"
+          }
+        },
+        "accordion_block_1_2": {
+          "type": "text",
+          "settings": {
+            "title": "How does the Affiliate Program work?",
+            "content": "<ul><li>We work with a company called GOAFFPRO that specializes in Affiliate Program management.</li><li>They manage and track all activity associated with our program, they track links and orders and ensure that you receive your commission each month.</li><li>Through the GOAFFPORO portal you'll have access to our affiliate creative assets, logo, marketing links and special promotional offers.</li></ul>"
+          }
+        },
+        "accordion_block_1_3": {
+          "type": "text",
+          "settings": {
+            "title": "What are the benefits?",
+            "content": "<ul><li>It’s simple to become an affiliate and there is no fee to join our program.</li><li>You’ll earn commission starting at 8% on all sales generated through your IG, FB or website</li><li>You’ll have access to special offers and exclusive discounts to pass along to your followers.</li></ul>"
+          }
+        },
+        "accordion_block_1_4": {
+          "type": "text",
+          "settings": {
+            "title": "What forms of payment do you accept?",
+            "content": "<p>We accept payments from major credit card companies like Visa, Mastercard, and American Express.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_1_1",
+        "accordion_block_1_2",
+        "accordion_block_1_3",
+        "accordion_block_1_4"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "9c6e2360-3c77-41e6-8e09-066e69606a2b": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14890682286169__9c6e2360-3c77-41e6-8e09-066e69606a2b-16741352471097a742-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How do I get started?</p>",
+            "text_size": 8
+          }
+        },
+        "template--14890682286169__9c6e2360-3c77-41e6-8e09-066e69606a2b-16741352471097a742-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you’d like to become an affiliate of Peak Scents just click on the link below to get set up.</p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        },
+        "template--14890682286169__9c6e2360-3c77-41e6-8e09-066e69606a2b-16741352471097a742-3": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Become an Affiliate",
+            "link_1": "https://peakscents.goaffpro.com/create-account",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn uppercase",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--14890682286169__9c6e2360-3c77-41e6-8e09-066e69606a2b-16741352471097a742-1",
+        "template--14890682286169__9c6e2360-3c77-41e6-8e09-066e69606a2b-16741352471097a742-2",
+        "template--14890682286169__9c6e2360-3c77-41e6-8e09-066e69606a2b-16741352471097a742-3"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--white",
+        "bg": "palette--bright bg--bright",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "accordion-section-1",
+    "9c6e2360-3c77-41e6-8e09-066e69606a2b"
+  ]
+}

@@ -1,0 +1,225 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_custom_content_8DNwGq": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_7Dg98a": {
+          "type": "text",
+          "settings": {
+            "kicker": "Create with Peak Scents",
+            "title": "Recipes We Can't Wait for you to Try at Home.",
+            "text": "<p>Explore recipes for skincare products, luxurious spa days at home, and more. All plant based and shared with love.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Explore our handcrafted skincare products",
+            "button_url": "shopify://collections/all",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_V9chEy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ShellyStrazis-04402.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_7Dg98a",
+        "image_V9chEy"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_newsletter_e8zr7x": {
+      "type": "section-newsletter",
+      "settings": {
+        "title": "Get fresh recipes right when they're ready",
+        "richtext": "<h2>We'll be sure to send you our latest DIY recipes.</h2>",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blog-section-featured-article": {
+      "type": "section-featured-article",
+      "blocks": {
+        "blog-section-featured-article-block-0": {
+          "type": "kicker",
+          "settings": {
+            "show_author": true,
+            "show_date": true
+          }
+        },
+        "blog-section-featured-article-block-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 8
+          }
+        },
+        "blog-section-featured-article-block-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "",
+            "text_size": 5
+          }
+        },
+        "blog-section-featured-article-block-3": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link"
+          }
+        }
+      },
+      "block_order": [
+        "blog-section-featured-article-block-0",
+        "blog-section-featured-article-block-1",
+        "blog-section-featured-article-block-2",
+        "blog-section-featured-article-block-3"
+      ],
+      "settings": {
+        "article": "recipes/umeboshi-elixir",
+        "image": "shopify://shop_images/image_7_2.png",
+        "image_full_width": true,
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "color_bg": "palette--light bg--neutral",
+        "text_align": "align--bottom-center",
+        "text_alignment": "text-center",
+        "text_color": "text--neutral",
+        "text_color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
+    },
+    "custom-content-feature": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "article": {
+          "type": "article",
+          "settings": {
+            "article": "",
+            "show_tag": true,
+            "show_date": true,
+            "font_size": 4,
+            "show_excerpt": true,
+            "align_text": "text-left",
+            "placement_text": "middle",
+            "show_author_name": true,
+            "show_author_image": true,
+            "button_text": "Read more",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "article"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main-blog": {
+      "type": "blog",
+      "settings": {
+        "heading": "DIY Recipes",
+        "show_heading": true,
+        "tag_label": "",
+        "tags": false,
+        "text_align": "text-left",
+        "post_grid": 3,
+        "rows": 3,
+        "wh_ratio": 1.7,
+        "show_author": false,
+        "show_tags": false,
+        "show_date": true,
+        "show_preview": true,
+        "show_link": true,
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "image_height": "use_screen_one_third",
+        "text_color": "text--white",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "section_custom_content_8DNwGq",
+    "section_newsletter_e8zr7x",
+    "blog-section-featured-article",
+    "custom-content-feature",
+    "main-blog"
+  ]
+}

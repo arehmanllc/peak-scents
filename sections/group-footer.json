@@ -1,0 +1,239 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "section_richtext_9UVxMF": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_GFGcDi": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Gift With Purchase",
+            "enable_line": true,
+            "text_size": 4
+          }
+        },
+        "text_nHzjP3": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "kicker_GFGcDi",
+        "text_nHzjP3"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ss_footer_3_TrCnXW": {
+      "type": "ss-footer-3",
+      "custom_css": [
+        "@media only screen and (max-width: 767px) {h1, h2, h3, h4, p, a {text-align: center !important; }}"
+      ],
+      "settings": {
+        "logo": "shopify://shop_images/Untitled_design_-_2024-09-25T145734.179.jpg",
+        "logo_width": 220,
+        "logo_width_mobile": 260,
+        "first_menu_title": "ABOUT",
+        "first_menu": "about",
+        "second_menu_title": "CUSTOMERS",
+        "second_menu": "help",
+        "third_menu_title": "& MORE",
+        "third_menu": "more",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 16,
+        "title_size_mobile": 16,
+        "title_height": 130,
+        "link_custom": false,
+        "link_font": "josefin_sans_n4",
+        "link_size": 16,
+        "link_size_mobile": 16,
+        "link_height": 200,
+        "social_text": "<h6>Let's be social</h6>",
+        "social_text_custom": false,
+        "social_text_font": "josefin_sans_n4",
+        "social_text_size": 24,
+        "social_text_size_mobile": 20,
+        "social_text_height": 130,
+        "twitter": "",
+        "facebook": "https://www.facebook.com/PeakScents",
+        "linkedin": "",
+        "instagram": "https://www.instagram.com/peakscents/",
+        "youtube": "",
+        "pinterest": "",
+        "whatsapp": "",
+        "tiktok": "https://www.tiktok.com/@peakscents",
+        "social_icon": 25,
+        "social_icon_mobile": 25,
+        "title": "",
+        "main_title_custom": false,
+        "main_title_font": "josefin_sans_n4",
+        "main_title_size": 18,
+        "main_title_size_mobile": 16,
+        "main_title_height": 100,
+        "text": "<h4>Give Us Call <a href=\"tel:1 (800) 630 - 9499\" title=\"tel:1 (800) 630 - 9499\">1 (800)630-9499<br/></a><br/><strong>Refill Your Products At Our Flagstaff Location</strong></h4>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 12,
+        "text_height": 100,
+        "use_payments": false,
+        "copy": "",
+        "copy_custom": false,
+        "copy_font": "josefin_sans_n4",
+        "copy_size": 13,
+        "copy_size_mobile": 13,
+        "copy_height": 130,
+        "use_newsletter": true,
+        "input_padding_vertical": 10,
+        "input_padding_horizontal": 12,
+        "input_radius": 12,
+        "input_border_thickness": 1,
+        "input_placeholder": "Email",
+        "input_custom": false,
+        "input_font": "josefin_sans_n4",
+        "input_size": 16,
+        "input_size_mobile": 16,
+        "input_height": 100,
+        "submit": "Join",
+        "submit_custom": false,
+        "submit_font": "josefin_sans_n4",
+        "submit_size": 16,
+        "submit_size_mobile": 16,
+        "submit_height": 100,
+        "submit_padding_vertical": 12,
+        "submit_padding_horizontal": 24,
+        "submit_radius": 12,
+        "submit_border_thickness": 1,
+        "input_border_color": "#252525",
+        "input_color": "#99424c",
+        "input_placeholder_color": "#252525",
+        "submit_color": "#ffffff",
+        "submit_hover_color": "#ffffff",
+        "submit_bg_color": "#c3d6cd",
+        "submit_bg_hover_color": "#4c656b",
+        "submit_border_color": "#000000",
+        "submit_border_hover_color": "#000000",
+        "social_text_color": "#252525",
+        "social_text_link_color": "#252525",
+        "social_icon_color": "#4c656b",
+        "title_color": "#121212",
+        "link_color": "#121212",
+        "link_hover_color": "#121212",
+        "text_color": "#121212",
+        "main_title_color": "#121212",
+        "copy_color": "#121212",
+        "footer_border_color": "#fafafa",
+        "background_color": "#fafafa",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 44,
+        "padding_bottom": 0,
+        "padding_horizontal": 1,
+        "padding_horizontal_mobile": 1,
+        "full_width": true,
+        "content_width": 290,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "linklist-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "about",
+            "title": "",
+            "accordion_default": ""
+          }
+        },
+        "linklist-2": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "help",
+            "title": "",
+            "accordion_default": ""
+          }
+        },
+        "87967f49-ac29-4754-9cef-02a0aca6e6fc": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "more",
+            "title": "",
+            "accordion_default": ""
+          }
+        },
+        "social": {
+          "type": "social",
+          "settings": {
+            "title": "Stay in touch. info@peakscents.com",
+            "text_size": 4,
+            "enable_follow_on_shop": true
+          }
+        }
+      },
+      "block_order": [
+        "linklist-1",
+        "linklist-2",
+        "87967f49-ac29-4754-9cef-02a0aca6e6fc",
+        "social"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "menu_position": "right",
+        "logo_max_limit": 395,
+        "width": "wrapper--full",
+        "padding_top": 24,
+        "padding_bottom": 26
+      }
+    },
+    "subfooter": {
+      "type": "subfooter",
+      "custom_css": [
+        ".subfooter__copyright {font-size: 10px;}"
+      ],
+      "settings": {
+        "footer_secondary_linklist": "footer",
+        "footer_payment_enable": false,
+        "footer_social_enable": false,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "width": "wrapper--full",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_richtext_9UVxMF",
+    "ss_footer_3_TrCnXW",
+    "footer",
+    "subfooter"
+  ]
+}

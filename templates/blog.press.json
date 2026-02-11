@@ -1,0 +1,336 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_richtext_gHdhH7": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_VKVADW": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Peak In the Press",
+            "enable_line": true,
+            "text_size": 4
+          }
+        },
+        "heading_qgCf7T": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore Articles Featuring Peak Scents",
+            "text_size": 9
+          }
+        },
+        "text_8rqcYR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Over the years Peak Scents has had the opportunity to collaborate with and be featured by a number of publications - from small town local papers to globally recognized names - Peak Scents is proud to provide plant based skin care and natural solutions to health and wellness.</p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "button_GEp8x8": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Best Sellers",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline",
+            "button_color_1": "btn--black",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_VKVADW",
+        "heading_qgCf7T",
+        "text_8rqcYR",
+        "button_GEp8x8"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--bright bg--bright",
+        "content_width": 700,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_logos_Leahma": {
+      "type": "section-logos",
+      "blocks": {
+        "logo_image_z4j8pR": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Bustle_4aed3cc5-a5b9-412e-ac69-8ac92ae88088.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_eYFJEn": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/travel-and-leisure-logo-vector-2023.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_ABjAnV": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/PureWow-logo.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_YtXWtA": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Background-1_1.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_VtAYLW": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Vogue_Logo.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_KEp4UV": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/OUTSIDE_MAG_LOGO.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_pkH76J": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Spa_Beauty_Logo.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_6HTAtx": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/AZ_Highways_Logo.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_xRb4cg": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/American-Rivers-Logo.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_hgmDVL": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/logo_2x_4411d007-9793-4c24-871a-2103c236ddc3.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_XgqxC4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/new-logo-web.jpg",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_ptjHGq": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Instyle_logo_PNG5.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_8BKQTE": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/flower-logo-300_1.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "logo_image_yETHtA": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Forbes_Logo_1_1.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_z4j8pR",
+        "logo_image_eYFJEn",
+        "logo_image_ABjAnV",
+        "logo_image_YtXWtA",
+        "logo_image_VtAYLW",
+        "logo_image_KEp4UV",
+        "logo_image_pkH76J",
+        "logo_image_6HTAtx",
+        "logo_image_xRb4cg",
+        "logo_image_hgmDVL",
+        "logo_image_XgqxC4",
+        "logo_image_ptjHGq",
+        "logo_image_8BKQTE",
+        "logo_image_yETHtA"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "enable_marquee": true,
+        "marquee_speed": 30,
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blog-section-featured-article": {
+      "type": "section-featured-article",
+      "blocks": {
+        "blog-section-featured-article-block-0": {
+          "type": "kicker",
+          "settings": {
+            "show_author": true,
+            "show_date": true
+          }
+        },
+        "blog-section-featured-article-block-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 8
+          }
+        },
+        "blog-section-featured-article-block-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "",
+            "text_size": 5
+          }
+        },
+        "blog-section-featured-article-block-3": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link"
+          }
+        }
+      },
+      "block_order": [
+        "blog-section-featured-article-block-0",
+        "blog-section-featured-article-block-1",
+        "blog-section-featured-article-block-2",
+        "blog-section-featured-article-block-3"
+      ],
+      "settings": {
+        "article": "press/bustle-all-natural-serum-that-works-like-retinol",
+        "image": "shopify://shop_images/Untitled_design_-_2024-04-25T105634.465.jpg",
+        "image_full_width": true,
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "color_bg": "palette--bright bg--bright",
+        "text_align": "align--bottom-center",
+        "text_alignment": "text-center",
+        "text_color": "text--neutral",
+        "text_color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
+    },
+    "main-blog": {
+      "type": "blog",
+      "settings": {
+        "heading": "",
+        "show_heading": false,
+        "tag_label": "",
+        "tags": false,
+        "text_align": "text-center",
+        "post_grid": 2,
+        "rows": 4,
+        "wh_ratio": 2.2,
+        "show_author": false,
+        "show_tags": false,
+        "show_date": true,
+        "show_preview": false,
+        "show_link": false,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "image_height": "use_screen_one_third",
+        "text_color": "text--neutral",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "section_richtext_gHdhH7",
+    "section_logos_Leahma",
+    "blog-section-featured-article",
+    "main-blog"
+  ]
+}

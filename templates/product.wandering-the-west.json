@@ -1,0 +1,606 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": 8,
+            "product_show_cutline": true,
+            "show_rating": true,
+            "show_rating_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "icon_mjbaFp": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-animal-paw",
+            "icon_color": "#4b4b4b",
+            "text": "<p>{{ product.metafields.custom.cruelty_free.value }}</p>",
+            "padding_bottom": 8
+          }
+        },
+        "f999f4d3-3108-48a4-ab3c-c92c2be6780d": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shipment",
+            "icon_color": "#736058",
+            "text": "<p>Free Shipping on Orders $99+</p>",
+            "padding_bottom": 8
+          }
+        },
+        "variants": {
+          "type": "variant-selectors",
+          "settings": {
+            "option_size_swatch": 34,
+            "option_size_radio": 50,
+            "option_space": 30,
+            "padding_bottom": 30
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+            "show_quantity": true,
+            "padding_bottom": 20
+          }
+        },
+        "sizes-remaining": {
+          "type": "size-remaining",
+          "settings": {
+            "info_page": "",
+            "title": "",
+            "show_remaining": true,
+            "show_remaining_style": "always",
+            "countdown": 10,
+            "padding_bottom": 0
+          }
+        },
+        "buttons": {
+          "type": "add-buttons",
+          "settings": {
+            "enable_payment_button": true,
+            "enable_gift_card_recipient": true,
+            "padding_bottom": 20
+          }
+        },
+        "0dee54ea-6901-4819-a89f-cdea38135b62": {
+          "type": "shopify://apps/greenspark/blocks/product-widgets/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
+          "settings": {
+            "horizontal_alignment": "center",
+            "style": "simplified",
+            "size": "large",
+            "fullwidth_justification": "flex-start",
+            "greenspark_widget_color": "#3B755F",
+            "enable_popup": true
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "style": "accordions",
+            "enable_description": true,
+            "read_more": true,
+            "icon_description": "",
+            "description_expanded": true,
+            "title_1": "Ingredients",
+            "icon_name_1": "icon-leaf",
+            "raw_content_1": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>",
+            "title_2": "How to Use",
+            "icon_name_2": "icon-water",
+            "raw_content_2": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}</p>",
+            "title_3": "Benefits",
+            "icon_name_3": "icon-star-rating",
+            "raw_content_3": "<p>{{ product.metafields.custom.benefits | metafield_tag }}</p>",
+            "title_4": "Shipping",
+            "icon_name_4": "icon-truck",
+            "raw_content_4": "<ul><li>Free Shipping on orders $99 +</li><li>Fast Shipping</li><li>Free Sample with all orders</li><li>Love it or your money back</li><li>A Tree is planted with every order placed</li></ul>",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "title": "Buy it with",
+            "upsell_type": "product_single",
+            "product": "{{ product.metafields.theme.upsell.value }}",
+            "upsell_product_list": [],
+            "upsell_list_limit": 1,
+            "padding_bottom": 20
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share",
+            "target_device": "",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "icon_mjbaFp",
+        "f999f4d3-3108-48a4-ab3c-c92c2be6780d",
+        "variants",
+        "quantity",
+        "sizes-remaining",
+        "buttons",
+        "0dee54ea-6901-4819-a89f-cdea38135b62",
+        "pickup",
+        "description",
+        "upsell",
+        "sharing"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "thumbnails-below@slides",
+        "image_width": "wide",
+        "image_spacing": 10,
+        "align": "left",
+        "bg": "palette--light bg--neutral",
+        "mobile_layout": "thumbs",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "alt_text_enable": true,
+        "alt_text_icon": "icon-legal",
+        "product_breadcrumbs_enable": true,
+        "product_breadcrumbs_list": [
+          "all-plant-based-products",
+          "wandering-the-west-apothecary-products"
+        ],
+        "width": "wrapper--full",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "1714693834fe2a81a0": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_MAEcLF": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_MAEcLF"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "173197118831905e83": {
+      "type": "apps",
+      "blocks": {
+        "greenspark_static_widgets_v2_egHHdQ": {
+          "type": "shopify://apps/greenspark/blocks/static-widgets-v2/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
+          "settings": {
+            "widget_type": "total_impact",
+            "horizontal_alignment": "center",
+            "greenspark_widget_color": "grey",
+            "size": "full_width",
+            "fullwidth_justification": "center",
+            "enable_popup": true
+          }
+        }
+      },
+      "block_order": [
+        "greenspark_static_widgets_v2_egHHdQ"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_e4UMxx": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_bd8FG4": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Learn More About",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "heading_QweaVJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wandering the West Apothecary",
+            "text_size": 8
+          }
+        },
+        "text_B6cVQF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Handmade by Peak Scents in Flagstaff, Arizona</p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "kicker_bd8FG4",
+        "heading_QweaVJ",
+        "text_B6cVQF"
+      ],
+      "custom_css": [],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text": {
+      "type": "section-double",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2023-Tulum-PeakScent-45.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "All Purpose Plant Care: balms, salves, and sprays. Inspired by the Wild West.",
+            "text": "<p>For the rugged outdoors enthusiasts who embrace the call of the wild</p><p>Seamlessly blending the power of nature with the needs of those who find solace in the expansive landscapes of the West</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--white",
+            "button_style": "caps--link",
+            "text_color": "text--white",
+            "bg_color": "#797f6a"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": true,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "b4f116f3-a4bc-436a-8be9-1d96f3eb35c2": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "What makes Wandering the West the right collection for you?",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 700,
+        "width": "wrapper",
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "7632589b-3491-4839-94ed-cf4230ff9607": {
+      "type": "section-icons",
+      "blocks": {
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_color": "#376233",
+            "title": "",
+            "text": "<p>Organic aromatherapeutic blends</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_color": "#376233",
+            "title": "",
+            "text": "<p>Clean, all-mineral Sun Protection</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_color": "#376233",
+            "title": "",
+            "text": "<p>Skin mending & tending</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0",
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1",
+        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2"
+      ],
+      "custom_css": [
+        "p {font-size: 1.7em; /* equals 24px */}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 30,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_collection_slider_hECCHR": {
+      "type": "section-collection-slider",
+      "custom_css": [
+        ".section-carousel {background-color: #797f6a;}",
+        ".section-carousel__header p {color: #ffffff;}",
+        ".product__grid__title {color: #ffffff;}",
+        ".product__grid__price {color: #ffffff;}",
+        ".product__rating {color: #ffffff;}",
+        ".product__rating__count {color: #ffffff;}"
+      ],
+      "settings": {
+        "collection": "wandering-the-west-apothecary-products",
+        "product_limit": 12,
+        "title": "Wander the West with Peak Scents",
+        "align_text": "title-center",
+        "progress_bar": "mobile",
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_GjWPxH": {
+      "type": "section-hero",
+      "blocks": {
+        "kicker_xzrKzQ": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Women Owned in Flagstaff Arizona",
+            "enable_line": false,
+            "text_size": 5
+          }
+        },
+        "heading_p4pNmV": {
+          "type": "heading",
+          "settings": {
+            "title": "Small Batch - Big Love",
+            "text_size": 10
+          }
+        },
+        "button_DDxNeU": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Get your Products Refilled in Store",
+            "link_1": "shopify://pages/about",
+            "button_size_1": "btn--small",
+            "button_style_1": "btn",
+            "button_color_1": "btn--black",
+            "link_text_2": "Learn more About our Process",
+            "link_2": "shopify://pages/our-process",
+            "button_size_2": "btn--small",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--black",
+            "link_text_3": "",
+            "link_3": "shopify://pages/our-process",
+            "button_size_3": "btn--small",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--black"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_xzrKzQ",
+        "heading_p4pNmV",
+        "button_DDxNeU"
+      ],
+      "custom_css": [
+        ".hero__content {background-color: rgba(255, 255, 255, 0.85); border-radius: 3px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2023-PeakScents-Videoclips-46.jpg",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#3a2720",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-center",
+        "text_color": "text--black",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_Ltxcm8": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_jYGByN": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "heading_cfjCLW": {
+          "type": "heading",
+          "settings": {
+            "heading": "That's right, we Make our Products In-House.",
+            "text_size": 8
+          }
+        },
+        "text_7NHywX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Peak Scents, we never outsource production because it allows us to guarantee that our products have the integrity our customers expect. We are committed to sourcing our ingredients through partners who share an aligned dedication to responsible practices. We are passionate about creating sustainable change in the world through intelligent, ethical business customs. Our commitment to never outsource production ensures that when you choose us as, you can trust the products you receive will adhere to those same ideals.</p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        },
+        "kicker_7wJKnV": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "",
+            "enable_line": true,
+            "text_size": 4
+          }
+        },
+        "heading_3tBjiA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visit our Product Refill Station & No Waste Offerings",
+            "text_size": 8
+          }
+        },
+        "text_Uh83W8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Peak Scents is committed to reducing our business's carbon footprint. We offer an in house option to refill your products and skip the extra packaging. It's just one perk of investing in Peak Scents with your skin care routine in Arizona. <br/><br/>We also offer bulk - zero waste - refilling options for common house hold needs. This includes natural cleaning detergents, soaps, and other products used to upkeep your home. Come stop by and check out what we offer in store at Peak Scents. Located off of Butler Ave. in Flagstaff, Arizona.</p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "kicker_jYGByN",
+        "heading_cfjCLW",
+        "text_7NHywX",
+        "kicker_7wJKnV",
+        "heading_3tBjiA",
+        "text_Uh83W8"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "You might also like",
+        "bg": "palette--light bg--neutral",
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_small": 1.2,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "product_reviews_enable": true,
+        "bg": "palette--dark bg--invert",
+        "width": "wrapper--full",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1714693834fe2a81a0",
+    "173197118831905e83",
+    "section_richtext_e4UMxx",
+    "image-with-text",
+    "b4f116f3-a4bc-436a-8be9-1d96f3eb35c2",
+    "7632589b-3491-4839-94ed-cf4230ff9607",
+    "section_collection_slider_hECCHR",
+    "section_hero_GjWPxH",
+    "section_richtext_Ltxcm8",
+    "related",
+    "reviews"
+  ]
+}

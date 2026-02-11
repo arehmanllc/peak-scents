@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "27161b2e-268e-4eca-9e87-392f761ddb3e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>  Free shipping on orders $99<br/><br/>+ Free Sample + tree planted with every order</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "message_6njW8G": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "message": "Spend ||amount|| more for free shipping",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "27161b2e-268e-4eca-9e87-392f761ddb3e",
+        "message_6njW8G"
+      ],
+      "custom_css": [],
+      "settings": {
+        "text_size": 3,
+        "layout": "slider",
+        "speed": 20,
+        "padding_top": 12,
+        "padding_bottom": 14
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "9a3515e9-6cd7-45c3-bbb2-84bad0d51dc8": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "wh_ratio": 0.7,
+            "image": "shopify://shop_images/Untitled_design_-_2024-03-14T141843.516.jpg",
+            "wide_element": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "title_color": "text--white",
+            "button_style": "is-below-image",
+            "link_text": "Mature Beauty",
+            "link": "shopify://collections/graceful-aging",
+            "button_color": "btn--neutral",
+            "display": "all"
+          }
+        },
+        "b67fb0b6-65f8-470c-82e3-2c746c92b2cb": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "wh_ratio": 0.7,
+            "image": "shopify://shop_images/Untitled_design_-_2024-07-01T142710.336.png",
+            "wide_element": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "title_color": "text--white",
+            "button_style": "is-below-image",
+            "link_text": "Teen Skincare",
+            "link": "shopify://collections/combination-to-oily-skin",
+            "button_color": "btn--neutral",
+            "display": "all"
+          }
+        }
+      },
+      "block_order": [
+        "9a3515e9-6cd7-45c3-bbb2-84bad0d51dc8",
+        "b67fb0b6-65f8-470c-82e3-2c746c92b2cb"
+      ],
+      "custom_css": [
+        ".header-image {display: flex; align-items: center; justify-content: flex-end; margin: 0; /* Adjust margins as needed */}",
+        ".header-image img {max-height: 10px; /* Adjust the height as needed */ height: auto; /* Maintain aspect ratio */ width: auto; /* Maintain aspect ratio */}"
+      ],
+      "settings": {
+        "header_style": "menu_center",
+        "logo": "shopify://shop_images/Peak_Scents_Logo_BANNER_2_2_1.png",
+        "logo_max_limit": 240,
+        "logo_padding": 22,
+        "logo_text_size": 5,
+        "main_menu_linklist": "downstream-main-navigation-demo",
+        "mobile_menu_linklist": "",
+        "full_width": true,
+        "underline_current": true,
+        "enable_search": true,
+        "enable_account": true,
+        "use_icons": false,
+        "icons_type": "classic",
+        "cart_icon": "bag",
+        "header_sticky": "sticky",
+        "transparent_home": false,
+        "transparent_collection": false,
+        "transparent_blog": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_text_color": "#fdfdfd",
+        "show_collection_images": true,
+        "collection_wh_ratio": 2.5
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

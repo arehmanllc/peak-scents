@@ -1,0 +1,1097 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 5,
+        "show_content": true,
+        "content_size": 4,
+        "align_text": "text-center",
+        "text_color": "text--black",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 62,
+        "padding_bottom": 58
+      }
+    },
+    "section_pro_banner_6cpKVf": {
+      "type": "section-pro-banner",
+      "blocks": {
+        "content_nmWfnq": {
+          "type": "_content",
+          "settings": {
+            "vertical_placement": "center",
+            "horizontal_placement": "center",
+            "gap": "sm"
+          },
+          "blocks": {
+            "theme_group_frame_khDkqn": {
+              "type": "theme-group-frame",
+              "settings": {
+                "padding": "sm",
+                "width_limit": 1700,
+                "color_group": "palette--light",
+                "color_background": "default",
+                "color_text": "default",
+                "border_width": 3,
+                "inset": "sm",
+                "border_color": "#9fbeb0"
+              },
+              "blocks": {
+                "theme_kicker_GErkCT": {
+                  "type": "theme-kicker",
+                  "settings": {
+                    "kicker": "Holiday Gift Guide",
+                    "enable_line": false,
+                    "text_size": 4
+                  },
+                  "blocks": {}
+                },
+                "theme_heading_FT9Myq": {
+                  "type": "theme-heading",
+                  "settings": {
+                    "title": "Wellness Wrapped",
+                    "text_size": 9
+                  },
+                  "blocks": {}
+                },
+                "theme_text_3Gh6cJ": {
+                  "type": "theme-text",
+                  "settings": {
+                    "text": "Thoughtful gifts they'll love and feel.",
+                    "font_family": "body",
+                    "text_size": 7,
+                    "max_width": 1350
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "theme_kicker_GErkCT",
+                "theme_heading_FT9Myq",
+                "theme_text_3Gh6cJ"
+              ]
+            }
+          },
+          "block_order": [
+            "theme_group_frame_khDkqn"
+          ]
+        },
+        "background_NtbMiP": {
+          "type": "_background",
+          "settings": {
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "border_width": 0,
+            "inset": "0",
+            "border_color": "#000000"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "content_nmWfnq",
+        "background_NtbMiP"
+      ],
+      "name": "Pro: Image banner",
+      "settings": {
+        "image": "shopify://shop_images/Peak_Scents_Holiday_Skincare_Gifts_2025_Downstream_Creatives_Design.png",
+        "height": "use_screen_two_thirds",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_gallery_text_6a3XLN": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "text_ThLA4z": {
+          "type": "text",
+          "settings": {
+            "title": "gifts for everyone on your list",
+            "title_size": 7,
+            "text": "<p>Order by December 17th for Holiday Delivery</p>",
+            "body_size": 4,
+            "text_align": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "text_ThLA4z"
+      ],
+      "custom_css": [
+        ".custom__text {color: #fdfdfd; /* applies to all text in that section */}",
+        ".custom__title {color: #fdfdfd; /* applies to all text in that section */}"
+      ],
+      "name": "Gallery text",
+      "settings": {
+        "bg": "palette--bright bg--bright--accent",
+        "grid_large": 1,
+        "grid_medium": 1,
+        "grid_mobile": 1,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_gABnAn": {
+      "type": "section-double",
+      "blocks": {
+        "text_efXHyz": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Natural Beauty Wrapped",
+            "text": "<p><br/>This season, share the glow with Peak Scents’ consciously crafted skincare. </p><p>From nourishing creams and serums to silky body oils and soothing masks, each product is made to delight the senses and renew the skin. </p><p>Clean beauty, beautifully giftable.</p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Shop Bestsellers",
+            "button_url": "shopify://collections/best-sellers",
+            "button_color": "btn--primary",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_MAiika": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_Instagram_Post.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_efXHyz",
+        "image_MAiika"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "section_gallery_tDKC89": {
+      "type": "section-gallery",
+      "blocks": {
+        "image_biHwrH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2024-09-25T150842.529.jpg",
+            "link": ""
+          }
+        },
+        "image_4E7U8z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC_0211_1.jpg",
+            "link": ""
+          }
+        },
+        "image_fNXRQb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2024-09-25T151651.717.jpg",
+            "link": ""
+          }
+        },
+        "image_eFYt9r": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_biHwrH",
+        "image_4E7U8z",
+        "image_fNXRQb",
+        "image_eFYt9r"
+      ],
+      "name": "Gallery",
+      "settings": {
+        "scale_image": true,
+        "wh_ratio": 1,
+        "bg": "palette--light bg--neutral",
+        "add_gutters": true,
+        "progress_bar": "mobile",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 98
+      }
+    },
+    "section_pro_banner_Bneam4": {
+      "type": "section-pro-banner",
+      "blocks": {
+        "content_FnJUJi": {
+          "type": "_content",
+          "settings": {
+            "vertical_placement": "center",
+            "horizontal_placement": "center",
+            "gap": "md"
+          },
+          "blocks": {
+            "theme_group_frame_RWEtBA": {
+              "type": "theme-group-frame",
+              "settings": {
+                "padding": "md",
+                "width_limit": 1700,
+                "color_group": "palette--light",
+                "color_background": "default",
+                "color_text": "default",
+                "border_width": 6,
+                "inset": "0",
+                "border_color": "#9fbeb0"
+              },
+              "blocks": {
+                "theme_kicker_raYcAJ": {
+                  "type": "theme-kicker",
+                  "settings": {
+                    "kicker": "Bundles of Joy",
+                    "enable_line": false,
+                    "text_size": 4
+                  },
+                  "blocks": {}
+                },
+                "theme_heading_q9Fyyn": {
+                  "type": "theme-heading",
+                  "settings": {
+                    "title": "Holiday Gift Sets",
+                    "text_size": 8
+                  },
+                  "blocks": {}
+                },
+                "theme_text_88NcqH": {
+                  "type": "theme-text",
+                  "settings": {
+                    "text": "Gift more, spend less. Our beautifully curated bundles pair bestsellers and seasonal favorites.  Wrapped, ready, and priced to save.",
+                    "font_family": "body",
+                    "text_size": 5,
+                    "max_width": 900
+                  },
+                  "blocks": {}
+                },
+                "theme_button_8R7MMg": {
+                  "type": "theme-button",
+                  "name": "Button",
+                  "settings": {
+                    "text": "Shop all gift bundles",
+                    "link": "shopify://collections/bundles",
+                    "sizing": "btn--long",
+                    "style": "btn",
+                    "color": "btn--primary"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "theme_kicker_raYcAJ",
+                "theme_heading_q9Fyyn",
+                "theme_text_88NcqH",
+                "theme_button_8R7MMg"
+              ]
+            }
+          },
+          "block_order": [
+            "theme_group_frame_RWEtBA"
+          ]
+        },
+        "background_wPkfPg": {
+          "type": "_background",
+          "settings": {
+            "overlay_opacity": 9,
+            "overlay_color": "#000000",
+            "border_width": 0,
+            "inset": "0",
+            "border_color": "#000000"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "content_FnJUJi",
+        "background_wPkfPg"
+      ],
+      "name": "Pro: Image banner",
+      "settings": {
+        "image": "shopify://shop_images/037A8198.jpg",
+        "image_mobile": "shopify://shop_images/037A8198.jpg",
+        "height": "use_screen_two_thirds",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_products_87C4aa": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "collection_TFFf4R": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles",
+            "title": "Holiday Gift Sets They'll Love",
+            "link_text": "Shop all gift bundles",
+            "enable_item": false,
+            "item_link_height": "full",
+            "text": "",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "collection_TFFf4R"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.hero__title {display: none !important; }}"
+      ],
+      "name": "Collection product grid",
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 4,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 62,
+        "padding_bottom": 108
+      }
+    },
+    "section_double_A94PAK": {
+      "type": "section-double",
+      "blocks": {
+        "text_6erW83": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Stocking Stuffers",
+            "text": "<p>Fill those stockings with feel-good skincare. Thoughtful, affordable gifts <strong>under $30</strong> that bring a little luxury to every routine.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Shop all Stocking Stuffers",
+            "button_url": "shopify://collections/natural-skin-care-stocking-stuffers",
+            "button_color": "btn--primary",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": "#fdfdfd"
+          }
+        },
+        "image_J8xCxh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/037A8187.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--bottom-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify://collections",
+            "button_color": "btn--white",
+            "button_style": "btn--outline"
+          }
+        }
+      },
+      "block_order": [
+        "text_6erW83",
+        "image_J8xCxh"
+      ],
+      "custom_css": [
+        ".wrapper {border: 5px solid #9fbeb0; padding: 40px; box-sizing: border-box;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#fdfdfd",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_products_Lhz8N8": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "collection_PNDbny": {
+          "type": "collection",
+          "settings": {
+            "collection": "natural-skin-care-stocking-stuffers",
+            "title": "Perfect for Stockings",
+            "link_text": "Shop all stocking stuffers",
+            "enable_item": false,
+            "item_link_height": "full",
+            "text": "",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "collection_PNDbny"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.hero__title {display: none !important; }}"
+      ],
+      "name": "Collection product grid",
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 4,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 58,
+        "padding_bottom": 66
+      }
+    },
+    "section_pro_banner_hV6V43": {
+      "type": "section-pro-banner",
+      "blocks": {
+        "content_6hT3aa": {
+          "type": "_content",
+          "settings": {
+            "vertical_placement": "center",
+            "horizontal_placement": "center",
+            "gap": "md"
+          },
+          "blocks": {
+            "theme_group_frame_nkbVQH": {
+              "type": "theme-group-frame",
+              "settings": {
+                "padding": "md",
+                "width_limit": 1420,
+                "color_group": "palette--light",
+                "color_background": "default",
+                "color_text": "default",
+                "border_width": 4,
+                "inset": "0",
+                "border_color": "#9fbeb0"
+              },
+              "blocks": {
+                "theme_kicker_T99jrb": {
+                  "type": "theme-kicker",
+                  "settings": {
+                    "kicker": "",
+                    "enable_line": false,
+                    "text_size": 4
+                  },
+                  "blocks": {}
+                },
+                "theme_heading_NCEaPr": {
+                  "type": "theme-heading",
+                  "settings": {
+                    "title": "Gifts for Teens",
+                    "text_size": 8
+                  },
+                  "blocks": {}
+                },
+                "theme_text_P7bQbe": {
+                  "type": "theme-text",
+                  "settings": {
+                    "text": "Start them off right with plant-powered, toxic-free skincare they’ll love to use. Because self-care is cool at any age.",
+                    "font_family": "body",
+                    "text_size": 5,
+                    "max_width": 825
+                  },
+                  "blocks": {}
+                },
+                "theme_button_EhrBDM": {
+                  "type": "theme-button",
+                  "name": "Button",
+                  "settings": {
+                    "text": "Shop all Gift Ideas for Teens",
+                    "link": "shopify://collections/skin-care-gifts-for-teens",
+                    "sizing": "btn--long",
+                    "style": "btn",
+                    "color": "btn--primary"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "theme_kicker_T99jrb",
+                "theme_heading_NCEaPr",
+                "theme_text_P7bQbe",
+                "theme_button_EhrBDM"
+              ]
+            }
+          },
+          "block_order": [
+            "theme_group_frame_nkbVQH"
+          ]
+        },
+        "background_wbYyNe": {
+          "type": "_background",
+          "settings": {
+            "overlay_opacity": 6,
+            "overlay_color": "#000000",
+            "border_width": 4,
+            "inset": "0",
+            "border_color": "#c3d6cd"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "content_6hT3aa",
+        "background_wbYyNe"
+      ],
+      "custom_css": [],
+      "name": "Pro: Image banner",
+      "settings": {
+        "image": "shopify://shop_images/Gifts_for_Teens_Natural_Skincare_2025_Downstream_Creatives.png",
+        "height": "use_screen_one_half",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_products_F6P8Vc": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "collection_kwP7dY": {
+          "type": "collection",
+          "settings": {
+            "collection": "skin-care-gifts-for-teens",
+            "title": "They're going to love it",
+            "link_text": "Shop all gift ideas for teens",
+            "enable_item": false,
+            "item_link_height": "image",
+            "text": "",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "collection_kwP7dY"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.hero__title {display: none !important; }}"
+      ],
+      "name": "Collection product grid",
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 4,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 58,
+        "padding_bottom": 92
+      }
+    },
+    "section_double_9YBbxA": {
+      "type": "section-double",
+      "blocks": {
+        "image_bN7J8U": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Peak_Scents_2025_Best_Organic_Skincare_Gifts73.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--bottom-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify://collections",
+            "button_color": "btn--white",
+            "button_style": "btn--outline"
+          }
+        },
+        "text_PFUkh7": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Gifts For Every Body",
+            "text": "<p>A treat for everyone on your list. Hydrating, smoothing and oh-so-satisfying. From exfoliating scrubs to rich creams, these picks bring instant glow and lasting hydration.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Shop For everyone",
+            "button_url": "shopify://collections/body",
+            "button_color": "btn--primary",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": "#fdfdfd"
+          }
+        }
+      },
+      "block_order": [
+        "image_bN7J8U",
+        "text_PFUkh7"
+      ],
+      "custom_css": [
+        ".wrapper {border: 5px solid #9fbeb0; padding: 40px; box-sizing: border-box;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#fdfdfd",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_products_etXkJ9": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "collection_YVyhYx": {
+          "type": "collection",
+          "settings": {
+            "collection": "body",
+            "title": "Gifts they will all love",
+            "link_text": "Shop for everyone",
+            "enable_item": false,
+            "item_link_height": "full",
+            "text": "",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "collection_YVyhYx"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.hero__title {display: none !important; }}"
+      ],
+      "name": "Collection product grid",
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 4,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 70,
+        "padding_bottom": 104
+      }
+    },
+    "section_pro_banner_Kc4hGa": {
+      "type": "section-pro-banner",
+      "blocks": {
+        "content_6UADdV": {
+          "type": "_content",
+          "settings": {
+            "vertical_placement": "end",
+            "horizontal_placement": "center",
+            "gap": "sm"
+          },
+          "blocks": {
+            "theme_group_frame_pfjhyV": {
+              "type": "theme-group-frame",
+              "settings": {
+                "padding": "md",
+                "width_limit": 1700,
+                "color_group": "palette--light",
+                "color_background": "default",
+                "color_text": "default",
+                "border_width": 6,
+                "inset": "0",
+                "border_color": "#9fbeb0"
+              },
+              "blocks": {
+                "theme_heading_efjbGi": {
+                  "type": "theme-heading",
+                  "settings": {
+                    "title": "Best Gifts for Guys",
+                    "text_size": 8
+                  },
+                  "blocks": {}
+                },
+                "theme_text_3cgT3X": {
+                  "type": "theme-text",
+                  "settings": {
+                    "text": "For the adventurer, the minimalist, or the guy who just wants great skin. These plant-powered picks make self-care effortless.",
+                    "font_family": "body",
+                    "text_size": 5,
+                    "max_width": 725
+                  },
+                  "blocks": {}
+                },
+                "theme_button_CR4Lhe": {
+                  "type": "theme-button",
+                  "name": "Button",
+                  "settings": {
+                    "text": "Shop Gifts for Him",
+                    "link": "shopify://collections/natural-skin-care-gifts-for-him",
+                    "sizing": "btn--long",
+                    "style": "btn",
+                    "color": "btn--primary"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "theme_heading_efjbGi",
+                "theme_text_3cgT3X",
+                "theme_button_CR4Lhe"
+              ]
+            }
+          },
+          "block_order": [
+            "theme_group_frame_pfjhyV"
+          ]
+        },
+        "background_WBmLqA": {
+          "type": "_background",
+          "settings": {
+            "overlay_opacity": 9,
+            "overlay_color": "#000000",
+            "border_width": 6,
+            "inset": "0",
+            "border_color": "#c3d6cd"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "content_6UADdV",
+        "background_WBmLqA"
+      ],
+      "name": "Pro: Image banner",
+      "settings": {
+        "image": "shopify://shop_images/CFE_IMG_8047.jpg",
+        "height": "use_screen_two_thirds",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_products_ib8DCk": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "collection_Kb6YEc": {
+          "type": "collection",
+          "settings": {
+            "collection": "natural-skin-care-gifts-for-him",
+            "title": "Gifts he's going to love",
+            "link_text": "Shop for the men in your life",
+            "enable_item": false,
+            "item_link_height": "full",
+            "text": "",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "collection_Kb6YEc"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.hero__title {display: none !important; }}"
+      ],
+      "name": "Collection product grid",
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 4,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 58,
+        "padding_bottom": 96
+      }
+    },
+    "section_pair_slideshow_accordion_iNgAE7": {
+      "type": "section-pair-slideshow-accordion",
+      "blocks": {
+        "slideshow": {
+          "type": "_pair-slideshow",
+          "static": true,
+          "settings": {},
+          "blocks": {
+            "pair_slideshow_slide_iVj8mi": {
+              "type": "_pair-slideshow-slide",
+              "settings": {
+                "image": "shopify://shop_images/Taylor_Miiler_Photo_with_Peak_Scents_Holiday_Market_Images-5980_2_Large_55a833dc-1f99-47de-9c90-c7009d6fb5b9.jpg"
+              },
+              "blocks": {}
+            },
+            "pair_slideshow_slide_8bkPQE": {
+              "type": "_pair-slideshow-slide",
+              "settings": {
+                "image": "shopify://shop_images/Untitled_Instagram_Post.png"
+              },
+              "blocks": {}
+            },
+            "pair_slideshow_slide_6BU4AC": {
+              "type": "_pair-slideshow-slide",
+              "settings": {
+                "image": "shopify://shop_images/Taylor_Miiler_Photo_with_Peak_Scents_Holiday_Market_Images-6259.jpg"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "pair_slideshow_slide_iVj8mi",
+            "pair_slideshow_slide_8bkPQE",
+            "pair_slideshow_slide_6BU4AC"
+          ]
+        },
+        "accordion": {
+          "type": "_pair-accordion",
+          "static": true,
+          "settings": {
+            "text_color": "text--neutral",
+            "bg_color": "",
+            "font_family": "accent",
+            "font_weight": "normal",
+            "text_size": 4
+          },
+          "blocks": {
+            "pair_accordion_item_C96kPp": {
+              "type": "_pair-accordion-item",
+              "settings": {
+                "title": "Visit us at our storefront",
+                "gap": "sm"
+              },
+              "blocks": {
+                "theme_text_GiaUa4": {
+                  "type": "theme-text",
+                  "settings": {
+                    "text": "Shop in person at our Peak Scents storefront and explore our products in person. Explore our refill station for sustainable gift giving this season. 1000 E. Butler Suite 101 in Flagstaff, AZ",
+                    "font_family": "body",
+                    "text_size": 4,
+                    "max_width": 550
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "theme_text_GiaUa4"
+              ]
+            },
+            "pair_accordion_item_jK9LP7": {
+              "type": "_pair-accordion-item",
+              "settings": {
+                "title": "Shop Online",
+                "gap": "sm"
+              },
+              "blocks": {
+                "theme_text_wKG3aH": {
+                  "type": "theme-text",
+                  "settings": {
+                    "text": "Get amazing deals this season shopping online with Peak Scents. If you haven't already sign up for our email newsletter to get updates on deals and more this holiday season.",
+                    "font_family": "body",
+                    "text_size": 4,
+                    "max_width": 550
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "theme_text_wKG3aH"
+              ]
+            },
+            "pair_accordion_item_RDb4Ux": {
+              "type": "_pair-accordion-item",
+              "settings": {
+                "title": "Local Flagstaff Holiday Markets",
+                "gap": "sm"
+              },
+              "blocks": {
+                "theme_text_DjrH4R": {
+                  "type": "theme-text",
+                  "settings": {
+                    "text": "Visit us at The Handmade Holiday Market Thursday, Dec 4 from 12-7 at The High Country Motor Lodge in Flagstaff, AZ. A Festive Holiday Market with Annie Taylor of Annie's Omnium & Foxglove Gardening, Audria Smith of Fine Arts & Mighty Fine Beadwork, Darcy Falk of Tallulah Arthead, Kate Watters of Wild Heart Farm, Elena Kirschner of Cedartree Handmade Wreaths & Knits and Robin Cardigan Ceramics.",
+                    "font_family": "body",
+                    "text_size": 4,
+                    "max_width": 550
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "theme_text_DjrH4R"
+              ]
+            },
+            "title": {
+              "type": "_pair-title",
+              "static": true,
+              "settings": {
+                "alignment": "start",
+                "gap": "md"
+              },
+              "blocks": {
+                "theme_kicker_7TmmgQ": {
+                  "type": "theme-kicker",
+                  "settings": {
+                    "kicker": "Holiday Shopping with Peak Scents",
+                    "enable_line": true,
+                    "text_size": 4
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "theme_kicker_7TmmgQ"
+              ]
+            }
+          },
+          "block_order": [
+            "pair_accordion_item_C96kPp",
+            "pair_accordion_item_jK9LP7",
+            "pair_accordion_item_RDb4Ux"
+          ]
+        }
+      },
+      "name": "Pair: Slides & Text",
+      "settings": {
+        "order": "slideshow-first",
+        "duration": 5,
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_newsletter_hqzeQH": {
+      "type": "section-newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "title": "Get all the Holiday Deals straight to your inbox",
+        "richtext": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 74
+      }
+    },
+    "section_icons_c3FAXx": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_xwfWMD": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_color": "#aaaaaa",
+            "title": "Free returns",
+            "text": "<p>Returns within 30 days receive a full refund.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_TDWFFU": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_color": "#aaaaaa",
+            "title": "Free shipping",
+            "text": "<p>Free Shipping on Orders $99+</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_BrwbfR": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_color": "#aaaaaa",
+            "title": "Live support",
+            "text": "<p>Call us Mon-Sat 10-3 (800) 556-9499</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_xwfWMD",
+        "icon_block_TDWFFU",
+        "icon_block_BrwbfR"
+      ],
+      "name": "Icon columns",
+      "settings": {
+        "title": "",
+        "bg": "palette--dark bg--invert--accent",
+        "icons_size": 30,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_pro_banner_6cpKVf",
+    "section_gallery_text_6a3XLN",
+    "section_double_gABnAn",
+    "section_gallery_tDKC89",
+    "section_pro_banner_Bneam4",
+    "section_list_collections_products_87C4aa",
+    "section_double_A94PAK",
+    "section_list_collections_products_Lhz8N8",
+    "section_pro_banner_hV6V43",
+    "section_list_collections_products_F6P8Vc",
+    "section_double_9YBbxA",
+    "section_list_collections_products_etXkJ9",
+    "section_pro_banner_Kc4hGa",
+    "section_list_collections_products_ib8DCk",
+    "section_pair_slideshow_accordion_iNgAE7",
+    "section_newsletter_hqzeQH",
+    "section_icons_c3FAXx"
+  ]
+}
