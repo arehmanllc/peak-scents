@@ -9,6 +9,17 @@
 ============================================================================== */
 /* ================ VENDOR ================ */
 /*-- Flickity v3.0.0 -- */
+
+@font-face {
+  font-family: 'Boston Angel Regular';
+  src: url("Boston Angel Regular.woff2") format('woff2'),
+       url("Boston Angel Regular.woff") format('woff');
+}
+@font-face {
+  font-family: 'Metropolis-Regular';
+  src: url("Metropolis-Regular.woff") format('woff'),
+       url("Metropolis-Regular.woff2") format('woff2');
+}
 .flickity-disabled-mobile:after {
   content: "flickity" !important;
   font-size: 0;

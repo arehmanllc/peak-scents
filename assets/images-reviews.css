@@ -1,0 +1,8 @@
+.reviews-images-block{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+.reviews-images-block .review-stars{
+  width: 15px;
+  height: 15px;
+}
