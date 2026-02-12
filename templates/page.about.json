@@ -147,7 +147,7 @@
           "settings": {
             "image": "shopify://shop_images/Untitled_design_6.jpg",
             "overlay_opacity": 15,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
             "title": "",
@@ -256,7 +256,7 @@
           "settings": {
             "image": "shopify://shop_images/FACES_FOR_BLOGS_4476cb2c-a9a3-4a57-a436-f09648f0c731.jpg",
             "overlay_opacity": 15,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
             "title": "",
@@ -386,7 +386,7 @@
           "settings": {
             "image": "shopify://shop_images/Untitled_design_6.jpg",
             "overlay_opacity": 15,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
             "title": "",
@@ -495,7 +495,7 @@
           "settings": {
             "image": "shopify://shop_images/Untitled_design_6.jpg",
             "overlay_opacity": 15,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
             "title": "",
@@ -521,123 +521,6 @@
         "bg_color": "",
         "preload_image": false,
         "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "e31c7a4c-7b99-489a-ae5c-3917ebf94532": {
-      "type": "section-video",
-      "blocks": {
-        "template--14885872795737__e31c7a4c-7b99-489a-ae5c-3917ebf94532-16740660577a3f2e27-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Our Story",
-            "text_size": 11
-          }
-        },
-        "template--14885872795737__e31c7a4c-7b99-489a-ae5c-3917ebf94532-16740660577a3f2e27-1": {
-          "type": "video",
-          "settings": {
-            "video_link": "https://vimeo.com/467464460",
-            "popup_text": "",
-            "button_width": 80,
-            "button_color": "text--white"
-          }
-        }
-      },
-      "block_order": [
-        "template--14885872795737__e31c7a4c-7b99-489a-ae5c-3917ebf94532-16740660577a3f2e27-0",
-        "template--14885872795737__e31c7a4c-7b99-489a-ae5c-3917ebf94532-16740660577a3f2e27-1"
-      ],
-      "settings": {
-        "height": "use_screen_three_quarters",
-        "color_bg": "palette--light bg--neutral",
-        "object_position": "center-center",
-        "image": "shopify://shop_images/DeeAnn_Tracy_Founder_Peak_Scents_jpg_1.jpg",
-        "preload_image": false,
-        "text_align": "align--middle-center",
-        "text_color": "text--white",
-        "overlay_opacity": 15,
-        "overlay_color": "#000000",
-        "enable_overlay_text": false,
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 14
-      }
-    },
-    "custom-content-2": {
-      "type": "section-custom-content",
-      "blocks": {
-        "custom-content-2-0": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "kicker": "",
-            "title": "Our Mission",
-            "text": "<p>At Peak Scents, our mission is to provide non-toxic, sustainable, plant-based skincare products that harness the inherent power of plants, vitamins, and super fruits. By blending the wisdom of nature with scientific advancements, we aim to deliver proven results that promote the health and radiance of your skin.</p>",
-            "font_size": 5,
-            "text_columns": 1,
-            "align_text": "text-center",
-            "button_text": "",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "caps--link",
-            "text_color": "text--neutral",
-            "bg_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "custom-content-2-0"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".text__standard {width: 75%;}"
-      ],
-      "settings": {
-        "height": "image-height",
-        "brick_gutter": 8,
-        "borders": false,
-        "bg_color": "",
-        "preload_image": false,
-        "width": "wrapper--full",
-        "padding_top": 24,
-        "padding_bottom": 36
-      }
-    },
-    "section_custom_content_twBqbh": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text_DrAdEB": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "kicker": "Giving, Partnership, & Our in-store Refillery",
-            "title": "",
-            "text": "<p>Peak Scents is partnered with American Rivers, Greenspark, Eden Projects, & Plastic Bank to offset our carbon footprint. </p><p>We also have a product refill station in store to cut back on waste - located in Flagstaff, Arizona.</p>",
-            "font_size": 4,
-            "text_columns": 1,
-            "align_text": "text-center",
-            "button_text": "Sustainability at Peak Scents",
-            "button_url": "shopify://pages/sustainability",
-            "button_color": "btn--black",
-            "button_style": "btn--outline btn--long",
-            "text_color": "text--black",
-            "bg_color": "#fdfdfd"
-          }
-        }
-      },
-      "block_order": [
-        "text_DrAdEB"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "use_screen_one_fifth",
-        "brick_gutter": 10,
-        "borders": true,
-        "bg_color": "#a5c2b7",
-        "preload_image": false,
-        "width": "wrapper--full",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -678,6 +561,7 @@
         "slide_FVTCg6",
         "slide_qhz677"
       ],
+      "disabled": true,
       "name": "SS - Testimonials #5",
       "settings": {
         "heading": "A wknd to remember",
@@ -736,21 +620,21 @@
         "dots_size_mobile": 12,
         "dots_show_desktop": false,
         "dots_show_mobile": false,
-        "stars_color": "#0C0C0C",
-        "heading_color": "#0C0C0C",
-        "card_bg_color": "#FFFFFF",
-        "card_border_color": "#0C0C0C",
-        "image_border_color": "#0C0C0C",
-        "card_text_color": "#0C0C0C",
-        "card_author_color": "#0C0C0C",
-        "arrow_color": "#FFFFFF",
-        "arrow_hover_color": "#FFFFFF",
-        "arrow_bg_color": "#0C0C0C",
-        "arrow_bg_hover_color": "#0C0C0C",
-        "arrow_border_color": "#0C0C0C",
-        "arrow_border_hover_color": "#0C0C0C",
-        "dots_color": "#0C0C0C",
-        "background_color": "#FFFFFF",
+        "stars_color": "#0c0c0c",
+        "heading_color": "#0c0c0c",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#0c0c0c",
+        "image_border_color": "#0c0c0c",
+        "card_text_color": "#0c0c0c",
+        "card_author_color": "#0c0c0c",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#0c0c0c",
+        "arrow_bg_hover_color": "#0c0c0c",
+        "arrow_border_color": "#0c0c0c",
+        "arrow_border_hover_color": "#0c0c0c",
+        "dots_color": "#0c0c0c",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -762,6 +646,22 @@
         "full_width": true,
         "content_width": 120,
         "border_thickness": 0
+      }
+    },
+    "images_reviews_pL8t7z": {
+      "type": "images-reviews",
+      "name": "Images Reviews",
+      "settings": {
+        "review_image_1": "shopify://shop_images/LOVE_SALE_20_OFF_2.png",
+        "review_image_2": "shopify://shop_images/Peak_Scents_2025_Best_Organic_Skincare_Gifts73.jpg",
+        "review_image_3": "shopify://shop_images/Untitled_Instagram_Post_2.jpg",
+        "review_stars_1": "shopify://shop_images/Icons_for_Peak_Scents_Refill_Page_Scale.png",
+        "reviews_text_1": "<p>I've been using Peak Scents regularly for the past year and my once acne prone, dull skin is so glow-y I truly rarely wear make-up. A make-up day for me a year or two ago would mean big insecurities, like \"Yeah, I know..somethings different...\", it now is my regular, confident daily. The Power Repair bundle truly repaired my acne scared skin and left me feeling beautiful, adding the Babchi Serum lifted any remaining dark spots and left me a glowing miracle.</p>",
+        "review_image_4": "shopify://shop_images/peak_scents_wandering_the_west_-26.jpg",
+        "review_image_5": "shopify://shop_images/FACES_FOR_BLOGS_4476cb2c-a9a3-4a57-a436-f09648f0c731.jpg",
+        "review_image_6": "shopify://shop_images/peak_scents_wandering_the_west_-30.jpg",
+        "review_stars_2": "shopify://shop_images/Icons_for_Peak_Scents_Refill_Page_Jar.png",
+        "reviews_text_2": "<p>“The biggest and best compliment I always receive is about my clear and glowy skin, and I owe it all to Peak Scents! Their all-natural skincare products are perfectly compatible with my sensitive skin. The organic RosePhyto3 cleansing milk, facial toner, and facial oil make for the best 3-step skin care routine, I look forward to applying it every night!Their commitment to using all natural ingredients gives me peace of mind knowing that I'm nourishing my skin without harsh chemicals. I couldn't be happier with how my skin looks and feels, and I highly recommend Peak Scents to anyone looking for skincare products that deliver amazing results!”</p>"
       }
     }
   },
@@ -778,8 +678,6 @@
     "section_custom_content_cyDQJf",
     "section_double_Tm7JPh",
     "ss_testimonial_5_rYAjbY",
-    "e31c7a4c-7b99-489a-ae5c-3917ebf94532",
-    "custom-content-2",
-    "section_custom_content_twBqbh"
+    "images_reviews_pL8t7z"
   ]
 }
