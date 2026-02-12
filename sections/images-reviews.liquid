@@ -1,0 +1,134 @@
+{{ 'images-reviews.css' |  asset_url | stylesheet_tag }}
+<section>
+  <div class="reviews-main-wrapper section-padding wrapper">
+    <div class="reviews-images-container">
+      <div class="reviews-images-block">
+        <div class="reviews-image">
+          {% if section.settings.review_image_1 != blank %}
+            <img src="{{ section.settings.review_image_1 | img_url: 'large' }}" alt="Review Image 1">
+          {% else %}
+           {{ 'image' | placeholder_svg_tag }}  
+          {% endif %}
+        </div>
+        <div class="reviews-image">
+          {% if section.settings.review_image_2 != blank %}
+            <img src="{{ section.settings.review_image_2 | img_url: 'large' }}" alt="Review Image 2">
+          {% else %}
+           {{ 'image' | placeholder_svg_tag }}  
+          {% endif %}
+        </div>
+        <div class="reviews-image">
+          {% if section.settings.review_image_3 != blank %}
+            <img src="{{ section.settings.review_image_3 | img_url: 'large' }}" alt="Review Image 3">
+          {% else %}
+           {{ 'image' | placeholder_svg_tag }}  
+          {% endif %}
+        </div>
+        <div class="reviews-text-area">
+          {% if section.settings.review_stars_1 != blank %}
+            <img class="review-stars" src="{{ section.settings.review_stars_1 | img_url: 'large' }}" alt="Review Stars 1">
+          {% endif %}
+          <div class="reviews-text">
+            {{ section.settings.reviews_text_1 }}
+          </div>
+        </div>
+      </div>
+      <div class="reviews-images-block">
+        <div class="reviews-text-area">
+          {% if section.settings.review_stars_2 != blank %}
+            <img class="review-stars" src="{{ section.settings.review_stars_2 | img_url: 'large' }}" alt="Review Stars 2">
+          {% endif %}
+          <div class="reviews-text">
+            {{ section.settings.reviews_text_2 }}
+          </div>
+        </div>
+        <div class="reviews-image">
+          {% if section.settings.review_image_4 != blank %}
+            <img src="{{ section.settings.review_image_4 | img_url: 'large' }}" alt="Review Image 4">
+          {% else %}
+           {{ 'image' | placeholder_svg_tag }}  
+          {% endif %}
+        </div>
+        <div class="reviews-image">
+          {% if section.settings.review_image_5 != blank %}
+            <img src="{{ section.settings.review_image_5 | img_url: 'large' }}" alt="Review Image 5">
+          {% else %}
+           {{ 'image' | placeholder_svg_tag }}  
+          {% endif %}
+        </div>
+        <div class="reviews-image">
+          {% if section.settings.review_image_6 != blank %}
+            <img src="{{ section.settings.review_image_6 | img_url: 'large' }}" alt="Review Image 6">
+          {% else %}
+           {{ 'image' | placeholder_svg_tag }}  
+          {% endif %}
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    
+</section>
+
+{% schema %}
+  {
+    "name": "Images Reviews",
+    "class": "images-reviews",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "review_image_1",
+        "label": "Review Image 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "review_image_2",
+        "label": "Review Image 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "review_image_3",
+        "label": "Review Image 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "review_stars_1",
+        "label": "Review Stars 1"
+      },{
+        "type": "richtext",
+        "id": "reviews_text_1",
+        "label": "Reviews Text 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "review_image_4",
+        "label": "Review Image 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "review_image_5",
+        "label": "Review Image 5"
+      },
+      {
+        "type": "image_picker",
+        "id": "review_image_6",
+        "label": "Review Image 6"
+      },{
+        "type": "image_picker",
+        "id": "review_stars_2",
+        "label": "Review Stars 2"
+      },{
+        "type": "richtext",
+        "id": "reviews_text_2",
+        "label": "Reviews Text 2"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Images Reviews",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

@@ -413,7 +413,8 @@
 
 /* ================ Typography ================ */
 
---FONT-STACK-BODY: {{ body_font.family }}, {{ body_font.fallback_families }};
+/* --FONT-STACK-BODY: {{ body_font.family }}, {{ body_font.fallback_families }}; */
+--FONT-STACK-BODY: "Metropolis-Regular";
 --FONT-STYLE-BODY: {{ body_font.style }};
 --FONT-WEIGHT-BODY: {{ body_font.weight | default: 400 }};
 --FONT-WEIGHT-BODY-BOLD: {{ body_font_bold.weight | default: 700 }};
@@ -426,7 +427,7 @@
   --FONT-BODY-LETTER-SPACING: normal;
 {% endif %}
 
---FONT-STACK-HEADING: {{ heading_font.family }}, {{ heading_font.fallback_families }};
+--FONT-STACK-HEADING: 'Boston Angel Regular';
 --FONT-STYLE-HEADING: {{ heading_font.style }};
 --FONT-WEIGHT-HEADING: {{ heading_font.weight | default: 400 }};
 --FONT-WEIGHT-HEADING-BOLD: {{ heading_font_bold.weight | default: 700 }};
