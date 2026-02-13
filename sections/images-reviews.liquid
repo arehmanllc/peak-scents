@@ -25,9 +25,13 @@
           {% endif %}
         </div>
         <div class="reviews-text-area">
-          {% if section.settings.review_stars_1 != blank %}
-            <img class="review-stars" src="{{ section.settings.review_stars_1 | img_url: 'large' }}" alt="Review Stars 1">
-          {% endif %}
+           <div class="reviews-stars">
+            {% if section.settings.review_stars_1 != blank %}
+              {% for i in (1..5) %}
+                <img class="review-stars" src="{{ section.settings.review_stars_1 | img_url: 'large' }}" alt="Review Stars 1">
+              {% endfor %}
+            {% endif %}
+          </div>  
           <div class="reviews-text">
             {{ section.settings.reviews_text_1 }}
           </div>
@@ -35,9 +39,13 @@
       </div>
       <div class="reviews-images-block">
         <div class="reviews-text-area">
-          {% if section.settings.review_stars_2 != blank %}
-            <img class="review-stars" src="{{ section.settings.review_stars_2 | img_url: 'large' }}" alt="Review Stars 2">
-          {% endif %}
+          <div class="reviews-stars">
+            {% if section.settings.review_stars_2 != blank %}
+              {% for i in (1..5) %}
+                <img class="review-stars" src="{{ section.settings.review_stars_2 | img_url: 'large' }}" alt="Review Stars 2">
+              {% endfor %}
+            {% endif %}
+          </div>
           <div class="reviews-text">
             {{ section.settings.reviews_text_2 }}
           </div>
@@ -65,6 +73,86 @@
         </div>
         
       </div>
+    </div>
+    <div class="reviews-images-container-mobile">
+      <div class="reviews-images-block-mobile">
+        <div class="reviews-images-mobile-container">
+          <div class="reviews-image">
+            {% if section.settings.review_image_1 != blank %}
+              <img src="{{ section.settings.review_image_1 | img_url: 'large' }}" alt="Review Image 1">
+            {% else %}
+            {{ 'image' | placeholder_svg_tag }}  
+            {% endif %}
+          </div>
+          <div class="reviews-image">
+            {% if section.settings.review_image_2 != blank %}
+              <img src="{{ section.settings.review_image_2 | img_url: 'large' }}" alt="Review Image 2">
+            {% else %}
+            {{ 'image' | placeholder_svg_tag }}  
+            {% endif %}
+          </div>
+        </div>
+        <div class="reviews-text-area">
+           <div class="reviews-stars-block">
+            {% if section.settings.review_stars_1 != blank %}
+              {% for i in (1..5) %}
+                <img class="review-stars" src="{{ section.settings.review_stars_1 | img_url: 'large' }}" alt="Review Stars 1">
+              {% endfor %}
+            {% endif %}
+          </div>  
+          <div class="reviews-text">
+            {{ section.settings.reviews_text_1 }}
+          </div>
+        </div>
+      </div>
+        <div class="reviews-images-block-mobile">
+          <div class="reviews-images-block-container">
+            <div class="reviews-image">
+              {% if section.settings.review_image_3 != blank %}
+                <img src="{{ section.settings.review_image_3 | img_url: 'large' }}" alt="Review Image 3">
+              {% else %}
+                {{ 'image' | placeholder_svg_tag }}  
+              {% endif %}
+            </div>
+            <div class="reviews-image">
+              {% if section.settings.review_image_4 != blank %}
+                <img src="{{ section.settings.review_image_4 | img_url: 'large' }}" alt="Review Image 4">
+              {% else %}
+              {{ 'image' | placeholder_svg_tag }}  
+              {% endif %}
+            </div>
+          </div> 
+          <div class="reviews-text-area">
+            <div class="reviews-stars-block">
+              {% if section.settings.review_stars_1 != blank %}
+                {% for i in (1..5) %}
+                  <img class="review-stars" src="{{ section.settings.review_stars_1 | img_url: 'large' }}" alt="Review Stars 1">
+                {% endfor %}
+              {% endif %}
+            </div>  
+            <div class="reviews-text">
+              {{ section.settings.reviews_text_2 }}
+            </div>
+          </div>
+      </div>
+      <div class="reviews-images-block-mobile">
+        <div class="reviews-images-mobile-container">
+          <div class="reviews-image">
+            {% if section.settings.review_image_5 != blank %}
+              <img src="{{ section.settings.review_image_5 | img_url: 'large' }}" alt="Review Image 5">
+            {% else %}
+            {{ 'image' | placeholder_svg_tag }}  
+            {% endif %}
+          </div>
+          <div class="reviews-image">
+            {% if section.settings.review_image_6 != blank %}
+              <img src="{{ section.settings.review_image_6 | img_url: 'large' }}" alt="Review Image 6">
+            {% else %}
+            {{ 'image' | placeholder_svg_tag }}  
+            {% endif %}
+          </div>
+        </div>
+      </div> 
     </div>
   </div>
     
