@@ -14155,7 +14155,7 @@ button:hover .cta__dot {
 
 /* Shopify Quick Pay Buttons */
 .product__inner .shopify-product-form {
-  max-width: 450px;
+  /* max-width: 450px; */
   margin: 0 auto;
 }
 
