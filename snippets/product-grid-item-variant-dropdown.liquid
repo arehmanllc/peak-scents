@@ -56,8 +56,8 @@
   </div>
 
   <!-- Add to Bag Button with Price -->
-  <div class="product-grid-item__add-to-bag-wrapper">
-    <form method="post" action="/cart/add" id="product-form-{{ product.id }}" accept-charset="UTF-8" class="product-grid-item__add-form">
+  <div class="product-grid-item__add-to-bag-wrapper" x-data="productAddButtonForm()">
+    <form method="post" action="/cart/add" id="product-form-{{ product.id }}" accept-charset="UTF-8" class="product-grid-item__add-form" data-product-form data-product-handle="{{ product.handle }}">
       <input type="hidden" name="form_type" value="product">
       <input type="hidden" name="utf8" value="✓">
       <input 
@@ -67,16 +67,36 @@
         value="{{ current_variant.id }}"
       >
       
-      <button 
-        type="submit" 
-        class="product-grid-item__add-to-bag-btn stain-button-canvas bg-button type-accent font-bold text-r3 transition-opacity duration-200 w-full"
-        data-add-to-cart
-        data-variant-id="{{ current_variant.id }}"
-        {{ button_disabled }}
-      >
-        <span class="add-to-bag-text">{{ button_text }}</span>
-        <span class="add-to-bag-price" data-price-display>{{ current_variant.price | money }}</span>
-      </button>
+      <div data-add-action-wrapper data-error-boundary>
+        <div data-error-display class="product-grid-item__error-display">&nbsp;</div>
+        
+        <button 
+          type="submit" 
+          name="add"
+          class="product-grid-item__add-to-bag-btn stain-button-canvas bg-button type-accent font-bold text-r3 transition-opacity duration-200 w-full"
+          data-add-to-cart
+          data-variant-id="{{ current_variant.id }}"
+          :class="{
+            'has-success': isSuccess,
+            'loading': isLoading
+          }"
+          {{ button_disabled }}
+        >
+          <span class="btn-state-ready">
+            <span class="add-to-bag-text">{{ button_text }}</span>
+            <span class="add-to-bag-price" data-price-display>{{ current_variant.price | money }}</span>
+          </span>
+          
+          <span class="btn-state-loading">
+            <svg height="18" width="18" class="svg-loader">
+              <circle r="7" cx="9" cy="9" />
+              <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+            </svg>
+          </span>
+          
+          <span class="btn-state-complete">&nbsp;</span>
+        </button>
+      </div>
     </form>
   </div>
 </div>
@@ -157,6 +177,70 @@
   cursor: not-allowed;
 }
 
+/* Button states */
+.product-grid-item__add-to-bag-btn .btn-state-loading,
+.product-grid-item__add-to-bag-btn .btn-state-complete {
+  display: none;
+}
+
+.product-grid-item__add-to-bag-btn.loading .btn-state-ready {
+  display: none;
+}
+
+.product-grid-item__add-to-bag-btn.loading .btn-state-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-grid-item__add-to-bag-btn.has-success .btn-state-ready {
+  display: none;
+}
+
+.product-grid-item__add-to-bag-btn.has-success .btn-state-complete {
+  display: block;
+}
+
+/* Loading spinner */
+.svg-loader {
+  animation: spin 1s linear infinite;
+}
+
+.svg-loader circle {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.svg-loader circle:last-child {
+  stroke-dasharray: 0 87.96459430051421;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Error display */
+.product-grid-item__error-display {
+  display: none;
+  margin-bottom: 8px;
+}
+
+.product-grid-item__error-display .errors {
+  color: #d02e2e;
+  font-size: 12px;
+  padding: 8px;
+  background-color: #ffebeb;
+  border: 1px solid #d02e2e;
+  border-radius: 4px;
+}
+
 .add-to-bag-price {
   font-weight: 600;
 }
@@ -231,19 +315,8 @@ function formatMoney(priceInCents) {
 
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
-  // Check if theme has existing cart functionality
-  if (typeof theme !== 'undefined' && theme.ajaxCart) {
-    // Use theme's existing AJAX cart
-    const productForms = document.querySelectorAll('.product-grid-item__add-form');
-    productForms.forEach(form => {
-      if (theme.ajaxCart.init) {
-        theme.ajaxCart.init(form);
-      }
-    });
-  } else {
-    // Fallback: Let the form submit normally
-    // This will redirect to cart but at least it works
-    console.log('Using fallback form submission');
-  }
+  // The theme's AJAX cart should automatically handle forms with data-product-form attribute
+  // No additional initialization needed - the theme.js will handle it
+  console.log('Product grid item AJAX cart initialized');
 });
 </script>

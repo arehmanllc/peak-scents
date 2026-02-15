@@ -14092,6 +14092,9 @@ button.button-with-underline {
 
 /* ajax buttons */
 .btn-state-ready {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
   transition: color 0.2s, opacity 0.2s, visibility 0.2s;
 }
 
@@ -23511,6 +23514,10 @@ Collection grid item
 .product-grid-item {
   position: relative;
   text-align: center;
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .product-grid-item a {
