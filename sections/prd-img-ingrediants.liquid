@@ -1,0 +1,95 @@
+{{ 'prd-img-ingrediants.css' |  asset_url | stylesheet_tag }}
+<section>
+  <div class="prd-img-ingrediants-container {{ section.settings.width }} section-padding">
+    <div class="prd-img-ingrediants-heading">
+      <h2 class="kicker-flourished mb-r11">{{ section.settings.ingrediants_heading }}</h2>
+    </div>
+    <div class="prd-img-ingred-blocks">
+        <div class="first-ingrediant-block">
+          <div class="ingrediant-heading">
+            {{ section.settings.first_ingrediant_heading }}
+          </div>
+          <div class="ingrediant-image">
+            <img src="{{ section.settings.first_ingrediant_image | img_url: 'master' }}" alt="{{ section.settings.first_ingrediant_heading }}">
+          </div>
+        </div>
+        <div class="second-ingrediant-block">
+          <div class="ingrediant-image">
+            <img src="{{ section.settings.second_ingrediant_image | img_url: 'master' }}" alt="Second Ingrediant">
+          </div>
+        </div>
+        <div class="third-ingrediant-block">
+          <div class="ingrediant-text">
+            {{ section.settings.third_ingrediant_heading }}
+          </div>
+          <div class="ingrediant-image">
+            <img src="{{ section.settings.third_ingrediant_image | img_url: 'master' }}" alt="{{ section.settings.third_ingrediant_heading }}">
+          </div>
+        </div>  
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Product Image Ingrediants",
+    "tag": "section",
+    "class": "product-img-ingrediants",
+    "settings": [
+      {
+			"type": "select",
+			"id": "width",
+			"label": "Width",
+			"default": "wrapper",
+			"options": [
+				{
+					"value": "wrapper--full",
+					"label": "Full width padded"
+				},
+				{
+					"value": "wrapper",
+					"label": "Page width"
+				},
+				{
+					"value": "wrapper--narrow",
+					"label": "Page width narrow"
+				}
+			]
+		},
+      {
+        "type": "text",
+        "id": "ingrediants_heading",
+        "label": "Heading",
+        "default": "Quick links"
+      },{
+        "type": "text",
+        "id": "first_ingrediant_heading",
+        "label": "1st Image Heading",
+        "default": "Quick links"
+      },{
+        "type": "image_picker",
+        "id": "first_ingrediant_image",
+        "label": "1st Ingrediant Image"
+      },{
+          "type": "image_picker",
+          "id": "second_ingrediant_image",
+          "label": "2nd Ingrediant Image"
+        },{
+        "type": "richtext",
+        "id": "third_ingrediant_heading",
+        "label": "3rd Image Text"
+      },{
+        "type": "image_picker",
+        "id": "third_ingrediant_image",
+        "label": "3rd Ingrediant Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product Image Ingrediants",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

@@ -583,6 +583,56 @@
         "padding_bottom": 34
       }
     },
+    "prd_img_ingrediants_eaxEAf": {
+      "type": "prd-img-ingrediants",
+      "name": "Product Image Ingrediants",
+      "settings": {
+        "width": "wrapper--full",
+        "ingrediants_heading": "We harness the power of plants to give your skin life.",
+        "first_ingrediant_heading": "If you can't eat it why put it on your skin?",
+        "first_ingrediant_image": "shopify://shop_images/2025_KISH_Peak-Scents_DK34242_1.png",
+        "second_ingrediant_image": "shopify://shop_images/4_11b475c0-1e1f-436a-bfb0-7d277fa5f29c_1.png",
+        "third_ingrediant_heading": "<p>At Peak Scents, we blend plant intelligence with skin-supportive actives to create skincare that delivers visible results. Rooted in nature and refined by science, our formulas are designed to support long-term skin health and radiance.<br/><br/>Always cruelty-free, vegan or beegan, and made with the highest-quality non-toxic ingredients.</p>",
+        "third_ingrediant_image": "shopify://shop_images/shop-power-repair-foaming-cleanser-2_1.png"
+      }
+    },
+    "1771158895953b43ac": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_9841a88_YBT7Xd": {
+          "type": "ai_gen_block_9841a88",
+          "settings": {
+            "heading": "Level up skincare routine with our bundles",
+            "heading_color": "#000000",
+            "bundle_image": "shopify://shop_images/Untitled_design_-_2024-09-25T150842.529_1.png",
+            "product_1": "babchi-beauty-bundle",
+            "product_2": "organic-herbal-hair-and-scalp-treatment",
+            "product_3": "organic-herbal-hair-and-scalp-treatment",
+            "product_4": "body-nurish™-renewal-peel",
+            "product_5": "body-shimmer",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "#e0e0e0",
+            "text_color": "#000000",
+            "price_color": "#000000",
+            "show_rating": false,
+            "star_color": "#ffa500",
+            "button_color": "#40656e",
+            "button_text_color": "#ffffff",
+            "button_hover_color": "#2e4a52",
+            "input_border_color": "#cccccc",
+            "bundle_button_text": "Buy this bundle",
+            "bundle_button_color": "#40656e",
+            "bundle_button_text_color": "#ffffff",
+            "bundle_button_hover_color": "#2e4a52"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_9841a88_YBT7Xd"
+      ],
+      "settings": {}
+    },
     "section_hero_xGDqpq": {
       "type": "section-hero",
       "blocks": {
@@ -1077,6 +1127,8 @@
     "section_product_PQ7wdH",
     "section_icons_6wWwpx",
     "double",
+    "prd_img_ingrediants_eaxEAf",
+    "1771158895953b43ac",
     "section_hero_xGDqpq",
     "section_list_collections_LCFALM",
     "section_product_kYiBFf",
