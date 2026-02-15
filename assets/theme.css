@@ -18559,21 +18559,24 @@ body:not(.theme-animate-hover) .header__desktop__buttons--icons .header__desktop
   visibility: hidden;
 }
 
-.js__show__mobile .header__mobile,
-[data-header-style=drawer] .header__mobile {
-  display: grid;
-}
+
 
 .js__show__mobile .theme__header__toolbar,
 [data-header-style=drawer] .theme__header__toolbar {
   display: block;
 }
 
+
+@media screen and (max-width: 1024px){
 .js__show__mobile .header__desktop,
 [data-header-style=drawer] .header__desktop {
   display: none;
 }
-
+.js__show__mobile .header__mobile,
+[data-header-style=drawer] .header__mobile {
+  display: grid;
+}
+}
 .theme__header__toolbar__text {
   overflow: hidden;
   position: relative;
