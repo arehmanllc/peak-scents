@@ -1,0 +1,7 @@
+.collection-tabs h2{
+  font-size: clamp(24px, 5vw, 42px);
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #494441;
+}

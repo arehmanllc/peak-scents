@@ -1,5 +1,5 @@
 <!-- /sections/section-icons.liquid -->
-
+{{ 'icons-with-txt.css' | asset_url |  stylesheet_tag }}
 {% case section.blocks.size %}
   {% when 1 %}
     {%- assign grid_item_width_desktop = 'medium-up--one-half medium-up--push-one-quarter' -%}
@@ -47,7 +47,7 @@
         {% if section.blocks.size == 5 and forloop.index == 3 %}<div class="clearfix"></div>{% endif %}
         {%- assign delay = forloop.index | times: 100 | plus: 100 -%}
 
-        <div class="grid__item {{ column_width }} {{ section.settings.align_text }}" {{ block.shopify_attributes }}>
+        <div class="grid__item  {{ section.settings.align_text }}" {{ block.shopify_attributes }}>
           <div class="icon__column {{ section.settings.icon_alignment }}">
             {%- if block.settings.icon_alt != blank -%}
               {%- assign icon_width = section.settings.icons_size %}

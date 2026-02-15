@@ -1,0 +1,9 @@
+.section-icons .icon__column__paragraph{
+  font-size: 12px;
+}
+.section-icons h2{
+  font-size: clamp(24px, 5vw, 42px);
+}
+.section-icons .grid--slider {
+  display: flex;
+}

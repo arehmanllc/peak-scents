@@ -1,0 +1,249 @@
+<!-- /snippets/product-grid-item-variant-dropdown.liquid -->
+
+{% comment %}
+  Dropdown variant selector for product grid items
+{% endcomment %}
+
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign sold_out = false
+  unless product.available
+    assign sold_out = true
+  endunless
+  
+  if sold_out
+    assign button_text = 'Sold Out'
+    assign button_disabled = 'disabled'
+  else
+    assign button_text = 'Add to Bag'
+    assign button_disabled = ''
+  endif
+  
+  if current_variant.compare_at_price > current_variant.price
+    assign price_display = '<span class="compare-at-price">' | append: current_variant.compare_at_price | append: '</span> ' | append: current_variant.price
+  else
+    assign price_display = current_variant.price
+  endif
+-%}
+
+<div class="product-grid-item__dropdown-wrapper" data-product-id="{{ product.id }}">
+  <!-- Variant Dropdown -->
+  <div class="product-grid-item__variant-selector">
+    <div class="custom-select-wrapper">
+      <select 
+        id="product-{{ product.id }}-variant-select" 
+        class="product-variant-select"
+        onchange="updateProductVariant({{ product.id }}, this.value);"
+      >
+        {%- for variant in product.variants -%}
+          <option 
+            value="{{ variant.id }}"
+            data-price="{{ variant.price }}"
+            data-compare-price="{{ variant.compare_at_price }}"
+            data-available="{{ variant.available }}"
+            data-title="{{ variant.title | escape }}"
+            {% if variant.id == current_variant.id %}selected{% endif %}
+            {% unless variant.available %}disabled{% endunless %}
+          >
+            {{ variant.title }}{% unless variant.available %} - Sold Out{% endunless %}
+          </option>
+        {%- endfor -%}
+      </select>
+      <div class="custom-select-arrow">
+        {% render 'icon-core-chevron-down' %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Add to Bag Button with Price -->
+  <div class="product-grid-item__add-to-bag-wrapper">
+    <form method="post" action="/cart/add" id="product-form-{{ product.id }}" accept-charset="UTF-8" class="product-grid-item__add-form">
+      <input type="hidden" name="form_type" value="product">
+      <input type="hidden" name="utf8" value="✓">
+      <input 
+        type="hidden" 
+        name="id" 
+        id="product-{{ product.id }}-variant-input" 
+        value="{{ current_variant.id }}"
+      >
+      
+      <button 
+        type="submit" 
+        class="product-grid-item__add-to-bag-btn bg-button type-accent font-bold text-r3 transition-opacity duration-200 w-full"
+        data-add-to-cart
+        data-variant-id="{{ current_variant.id }}"
+        {{ button_disabled }}
+      >
+        <span class="add-to-bag-text">{{ button_text }}</span>
+        <span class="add-to-bag-price" data-price-display>{{ current_variant.price | money }}</span>
+      </button>
+    </form>
+  </div>
+</div>
+
+<style>
+.product-grid-item__dropdown-wrapper {
+  margin-top: 12px;
+}
+
+.product-grid-item__variant-selector {
+  margin-bottom: 8px;
+}
+
+.custom-select-wrapper {
+  position: relative;
+  display: block;
+}
+
+.product-variant-select {
+  width: 100%;
+  padding: 8px 32px 8px 12px;
+  border: 1px solid #e5e5e5;
+  background: white;
+  border-radius: 4px;
+  min-height: 40px;
+  font-size: 14px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.product-variant-select:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+.custom-select-arrow {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.custom-select-arrow svg {
+  width: 12px;
+  height: 12px;
+  fill: #666;
+}
+
+.product-grid-item__add-to-bag-wrapper {
+  margin-top: 8px;
+}
+
+.product-grid-item__add-to-bag-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  width: 100%;
+  min-height: 44px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.product-grid-item__add-to-bag-btn:hover:not(:disabled) {
+  opacity: 0.8;
+}
+
+.product-grid-item__add-to-bag-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.add-to-bag-price {
+  font-weight: 600;
+}
+
+.compare-at-price {
+  text-decoration: line-through;
+  opacity: 0.6;
+  margin-right: 4px;
+}
+</style>
+
+<script>
+// Global function to handle variant updates
+function updateProductVariant(productId, variantId) {
+  const select = document.getElementById(`product-${productId}-variant-select`);
+  const selectedOption = select.options[select.selectedIndex];
+  
+  // Update the hidden input
+  const input = document.getElementById(`product-${productId}-variant-input`);
+  if (input) {
+    input.value = variantId;
+  }
+  
+  // Get variant data
+  const price = parseFloat(selectedOption.dataset.price);
+  const comparePrice = parseFloat(selectedOption.dataset.comparePrice);
+  const available = selectedOption.dataset.available === 'true';
+  const title = selectedOption.dataset.title;
+  
+  // Update the add to cart button
+  const addToCartBtn = document.querySelector(`.product-grid-item__dropdown-wrapper[data-product-id="${productId}"] .product-grid-item__add-to-bag-btn`);
+  if (addToCartBtn) {
+    // Update variant ID
+    addToCartBtn.dataset.variantId = variantId;
+    
+    // Update price display
+    const priceDisplay = addToCartBtn.querySelector('[data-price-display]');
+    if (priceDisplay) {
+      let priceText = '';
+      if (comparePrice && comparePrice > price) {
+        priceText = `<span class="compare-at-price">${formatMoney(comparePrice)}</span> ${formatMoney(price)}`;
+      } else {
+        priceText = formatMoney(price);
+      }
+      priceDisplay.innerHTML = priceText;
+    }
+    
+    // Update button text and state
+    const buttonText = addToCartBtn.querySelector('.add-to-bag-text');
+    if (buttonText) {
+      buttonText.textContent = available ? 
+        'Add to Bag' : 
+        'Sold Out';
+    }
+    addToCartBtn.disabled = !available;
+  }
+}
+
+function formatMoney(priceInCents) {
+  // Use Shopify's formatMoney if available, otherwise fallback
+  if (typeof Shopify !== 'undefined' && Shopify.formatMoney) {
+    return Shopify.formatMoney(priceInCents, {{ shop.money_format | json }});
+  }
+  
+  // Fallback formatting: convert cents to dollars
+  const money = priceInCents / 100;
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: '{{ shop.currency }}'
+  }).format(money);
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+  // Check if theme has existing cart functionality
+  if (typeof theme !== 'undefined' && theme.ajaxCart) {
+    // Use theme's existing AJAX cart
+    const productForms = document.querySelectorAll('.product-grid-item__add-form');
+    productForms.forEach(form => {
+      if (theme.ajaxCart.init) {
+        theme.ajaxCart.init(form);
+      }
+    });
+  } else {
+    // Fallback: Let the form submit normally
+    // This will redirect to cart but at least it works
+    console.log('Using fallback form submission');
+  }
+});
+</script>

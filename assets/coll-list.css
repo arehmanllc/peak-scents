@@ -1,0 +1,14 @@
+.section-list-collections .hero__content__wrapper{
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.section-list-collections .collection-grid-item__title{
+  width: fit-content;
+}
+.section-list-collections h2{
+  font-size: clamp(24px, 5vw, 42px);
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #494441;
+}

@@ -9,162 +9,293 @@
  */
 {
   "sections": {
-    "section_double_bbmNkD": {
-      "type": "section-double",
+    "section_hero_FXzPH7": {
+      "type": "section-hero",
       "blocks": {
-        "text_QFUTac": {
-          "type": "text",
+        "heading_YyjWQk": {
+          "type": "heading",
           "settings": {
-            "kicker": "",
-            "title": "Intelligent Skincare,                                                                            Powered by Nature",
-            "text": "<p><br/>Thoughtfully formulated to support skin’s natural renewal, enhance resilience, and restore lasting hydration. </p><p>For smoother, more radiant & beautifully balanced skin.<br/><br/></p>",
-            "font_size": 6,
-            "text_columns": 1,
-            "align_text": "text-center",
-            "button_text": "Our Story",
-            "button_url": "shopify://pages/about",
-            "button_color": "btn--secondary",
-            "button_style": "btn btn--long",
-            "text_color": "text--neutral",
-            "bg_color": "#f2f2f2"
+            "title": "Clean Skin, Thoughtful Care",
+            "text_size": 8
           }
         },
-        "image_NUqKcg": {
-          "type": "image",
+        "text_zq6pgy": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/2024-July-PeakScents-22.jpg",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "enable_overlay_text": false,
-            "kicker": "",
-            "title": "",
-            "richtext": "",
-            "text_align": "align--middle-center",
-            "text_color": "text--white",
-            "link_text": "",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "btn"
+            "richtext": "<p>Plant-powered cleansers that gently remove impurities while protecting your skin barrier, leaving it calm, balanced, and naturally refreshed every day.</p>",
+            "text_size": 3
+          }
+        },
+        "button_WKRy8B": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop by Products",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
           }
         }
       },
       "block_order": [
-        "text_QFUTac",
-        "image_NUqKcg"
+        "heading_YyjWQk",
+        "text_zq6pgy",
+        "button_WKRy8B"
       ],
-      "disabled": true,
+      "name": "Image banner",
       "settings": {
-        "height": "use_screen_three_quarters",
-        "brick_gutter": 0,
-        "borders": false,
-        "bg_color": "",
-        "preload_image": true,
+        "image": "shopify://shop_images/palo-santo-clearing-protection-spray-6_1.png",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 550,
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
-    "section_double_9x8qck": {
-      "type": "section-double",
+    "section_list_collections_4CJzFp": {
+      "type": "section-list-collections",
       "blocks": {
-        "text_rhM4Fc": {
-          "type": "text",
-          "disabled": true,
+        "collection_yCnBzb": {
+          "type": "collection",
           "settings": {
-            "kicker": "",
-            "title": "The Same Plant Based Formula You Love, With a Fresh New Look",
-            "text": "<p>Rose Phyto3 products are the same effective quality just now housed in sleek, black UV-protected bottles that are stunning and benefit the skin care you know and love. Our new black bottles are designed to protect the integrity of our formulas by shielding them from harmful light, extend the products shelf life, and include upgraded sprayers and pumps to provide you with a smoother, more precise application.<br/></p>",
-            "font_size": 4,
-            "text_columns": 1,
-            "align_text": "text-center",
-            "button_text": "Shop The SALE",
-            "button_url": "shopify://collections/organic-rose-phyto3",
-            "button_color": "btn--black",
-            "button_style": "btn btn--long",
-            "text_color": "text--neutral",
-            "bg_color": ""
+            "collection": "organic-rose-phyto3",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
           }
         },
-        "image_y6tQWN": {
-          "type": "image",
+        "collection_J73ebP": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/LOVE_SALE_20_OFF_4.png",
-            "overlay_opacity": 0,
+            "collection": "power-repair",
             "overlay_color": "#000000",
-            "enable_overlay_text": false,
-            "kicker": "",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
             "title": "",
-            "richtext": "",
-            "text_align": "align--middle-center",
-            "text_color": "text--white",
-            "link_text": "",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "btn"
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_e3TxYa": {
+          "type": "collection",
+          "settings": {
+            "collection": "body-nurish",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_Uzi9wm": {
+          "type": "collection",
+          "settings": {
+            "collection": "peak-scents",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_EAhhyp": {
+          "type": "collection",
+          "settings": {
+            "collection": "wandering-the-west-apothecary-products",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
           }
         }
       },
       "block_order": [
-        "text_rhM4Fc",
-        "image_y6tQWN"
+        "collection_yCnBzb",
+        "collection_J73ebP",
+        "collection_e3TxYa",
+        "collection_Uzi9wm",
+        "collection_EAhhyp"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Shop By Collections",
+        "bg": "palette--light bg--neutral",
+        "carousel_enabled_on": "both",
+        "collection_limit": 35,
+        "wh_ratio": 1.5,
+        "grid_large": 4,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "heading",
+        "title_size": 5,
+        "accent_size": 3,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_collection_tabs_pC6g69": {
+      "type": "section-collection-tabs",
+      "blocks": {
+        "collection_w4BwrB": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-plant-based-products",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_w4BwrB"
+      ],
+      "settings": {
+        "title": "Shop Our Best Sellers",
+        "progress_bar": "both",
+        "grid_large": 4,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "limit": 20,
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_video_8p8qyV": {
+      "type": "section-video",
+      "blocks": {
+        "heading_THYBG8": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Story",
+            "text_size": 10
+          }
+        },
+        "video_hKpYbx": {
+          "type": "video",
+          "settings": {
+            "video_link": "https://vimeo.com/467464460",
+            "popup_text": "Peak Scents Brand Story",
+            "button_width": 80,
+            "button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_THYBG8",
+        "video_hKpYbx"
+      ],
+      "settings": {
+        "height": "use_screen_three_quarters",
+        "color_bg": "palette--light bg--neutral",
+        "object_position": "right-center",
+        "image": "shopify://shop_images/DeeAnn_Tracy_Founder_Peak_Scents_jpg_1.jpg",
+        "preload_image": false,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 35,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "section_video_Cx67qz": {
+      "type": "section-video",
+      "blocks": {
+        "heading_MjNVdi": {
+          "type": "heading",
+          "settings": {
+            "title": "Plant Based Skincare Just as Nature Intended",
+            "text_size": 11
+          }
+        },
+        "button_e9fKHt": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Learn More About the Process",
+            "link_1": "shopify://pages/our-process",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn--soft",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MjNVdi",
+        "button_e9fKHt"
       ],
       "disabled": true,
       "settings": {
         "height": "use_screen_three_quarters",
-        "brick_gutter": 0,
-        "borders": false,
-        "bg_color": "",
-        "preload_image": false,
-        "width": "wrapper--none",
-        "padding_top": 18,
-        "padding_bottom": 0
-      }
-    },
-    "section_image_aAq4mN": {
-      "type": "section-image",
-      "name": "Image",
-      "settings": {
-        "image": "shopify://shop_images/LOVE_SALE_BANNER.jpg",
-        "max_width": 100,
-        "x_align": "center",
         "color_bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "section_list_collections_products_tRt4CQ": {
-      "type": "section-list-collections-products",
-      "blocks": {
-        "collection_kPbUwH": {
-          "type": "collection",
-          "settings": {
-            "collection": "organic-rose-phyto3",
-            "title": "",
-            "link_text": "",
-            "enable_item": true,
-            "item_link_height": "full",
-            "text": "",
-            "background_color": "#fcfaf7",
-            "text_color": "text--neutral",
-            "link_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "collection_kPbUwH"
-      ],
-      "name": "Collection product grid",
-      "settings": {
-        "title": "SHOP THE SALE",
-        "bg": "palette--light bg--neutral",
-        "grid": 5,
-        "rows": 1,
-        "enable_scroll_mobile": true,
-        "grid_small": 1.2,
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "video_bg": "shopify://files/videos/Untitled design (2).mp4",
+        "object_position": "center-center",
+        "image": "shopify://shop_images/DeeAnn_Tracy_Founder_Peak_Scents_jpg_1_1.png",
+        "preload_image": true,
+        "text_align": "align--bottom-center",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#252525",
+        "enable_overlay_text": false,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 60
       }
     },
     "section_richtext_aF8AjU": {
@@ -191,231 +322,6 @@
         "width": "wrapper",
         "padding_top": 108,
         "padding_bottom": 36
-      }
-    },
-    "7b14c705-8069-431f-bec4-23d4378d408d": {
-      "type": "section-richtext",
-      "blocks": {
-        "kicker_Kg9WCU": {
-          "type": "kicker",
-          "settings": {
-            "kicker": "",
-            "enable_line": true,
-            "text_size": 4
-          }
-        },
-        "heading_FUUBBg": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "If you can't eat it why put it on your skin?",
-            "text_size": 7
-          }
-        },
-        "template--14885873025113__7b14c705-8069-431f-bec4-23d4378d408d-1673384477f63ffd19-2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><br/>At Peak Scents, we blend plant intelligence with skin-supportive actives to create skincare that delivers visible results. Rooted in nature and refined by science, our formulas are designed to support long-term skin health and radiance. </p><p></p><p>Always cruelty-free, vegan or beegan, and made with the highest-quality non-toxic ingredients.<br/><br/></p>",
-            "text_size": 5,
-            "text_columns": 1
-          }
-        },
-        "button_rCarEa": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "link_text_1": "Our Story",
-            "link_1": "shopify://pages/about",
-            "button_size_1": "btn--long",
-            "button_style_1": "btn--soft",
-            "button_color_1": "btn--black",
-            "link_text_2": "find a custom routine",
-            "link_2": "shopify://pages/build-your-own-routine",
-            "button_size_2": "btn--long",
-            "button_style_2": "btn-text-thick-line",
-            "button_color_2": "btn--black",
-            "link_text_3": "",
-            "link_3": "",
-            "button_size_3": "btn--long",
-            "button_style_3": "btn-text-thick-line",
-            "button_color_3": "btn--white"
-          }
-        }
-      },
-      "block_order": [
-        "kicker_Kg9WCU",
-        "heading_FUUBBg",
-        "template--14885873025113__7b14c705-8069-431f-bec4-23d4378d408d-1673384477f63ffd19-2",
-        "button_rCarEa"
-      ],
-      "settings": {
-        "align_text": "text-center",
-        "text_color": "text--black",
-        "bg": "palette--light bg--neutral",
-        "content_width": 750,
-        "width": "wrapper--full",
-        "padding_top": 0,
-        "padding_bottom": 80
-      }
-    },
-    "logos": {
-      "type": "section-logos",
-      "blocks": {
-        "logo-0": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "link": "",
-            "new_tab": true,
-            "width": 140,
-            "spacing": 50
-          }
-        },
-        "logo-1": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/Arizona_1.png",
-            "link": "",
-            "new_tab": true,
-            "width": 175,
-            "spacing": 50
-          }
-        },
-        "logo-2": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/elephant.png",
-            "link": "",
-            "new_tab": true,
-            "width": 195,
-            "spacing": 50
-          }
-        },
-        "logo-3": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/spabeautytoday_1.png",
-            "link": "",
-            "new_tab": true,
-            "width": 190,
-            "spacing": 50
-          }
-        },
-        "logo-4": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/Entrepreneur.png",
-            "link": "",
-            "new_tab": true,
-            "width": 190,
-            "spacing": 50
-          }
-        },
-        "bdb5fede-5644-45fb-8807-749b8ebf2fe1": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/buzzfeed.png",
-            "link": "",
-            "new_tab": true,
-            "width": 185,
-            "spacing": 50
-          }
-        },
-        "logo_image_UqPVGg": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/Bustle_4aed3cc5-a5b9-412e-ac69-8ac92ae88088.png",
-            "link": "",
-            "new_tab": true,
-            "width": 140,
-            "spacing": 50
-          }
-        },
-        "beeaa0b2-5f40-4285-a1be-fa9e1c331610": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/outside.png",
-            "link": "",
-            "new_tab": true,
-            "width": 155,
-            "spacing": 50
-          }
-        },
-        "5c7aebe2-18a7-406b-b084-c9b1d414ceba": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/Background-1_1.png",
-            "link": "",
-            "new_tab": true,
-            "width": 195,
-            "spacing": 50
-          }
-        },
-        "8cfa1a7a-7a7d-48ed-941b-1f590146d7f7": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/flower-logo-300_1.png",
-            "link": "",
-            "new_tab": true,
-            "width": 165,
-            "spacing": 50
-          }
-        },
-        "fc3681b1-ed5c-46ed-9edb-796de0800809": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/Instyle_logo_PNG5.png",
-            "link": "",
-            "new_tab": true,
-            "width": 140,
-            "spacing": 50
-          }
-        },
-        "2d135d17-d9a6-45c3-9b9e-a8a87a805883": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/PureWow-logo.png",
-            "link": "",
-            "new_tab": true,
-            "width": 140,
-            "spacing": 50
-          }
-        },
-        "c10a948c-bd10-4743-bbc2-52f2f82c92cb": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_-_2023-07-18T141439.053.jpg",
-            "link": "",
-            "new_tab": true,
-            "width": 140,
-            "spacing": 50
-          }
-        }
-      },
-      "block_order": [
-        "logo-0",
-        "logo-1",
-        "logo-2",
-        "logo-3",
-        "logo-4",
-        "bdb5fede-5644-45fb-8807-749b8ebf2fe1",
-        "logo_image_UqPVGg",
-        "beeaa0b2-5f40-4285-a1be-fa9e1c331610",
-        "5c7aebe2-18a7-406b-b084-c9b1d414ceba",
-        "8cfa1a7a-7a7d-48ed-941b-1f590146d7f7",
-        "fc3681b1-ed5c-46ed-9edb-796de0800809",
-        "2d135d17-d9a6-45c3-9b9e-a8a87a805883",
-        "c10a948c-bd10-4743-bbc2-52f2f82c92cb"
-      ],
-      "settings": {
-        "title": "As Seen In",
-        "bg": "palette--light bg--neutral",
-        "enable_marquee": true,
-        "marquee_speed": 60,
-        "width": "wrapper--none",
-        "padding_top": 28,
-        "padding_bottom": 16
       }
     },
     "section_product_PQ7wdH": {
@@ -539,57 +445,6 @@
         "padding_bottom": 36
       }
     },
-    "section_video_Cx67qz": {
-      "type": "section-video",
-      "blocks": {
-        "heading_MjNVdi": {
-          "type": "heading",
-          "settings": {
-            "title": "Plant Based Skincare Just as Nature Intended",
-            "text_size": 11
-          }
-        },
-        "button_e9fKHt": {
-          "type": "button",
-          "settings": {
-            "link_text_1": "Learn More About the Process",
-            "link_1": "shopify://pages/our-process",
-            "button_size_1": "btn--medium",
-            "button_style_1": "btn--soft",
-            "button_color_1": "btn--white",
-            "link_text_2": "",
-            "link_2": "",
-            "button_size_2": "btn--long",
-            "button_style_2": "btn-text-thick-line",
-            "button_color_2": "btn--white",
-            "link_text_3": "",
-            "link_3": "",
-            "button_size_3": "btn--long",
-            "button_style_3": "btn-text-thick-line",
-            "button_color_3": "btn--white"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MjNVdi",
-        "button_e9fKHt"
-      ],
-      "settings": {
-        "height": "use_screen_three_quarters",
-        "color_bg": "palette--light bg--neutral",
-        "video_bg": "shopify://files/videos/Untitled design (2).mp4",
-        "object_position": "right-center",
-        "preload_image": false,
-        "text_align": "align--bottom-center",
-        "text_color": "text--white",
-        "overlay_opacity": 15,
-        "overlay_color": "#252525",
-        "enable_overlay_text": false,
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_icons_6wWwpx": {
       "type": "section-icons",
       "blocks": {
@@ -597,6 +452,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/Frame.png",
             "icon_color": "#40656e",
             "title": "Made by Hand in the USA",
             "text": "<p>All of our products are made by our team at our Flagstaff, Arizona location. Come say hi if you're in town! </p>",
@@ -608,6 +464,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-animal-paw",
+            "icon_alt": "shopify://shop_images/Frame_1.png",
             "icon_color": "#40656e",
             "title": "Cruelty Free & beegan",
             "text": "<p>Our products are never tested on animals and we let you know when they are free of beeswax.</p>",
@@ -619,6 +476,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-recycled",
+            "icon_alt": "shopify://shop_images/Frame_2.png",
             "icon_color": "#40656e",
             "title": "Ethical & Sustainable",
             "text": "<p>Peak Scents is committed to creating skin care products that make a difference.</p>",
@@ -630,6 +488,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-store",
+            "icon_alt": "shopify://shop_images/Frame_3.png",
             "icon_color": "#40656e",
             "title": "Women Owned & Operated",
             "text": "<p>Founded by second-generation herbalist DeeAnn Tracy<br/><br/></p>",
@@ -641,6 +500,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/Frame_4.png",
             "icon_color": "#40656e",
             "title": "Non - Toxic ingredients",
             "text": "<p>We believe in the power of plants. You won't find anything harmful here.</p>",
@@ -656,423 +516,17 @@
         "icon_block_YEFRPK",
         "icon_block_wtgVCa"
       ],
-      "custom_css": [
-        ".grid__item {justify-content: center;}"
-      ],
+      "custom_css": [],
       "settings": {
-        "title": "",
-        "bg": "palette--light bg--neutral",
-        "icons_size": 22,
+        "title": "Why Peak Scents",
+        "bg": "palette--bright bg--bright",
+        "icons_size": 50,
         "icon_alignment": "icon--top",
         "layout": "grid--slider",
         "align_text": "text-center",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 56
-      }
-    },
-    "17090580256cfdc610": {
-      "type": "apps",
-      "blocks": {
-        "quizell_quizeel_new_TX34B8": {
-          "type": "shopify://apps/quizell/blocks/quizeel-new/be73d783-51c5-48d3-b979-2641da706c4e",
-          "settings": {
-            "quizz_id": "1mRbFl0GihYPVPgApTpOMS821700",
-            "quizz_id_utm": "",
-            "quizz_display_type": "1",
-            "full_screen_quiz": false,
-            "quizz_default": "1",
-            "quizz_close_btn": "1",
-            "close_icon_color": "#000000",
-            "iframe_height": 540
-          }
-        }
-      },
-      "block_order": [
-        "quizell_quizeel_new_TX34B8"
-      ],
-      "settings": {
-        "text_color": "text--primary",
-        "bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "section_list_collections_4pWa7t": {
-      "type": "section-list-collections",
-      "blocks": {
-        "collection_w7MbJq": {
-          "type": "collection",
-          "settings": {
-            "collection": "combination-to-oily-skin",
-            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-114.jpg",
-            "overlay_color": "#494441",
-            "overlay_opacity": 45,
-            "top_text": "",
-            "top_text_disabled": true,
-            "title": "Oily/Acne Prone",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        },
-        "collection_XaxPdB": {
-          "type": "collection",
-          "settings": {
-            "collection": "dry-skin-solutions",
-            "image": "shopify://shop_images/Untitled_design_-_2024-09-25T151200.572.jpg",
-            "overlay_color": "#494441",
-            "overlay_opacity": 45,
-            "top_text": "",
-            "top_text_disabled": true,
-            "title": "Dry",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        },
-        "collection_38hybV": {
-          "type": "collection",
-          "settings": {
-            "collection": "normal-skincare-routines",
-            "image": "shopify://shop_images/ShellyStrazis-08911.jpg",
-            "overlay_color": "#494441",
-            "overlay_opacity": 45,
-            "top_text": "",
-            "top_text_disabled": true,
-            "title": "Balanced",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        },
-        "collection_xjUJnB": {
-          "type": "collection",
-          "settings": {
-            "collection": "graceful-aging",
-            "image": "shopify://shop_images/Untitled_design_-_2024-03-14T141843.516.jpg",
-            "overlay_color": "#494441",
-            "overlay_opacity": 45,
-            "top_text": "",
-            "top_text_disabled": true,
-            "title": "Mature Beauty",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        },
-        "collection_JhQp4D": {
-          "type": "collection",
-          "settings": {
-            "collection": "sensitive",
-            "overlay_color": "#494441",
-            "overlay_opacity": 45,
-            "top_text": "",
-            "top_text_disabled": true,
-            "title": "Sensitive",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        },
-        "collection_czgcin": {
-          "type": "collection",
-          "settings": {
-            "collection": "sun-loving",
-            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-26_3.jpg",
-            "overlay_color": "#494441",
-            "overlay_opacity": 45,
-            "top_text": "",
-            "top_text_disabled": false,
-            "title": "Sun Loving",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        }
-      },
-      "block_order": [
-        "collection_w7MbJq",
-        "collection_XaxPdB",
-        "collection_38hybV",
-        "collection_xjUJnB",
-        "collection_JhQp4D",
-        "collection_czgcin"
-      ],
-      "settings": {
-        "title": "Shop by Skin Type",
-        "bg": "palette--light bg--neutral",
-        "carousel_enabled_on": "mobile",
-        "collection_limit": 36,
-        "wh_ratio": 1.5,
-        "grid_large": 3,
-        "grid_medium": 2,
-        "grid_mobile": 1.4,
-        "font_family": "body",
-        "title_size": 8,
-        "accent_size": 3,
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "section_collection_tabs_pC6g69": {
-      "type": "section-collection-tabs",
-      "blocks": {
-        "collection_w4BwrB": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-plant-based-products",
-            "title": ""
-          }
-        },
-        "collection_MPJbVG": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-sellers",
-            "title": ""
-          }
-        },
-        "collection_YPHXfV": {
-          "type": "collection",
-          "settings": {
-            "collection": "body",
-            "title": "For the Body"
-          }
-        },
-        "collection_PA6H4i": {
-          "type": "collection",
-          "settings": {
-            "collection": "graceful-aging",
-            "title": "For the Face"
-          }
-        }
-      },
-      "block_order": [
-        "collection_w4BwrB",
-        "collection_MPJbVG",
-        "collection_YPHXfV",
-        "collection_PA6H4i"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "progress_bar": "mobile",
-        "grid_large": 4,
-        "grid_medium": 3,
-        "grid_mobile": 1.2,
-        "limit": 6,
-        "bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "f5fe8fb1-11f7-4615-93ae-e901e813b1fa": {
-      "type": "section-richtext",
-      "blocks": {
-        "template--14885873025113__f5fe8fb1-11f7-4615-93ae-e901e813b1fa-1674045891706e8bfd-0": {
-          "type": "kicker",
-          "settings": {
-            "kicker": "Love for Peak Scents",
-            "enable_line": false,
-            "text_size": 5
-          }
-        },
-        "template--14885873025113__f5fe8fb1-11f7-4615-93ae-e901e813b1fa-1674045891706e8bfd-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Client Testimonials",
-            "text_size": 9
-          }
-        }
-      },
-      "block_order": [
-        "template--14885873025113__f5fe8fb1-11f7-4615-93ae-e901e813b1fa-1674045891706e8bfd-0",
-        "template--14885873025113__f5fe8fb1-11f7-4615-93ae-e901e813b1fa-1674045891706e8bfd-1"
-      ],
-      "settings": {
-        "align_text": "text-center",
-        "text_color": "text--black",
-        "bg": "palette--bright bg--bright",
-        "content_width": 2000,
-        "width": "wrapper",
-        "padding_top": 80,
-        "padding_bottom": 0
-      }
-    },
-    "ss_testimonial_5_MG86b6": {
-      "type": "ss-testimonial-5",
-      "blocks": {
-        "slide_UcqiDG": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_-_2024-04-09T094218.985.jpg",
-            "stars_count": 5,
-            "text": "By the time you finish an experience like the Gaucho Derby, a 500 km multi-horse adventure race in Patagonia, you realize what things you brought that absolutely were essential and you were so grateful for. For me, the top of that short list were my Peak Scents skin products. I was so grateful for Peak Scents’ support of my adventure race. I have used Peak Scents skin products for decades as a Grand Canyon river guide, and as the oldest Gaucho Derby competitor by a decade, these products helped me keep that fact under wraps!",
-            "author": "M. Williams"
-          }
-        },
-        "slide_8hBxff": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Avalon_Photo.heic",
-            "stars_count": 5,
-            "text": "I have been using Peak Scents' products exclusively since I was in middle school, and my skin could not be happier! I absolutely love PS products because of their natural ingredients, and I never have to worry about them irritating my skin. Peak Scents got me through the awkward stages of puberty without damaging my skin barrier with harmful ingredients. My skin feels fresh, plump, and rejuvenated because of PS products. Not only this, but I love the sustainably sourced ingredients and reusable/refillable glass options. I'll always go to Peak Scents to take care of my skin and support ethical & environmentally conscious causes.",
-            "author": "A. Moore"
-          }
-        },
-        "slide_tfTtUQ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2024-02-29_at_3.17.09_PM.png",
-            "stars_count": 5,
-            "text": "I've experimented with numerous skincare products throughout the years, but none have impressed me quite like Peak Scents. Not only are their formulations entirely natural, but they're also incredibly effective. Witnessing visible results from products that harness the power of nature is truly remarkable. I'm thrilled to have stumbled upon Peak Scents and their all-natural effective skincare solutions. As someone who values supporting female-owned businesses, it's a privilege to endorse them. Among their exceptional range, the Babachi Serum, Eye Cream, and Hyaluronic C stand out as my ultimate favorites. Thank you, Peak Scents, for revolutionizing my skincare routine!",
-            "author": "R. Crenshaw"
-          }
-        },
-        "slide_BLc8QA": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/2024-TaylorMiller--138_09504171-2417-4e67-b591-99df9232db77.jpg",
-            "stars_count": 5,
-            "text": "I am so happy my skin found Peak Scents. I use the Rose Phyto3 products as a daily routine and my skin LOVES it. I get complements all the time on how hydrated and glowing my complexion looks. I also use Peak Scents sunscreen products daily. I have very sensitive skin and live at high elevation so having sun protection I trust is a must. My skin stays safe and healthy on all of my adventures thanks to Peak Scents. I am so grateful that DeeAnn and team support the reuse of their products packaging with their refill station in store. It is so nice to know that my skincare routine is not adding to a landfill every time I need a new batch of products.",
-            "author": "T. Miller"
-          }
-        },
-        "slide_iaDxrm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/IMG_1575_1.jpg",
-            "stars_count": 5,
-            "text": "“The biggest and best compliment I always receive is about my clear and glowy skin, and I owe it all to Peak Scents! Their all-natural skincare products are perfectly compatible with my sensitive skin. The organic RosePhyto3 cleansing milk, facial toner, and facial oil make for the best 3-step skin care routine, I look forward to applying it every night!  Their commitment to using all natural ingredients gives me peace of mind knowing that I'm nourishing my skin without harsh chemicals. I couldn't be happier with how my skin looks and feels, and I highly recommend Peak Scents to anyone looking for skincare products that deliver amazing results!”",
-            "author": "E. Plattner"
-          }
-        },
-        "slide_ekpFAY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/IMG_1825_3_1.heic",
-            "stars_count": 5,
-            "text": "I've been using Peak Scents regularly for the past year and my once acne prone, dull skin is so glow-y I truly rarely wear make-up. A make-up day for me a year or two ago would mean big insecurities, like \"Yeah, I know..somethings different...\", it now is my regular, confident daily. The Power Repair bundle truly repaired my acne scared skin and left me feeling beautiful, adding the Babchi Serum lifted any remaining dark spots and left me a glowing miracle.",
-            "author": "G. G."
-          }
-        },
-        "slide_PrFXfL": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2024-03-18_at_9.18.38_AM.png",
-            "stars_count": 5,
-            "text": "After trying so many products and struggling for YEARS with dry skin and painful acne, I never thought there would ever be a day when I would wake up and be in awe of my own complexion. It all started when a dear friend gave me a travel set as a gift four years ago and now I'm a FOREVER fan. I'll never forget the first time I tried the products and was blown away by the difference overnight. My skin has never looked smoother or felt more hydrated. When people ask me what makeup I'm using to get this glow, I tell them it's not the makeup - it's the Babchi Beauty Bundle. I seriously can't live without these amazing products!!",
-            "author": "K. Cotchen"
-          }
-        }
-      },
-      "block_order": [
-        "slide_UcqiDG",
-        "slide_8hBxff",
-        "slide_tfTtUQ",
-        "slide_BLc8QA",
-        "slide_iaDxrm",
-        "slide_ekpFAY",
-        "slide_PrFXfL"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 46,
-        "heading_size_mobile": 36,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_mt": 20,
-        "slider_width": 100,
-        "slider_view": 1.5,
-        "slider_view_mobile": 1,
-        "slider_gap": 16,
-        "slider_gap_mobile": 16,
-        "slider_mt": 32,
-        "items_style": "slider",
-        "items_style_mobile": "slider",
-        "card_padding_vertical": 16,
-        "card_padding_vertical_mobile": 12,
-        "card_padding_horizontal": 16,
-        "card_padding_horizontal_mobile": 10,
-        "card_radius": 0,
-        "card_border_thickness": 1,
-        "card_gap": 20,
-        "card_gap_mobile": 8,
-        "image_width": 35,
-        "image_radius": 0,
-        "image_border_thickness": 1,
-        "image_ratio": "square",
-        "image_top": true,
-        "stars_size": 16,
-        "stars_align_card": "start",
-        "card_text_custom": false,
-        "card_text_font": "josefin_sans_n4",
-        "card_text_size": 18,
-        "card_text_size_mobile": 14,
-        "card_text_height": 130,
-        "card_text_align": "left",
-        "card_text_mt": 12,
-        "card_author_custom": false,
-        "card_author_font": "josefin_sans_n4",
-        "card_author_size": 14,
-        "card_author_size_mobile": 14,
-        "card_author_height": 130,
-        "card_author_align": "left",
-        "card_author_mt": 12,
-        "arrow_size": 50,
-        "arrow_size_mobile": 50,
-        "arrow_icon_size": 16,
-        "arrow_icon_size_mobile": 16,
-        "arrow_border_thickness": 0,
-        "arrow_show_desktop": false,
-        "arrow_show_mobile": false,
-        "dots_size": 12,
-        "dots_size_mobile": 12,
-        "dots_show_desktop": true,
-        "dots_show_mobile": true,
-        "stars_color": "#87625e",
-        "heading_color": "#0c0c0c",
-        "card_bg_color": "#ffffff",
-        "card_border_color": "#0c0c0c",
-        "image_border_color": "#0c0c0c",
-        "card_text_color": "#0c0c0c",
-        "card_author_color": "#0c0c0c",
-        "arrow_color": "#ffffff",
-        "arrow_hover_color": "#ffffff",
-        "arrow_bg_color": "#0c0c0c",
-        "arrow_bg_hover_color": "#0c0c0c",
-        "arrow_border_color": "#0c0c0c",
-        "arrow_border_hover_color": "#0c0c0c",
-        "dots_color": "#87625e",
-        "background_color": "#f2f2f2",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0
+        "width": "wrapper--full",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "double": {
@@ -1082,13 +536,13 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "Pure Ingredients, Limitless Results",
-            "text": "<p><br/>At Peak Scents, we believe in the power of nature, which is why each product is carefully crafted in small batches to preserve its potency and efficacy. From seed to serum, we source our botanical ingredients ethically and sustainably, prioritizing organic and wildcrafted plants whenever possible.</p><p>Our commitment to quality extends beyond just ingredients – it's a promise to deliver skincare that's free from harmful chemicals, synthetic fragrances, and unnecessary fillers. We understand that what you put on your skin matters, which is why every product is crafted with meticulous attention to detail and a deep reverence for nature's wisdom.<br/><br/></p>",
+            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
+            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
             "font_size": 4,
             "text_columns": 1,
             "align_text": "text-center",
-            "button_text": "Our Process",
-            "button_url": "shopify://pages/our-process",
+            "button_text": "",
+            "button_url": "",
             "button_color": "btn--secondary",
             "button_style": "btn btn--long",
             "text_color": "text--black",
@@ -1098,7 +552,7 @@
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2022-PeakScents-201.jpg",
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -1119,81 +573,451 @@
         "image"
       ],
       "settings": {
-        "height": "use_screen_one_third",
+        "height": "use_image",
         "brick_gutter": 0,
         "borders": false,
         "bg_color": "#ffffff",
-        "preload_image": false,
-        "width": "wrapper",
+        "preload_image": true,
+        "width": "wrapper--full",
         "padding_top": 22,
         "padding_bottom": 34
       }
     },
-    "section_mosaic_RPkc3T": {
-      "type": "section-mosaic",
+    "section_hero_xGDqpq": {
+      "type": "section-hero",
       "blocks": {
-        "image_VNdbzD": {
-          "type": "image",
+        "heading_6BL9HW": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/lavender-frankincense-all-purpose-balm-5.jpg",
-            "overlay_opacity": 40,
-            "overlay_color": "#000000",
-            "title_text": "Protecting Rivers & Clean Water",
-            "title_size": 4,
-            "text_align": "text-left tile--bottom",
-            "kicker_text": "",
-            "kicker_size": 4,
-            "link_text": "Partnered with American rivers",
-            "link_url": "shopify://pages/american-rivers",
-            "link_size": 4
+            "title": "Find your skin’s perfect match.",
+            "text_size": 9
           }
         },
-        "image_mQ9Jtx": {
-          "type": "image",
+        "text_CRfe8i": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/2_86dbaa8d-6406-456b-b6a4-f9af86c97b69.png",
-            "overlay_opacity": 20,
-            "overlay_color": "#000000",
-            "title_text": "Carbon Footprint Agreement",
-            "title_size": 4,
-            "text_align": "text-left tile--bottom",
-            "kicker_text": "",
-            "kicker_size": 3,
-            "link_text": "GREENSPARK, EDEN PROJECTS, & PLASTIC BANK",
-            "link_url": "shopify://pages/sustainability",
-            "link_size": 4
+            "richtext": "<p>Every complexion is unique. Take our quick quiz to discover the products that support your skin’s balance, barrier, and glow</p>",
+            "text_size": 3
           }
         },
-        "image_dJTYbt": {
-          "type": "image",
+        "button_eztz7X": {
+          "type": "button",
           "settings": {
-            "image": "shopify://shop_images/2022-PeakScents-183.jpg",
-            "overlay_opacity": 20,
-            "overlay_color": "#000000",
-            "title_text": "In Store - No Waste - Refill Station",
-            "title_size": 4,
-            "text_align": "text-center tile--bottom",
-            "kicker_text": "",
-            "kicker_size": 4,
-            "link_text": "Visit Peak scents lab & refill station today",
-            "link_url": "#shopify-section-template--15463416430681__1cd43d81-d574-4089-a637-f7b75336651f",
-            "link_size": 4
+            "link_text_1": "Skin Care QUiz",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
           }
         }
       },
       "block_order": [
-        "image_VNdbzD",
-        "image_mQ9Jtx",
-        "image_dJTYbt"
+        "heading_6BL9HW",
+        "text_CRfe8i",
+        "button_eztz7X"
       ],
+      "name": "Image banner",
       "settings": {
-        "first_block_height": "short",
-        "wh_ratio": 1.1,
-        "split": "center",
-        "color_bg": "palette--light bg--neutral",
-        "width": "wrapper",
+        "image": "shopify://shop_images/Banner_ffbaf3a3-27a9-4e55-b3db-cd9b967fd4ec.png",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--top-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_LCFALM": {
+      "type": "section-list-collections",
+      "blocks": {
+        "collection_8r84bg": {
+          "type": "collection",
+          "settings": {
+            "collection": "combination-to-oily-skin",
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-114_1.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_KnjwEH": {
+          "type": "collection",
+          "settings": {
+            "collection": "dry-skin-solutions",
+            "image": "shopify://shop_images/Untitled_design_-_2024-09-25T151200.572_1.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_HaXQkE": {
+          "type": "collection",
+          "settings": {
+            "collection": "body-nurish",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_Micqhw": {
+          "type": "collection",
+          "settings": {
+            "collection": "peak-scents",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_UdT4DL": {
+          "type": "collection",
+          "settings": {
+            "collection": "wandering-the-west-apothecary-products",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "collection_8r84bg",
+        "collection_KnjwEH",
+        "collection_HaXQkE",
+        "collection_Micqhw",
+        "collection_UdT4DL"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Shop By Skin Type",
+        "bg": "palette--light bg--neutral",
+        "carousel_enabled_on": "both",
+        "collection_limit": 35,
+        "wh_ratio": 1.5,
+        "grid_large": 4,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "font_family": "heading",
+        "title_size": 5,
+        "accent_size": 3,
+        "width": "wrapper--full",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "section_product_kYiBFf": {
+      "type": "section-product",
+      "blocks": {
+        "title_4qdWBY": {
+          "type": "title",
+          "settings": {
+            "text_size": 9,
+            "product_show_cutline": true,
+            "show_rating": true,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "price_ACLUyW": {
+          "type": "price",
+          "settings": {
+            "price_size": 5,
+            "padding_bottom": 40
+          }
+        },
+        "variant_selectors_hmYrBD": {
+          "type": "variant-selectors",
+          "settings": {
+            "option_size_swatch": 34,
+            "option_size_radio": 50,
+            "option_space": 30,
+            "padding_bottom": 20
+          }
+        },
+        "subscription_gkxHpg": {
+          "type": "subscription",
+          "settings": {
+            "subscriptions_enable_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "quantity_pVBGNJ": {
+          "type": "quantity",
+          "settings": {
+            "show_quantity": true,
+            "padding_bottom": 20
+          }
+        },
+        "size_remaining_yLBfzB": {
+          "type": "size-remaining",
+          "settings": {
+            "info_page": "",
+            "title": "",
+            "show_remaining": true,
+            "show_remaining_style": "low",
+            "countdown": 10,
+            "padding_bottom": 0
+          }
+        },
+        "add_buttons_nPdPNh": {
+          "type": "add-buttons",
+          "settings": {
+            "enable_payment_button": true,
+            "enable_gift_card_recipient": true,
+            "padding_bottom": 20
+          }
+        },
+        "description_Ge38Dx": {
+          "type": "description",
+          "settings": {
+            "style": "accordions",
+            "enable_description": true,
+            "read_more": true,
+            "icon_description": "",
+            "description_expanded": true,
+            "title_1": "Information",
+            "icon_name_1": "",
+            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
+            "title_2": "Details",
+            "icon_name_2": "",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.</p>",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title_4qdWBY",
+        "price_ACLUyW",
+        "variant_selectors_hmYrBD",
+        "subscription_gkxHpg",
+        "quantity_pVBGNJ",
+        "size_remaining_yLBfzB",
+        "add_buttons_nPdPNh",
+        "description_Ge38Dx"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "title": "Product of the Month",
+        "home_product": "new-rose-phyto3-babchi-serum",
+        "layout": "thumbnails-left@slides",
+        "image_width": "half",
+        "image_spacing": 10,
+        "align": "left",
+        "bg": "palette--light bg--neutral",
+        "mobile_layout": "carousel",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "alt_text_enable": true,
+        "alt_text_icon": "icon-ruler",
+        "product_breadcrumbs_enable": false,
+        "product_breadcrumbs_list": [],
+        "width": "wrapper--full",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "section_announcement_w3jNqB": {
+      "type": "section-announcement",
+      "blocks": {
+        "icon_block_AcXLxE": {
+          "type": "icon_block",
+          "settings": {
+            "text": "",
+            "icon_name": "icon-leaf",
+            "icon_color": "#aaaaaa",
+            "icon_alt": "shopify://shop_images/Bustle_4aed3cc5-a5b9-412e-ac69-8ac92ae88088_1.png",
+            "icon_alt_width": 201
+          }
+        },
+        "icon_block_jJy3qr": {
+          "type": "icon_block",
+          "settings": {
+            "text": "",
+            "icon_name": "icon-leaf",
+            "icon_color": "#aaaaaa",
+            "icon_alt": "shopify://shop_images/vogue_1.png",
+            "icon_alt_width": 201
+          }
+        },
+        "icon_block_taabrk": {
+          "type": "icon_block",
+          "settings": {
+            "text": "",
+            "icon_name": "icon-leaf",
+            "icon_color": "#aaaaaa",
+            "icon_alt": "shopify://shop_images/Untitled_design_-_2023-07-18T141439.053_2.png",
+            "icon_alt_width": 201
+          }
+        },
+        "icon_block_XNM7bV": {
+          "type": "icon_block",
+          "settings": {
+            "text": "",
+            "icon_name": "icon-leaf",
+            "icon_color": "#aaaaaa",
+            "icon_alt": "shopify://shop_images/elephant_1.png",
+            "icon_alt_width": 201
+          }
+        },
+        "icon_block_9MTfWp": {
+          "type": "icon_block",
+          "settings": {
+            "text": "",
+            "icon_name": "icon-leaf",
+            "icon_color": "#aaaaaa",
+            "icon_alt": "shopify://shop_images/flower-logo-300_1_1.png",
+            "icon_alt_width": 201
+          }
+        },
+        "icon_block_nKiGMD": {
+          "type": "icon_block",
+          "settings": {
+            "text": "",
+            "icon_name": "icon-leaf",
+            "icon_color": "#aaaaaa",
+            "icon_alt": "shopify://shop_images/outside_1.png",
+            "icon_alt_width": 201
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_AcXLxE",
+        "icon_block_jJy3qr",
+        "icon_block_taabrk",
+        "icon_block_XNM7bV",
+        "icon_block_9MTfWp",
+        "icon_block_nKiGMD"
+      ],
+      "name": "Scrolling promotion",
+      "settings": {
+        "bg_color": "#98a5a6",
+        "color": "#545454",
+        "text_size": 7,
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "f5fe8fb1-11f7-4615-93ae-e901e813b1fa": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--14885873025113__f5fe8fb1-11f7-4615-93ae-e901e813b1fa-1674045891706e8bfd-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Love for Peak Scents",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "template--14885873025113__f5fe8fb1-11f7-4615-93ae-e901e813b1fa-1674045891706e8bfd-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--black",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--full",
+        "padding_top": 80,
+        "padding_bottom": 42
+      }
+    },
+    "images_reviews_jPDfyf": {
+      "type": "images-reviews",
+      "name": "Images Reviews",
+      "settings": {
+        "review_image_1": "shopify://shop_images/LOVE_SALE_20_OFF_2.png",
+        "review_image_2": "shopify://shop_images/Peak_Scents_2025_Best_Organic_Skincare_Gifts73.jpg",
+        "review_image_3": "shopify://shop_images/Untitled_Instagram_Post_2.jpg",
+        "review_stars_1": "shopify://shop_images/Vector.png",
+        "reviews_text_1": "<p>I've been using Peak Scents regularly for the past year and my once acne prone, dull skin is so glow-y I truly rarely wear make-up. A make-up day for me a year or two ago would mean big insecurities, like \"Yeah, I know..somethings different...\", it now is my regular, confident daily. The Power Repair bundle truly repaired my acne scared skin and left me feeling beautiful, adding the Babchi Serum lifted any remaining dark spots and left me a glowing miracle.</p>",
+        "review_image_4": "shopify://shop_images/peak_scents_wandering_the_west_-26.jpg",
+        "review_image_5": "shopify://shop_images/FACES_FOR_BLOGS_4476cb2c-a9a3-4a57-a436-f09648f0c731.jpg",
+        "review_image_6": "shopify://shop_images/peak_scents_wandering_the_west_-30.jpg",
+        "review_stars_2": "shopify://shop_images/Vector.png",
+        "reviews_text_2": "<p>“The biggest and best compliment I always receive is about my clear and glowy skin, and I owe it all to Peak Scents! Their all-natural skincare products are perfectly compatible with my sensitive skin. The organic RosePhyto3 cleansing milk, facial toner, and facial oil make for the best 3-step skin care routine, I look forward to applying it every night!Their commitment to using all natural ingredients gives me peace of mind knowing that I'm nourishing my skin without harsh chemicals. I couldn't be happier with how my skin looks and feels, and I highly recommend Peak Scents to anyone looking for skincare products that deliver amazing results!”</p>"
+      }
+    },
+    "1cd43d81-d574-4089-a637-f7b75336651f": {
+      "type": "section-map",
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "heading": "",
+        "address": "<h5><strong>Visit The Refill Shop</strong></h5><p>No appointment needed. Just drop in!<br/>1000 E Butler Ave Suite 101, Flagstaff, AZ 86001</p><p><strong>Store Hours</strong></p><p>Monday & Tuesday<strong> 9AM-4PM</strong></p><p><strong>Wednesday - Friday 9AM-5PM</strong></p><p>Saturday<strong> 10AM-3PM</strong></p><p>Sunday<strong> CLOSED </strong></p><p><strong>Our Retail Store Offerings Include:</strong><em><strong><br/></strong></em><em>Eco-Friendly Housewares, Bodycare, Soaps, and Skincare!</em></p>",
+        "button": "",
+        "button_style": "btn",
+        "style": "default",
+        "zoom": 13,
+        "bg": "palette--light bg--neutral",
+        "api_key": "AIzaSyDfc-aIKeN_C0sA0IohSyDtE4g9MAC6n5I",
+        "map_address": "1000 E. Butler Suite 101, Flagstaff, AZ",
+        "image": "shopify://shop_images/Screenshot_2023-05-26_at_6.17.55_PM.png",
+        "enable_latlong": true,
+        "lat": "",
+        "long": "",
+        "width": "wrapper",
+        "padding_top": 6,
+        "padding_bottom": 0
       }
     },
     "1731969586e2acf898": {
@@ -1229,141 +1053,38 @@
         "padding_bottom": 36
       }
     },
-    "section_video_8p8qyV": {
-      "type": "section-video",
-      "blocks": {
-        "heading_THYBG8": {
-          "type": "heading",
-          "settings": {
-            "title": "Our Story",
-            "text_size": 10
-          }
-        },
-        "video_hKpYbx": {
-          "type": "video",
-          "settings": {
-            "video_link": "https://vimeo.com/467464460",
-            "popup_text": "Peak Scents Brand Story",
-            "button_width": 80,
-            "button_color": "text--white"
-          }
-        }
-      },
-      "block_order": [
-        "heading_THYBG8",
-        "video_hKpYbx"
-      ],
-      "settings": {
-        "height": "use_screen_three_quarters",
-        "color_bg": "palette--light bg--neutral",
-        "object_position": "right-center",
-        "image": "shopify://shop_images/DeeAnn_Tracy_Founder_Peak_Scents_jpg_1.jpg",
-        "preload_image": false,
-        "text_align": "align--middle-center",
-        "text_color": "text--white",
-        "overlay_opacity": 35,
-        "overlay_color": "#000000",
-        "enable_overlay_text": false,
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "newsletter-index-section": {
       "type": "section-newsletter",
-      "custom_css": [
-        "h2 {font-size: 26px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Be the first to know about offers",
         "richtext": "<p>Get 15% off your first order & be the first to know about new arrivals, sales and special events. Promise no Spam!</p>",
+        "bg_image": "shopify://shop_images/ShellyStrazis-08954_1af0327a-23ca-4aec-993b-fd689005cc31_2.png",
         "bg": "palette--bright bg--bright",
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },
-    "1674064248ab97a7d5": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_LELUNm": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "#252525",
-            "title_size_v2": 0,
-            "alignment": "center",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 0,
-            "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
-            "link_alignment": "left",
-            "link_color": "#000000",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_LELUNm"
-      ],
-      "settings": {
-        "text_color": "text--white",
-        "bg": "palette--light bg--neutral",
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "1cd43d81-d574-4089-a637-f7b75336651f": {
-      "type": "section-map",
-      "custom_css": [
-        "p {font-size: 16px;}"
-      ],
-      "settings": {
-        "height": "use_screen_one_half",
-        "heading": "",
-        "address": "<h5><strong>Visit us at Peak Scents in Flagstaff</strong></h5><p>1000 E. Butler Suite 101, Flagstaff, AZ <br/>928-556-9499</p><p>Did you know that you can refill your products in store at Peak Scents to cut back on packaging waste?</p><p><strong>Store Hours</strong></p><p>Monday & Tuesday<strong> 9AM-4PM</strong></p><p><strong>Wednesday - Friday 9AM-5PM</strong></p><p>Saturday<strong> 10AM-3PM</strong></p><p>Sunday<strong> CLOSED </strong></p><p><strong>Our Retail Store Offerings Include:</strong><em><strong><br/></strong></em><em>Eco-Friendly Housewares, Bodycare, Soaps, and Skincare!</em></p>",
-        "button": "",
-        "button_style": "btn",
-        "style": "default",
-        "zoom": 13,
-        "bg": "palette--dark bg--invert--accent",
-        "api_key": "AIzaSyDfc-aIKeN_C0sA0IohSyDtE4g9MAC6n5I",
-        "map_address": "1000 E. Butler Suite 101, Flagstaff, AZ",
-        "image": "shopify://shop_images/Screenshot_2023-05-26_at_6.17.55_PM.png",
-        "enable_latlong": true,
-        "lat": "",
-        "long": "",
-        "width": "wrapper",
-        "padding_top": 6,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
-    "section_double_bbmNkD",
-    "section_double_9x8qck",
-    "section_image_aAq4mN",
-    "section_list_collections_products_tRt4CQ",
-    "section_richtext_aF8AjU",
-    "7b14c705-8069-431f-bec4-23d4378d408d",
-    "logos",
-    "section_product_PQ7wdH",
-    "section_video_Cx67qz",
-    "section_icons_6wWwpx",
-    "17090580256cfdc610",
-    "section_list_collections_4pWa7t",
+    "section_hero_FXzPH7",
+    "section_list_collections_4CJzFp",
     "section_collection_tabs_pC6g69",
-    "f5fe8fb1-11f7-4615-93ae-e901e813b1fa",
-    "ss_testimonial_5_MG86b6",
-    "double",
-    "section_mosaic_RPkc3T",
-    "1731969586e2acf898",
     "section_video_8p8qyV",
-    "newsletter-index-section",
-    "1674064248ab97a7d5",
-    "1cd43d81-d574-4089-a637-f7b75336651f"
+    "section_video_Cx67qz",
+    "section_richtext_aF8AjU",
+    "section_product_PQ7wdH",
+    "section_icons_6wWwpx",
+    "double",
+    "section_hero_xGDqpq",
+    "section_list_collections_LCFALM",
+    "section_product_kYiBFf",
+    "section_announcement_w3jNqB",
+    "f5fe8fb1-11f7-4615-93ae-e901e813b1fa",
+    "images_reviews_jPDfyf",
+    "1cd43d81-d574-4089-a637-f7b75336651f",
+    "1731969586e2acf898",
+    "newsletter-index-section"
   ]
 }

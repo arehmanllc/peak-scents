@@ -1,5 +1,5 @@
 <!-- /sections/section-list-collections.liquid -->
-
+{{ 'coll-list.css' |  asset_url | stylesheet_tag }}
 {% liquid
   assign collection_grid_subtitle = 'collections.general.collection_grid_title' | t
   assign collection_grid_cta = 'collections.general.collection_grid_cta' | t
@@ -126,13 +126,13 @@
                 {%- endif -%}
 
                 {%- assign cta_collection = block.settings.bottom_text | default: collection_grid_cta -%}
-                <div class="collection-grid-item__btn text-btn-arrow-right strong {{ accent_size_class }}{% unless cta_collection != blank and block.settings.bottom_text_disabled == false %} invisible{% endunless %}">
-                  {%- if cta_collection != blank and block.settings.bottom_text_disabled == false -%}
-                    {{ cta_collection }}
-                  {%- else -%}
+								{%- if cta_collection != blank and block.settings.bottom_text_disabled == false -%}
+									<div class="collection-grid-item__btn text-btn-arrow-right strong {{ accent_size_class }}{% unless cta_collection != blank and block.settings.bottom_text_disabled == false %} invisible{% endunless %}">
+											{{ cta_collection }}
+									</div>
+								{%- else -%}
                     &nbsp;
-                  {%- endif -%}
-                </div>
+                {%- endif -%}
               </div>
             </a>
 
@@ -224,14 +224,13 @@
                     <p class="collection-grid-item__title {{ mixed_size_class }}">
                       {{ collection.title }}
                     </p>
-
-                    <div class="collection-grid-item__btn text-btn-arrow-right strong {{ accent_size_class }}{% unless collection_grid_cta != blank %} invisible{% endunless %}">
-                      {%- if collection_grid_cta != blank -%}
-                        {{ collection_grid_cta }}
-                      {%- else -%}
+										{%- if collection_grid_cta != blank -%}
+											<div class="collection-grid-item__btn text-btn-arrow-right strong {{ accent_size_class }}{% unless collection_grid_cta != blank %} invisible{% endunless %}">
+													{{ collection_grid_cta }}
+											</div>
+										{%- else -%}
                         &nbsp;
-                      {%- endif -%}
-                    </div>
+                    {%- endif -%}
                   </div>
                 </a>
 

@@ -7,10 +7,12 @@
   grid-template-columns: repeat(5,1fr);
   gap: 12px;
   align-items: center;
+  margin-bottom: 12px;
 }
 .reviews-images-block .review-stars{
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
 }
 .reviews-image img{
   height: 100%;
