@@ -26,9 +26,10 @@
 }
 .reviews-stars{
   display: flex;
+  margin-bottom: 12px;
 }
 .reviews-text{
-  font-family: var(--FONT-STACK-HEADING);
+  font-family: var(--FONT-STACK-BODY);
   font-size: 16px;
 }
 .reviews-text-area {

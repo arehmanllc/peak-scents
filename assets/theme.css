@@ -12379,7 +12379,9 @@ input[type=search]::-webkit-search-decoration {
   font-size: calc(var(--font-2) * var(--FONT-ADJUST-BODY));
   line-height: var(--leading-relaxed);
 }
-
+.newsletter__contain .input-group{
+  background-color: transparent;
+}
 .body-size-3 {
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-BODY));
   line-height: var(--leading-normal);
@@ -22773,6 +22775,7 @@ Collection grid item
   display: block;
   width: 100%;
   height: auto;
+  margin-bottom: 12px;
 }
 
 .footer__accordion__head {
@@ -22828,6 +22831,9 @@ Collection grid item
   letter-spacing: var(--FONT-ACCENT-LETTER-SPACING);
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-ACCENT));
   line-height: var(--leading-normal);
+  font-size: 14px;
+  text-transform: none;
+  margin-top: 12px;
 }
 
 @media only screen and (max-width: 767px) {

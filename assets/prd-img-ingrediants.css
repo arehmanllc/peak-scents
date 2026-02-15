@@ -1,0 +1,47 @@
+.product-img-ingrediants .prd-img-ingrediants-heading .kicker-flourished{
+  max-width: 560px;
+}
+.product-img-ingrediants .prd-img-ingrediants-heading{
+  display: grid;
+  justify-content: center;
+}
+.product-img-ingrediants .ingrediant-heading{
+  font-size: clamp(14px,4vw,24px);
+  font-family: var(--TYPE-STACK-KICKER);
+}
+.prd-img-ingred-blocks{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.22fr 0.8fr 0.3fr;
+  gap: 24px;
+}
+.first-ingrediant-block{
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+.third-ingrediant-block{
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+.prd-img-ingred-blocks img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.product-img-ingrediants{
+  padding-block: 4rem;
+  background-color: #ffffff;
+}
+@media screen and (max-width:1024px){
+  .prd-img-ingred-blocks{
+    grid-template-columns: 1fr;
+  }
+  .first-ingrediant-block{
+    gap: 24px;
+  }
+  .third-ingrediant-block{
+    gap: 24px;
+  }
+}

@@ -147,7 +147,6 @@
   {{  title_font | font_face: font_display: 'swap' }}
   {{  copy_font | font_face: font_display: 'swap' }}
   {{  main_title_font | font_face: font_display: 'swap' }}
-
   .section-{{ section.id }} {
     padding-top: {{ padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ padding_bottom | times: 0.75 | round: 0 }}px;
@@ -728,7 +727,6 @@
     }
   </style>
 {% endif %}
-
 {% if copy_custom %}
   <style>
     .footer-copy-text-{{ section.id }} * {
@@ -738,7 +736,6 @@
     }
   </style>
 {% endif %}
-
 <div
   class="section-{{ section.id }} footer-{{ section.id }}"
   style="background-color:{{ background_color }}; background-image: {{ background_gradient }};"
@@ -759,6 +756,9 @@
               {{ 'image' | placeholder_svg_tag }}
             {% endif %}
         </a>
+        <div class="logo-text" style="color:#ffffff; margin-top: 12px;">
+          {{ section.settings.logo_txt }}
+        </div>
       </div>
 
       <div class="footer-second-top-item-{{ section.id }}">
@@ -1029,6 +1029,10 @@
       "unit": "px",
       "label": "Logo Width - Mobile",
       "default": 220
+    },{
+      "type": "richtext",
+      "id": "logo_txt",
+      "label": "Logo Text"
     },
     {
       "type": "header",

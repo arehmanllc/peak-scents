@@ -1,5 +1,5 @@
 <!-- /sections/footer.liquid -->
-
+{{ 'ftr.css' |  asset_url | stylesheet_tag }}
 {%- assign socials_html = '' -%}
 {%- assign socials_title_html = '' -%}
 {%- assign content_html = '' -%}
@@ -216,28 +216,6 @@
           {{ content_html }}
 
           <div class="grid__item @@@@footer-column-width-placeholder@@@@ footer__block" {{ block.shopify_attributes }}>
-            <p class="footer__title footer__accordion__head js {{ block.settings.accordion_default }}"
-              data-accordion-trigger="{{ accordion_index }}"
-              aria-controls="{{ accordion_index }}"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="{% if block.settings.accordion_default == 'accordion-is-open' %}true{% else %}false{% endif %}">
-                {{ block.settings.title | escape }}
-                {% render 'icon-core-chevron-right' %}
-            </p>
-
-            <input type="checkbox"
-              name="{{ accordion_index }}"
-              id="{{ accordion_index }}-checkbox"
-              class="no-js no-js-checkbox"
-              {% if block.settings.accordion_default == 'accordion-is-open' %}checked{% endif %}>
-
-            <label for="{{ accordion_index }}-checkbox"
-              class="footer__title footer__accordion__head no-js">
-              {{ block.settings.title | escape }}
-              {% render 'icon-core-chevron-right' %}
-            </label>
-
             <div class="footer__column footer__accordion__body no-js-accordion" data-accordion-body data-accordion-body-mobile id="{{ accordion_index }}">
               <div class="footer__image"
                 style="width: {{ block.settings.image_max_limit | append: 'px' }}; max-width: 100%;"
@@ -270,6 +248,29 @@
                 {%- if block.settings.image_link != blank -%}</a>{%- endif -%}
               </div>
             </div>
+            <p class="footer__title footer__accordion__head js {{ block.settings.accordion_default }}"
+              data-accordion-trigger="{{ accordion_index }}"
+              aria-controls="{{ accordion_index }}"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="{% if block.settings.accordion_default == 'accordion-is-open' %}true{% else %}false{% endif %}">
+                {{ block.settings.title | escape }}
+                {% render 'icon-core-chevron-right' %}
+            </p>
+
+            <input type="checkbox"
+              name="{{ accordion_index }}"
+              id="{{ accordion_index }}-checkbox"
+              class="no-js no-js-checkbox"
+              {% if block.settings.accordion_default == 'accordion-is-open' %}checked{% endif %}>
+
+            <label for="{{ accordion_index }}-checkbox"
+              class="footer__title footer__accordion__head no-js">
+              {{ block.settings.title | escape }}
+              {% render 'icon-core-chevron-right' %}
+            </label>
+
+            
           </div>
         {%- endcapture -%}
     {% when 'newsletter' %}
