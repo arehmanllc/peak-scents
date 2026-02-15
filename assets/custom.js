@@ -9,7 +9,7 @@
 */
 
 
-(function() {
+(function () {
 
   // Below are example event listeners.  They listen for theme events that Pipeline
   // fires in order to make it easier for you to add customizations.
@@ -18,7 +18,7 @@
   // variables into the global scope.
 
 
-  document.addEventListener('theme:variant:change', function(event) {
+  document.addEventListener('theme:variant:change', function (event) {
     // You might use something like this to write a pre-order feature or a
     // custom swatch feature.
     var variant = event.detail.variant;
@@ -32,7 +32,7 @@
     }
   });
 
-  document.addEventListener('theme:cart:change', function(event) {
+  document.addEventListener('theme:cart:change', function (event) {
     var cart = event.detail.cart;
     if (cart) {
       console.log('Cart ———————————— ↓');

@@ -357,57 +357,64 @@ assign placeholder = placeholder | default: false
           </div>
         {%- endif -%}
       </div>
+    </a>
 
-      <div class="product__grid__price {% if settings.show_cutline %} product__grid__price--nowrap{% endif %}">
-        {%- if settings.show_cutline -%}
-          <span class="product__grid__cutline">{{ product.metafields.theme.cutline.value }}</span>
+    <!-- Variant Dropdown and Add to Bag Section -->
+    <div class="product__grid__dropdown-section">
+      {% render 'product-grid-item-variant-dropdown', product: product %}
+    </div>
+
+    <!-- Original Price Section (Hidden when dropdown is shown) -->
+    <div class="product__grid__price {% if settings.show_cutline %} product__grid__price--nowrap{% endif %}" style="display: none;">
+      {%- if settings.show_cutline -%}
+        <span class="product__grid__cutline">{{ product.metafields.theme.cutline.value }}</span>
+      {%- endif -%}
+      <span class="price{% if on_sale %} on-sale{% endif %}">
+        {% if product.price_varies %}{{ 'products.general.from' | t }} {% endif %}
+        {%- if settings.currency_code_enable -%}
+          {{ product.price | money_with_currency }}
+        {%- else -%}
+          {{ product.price | money }}
         {%- endif -%}
-        <span class="price{% if on_sale %} on-sale{% endif %}">
-          {% if product.price_varies %}{{ 'products.general.from' | t }} {% endif %}
+      </span>
+      {% if on_sale %}
+        <span class="compare-at">
           {%- if settings.currency_code_enable -%}
-            {{ product.price | money_with_currency }}
+            {{ product.compare_at_price | money_with_currency }}
           {%- else -%}
-            {{ product.price | money }}
+            {{ product.compare_at_price | money }}
           {%- endif -%}
         </span>
-        {% if on_sale %}
-          <span class="compare-at">
-            {%- if settings.currency_code_enable -%}
-              {{ product.compare_at_price | money_with_currency }}
-            {%- else -%}
-              {{ product.compare_at_price | money }}
-            {%- endif -%}
-          </span>
+      {% endif %}
+    </div>
+    
+    {% if product.selected_or_first_available_variant.unit_price %}
+      {% capture unit_price_separator %}
+        <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+      {% endcapture %}
+      {% capture unit_price_base_unit %}
+        {% if product.selected_or_first_available_variant.unit_price_measurement.reference_value != 1 %}
+          {{ product.selected_or_first_available_variant.unit_price_measurement.reference_value }}
         {% endif %}
-      </div>
-      {% if product.selected_or_first_available_variant.unit_price %}
-        {% capture unit_price_separator %}
-          <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
-        {% endcapture %}
-        {% capture unit_price_base_unit %}
-          {% if product.selected_or_first_available_variant.unit_price_measurement.reference_value != 1 %}
-            {{ product.selected_or_first_available_variant.unit_price_measurement.reference_value }}
-          {% endif %}
-          {{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}
-        {% endcapture %}
-        <p class="product__grid__price__unit">
-          <span class="visually-hidden">{{ 'products.product.unit_price_label' | t }}</span>
-          <span class="price-per-unit">
-            {%- if settings.currency_code_enable -%}
-              {{ product.selected_or_first_available_variant.unit_price | money_with_currency }}
-            {%- else -%}
-              {{ product.selected_or_first_available_variant.unit_price | money }}
-            {%- endif -%}
-            {{ unit_price_separator }}{{ unit_price_base_unit }}
-          </span>
-        </p>
-      {% endif %}
-      {% if sold_out %}
-        <p class="product__grid__price__sold">
-          <em>{{ 'products.product.sold_out' | t }}</em>
-        </p>
-      {% endif %}
-    </a>
+        {{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}
+      {% endcapture %}
+      <p class="product__grid__price__unit" style="display: none;">
+        <span class="visually-hidden">{{ 'products.product.unit_price_label' | t }}</span>
+        <span class="price-per-unit">
+          {%- if settings.currency_code_enable -%}
+            {{ product.selected_or_first_available_variant.unit_price | money_with_currency }}
+          {%- else -%}
+            {{ product.selected_or_first_available_variant.unit_price | money }}
+          {%- endif -%}
+          {{ unit_price_separator }}{{ unit_price_base_unit }}
+        </span>
+      </p>
+    {% endif %}
+    {% if sold_out %}
+      <p class="product__grid__price__sold" style="display: none;">
+        <em>{{ 'products.product.sold_out' | t }}</em>
+      </p>
+    {% endif %}
 
     {%- if has_siblings -%}
       {%- assign sibs_collection = collections[product.metafields.theme.siblings.value] -%}

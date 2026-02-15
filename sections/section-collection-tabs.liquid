@@ -1,5 +1,5 @@
 <!-- /sections/section-collection-tabs.liquid -->
-
+{{ 'coll-list-tabs.css' |  asset_url | stylesheet_tag }}
 {%- liquid
   assign show_mobile_bar = false
   assign show_desktop_bar = false
@@ -23,7 +23,7 @@
 {%- for block in section.blocks -%}
   {%- assign featured_collection = collections[block.settings.collection] -%}
   {%- assign featured_collection_title = block.settings.title | default: featured_collection.title | default: 'Collection' -%}
-
+{% if section.blocks.size > 1 %}
   {%- capture tabs_navigation -%}
     {{- tabs_navigation -}}
     <button type="button" class="tab-link tab-link-{{ forloop.index0 }}"
@@ -35,6 +35,7 @@
       <span>{{ featured_collection_title }}</span>
     </button>
   {%- endcapture -%}
+{% endif %}	
 
   {%- capture tabs -%}
     {{ tabs }}
