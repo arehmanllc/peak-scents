@@ -569,7 +569,7 @@
         "style": "light",
         "zoom": 11,
         "bg": "palette--light bg--neutral",
-        "api_key": "AIzaSyDfc-aIKeN_C0sA0IohSyDtE4g9MAC6n5I",
+        "api_key": "YOUR_GOOGLE_API_KEY",
         "map_address": "1000 E Butler Ave Suite 101, Flagstaff, AZ 86001",
         "enable_latlong": false,
         "lat": "",
