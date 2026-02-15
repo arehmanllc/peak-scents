@@ -112,7 +112,7 @@
   {% capture breadcrumbs_markup %}
     {% for collection in section.settings.product_breadcrumbs_list %}
       <a href="{{ collection.url }}" title="{{ collection.title }}">{{ collection.title }}</a>
-      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-hidden="true">/</span>
     {% endfor %}
     <span>{{ product.title }}</span>
   {% endcapture %}
