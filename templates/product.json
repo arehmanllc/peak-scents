@@ -22,23 +22,9 @@
             "padding_bottom": 20
           }
         },
-        "icon_8ztUQq": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-animal-paw",
-            "icon_color": "#433e36",
-            "text": "<p>{{ product.metafields.custom.cruelty_free.value }}</p>",
-            "padding_bottom": 8
-          }
-        },
-        "f999f4d3-3108-48a4-ab3c-c92c2be6780d": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-shipment",
-            "icon_color": "#736058",
-            "text": "<p>Free Shipping on Orders $99+</p>",
-            "padding_bottom": 8
-          }
+        "judge_me_reviews_preview_badge_6BHWhJ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "variants": {
           "type": "variant-selectors",
@@ -77,20 +63,20 @@
         },
         "pickup": {
           "type": "pickup",
-          "disabled": true,
           "settings": {
             "padding_bottom": 20
           }
         },
-        "greenspark_product_widgets_4QaMfn": {
+        "greenspark_product_widgets_ccq9yQ": {
           "type": "shopify://apps/greenspark/blocks/product-widgets/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
           "settings": {
             "horizontal_alignment": "center",
             "style": "simplified",
-            "size": "large",
+            "size": "regular",
             "fullwidth_justification": "flex-start",
             "greenspark_widget_color": "#3B755F",
-            "enable_popup": true
+            "enable_popup": true,
+            "greenspark_popup_theme": "light"
           }
         },
         "description": {
@@ -112,7 +98,7 @@
             "raw_content_3": "<p>{{ product.metafields.custom.benefits | metafield_tag }}</p>",
             "title_4": "Shipping",
             "icon_name_4": "icon-truck",
-            "raw_content_4": "<ul><li>Free Shipping on orders $99 +</li><li>Fast Shipping</li><li>Free Sample with all orders</li><li>Love it or your money back</li><li>A Tree is planted with every order placed</li></ul>",
+            "raw_content_4": "<ul><li>Free Shipping on orders $99 +</li><li>Fast Shipping</li><li>Free Sample with all orders</li><li>Love it or your money back</li><li>A Tree is planted with every order placed</li></ul><p></p><p></p>",
             "title_5": "",
             "icon_name_5": "",
             "raw_content_5": "",
@@ -132,34 +118,54 @@
         },
         "sharing": {
           "type": "sharing",
-          "disabled": true,
           "settings": {
             "share_label": "Share",
             "target_device": "",
             "padding_bottom": 20
           }
+        },
+        "icon_3tmUky": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-animal-paw",
+            "image": "shopify://shop_images/Container.png",
+            "icon_size": 30,
+            "icon_color": "#4b4b4b",
+            "text": "<p>{{ product.metafields.custom.cruelty_free.value }}</p>",
+            "padding_bottom": 8
+          }
+        },
+        "f999f4d3-3108-48a4-ab3c-c92c2be6780d": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shipment",
+            "image": "shopify://shop_images/Container_1.png",
+            "icon_size": 30,
+            "icon_color": "#736058",
+            "text": "<p>Free Shipping on Orders $99+</p>",
+            "padding_bottom": 8
+          }
         }
       },
       "block_order": [
         "title",
-        "icon_8ztUQq",
-        "f999f4d3-3108-48a4-ab3c-c92c2be6780d",
+        "judge_me_reviews_preview_badge_6BHWhJ",
         "variants",
         "quantity",
         "sizes-remaining",
         "buttons",
         "pickup",
-        "greenspark_product_widgets_4QaMfn",
+        "greenspark_product_widgets_ccq9yQ",
         "description",
         "upsell",
-        "sharing"
+        "sharing",
+        "icon_3tmUky",
+        "f999f4d3-3108-48a4-ab3c-c92c2be6780d"
       ],
-      "custom_css": [
-        ".product__title {color: #000000;}"
-      ],
+      "custom_css": [],
       "settings": {
         "layout": "thumbnails-left@slides",
-        "image_width": "wide",
+        "image_width": "half",
         "image_spacing": 10,
         "align": "left",
         "bg": "palette--light bg--neutral",
@@ -170,81 +176,29 @@
         "alt_text_icon": "icon-legal",
         "product_breadcrumbs_enable": true,
         "product_breadcrumbs_list": [
-          "all-plant-based-products"
+          "all-plant-based-products",
+          "organic-rose-phyto3"
         ],
-        "width": "wrapper--full",
+        "width": "wrapper--none",
         "padding_top": 30,
         "padding_bottom": 40
       }
     },
-    "1714693041d975df8b": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_hzWwtq": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
-        "recharge_subscriptions_subscription_widget_jtT3wL": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_hzWwtq",
-        "recharge_subscriptions_subscription_widget_jtT3wL"
-      ],
+    "related": {
+      "type": "related",
       "settings": {
-        "text_color": "text--neutral",
+        "heading": "Pairs well with",
         "bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "section_richtext_e4UMxx": {
-      "type": "section-richtext",
-      "blocks": {
-        "kicker_bd8FG4": {
-          "type": "kicker",
-          "settings": {
-            "kicker": "Learn More About",
-            "enable_line": false,
-            "text_size": 4
-          }
-        },
-        "heading_QweaVJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Peak Scents Plant Based Skincare",
-            "text_size": 8
-          }
-        },
-        "text_B6cVQF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A woman owned skincare company from the Mountains and Canyons of Northern Arizona.</p>",
-            "text_size": 4,
-            "text_columns": 1
-          }
-        }
-      },
-      "block_order": [
-        "kicker_bd8FG4",
-        "heading_QweaVJ",
-        "text_B6cVQF"
-      ],
-      "custom_css": [
-        ".standard__heading {color: #000000;}",
-        ".standard__kicker {color: #000000;}",
-        "p {color: #000000;}"
-      ],
-      "settings": {
-        "align_text": "text-center",
-        "text_color": "text--black",
-        "bg": "palette--light bg--neutral",
-        "content_width": 2000,
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_small": 1.2,
+        "related_products_enable": true,
+        "limit": 8,
+        "product_recommendations_heading": "",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed",
         "width": "wrapper",
         "padding_top": 36,
         "padding_bottom": 36
@@ -253,10 +207,27 @@
     "image-with-text": {
       "type": "section-double",
       "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Results You Can See",
+            "text": "<p>Clinical Results*</p><p>After 1 use:</p><h6>100% showed an increase in hydration</h6><h6></h6><p>After 4 weeks:</p><h6>100% showed an increase in hydration</h6><h6>87% showed improvement in skin firmness</h6><h6>83% showed visible improvement in fine lines and wrinkles</h6><h6></h6><p>Consumer Results*</p><p>After 1 week:</p><h6>100% agreed it is gentle and non-irritating</h6><h6>100% agreed the lavender scent is calming and relaxing</h6><h6>90% agreed it soothed my skin as I slept</h6><h6></h6><p>*Based on an independent third-party clinical and consumer perception study conducted on 30 women.</p>",
+            "font_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--white",
+            "button_style": "caps--link",
+            "text_color": "text--white",
+            "bg_color": "#d5d0cc"
+          }
+        },
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2023-PeakScents-Jan-40.jpg",
+            "image": "shopify://shop_images/2025_KISH_Peak-Scents_DK34714_1.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -270,32 +241,15 @@
             "button_color": "btn--white",
             "button_style": "btn uppercase"
           }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "kicker": "",
-            "title": "The luxury of a spa at home with Body Nurish.",
-            "text": "<p>Treat your skin to the self care you deserve with Body Nourish, our collection of luxurious spa-quality formulas designed to rejuvenate from head to toe.</p><p>Meticulously crafted, nutrient rich scrubs, masks and treatments provide essential vitamins, minerals, and hydration for beautifully nourished, and radiant skin</p><p>Indulge in moments of relaxation with soothing scents and textures to help you unwind and pamper yourself with a spa-like experience at home.</p><p>experience the transformative power of our Body Nourish Collection and achieve beautifully nourished, radiant skin every day.</p>",
-            "font_size": 5,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "button_text": "",
-            "button_url": "",
-            "button_color": "btn--black",
-            "button_style": "caps--link",
-            "text_color": "text--black",
-            "bg_color": "#f2f2f2"
-          }
         }
       },
       "block_order": [
-        "image",
-        "text"
+        "text",
+        "image"
       ],
-      "disabled": true,
+      "custom_css": [],
       "settings": {
-        "height": "use_image",
+        "height": "use_pixels_650",
         "brick_gutter": 0,
         "borders": true,
         "bg_color": "",
@@ -305,251 +259,241 @@
         "padding_bottom": 0
       }
     },
-    "b4f116f3-a4bc-436a-8be9-1d96f3eb35c2": {
-      "type": "section-richtext",
+    "1714693561402a548e": {
+      "type": "apps",
       "blocks": {
-        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1": {
-          "type": "heading",
+        "judge_me_reviews_review_widget_WYjxE4": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "heading": "What makes Body Nurish the right collection for you?",
-            "text_size": 7
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
       "block_order": [
-        "template--14894278869081__b4f116f3-a4bc-436a-8be9-1d96f3eb35c2-16746647081c4bd00b-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "p {color: #00000;}"
+        "judge_me_reviews_review_widget_WYjxE4"
       ],
       "settings": {
-        "align_text": "text-center",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
-        "content_width": 700,
         "width": "wrapper",
-        "padding_top": 38,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "7632589b-3491-4839-94ed-cf4230ff9607": {
+    "section_icons_txNTqP": {
       "type": "section-icons",
       "blocks": {
-        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0": {
+        "icon_block_zDNmUk": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/Frame.png",
+            "icon_color": "#40656e",
+            "title": "Made by Hand in the USA",
+            "text": "<p>All of our products are made by our team at our Flagstaff, Arizona location. Come say hi if you're in town! </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_KCcMHU": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-animal-paw",
+            "icon_alt": "shopify://shop_images/Frame_1.png",
+            "icon_color": "#40656e",
+            "title": "Cruelty Free & beegan",
+            "text": "<p>Our products are never tested on animals and we let you know when they are free of beeswax.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_RRT9wc": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-recycled",
+            "icon_alt": "shopify://shop_images/Frame_2.png",
+            "icon_color": "#40656e",
+            "title": "Ethical & Sustainable",
+            "text": "<p>Peak Scents is committed to creating skin care products that make a difference.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_9bXKWD": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-store",
+            "icon_alt": "shopify://shop_images/Frame_3.png",
+            "icon_color": "#40656e",
+            "title": "Women Owned & Operated",
+            "text": "<p>Founded by second-generation herbalist DeeAnn Tracy<br/><br/></p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_xhVN4A": {
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-leaf",
-            "icon_color": "#c3d6cd",
-            "title": "food-grade preservatives only",
-            "text": "<p>We use food-grade preservatives only, never scary chemical preservatives, and we never use chemical emulsifiers, fragrances or alcohol. </p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_color": "#c3d6cd",
-            "title": "High Quality Ingredients",
-            "text": "<p>We source cold-pressed, raw, organic oils, as well as high-quality, non-gmo, organic vitamins and extracts.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-rating",
-            "icon_color": "#c3d6cd",
-            "title": "organic or wildcrafted herbs",
-            "text": "<p>We infuse our organic or wildcrafted herbs in Sunflower, Grapeseed, or Olive oil, using the slow method - no heat - to ensure that all of the nutrients are alive and potent.</p>",
+            "icon_alt": "shopify://shop_images/Frame_4.png",
+            "icon_color": "#40656e",
+            "title": "Non - Toxic ingredients",
+            "text": "<p>We believe in the power of plants. You won't find anything harmful here.</p>",
             "link_text": "",
             "link_url": ""
           }
         }
       },
       "block_order": [
-        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-0",
-        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-1",
-        "template--14894278869081__7632589b-3491-4839-94ed-cf4230ff9607-1674664693d451af2d-2"
+        "icon_block_zDNmUk",
+        "icon_block_KCcMHU",
+        "icon_block_RRT9wc",
+        "icon_block_9bXKWD",
+        "icon_block_xhVN4A"
       ],
-      "settings": {
-        "title": "",
-        "bg": "palette--dark bg--invert--accent",
-        "icons_size": 30,
-        "icon_alignment": "icon--top",
-        "layout": "grid--stacked",
-        "align_text": "text-center",
-        "width": "wrapper--full",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "section_collection_slider_hECCHR": {
-      "type": "section-collection-slider",
-      "custom_css": [
-        ".section-carousel {background-color: #f2f2f2;}",
-        ".section-carousel__header p {color: #000000;}",
-        ".product__grid__title {color: #000000;}",
-        ".product__grid__price {color: #000000;}",
-        ".product__rating {color: #000000;}",
-        ".product__rating__count {color: #000000;}"
-      ],
-      "settings": {
-        "collection": "best-sellers",
-        "product_limit": 12,
-        "title": "Peak Scents Best Sellers",
-        "align_text": "title-center",
-        "progress_bar": "mobile",
-        "grid_large": 4,
-        "grid_medium": 3,
-        "grid_mobile": 1.2,
-        "bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "section_hero_GjWPxH": {
-      "type": "section-hero",
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/2023-PeakScents-Videoclips-46.jpg",
-        "height": "use_screen_two_thirds",
-        "overlay_opacity": 0,
-        "overlay_color": "#e3bba2",
-        "enable_overlay_text": false,
-        "preload_image": false,
-        "content_width": 800,
-        "text_align": "align--bottom-center",
-        "text_color": "text--neutral",
-        "color_bg": "hero__content--transparent",
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "title": "Why Peak Scents",
+        "bg": "palette--bright bg--bright",
+        "icons_size": 50,
+        "icon_alignment": "icon--top",
+        "layout": "grid--slider",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
-    "section_richtext_Ltxcm8": {
-      "type": "section-richtext",
+    "section_double_ePr8rL": {
+      "type": "section-double",
       "blocks": {
-        "kicker_jYGByN": {
-          "type": "kicker",
-          "settings": {
-            "kicker": "",
-            "enable_line": false,
-            "text_size": 1
-          }
-        },
-        "kicker_d9knRJ": {
-          "type": "kicker",
-          "settings": {
-            "kicker": "Women Owned in Flagstaff Arizona - Small Batch - Big Love",
-            "enable_line": true,
-            "text_size": 6
-          }
-        },
-        "heading_cfjCLW": {
-          "type": "heading",
-          "settings": {
-            "heading": "That's right, we Make our Products In-House.",
-            "text_size": 8
-          }
-        },
-        "text_7NHywX": {
+        "text_G7WdHm": {
           "type": "text",
           "settings": {
-            "text": "<p>At Peak Scents, we never outsource production because it allows us to guarantee that our products have the integrity our customers expect. We are committed to sourcing our ingredients through partners who share an aligned dedication to responsible practices. We are passionate about creating sustainable change in the world through intelligent, ethical business customs. Our commitment to never outsource production ensures that when you choose us as, you can trust the products you receive will adhere to those same ideals.</p>",
-            "text_size": 5,
-            "text_columns": 1
-          }
-        },
-        "kicker_7wJKnV": {
-          "type": "kicker",
-          "settings": {
             "kicker": "",
-            "enable_line": false,
-            "text_size": 4
+            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
+            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--secondary",
+            "button_style": "btn btn--long",
+            "text_color": "text--black",
+            "bg_color": "#ffffff"
           }
         },
-        "heading_3tBjiA": {
-          "type": "heading",
+        "image_xweLmJ": {
+          "type": "image",
           "settings": {
-            "heading": "Visit our Product Refill Station & No Waste Offerings",
-            "text_size": 8
-          }
-        },
-        "text_Uh83W8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Peak Scents is committed to reducing our business's carbon footprint. We offer an in house option to refill your products and skip the extra packaging. It's just one perk of investing in Peak Scents with your skin care routine in Arizona. <br/><br/>We also offer bulk - zero waste - refilling options for common house hold needs. This includes natural cleaning detergents, soaps, and other products used to upkeep your home. Come stop by and check out what we offer in store at Peak Scents. Located off of Butler Ave. in Flagstaff, Arizona.</p>",
-            "text_size": 4,
-            "text_columns": 1
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
           }
         }
       },
       "block_order": [
-        "kicker_jYGByN",
-        "kicker_d9knRJ",
-        "heading_cfjCLW",
-        "text_7NHywX",
-        "kicker_7wJKnV",
-        "heading_3tBjiA",
-        "text_Uh83W8"
+        "text_G7WdHm",
+        "image_xweLmJ"
       ],
       "settings": {
-        "align_text": "text-left",
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#ffffff",
+        "preload_image": true,
+        "width": "wrapper--full",
+        "padding_top": 22,
+        "padding_bottom": 34
+      }
+    },
+    "section_faq_kGJQwN": {
+      "type": "section-faq",
+      "blocks": {
+        "text_pTf8HW": {
+          "type": "text",
+          "settings": {
+            "title": "Is my payment data safe with you?",
+            "content": "<p>All direct payment gateways adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express, and Discover.</p>"
+          }
+        },
+        "text_dpXkQH": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I learn more about the payment and processing on your store?",
+            "content": "<p>Where can I learn more about the payment and processing on your store?</p>"
+          }
+        },
+        "text_VB4kxN": {
+          "type": "text",
+          "settings": {
+            "title": "What forms of payment do you accept?",
+            "content": "<p>What forms of payment do you accept?</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_pTf8HW",
+        "text_dpXkQH",
+        "text_VB4kxN"
+      ],
+      "name": "Accordion group",
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "title_align": "text-center",
+        "title_size": 9,
+        "heading_size": 4,
+        "text_size": 3,
+        "faqs_image": "shopify://shop_images/2025_KISH_Peak-Scents_DK34958_1.png",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
-        "content_width": 2000,
         "width": "wrapper",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "1731970474e85ec46c": {
+    "173197099281d2d7be": {
       "type": "apps",
       "blocks": {
-        "greenspark_static_widgets_v2_AcfYEi": {
+        "greenspark_static_widgets_v2_qzANzT": {
           "type": "shopify://apps/greenspark/blocks/static-widgets-v2/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
           "settings": {
             "widget_type": "total_impact",
             "horizontal_alignment": "center",
-            "greenspark_widget_color": "black",
+            "greenspark_widget_color": "grey",
             "size": "full_width",
             "fullwidth_justification": "center",
-            "enable_popup": true
+            "trees_stat_type": true,
+            "plastic_stat_type": true,
+            "carbon_stat_type": true,
+            "kelp_stat_type": true,
+            "water_stat_type": true,
+            "bees_stat_type": true,
+            "enable_popup": true,
+            "greenspark_popup_theme": "light"
           }
         }
       },
       "block_order": [
-        "greenspark_static_widgets_v2_AcfYEi"
+        "greenspark_static_widgets_v2_qzANzT"
       ],
       "settings": {
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "related": {
-      "type": "related",
-      "disabled": true,
-      "settings": {
-        "heading": "You might also like",
-        "bg": "palette--light bg--neutral",
-        "grid_large": 4,
-        "grid_medium": 3,
-        "grid_small": 1.2,
-        "related_products_enable": true,
-        "limit": 6,
-        "product_recommendations_heading": "Related products",
-        "show_recently_viewed": true,
-        "product_recently_limit": 6,
-        "product_recently_minimum": 4,
-        "product_recently_heading": "Recently viewed",
         "width": "wrapper",
         "padding_top": 36,
         "padding_bottom": 36
@@ -557,7 +501,6 @@
     },
     "reviews": {
       "type": "reviews",
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "product_reviews_enable": true,
@@ -570,16 +513,13 @@
   },
   "order": [
     "main",
-    "1714693041d975df8b",
-    "section_richtext_e4UMxx",
-    "image-with-text",
-    "b4f116f3-a4bc-436a-8be9-1d96f3eb35c2",
-    "7632589b-3491-4839-94ed-cf4230ff9607",
-    "section_collection_slider_hECCHR",
-    "section_hero_GjWPxH",
-    "section_richtext_Ltxcm8",
-    "1731970474e85ec46c",
     "related",
+    "image-with-text",
+    "1714693561402a548e",
+    "section_icons_txNTqP",
+    "section_double_ePr8rL",
+    "section_faq_kGJQwN",
+    "173197099281d2d7be",
     "reviews"
   ]
 }

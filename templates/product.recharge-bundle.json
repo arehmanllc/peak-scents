@@ -9,10 +9,467 @@
  */
 {
   "sections": {
-    "1731970892f25f6b51": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": 8,
+            "product_show_cutline": true,
+            "show_rating": true,
+            "show_rating_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "judge_me_reviews_preview_badge_6BHWhJ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "variants": {
+          "type": "variant-selectors",
+          "settings": {
+            "option_size_swatch": 34,
+            "option_size_radio": 50,
+            "option_space": 30,
+            "padding_bottom": 30
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+            "show_quantity": true,
+            "padding_bottom": 20
+          }
+        },
+        "sizes-remaining": {
+          "type": "size-remaining",
+          "settings": {
+            "info_page": "",
+            "title": "",
+            "show_remaining": true,
+            "show_remaining_style": "always",
+            "countdown": 10,
+            "padding_bottom": 0
+          }
+        },
+        "buttons": {
+          "type": "add-buttons",
+          "settings": {
+            "enable_payment_button": true,
+            "enable_gift_card_recipient": true,
+            "padding_bottom": 20
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "greenspark_product_widgets_ccq9yQ": {
+          "type": "shopify://apps/greenspark/blocks/product-widgets/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
+          "settings": {
+            "horizontal_alignment": "center",
+            "style": "simplified",
+            "size": "regular",
+            "fullwidth_justification": "flex-start",
+            "greenspark_widget_color": "#3B755F",
+            "enable_popup": true,
+            "greenspark_popup_theme": "light"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "style": "accordions",
+            "enable_description": true,
+            "read_more": true,
+            "icon_description": "",
+            "description_expanded": true,
+            "title_1": "Ingredients",
+            "icon_name_1": "icon-leaf",
+            "raw_content_1": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>",
+            "title_2": "How to Use",
+            "icon_name_2": "icon-water",
+            "raw_content_2": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}</p>",
+            "title_3": "Benefits",
+            "icon_name_3": "icon-star-rating",
+            "raw_content_3": "<p>{{ product.metafields.custom.benefits | metafield_tag }}</p>",
+            "title_4": "Shipping",
+            "icon_name_4": "icon-truck",
+            "raw_content_4": "<ul><li>Free Shipping on orders $99 +</li><li>Fast Shipping</li><li>Free Sample with all orders</li><li>Love it or your money back</li><li>A Tree is planted with every order placed</li></ul><p></p><p></p>",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "title": "Buy it with",
+            "upsell_type": "product_single",
+            "product": "{{ product.metafields.theme.upsell.value }}",
+            "upsell_product_list": [],
+            "upsell_list_limit": 1,
+            "padding_bottom": 20
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "settings": {
+            "share_label": "Share",
+            "target_device": "",
+            "padding_bottom": 20
+          }
+        },
+        "icon_3tmUky": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-animal-paw",
+            "image": "shopify://shop_images/Container.png",
+            "icon_size": 30,
+            "icon_color": "#4b4b4b",
+            "text": "<p>{{ product.metafields.custom.cruelty_free.value }}</p>",
+            "padding_bottom": 8
+          }
+        },
+        "f999f4d3-3108-48a4-ab3c-c92c2be6780d": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shipment",
+            "image": "shopify://shop_images/Container_1.png",
+            "icon_size": 30,
+            "icon_color": "#736058",
+            "text": "<p>Free Shipping on Orders $99+</p>",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "judge_me_reviews_preview_badge_6BHWhJ",
+        "variants",
+        "quantity",
+        "sizes-remaining",
+        "buttons",
+        "pickup",
+        "greenspark_product_widgets_ccq9yQ",
+        "description",
+        "upsell",
+        "sharing",
+        "icon_3tmUky",
+        "f999f4d3-3108-48a4-ab3c-c92c2be6780d"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "thumbnails-left@slides",
+        "image_width": "half",
+        "image_spacing": 10,
+        "align": "left",
+        "bg": "palette--light bg--neutral",
+        "mobile_layout": "thumbs",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "alt_text_enable": true,
+        "alt_text_icon": "icon-legal",
+        "product_breadcrumbs_enable": true,
+        "product_breadcrumbs_list": [
+          "all-plant-based-products",
+          "organic-rose-phyto3"
+        ],
+        "width": "wrapper--none",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "Pairs well with",
+        "bg": "palette--light bg--neutral",
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_small": 1.2,
+        "related_products_enable": true,
+        "limit": 8,
+        "product_recommendations_heading": "",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text": {
+      "type": "section-double",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Results You Can See",
+            "text": "<p>Clinical Results*</p><p>After 1 use:</p><h6>100% showed an increase in hydration</h6><h6></h6><p>After 4 weeks:</p><h6>100% showed an increase in hydration</h6><h6>87% showed improvement in skin firmness</h6><h6>83% showed visible improvement in fine lines and wrinkles</h6><h6></h6><p>Consumer Results*</p><p>After 1 week:</p><h6>100% agreed it is gentle and non-irritating</h6><h6>100% agreed the lavender scent is calming and relaxing</h6><h6>90% agreed it soothed my skin as I slept</h6><h6></h6><p>*Based on an independent third-party clinical and consumer perception study conducted on 30 women.</p>",
+            "font_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--white",
+            "button_style": "caps--link",
+            "text_color": "text--white",
+            "bg_color": "#d5d0cc"
+          }
+        },
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2025_KISH_Peak-Scents_DK34714_1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "image"
+      ],
+      "custom_css": [],
+      "settings": {
+        "height": "use_pixels_650",
+        "brick_gutter": 0,
+        "borders": true,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1714693561402a548e": {
       "type": "apps",
       "blocks": {
-        "greenspark_static_widgets_v2_7R6BVt": {
+        "judge_me_reviews_review_widget_WYjxE4": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_WYjxE4"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_icons_txNTqP": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_zDNmUk": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/Frame.png",
+            "icon_color": "#40656e",
+            "title": "Made by Hand in the USA",
+            "text": "<p>All of our products are made by our team at our Flagstaff, Arizona location. Come say hi if you're in town! </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_KCcMHU": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-animal-paw",
+            "icon_alt": "shopify://shop_images/Frame_1.png",
+            "icon_color": "#40656e",
+            "title": "Cruelty Free & beegan",
+            "text": "<p>Our products are never tested on animals and we let you know when they are free of beeswax.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_RRT9wc": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-recycled",
+            "icon_alt": "shopify://shop_images/Frame_2.png",
+            "icon_color": "#40656e",
+            "title": "Ethical & Sustainable",
+            "text": "<p>Peak Scents is committed to creating skin care products that make a difference.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_9bXKWD": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-store",
+            "icon_alt": "shopify://shop_images/Frame_3.png",
+            "icon_color": "#40656e",
+            "title": "Women Owned & Operated",
+            "text": "<p>Founded by second-generation herbalist DeeAnn Tracy<br/><br/></p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_xhVN4A": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/Frame_4.png",
+            "icon_color": "#40656e",
+            "title": "Non - Toxic ingredients",
+            "text": "<p>We believe in the power of plants. You won't find anything harmful here.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_zDNmUk",
+        "icon_block_KCcMHU",
+        "icon_block_RRT9wc",
+        "icon_block_9bXKWD",
+        "icon_block_xhVN4A"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Why Peak Scents",
+        "bg": "palette--bright bg--bright",
+        "icons_size": 50,
+        "icon_alignment": "icon--top",
+        "layout": "grid--slider",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_double_ePr8rL": {
+      "type": "section-double",
+      "blocks": {
+        "text_G7WdHm": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
+            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--secondary",
+            "button_style": "btn btn--long",
+            "text_color": "text--black",
+            "bg_color": "#ffffff"
+          }
+        },
+        "image_xweLmJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "text_G7WdHm",
+        "image_xweLmJ"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#ffffff",
+        "preload_image": true,
+        "width": "wrapper--full",
+        "padding_top": 22,
+        "padding_bottom": 34
+      }
+    },
+    "section_faq_kGJQwN": {
+      "type": "section-faq",
+      "blocks": {
+        "text_pTf8HW": {
+          "type": "text",
+          "settings": {
+            "title": "Is my payment data safe with you?",
+            "content": "<p>All direct payment gateways adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express, and Discover.</p>"
+          }
+        },
+        "text_dpXkQH": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I learn more about the payment and processing on your store?",
+            "content": "<p>Where can I learn more about the payment and processing on your store?</p>"
+          }
+        },
+        "text_VB4kxN": {
+          "type": "text",
+          "settings": {
+            "title": "What forms of payment do you accept?",
+            "content": "<p>What forms of payment do you accept?</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_pTf8HW",
+        "text_dpXkQH",
+        "text_VB4kxN"
+      ],
+      "name": "Accordion group",
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "title_align": "text-center",
+        "title_size": 9,
+        "heading_size": 4,
+        "text_size": 3,
+        "faqs_image": "shopify://shop_images/2025_KISH_Peak-Scents_DK34958_1.png",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "173197099281d2d7be": {
+      "type": "apps",
+      "blocks": {
+        "greenspark_static_widgets_v2_qzANzT": {
           "type": "shopify://apps/greenspark/blocks/static-widgets-v2/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
           "settings": {
             "widget_type": "total_impact",
@@ -20,12 +477,19 @@
             "greenspark_widget_color": "grey",
             "size": "full_width",
             "fullwidth_justification": "center",
-            "enable_popup": true
+            "trees_stat_type": true,
+            "plastic_stat_type": true,
+            "carbon_stat_type": true,
+            "kelp_stat_type": true,
+            "water_stat_type": true,
+            "bees_stat_type": true,
+            "enable_popup": true,
+            "greenspark_popup_theme": "light"
           }
         }
       },
       "block_order": [
-        "greenspark_static_widgets_v2_7R6BVt"
+        "greenspark_static_widgets_v2_qzANzT"
       ],
       "settings": {
         "text_color": "text--neutral",
@@ -35,115 +499,27 @@
         "padding_bottom": 36
       }
     },
-    "recharge-bundles-widget": {
-      "type": "apps",
-      "blocks": {
-        "recharge-bundles-widget-block": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/bundles-widget/371eed76-0b44-4869-9813-730372ea378e",
-          "settings": {
-            "product": "{{ product }}",
-            "rb_theme_color": "#40656e",
-            "rb_theme_text": "#ffffff",
-            "rb_theme_other_text": "#252525",
-            "rb_theme_bg": "#ffffff",
-            "rb_text_size": "16px",
-            "rb_spacing_width": 1220,
-            "rb_spacing_margins": "15px",
-            "rb_buttons_size": "15px",
-            "rb_buttons_corners": "4",
-            "rb_builder_items_per_row_ns": 4,
-            "rb_builder_items_per_row": "1",
-            "rb_builder_aspect_ratio": "100%",
-            "rb_builder_radius": "4"
-          }
-        }
-      },
-      "block_order": [
-        "recharge-bundles-widget-block"
-      ],
+    "reviews": {
+      "type": "reviews",
+      "custom_css": [],
       "settings": {
-        "text_color": "text--neutral",
-        "bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "product_reviews_enable": true,
+        "bg": "palette--bright bg--bright",
+        "width": "wrapper--full",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
-    },
-    "related": {
-      "type": "related",
-      "settings": {}
-    },
-    "main": {
-      "type": "product",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
-        "variants": {
-          "type": "variant-selectors",
-          "settings": {}
-        },
-        "subscriptions": {
-          "type": "subscription",
-          "settings": {}
-        },
-        "quantity": {
-          "type": "quantity",
-          "settings": {}
-        },
-        "sizes-remaining": {
-          "type": "size-remaining",
-          "settings": {}
-        },
-        "buttons": {
-          "type": "add-buttons",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "upsell": {
-          "type": "upsell",
-          "disabled": true,
-          "settings": {}
-        },
-        "pickup": {
-          "type": "pickup",
-          "disabled": true,
-          "settings": {}
-        },
-        "sharing": {
-          "type": "sharing",
-          "disabled": true,
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title",
-        "price",
-        "variants",
-        "subscriptions",
-        "quantity",
-        "sizes-remaining",
-        "buttons",
-        "description",
-        "upsell",
-        "pickup",
-        "sharing"
-      ],
-      "settings": {}
     }
   },
   "order": [
     "main",
-    "1731970892f25f6b51",
-    "recharge-bundles-widget",
-    "related"
+    "related",
+    "image-with-text",
+    "1714693561402a548e",
+    "section_icons_txNTqP",
+    "section_double_ePr8rL",
+    "section_faq_kGJQwN",
+    "173197099281d2d7be",
+    "reviews"
   ]
 }

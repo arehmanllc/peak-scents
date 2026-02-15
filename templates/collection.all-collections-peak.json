@@ -11,21 +11,20 @@
   "sections": {
     "hero": {
       "type": "collection-hero",
-      "disabled": true,
       "settings": {
         "text_align": "align--middle-center",
         "show_title": true,
-        "show_title_below": true,
+        "show_title_below": false,
         "show_description": false,
         "show_description_below": false,
         "color_bg": "palette--light bg--neutral",
         "show_image": true,
         "bg_position": "center-bottom",
-        "image_height": "use_screen_one_half",
+        "image_height": "use_image",
         "overlay_opacity": 10,
-        "overlay_color": "#e3bba2",
+        "overlay_color": "#494441",
         "enable_overlay_text": false,
-        "text_color": "text--white",
+        "text_color": "text--black",
         "width": "wrapper--none",
         "padding_top": 0,
         "padding_bottom": 0,
@@ -65,113 +64,6 @@
         "padding_bottom": 36
       }
     },
-    "section_list_collections_cnp6i7": {
-      "type": "section-list-collections",
-      "blocks": {
-        "collection_iHDmbY": {
-          "type": "collection",
-          "settings": {
-            "collection": "organic-rose-phyto3",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15,
-            "top_text": "",
-            "top_text_disabled": false,
-            "title": "",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        },
-        "collection_aK678F": {
-          "type": "collection",
-          "settings": {
-            "collection": "peak-scents",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15,
-            "top_text": "",
-            "top_text_disabled": false,
-            "title": "",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        },
-        "collection_C8kpkA": {
-          "type": "collection",
-          "settings": {
-            "collection": "power-repair",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15,
-            "top_text": "",
-            "top_text_disabled": false,
-            "title": "",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        },
-        "collection_cxtXtq": {
-          "type": "collection",
-          "settings": {
-            "collection": "body-nurish",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15,
-            "top_text": "",
-            "top_text_disabled": false,
-            "title": "",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        },
-        "collection_peehrr": {
-          "type": "collection",
-          "settings": {
-            "collection": "wandering-the-west-apothecary-products",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15,
-            "top_text": "",
-            "top_text_disabled": false,
-            "title": "",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        }
-      },
-      "block_order": [
-        "collection_iHDmbY",
-        "collection_aK678F",
-        "collection_C8kpkA",
-        "collection_cxtXtq",
-        "collection_peehrr"
-      ],
-      "name": "Collection list",
-      "settings": {
-        "title": "Peak Scents Collections",
-        "bg": "palette--light bg--neutral",
-        "wh_ratio": 1.5,
-        "grid_large": 2,
-        "grid_medium": 2,
-        "grid_mobile": 1.2,
-        "font_family": "body",
-        "title_size": 8,
-        "accent_size": 3,
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "collection",
       "blocks": {
@@ -184,7 +76,6 @@
         },
         "filters": {
           "type": "filters",
-          "disabled": true,
           "settings": {}
         }
       },
@@ -192,20 +83,123 @@
         "collections",
         "filters"
       ],
-      "disabled": true,
       "settings": {
-        "product_limit": 36,
+        "product_limit": 9,
         "grid_large": 3,
         "grid_mobile": "2",
-        "enable_layout_toggle": true,
+        "enable_layout_toggle": false,
         "color_bg": "palette--light bg--neutral",
         "collection_sorting": true,
-        "hide_sidebar": true,
-        "collapse_filters": false,
+        "hide_sidebar": false,
+        "collapse_filters": true,
         "show_products_count": true,
-        "width": "wrapper",
+        "width": "wrapper--full",
         "padding_top": 20,
         "padding_bottom": 64
+      }
+    },
+    "section_video_7JFWqG": {
+      "type": "section-video",
+      "blocks": {
+        "heading_Hifmfa": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Story",
+            "text_size": 10
+          }
+        },
+        "video_TNyq9r": {
+          "type": "video",
+          "settings": {
+            "video_link": "https://vimeo.com/467464460",
+            "popup_text": "Peak Scents Brand Story",
+            "button_width": 80,
+            "button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Hifmfa",
+        "video_TNyq9r"
+      ],
+      "settings": {
+        "height": "use_screen_three_quarters",
+        "color_bg": "palette--light bg--neutral",
+        "object_position": "right-center",
+        "image": "shopify://shop_images/DeeAnn_Tracy_Founder_Peak_Scents_jpg_1.jpg",
+        "preload_image": false,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 35,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "section_richtext_W7D4mT": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_iJqW3t": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Introducing",
+            "enable_line": true,
+            "text_size": 4
+          }
+        },
+        "heading_e4dHyY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find your skin’s perfect match.",
+            "text_size": 8
+          }
+        },
+        "text_x38GLc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every complexion is unique. Take our quick quiz to discover the products that support your skin’s balance, barrier, and glow</p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "button_hAzRm6": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Skin Care QUiz",
+            "link_1": "shopify://collections/all",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--medium",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--neutral"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_iJqW3t",
+        "heading_e4dHyY",
+        "text_x38GLc",
+        "button_hAzRm6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent",
+        "content_width": 650,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -213,7 +207,8 @@
     "hero",
     "subcollections",
     "1731969349ed9647c4",
-    "section_list_collections_cnp6i7",
-    "main"
+    "main",
+    "section_video_7JFWqG",
+    "section_richtext_W7D4mT"
   ]
 }
