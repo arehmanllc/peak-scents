@@ -1332,7 +1332,7 @@
         "style": "default",
         "zoom": 13,
         "bg": "palette--dark bg--invert--accent",
-        "api_key": "AIzaSyDfc-aIKeN_C0sA0IohSyDtE4g9MAC6n5I",
+        "api_key": "YOUR_GOOGLE_API_KEY",
         "map_address": "1000 E. Butler Suite 101, Flagstaff, AZ",
         "image": "shopify://shop_images/Screenshot_2023-05-26_at_6.17.55_PM.png",
         "enable_latlong": true,

@@ -21,6 +21,11 @@
   src: url("Metropolis-Regular.woff") format('woff'),
     url("Metropolis-Regular.woff2") format('woff2');
 }
+@font-face {
+  font-family: 'Prata-Regular';
+  src: url("Prata-Regular.woff") format('woff'),
+       url("Prata-Regular.woff2") format('woff2');
+}
 
 .flickity-disabled-mobile:after {
   content: "flickity" !important;
@@ -17093,6 +17098,7 @@ html:not(.no-js) body:not(.focus-enabled) *:focus {
   font-weight: var(--FONT-WEIGHT-HEADING);
   letter-spacing: var(--FONT-HEADING-LETTER-SPACING);
   text-transform: var(--FONT-HEADING-TRANSFORM);
+  font-size: clamp(24px, 5vw, 42px);
 }
 
 .standard__kicker,
