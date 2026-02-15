@@ -20,7 +20,7 @@
         "color_bg": "palette--light bg--neutral",
         "show_image": true,
         "bg_position": "center-bottom",
-        "image_height": "use_image",
+        "image_height": "use_pixels_650",
         "overlay_opacity": 10,
         "overlay_color": "#494441",
         "enable_overlay_text": false,

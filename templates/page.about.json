@@ -43,11 +43,11 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/ShellyStrazis-06222_85df6dd6-567d-4978-9394-c5cc9d3c769d.jpg",
+        "image": "shopify://shop_images/2025_KISH_DeeAnn-Tracy_Peak-Scents_DAK7420_1.png",
         "height": "use_image",
         "overlay_opacity": 10,
-        "overlay_color": "#bf7b6b",
-        "enable_overlay_text": true,
+        "overlay_color": "#494441",
+        "enable_overlay_text": false,
         "preload_image": true,
         "content_width": 2000,
         "text_align": "align--middle-center",
@@ -61,92 +61,52 @@
     "section_richtext_jRekHq": {
       "type": "section-richtext",
       "blocks": {
-        "kicker_tq8cAL": {
-          "type": "kicker",
-          "disabled": true,
-          "settings": {
-            "kicker": "Women Owned & Local to flagstaff Arizona",
-            "enable_line": true,
-            "text_size": 6
-          }
-        },
         "heading_ztw8X3": {
           "type": "heading",
           "settings": {
             "heading": "Peak Scents creates intelligent formulations that synergize nature and science to deliver clean, results-driven skincare to awaken your natural radiance.",
-            "text_size": 7
-          }
-        },
-        "button_gadddy": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "link_text_1": "Hear what our clients have to say",
-            "link_1": "shopify://pages/video-testimonials",
-            "button_size_1": "btn--long",
-            "button_style_1": "btn",
-            "button_color_1": "btn--secondary",
-            "link_text_2": "find a Routine that's right for you",
-            "link_2": "shopify://pages/build-your-own-routine",
-            "button_size_2": "btn--long",
-            "button_style_2": "btn--outline",
-            "button_color_2": "btn--black",
-            "link_text_3": "",
-            "link_3": "",
-            "button_size_3": "btn--long",
-            "button_style_3": "btn-text-thick-line",
-            "button_color_3": "btn--white"
-          }
-        },
-        "image_968bdc": {
-          "type": "image",
-          "settings": {
-            "image_max_limit": 120,
-            "link": ""
+            "text_size": 1
           }
         }
       },
       "block_order": [
-        "kicker_tq8cAL",
-        "heading_ztw8X3",
-        "button_gadddy",
-        "image_968bdc"
+        "heading_ztw8X3"
       ],
       "settings": {
         "align_text": "text-center",
         "text_color": "text--black",
-        "bg": "palette--light bg--neutral",
+        "bg": "palette--light bg--accent",
         "content_width": 850,
         "width": "wrapper",
         "padding_top": 78,
         "padding_bottom": 78
       }
     },
-    "section_double_eH9wGt": {
+    "section_double_YixMpF": {
       "type": "section-double",
       "blocks": {
-        "text_RkahUg": {
+        "text_t6nfAT": {
           "type": "text",
           "settings": {
-            "kicker": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
-            "title": "",
-            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed Southwest School of Botanical Medicine. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
-            "font_size": 2,
+            "kicker": "",
+            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
+            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
+            "font_size": 4,
             "text_columns": 1,
             "align_text": "text-center",
             "button_text": "",
             "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "btn-text-thick-line",
-            "text_color": "text--neutral",
-            "bg_color": ""
+            "button_color": "btn--secondary",
+            "button_style": "btn btn--long",
+            "text_color": "text--black",
+            "bg_color": "#ffffff"
           }
         },
-        "image_7NM97T": {
+        "image_4WdADz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_6.jpg",
-            "overlay_opacity": 15,
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1.png",
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -157,24 +117,23 @@
             "link_text": "",
             "link": "",
             "button_color": "btn--white",
-            "button_style": "btn"
+            "button_style": "btn uppercase"
           }
         }
       },
       "block_order": [
-        "text_RkahUg",
-        "image_7NM97T"
+        "text_t6nfAT",
+        "image_4WdADz"
       ],
-      "name": "Image with text",
       "settings": {
-        "height": "use_screen_one_half",
+        "height": "use_image",
         "brick_gutter": 0,
         "borders": false,
-        "bg_color": "",
-        "preload_image": false,
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "bg_color": "#ffffff",
+        "preload_image": true,
+        "width": "wrapper--full",
+        "padding_top": 22,
+        "padding_bottom": 34
       }
     },
     "custom-content-1": {
@@ -183,7 +142,7 @@
         "dbeee1fe-a2a2-4c80-ab2f-da2ed7380104": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83.jpg",
+            "image": "shopify://shop_images/2023-PeakScentsAugust2023-60_1.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -202,11 +161,11 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
-            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a <strong>second-generation herbalist </strong>whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p><p>DeeAnn's journey to creating Peak Scents is enriched by her diverse experiences, including her<strong> years as a river guide in the awe-inspiring Grand Canyon</strong>. It was during these adventures that she firsthand witnessed the toll that harsh desert conditions could take on the skin of river guides and trip participants. Driven by her innate love for health and environmental sustainability, DeeAnn recognized the pressing need for skincare products that could <strong>provide essential protection in these demanding environments.</strong>  With an unyielding dedication to health and the planet, DeeAnn seamlessly integrates her values into the formulation of each and every Peak Scents product. The result is a range of skincare solutions that not only<strong> elevate the health and radiance of your skin but also reflect a deep-rooted commitment to environmental responsibility.</strong></p><p></p><p></p>",
+            "title": "We Believe in Plants.",
+            "text": "<p>At peak scents, we believe in the powerful combination of antioxidants + plants to keep your skin radiant. Plants are a complete resource, providing us with all the necessary ingredients to make handcrafted products that care for your skin as nature intended.</p>",
             "font_size": 4,
             "text_columns": 1,
-            "align_text": "text-left",
+            "align_text": "text-center",
             "button_text": "",
             "button_url": "",
             "button_color": "btn--black",
@@ -221,7 +180,7 @@
         "custom-content-1-1"
       ],
       "settings": {
-        "height": "use_pixels_650",
+        "height": "use_image",
         "brick_gutter": 0,
         "borders": false,
         "bg_color": "",
@@ -231,31 +190,31 @@
         "padding_bottom": 0
       }
     },
-    "section_double_cFyYbf": {
-      "type": "section-double",
+    "section_custom_content_h9qiRX": {
+      "type": "section-custom-content",
       "blocks": {
-        "text_VrqxVN": {
+        "text_NTTL6x": {
           "type": "text",
           "settings": {
-            "kicker": "What will you find in Peak Scents Products?",
-            "title": "",
+            "kicker": "",
+            "title": "What will you find in Peak Scents Products?",
             "text": "<p>All the radiant goodness that nature intended for you.</p>",
-            "font_size": 2,
+            "font_size": 4,
             "text_columns": 1,
             "align_text": "text-center",
             "button_text": "Shop Best Sellers",
-            "button_url": "shopify://products/body-nurish-organic-coconut-cleansing-milk",
-            "button_color": "btn--secondary",
+            "button_url": "shopify://blogs/peak-scents/year-round-radiance-the-hydrating-power-of-facial-oils",
+            "button_color": "btn--primary",
             "button_style": "btn btn--long",
-            "text_color": "text--neutral",
-            "bg_color": ""
+            "text_color": "text--black",
+            "bg_color": "#ffffff"
           }
         },
-        "image_AtMdmB": {
+        "image_pkPrpt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/FACES_FOR_BLOGS_4476cb2c-a9a3-4a57-a436-f09648f0c731.jpg",
-            "overlay_opacity": 15,
+            "image": "shopify://shop_images/2023-PeakScentsAugust2023-60_1.png",
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -266,24 +225,23 @@
             "link_text": "",
             "link": "",
             "button_color": "btn--white",
-            "button_style": "btn"
+            "button_style": "btn uppercase"
           }
         }
       },
       "block_order": [
-        "text_VrqxVN",
-        "image_AtMdmB"
+        "text_NTTL6x",
+        "image_pkPrpt"
       ],
-      "name": "Image with text",
       "settings": {
-        "height": "use_screen_one_half",
+        "height": "use_image",
         "brick_gutter": 0,
         "borders": false,
         "bg_color": "",
         "preload_image": false,
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "width": "wrapper--full",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "section_richtext_7bbWCR": {
@@ -293,14 +251,14 @@
           "type": "heading",
           "settings": {
             "heading": "Plant Based. & Made with Love.",
-            "text_size": 8
+            "text_size": 5
           }
         },
         "text_DPijHy": {
           "type": "text",
           "settings": {
             "text": "<p><br/>All Peak Scents products are formulated with plant-based ingredients that support and nurture the health of your skin.</p><p>From the Mountains of Northern Arizona.<br/></p>",
-            "text_size": 2,
+            "text_size": 3,
             "text_columns": 1
           }
         }
@@ -311,7 +269,7 @@
       ],
       "settings": {
         "align_text": "text-center",
-        "text_color": "text--neutral",
+        "text_color": "text--white",
         "bg": "palette--dark bg--invert--accent",
         "content_width": 850,
         "width": "wrapper",
@@ -354,7 +312,7 @@
       "settings": {
         "align_text": "text-center",
         "text_color": "text--neutral",
-        "bg": "palette--light bg--neutral",
+        "bg": "palette--light bg--accent",
         "content_width": 850,
         "width": "wrapper",
         "padding_top": 36,
@@ -367,12 +325,12 @@
         "text_Nf4hFh": {
           "type": "text",
           "settings": {
-            "kicker": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
-            "title": "",
-            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed Southwest School of Botanical Medicine. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
+            "kicker": "Partnering",
+            "title": "Greenspark",
+            "text": "<p>We are passionate about creating sustainable change here at Peak Scents Plant Based Skincare. By partnering with Greenspark, Eden Projects, and Plastic Bank, we are able to offset our carbon footprint and work towards a healthier planet for all. With every online purchase, we are donating to Eden Projects to plant a tree. For each plastic container we sell, our donations to Plastic Bank support the collection of a plastic item from the ocean.</p>",
             "font_size": 2,
             "text_columns": 1,
-            "align_text": "text-center",
+            "align_text": "text-left",
             "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
@@ -384,7 +342,7 @@
         "image_yTPWze": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_6.jpg",
+            "image": "shopify://shop_images/ShanaWatahomigie_2966_1_791f3af8-5910-481d-91e8-c0d52cc76e43_600x600_1_1.png",
             "overlay_opacity": 15,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -406,7 +364,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "height": "use_screen_one_half",
+        "height": "use_image",
         "brick_gutter": 0,
         "borders": false,
         "bg_color": "",
@@ -422,7 +380,7 @@
         "image_Ym78jm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83.jpg",
+            "image": "shopify://shop_images/Untitled_design_-_2024-03-19T152646.740_1.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -440,9 +398,9 @@
         "text_f99NMe": {
           "type": "text",
           "settings": {
-            "kicker": "",
-            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
-            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a <strong>second-generation herbalist </strong>whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p><p>DeeAnn's journey to creating Peak Scents is enriched by her diverse experiences, including her<strong> years as a river guide in the awe-inspiring Grand Canyon</strong>. It was during these adventures that she firsthand witnessed the toll that harsh desert conditions could take on the skin of river guides and trip participants. Driven by her innate love for health and environmental sustainability, DeeAnn recognized the pressing need for skincare products that could <strong>provide essential protection in these demanding environments.</strong>  With an unyielding dedication to health and the planet, DeeAnn seamlessly integrates her values into the formulation of each and every Peak Scents product. The result is a range of skincare solutions that not only<strong> elevate the health and radiance of your skin but also reflect a deep-rooted commitment to environmental responsibility.</strong></p><p></p><p></p>",
+            "kicker": "Partnering",
+            "title": "United Plant Savers",
+            "text": "<p>We support United Plant Savers in their mission to safeguard and raise public awareness about the challenges facing our wild medicinal plants. Their efforts focus on protecting these invaluable resources through organic cultivation, sustainable agricultural practices, and the reintroduction of native medicinal species into their original ecosystems. Their ultimate aim is to secure the preservation of these vital medicinal plants for the benefit of future generations, ensuring that they remain accessible for our grandchildren and beyond.</p>",
             "font_size": 4,
             "text_columns": 1,
             "align_text": "text-left",
@@ -460,7 +418,7 @@
         "text_f99NMe"
       ],
       "settings": {
-        "height": "use_pixels_650",
+        "height": "use_image",
         "brick_gutter": 0,
         "borders": false,
         "bg_color": "",
@@ -476,12 +434,12 @@
         "text_GG9JPf": {
           "type": "text",
           "settings": {
-            "kicker": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
-            "title": "",
-            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed Southwest School of Botanical Medicine. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
+            "kicker": "Giving",
+            "title": "Protecting Rivers & Clean Water",
+            "text": "<p>Peak Scents has partnered with American Rivers to help protect wild rivers and conserve clean water for people and  nature. By supporting Peak Scents, you are able to support a fully engaged non-profit organization that is making a real impact for our rivers. </p>",
             "font_size": 2,
             "text_columns": 1,
-            "align_text": "text-center",
+            "align_text": "text-left",
             "button_text": "",
             "button_url": "",
             "button_color": "btn--neutral",
@@ -493,7 +451,7 @@
         "image_gTHGGP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_6.jpg",
+            "image": "shopify://shop_images/lavender-frankincense-all-purpose-balm-5_2.png",
             "overlay_opacity": 15,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -515,11 +473,36 @@
       ],
       "name": "Image with text",
       "settings": {
-        "height": "use_screen_one_half",
+        "height": "use_image",
         "brick_gutter": 0,
         "borders": false,
         "bg_color": "",
         "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_LJnDxG": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_H7Ed68": {
+          "type": "heading",
+          "settings": {
+            "heading": "Love for Peak Scents",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_H7Ed68"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
         "width": "wrapper",
         "padding_top": 36,
         "padding_bottom": 36
@@ -652,16 +635,100 @@
       "type": "images-reviews",
       "name": "Images Reviews",
       "settings": {
-        "review_image_1": "shopify://shop_images/LOVE_SALE_20_OFF_2.png",
-        "review_image_2": "shopify://shop_images/Peak_Scents_2025_Best_Organic_Skincare_Gifts73.jpg",
-        "review_image_3": "shopify://shop_images/Untitled_Instagram_Post_2.jpg",
-        "review_stars_1": "shopify://shop_images/Icons_for_Peak_Scents_Refill_Page_Scale.png",
+        "review_image_1": "shopify://shop_images/image_18.png",
+        "review_image_2": "shopify://shop_images/image_19.png",
+        "review_image_3": "shopify://shop_images/image_20.png",
+        "review_stars_1": "shopify://shop_images/Vector.png",
         "reviews_text_1": "<p>I've been using Peak Scents regularly for the past year and my once acne prone, dull skin is so glow-y I truly rarely wear make-up. A make-up day for me a year or two ago would mean big insecurities, like \"Yeah, I know..somethings different...\", it now is my regular, confident daily. The Power Repair bundle truly repaired my acne scared skin and left me feeling beautiful, adding the Babchi Serum lifted any remaining dark spots and left me a glowing miracle.</p>",
-        "review_image_4": "shopify://shop_images/peak_scents_wandering_the_west_-26.jpg",
-        "review_image_5": "shopify://shop_images/FACES_FOR_BLOGS_4476cb2c-a9a3-4a57-a436-f09648f0c731.jpg",
-        "review_image_6": "shopify://shop_images/peak_scents_wandering_the_west_-30.jpg",
-        "review_stars_2": "shopify://shop_images/Icons_for_Peak_Scents_Refill_Page_Jar.png",
+        "review_image_4": "shopify://shop_images/image_18.png",
+        "review_image_5": "shopify://shop_images/image_19.png",
+        "review_image_6": "shopify://shop_images/image_20.png",
+        "review_stars_2": "shopify://shop_images/Vector.png",
         "reviews_text_2": "<p>“The biggest and best compliment I always receive is about my clear and glowy skin, and I owe it all to Peak Scents! Their all-natural skincare products are perfectly compatible with my sensitive skin. The organic RosePhyto3 cleansing milk, facial toner, and facial oil make for the best 3-step skin care routine, I look forward to applying it every night!Their commitment to using all natural ingredients gives me peace of mind knowing that I'm nourishing my skin without harsh chemicals. I couldn't be happier with how my skin looks and feels, and I highly recommend Peak Scents to anyone looking for skincare products that deliver amazing results!”</p>"
+      }
+    },
+    "section_icons_h4QMqU": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_cqVM3t": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/Frame.png",
+            "icon_color": "#40656e",
+            "title": "Made by Hand in the USA",
+            "text": "<p>All of our products are made by our team at our Flagstaff, Arizona location. Come say hi if you're in town! </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_xTkFkt": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-animal-paw",
+            "icon_alt": "shopify://shop_images/Frame_1.png",
+            "icon_color": "#40656e",
+            "title": "Cruelty Free & beegan",
+            "text": "<p>Our products are never tested on animals and we let you know when they are free of beeswax.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_t6G7cy": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-recycled",
+            "icon_alt": "shopify://shop_images/Frame_2.png",
+            "icon_color": "#40656e",
+            "title": "Ethical & Sustainable",
+            "text": "<p>Peak Scents is committed to creating skin care products that make a difference.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_rtTgzi": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-store",
+            "icon_alt": "shopify://shop_images/Frame_3.png",
+            "icon_color": "#40656e",
+            "title": "Women Owned & Operated",
+            "text": "<p>Founded by second-generation herbalist DeeAnn Tracy<br/><br/></p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_PH4CyH": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/Frame_4.png",
+            "icon_color": "#40656e",
+            "title": "Non - Toxic ingredients",
+            "text": "<p>We believe in the power of plants. You won't find anything harmful here.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_cqVM3t",
+        "icon_block_xTkFkt",
+        "icon_block_t6G7cy",
+        "icon_block_rtTgzi",
+        "icon_block_PH4CyH"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Why Peak Scents",
+        "bg": "palette--bright bg--bright",
+        "icons_size": 50,
+        "icon_alignment": "icon--top",
+        "layout": "grid--slider",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
@@ -669,15 +736,17 @@
     "main",
     "section_hero_jFCwad",
     "section_richtext_jRekHq",
-    "section_double_eH9wGt",
+    "section_double_YixMpF",
     "custom-content-1",
-    "section_double_cFyYbf",
+    "section_custom_content_h9qiRX",
     "section_richtext_7bbWCR",
     "section_richtext_bkVXtA",
     "section_double_yNqLpq",
     "section_custom_content_cyDQJf",
     "section_double_Tm7JPh",
+    "section_richtext_LJnDxG",
     "ss_testimonial_5_rYAjbY",
-    "images_reviews_pL8t7z"
+    "images_reviews_pL8t7z",
+    "section_icons_h4QMqU"
   ]
 }
