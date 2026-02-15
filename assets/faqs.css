@@ -1,0 +1,10 @@
+.faqs-image-block{
+  display: grid;
+  grid-template-columns: 1fr 0.68fr;
+  gap: 50px;
+}
+@media screen and (max-width: 1024px){
+  .faqs-image-block{
+    grid-template-columns: 1fr;
+  }
+}

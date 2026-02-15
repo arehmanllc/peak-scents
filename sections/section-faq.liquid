@@ -1,5 +1,5 @@
 <!-- /sections/section-faq.liquid-->
-
+{{ 'faqs.css' |  asset_url | stylesheet_tag }}
 <section class="section-faq {{ section.settings.text_color }} {{ section.settings.height }} {{ section.settings.bg }}"
   data-section-id="{{ section.id }}"
   data-section-type="page-faq"
@@ -12,40 +12,48 @@
           {{ section.settings.title }}
         </p>
       {% endif %}
-      {% for block in section.blocks %}
-        {% assign block_id = block.id %}
-        <div class="accordion__wrapper">
-          {% assign heading_size_class = section.settings.heading_size | prepend: 'accent-size-' %}
-          <button class="accordion__title js {{ heading_size_class }}"
-            data-accordion-trigger="accordion-{{ block_id }}"
-            aria-controls="accordion-{{ block_id }}"
-            aria-haspopup="true"
-            aria-expanded="false">
-            {{ block.settings.title }}
-          </button>
-          <input type="checkbox"
-            name="accordion-{{ block_id }}--{{ forloop.index }}"
-            id="accordion-{{ block_id }}--{{ forloop.index }}-checkbox"
-            class="no-js no-js-checkbox"
-            {% if block.settings.description_expanded %}checked{% endif %}>
+			<div class="faqs-image-block">
+				<div class="div-faqs-container">
+					{% for block in section.blocks %}
+						{% assign block_id = block.id %}
+						<div class="accordion__wrapper">
+							{% assign heading_size_class = section.settings.heading_size | prepend: 'accent-size-' %}
+							<button class="accordion__title js {{ heading_size_class }}"
+								data-accordion-trigger="accordion-{{ block_id }}"
+								aria-controls="accordion-{{ block_id }}"
+								aria-haspopup="true"
+								aria-expanded="false">
+								{{ block.settings.title }}
+							</button>
+							<input type="checkbox"
+								name="accordion-{{ block_id }}--{{ forloop.index }}"
+								id="accordion-{{ block_id }}--{{ forloop.index }}-checkbox"
+								class="no-js no-js-checkbox"
+								{% if block.settings.description_expanded %}checked{% endif %}>
 
-          <label for="accordion-{{ block_id }}--{{ forloop.index }}-checkbox" class="accordion__title no-js">
-            {{ block.settings.title }}
-          </label>
+							<label for="accordion-{{ block_id }}--{{ forloop.index }}-checkbox" class="accordion__title no-js">
+								{{ block.settings.title }}
+							</label>
 
-          {% assign font_size_class = section.settings.text_size | prepend: 'body-size-' %}
-          <div class="accordion__body no-js-accordion rte {{ font_size_class }}"
-            data-accordion-body
-            id="accordion-{{ block_id }}">
-              <span {{ block.shopify_attributes }}></span>
-              {{ block.settings.content }}
-          </div>
-        </div>
-      {% else %}
-        <div class="rte">
-          {{ 'home_page.onboarding.no_content' | t }}
-        </div>
-      {% endfor %}
+							{% assign font_size_class = section.settings.text_size | prepend: 'body-size-' %}
+							<div class="accordion__body no-js-accordion rte {{ font_size_class }}"
+								data-accordion-body
+								id="accordion-{{ block_id }}">
+									<span {{ block.shopify_attributes }}></span>
+									{{ block.settings.content }}
+							</div>
+						</div>
+					{% else %}
+						<div class="rte">
+							{{ 'home_page.onboarding.no_content' | t }}
+						</div>
+					{% endfor %}
+				</div>
+				<div class="faqs-image">
+					<img src="{{ section.settings.faqs_image |  img_url: 'master' }}" alt="">
+				</div>
+			</div>
+			
     </div>
   </div>
 </section>
@@ -105,6 +113,10 @@
 			"max": 15,
 			"step": 1,
 			"default": 5
+		},{
+			"type": "image_picker",
+			"id": "faqs_image",
+			"label": "Image"
 		},
 		{
 			"type": "header",
