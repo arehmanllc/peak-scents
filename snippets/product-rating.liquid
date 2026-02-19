@@ -11,11 +11,20 @@
     assign count_label_string = ', ' | append: product.metafields.reviews.rating_count | append: ' ' | append: count_translation
     assign rating_label = rating_label | append: count_label_string
   endif
+  assign rating_value = product.metafields.reviews.rating.value.rating | default: 0
+  assign rating_max = product.metafields.reviews.rating.value.scale_max | default: 5
+  assign rating_rounded = rating_value | round
  %}
 
 <div class="product__rating" role="img" aria-label="{{ rating_label }}">
-  <span class="product__rating__value" aria-hidden="true">{{ product.metafields.reviews.rating.value.rating | round: 1 }}</span>
-  <span aria-hidden="true" class="product__rating__star"></span>
+  {% comment %} <span class="product__rating__value" aria-hidden="true">{{ product.metafields.reviews.rating.value.rating | round: 1 }}</span> {% endcomment %}
+  {%- for i in (1..rating_max) -%}
+    {%- if i <= rating_rounded -%}
+      <span aria-hidden="true" class="product__rating__star product__rating__star--filled"></span>
+    {%- else -%}
+      <span aria-hidden="true" class="product__rating__star"></span>
+    {%- endif -%}
+  {%- endfor -%}
   {%- if rating_count_enable -%}
     <span class="product__rating__count" aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
   {%- endif -%}
