@@ -1,5 +1,5 @@
 <!-- /sections/section-hero.liquid -->
-
+{{ "img-banner.css" |  asset_url | stylesheet_tag }}
 {%- assign scroll_class = '' -%}
 {% if section.settings.height == 'use_screen_full' %}
   {%- assign scroll_class = 'has-scroll-arrow' -%}

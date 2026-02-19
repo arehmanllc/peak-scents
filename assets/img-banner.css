@@ -1,0 +1,12 @@
+.hero__content .hero__description > p{
+  font-size: clamp(10px, 2vw,16px);
+}
+.hero__content .standard__cta.hero__btn{
+  font-size: clamp(10px,2vw,14px);
+  letter-spacing: 1.5px;
+}
+@media screen and (max-width: 767px){
+  .hero__content__wrapper {
+    align-items: flex-start;
+  }
+}
