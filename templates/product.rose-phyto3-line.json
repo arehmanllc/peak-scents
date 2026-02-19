@@ -374,7 +374,7 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
+            "title": "Meet Our Founder",
             "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
             "font_size": 4,
             "text_columns": 1,
@@ -390,7 +390,7 @@
         "image_xweLmJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1.png",
+            "image": "shopify://shop_images/2025_KISH_DeeAnn-Tracy_Peak-Scents_DK32053_1.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,

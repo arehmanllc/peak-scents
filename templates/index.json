@@ -536,7 +536,7 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
+            "title": "Meet Our Founder",
             "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
             "font_size": 4,
             "text_columns": 1,
@@ -552,7 +552,7 @@
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1.png",
+            "image": "shopify://shop_images/2025_KISH_DeeAnn-Tracy_Peak-Scents_DK32053_1.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -1062,14 +1062,14 @@
       "type": "images-reviews",
       "name": "Images Reviews",
       "settings": {
-        "review_image_1": "shopify://shop_images/LOVE_SALE_20_OFF_2.png",
-        "review_image_2": "shopify://shop_images/Peak_Scents_2025_Best_Organic_Skincare_Gifts73.jpg",
-        "review_image_3": "shopify://shop_images/Untitled_Instagram_Post_2.jpg",
+        "review_image_1": "shopify://shop_images/Untitled_design_6.jpg",
+        "review_image_2": "shopify://shop_images/2025_KISH_Peak-Scents_DK35685.jpg",
+        "review_image_3": "shopify://shop_images/image_18.png",
         "review_stars_1": "shopify://shop_images/Vector.png",
         "reviews_text_1": "<p>I've been using Peak Scents regularly for the past year and my once acne prone, dull skin is so glow-y I truly rarely wear make-up. A make-up day for me a year or two ago would mean big insecurities, like \"Yeah, I know..somethings different...\", it now is my regular, confident daily. The Power Repair bundle truly repaired my acne scared skin and left me feeling beautiful, adding the Babchi Serum lifted any remaining dark spots and left me a glowing miracle.</p>",
-        "review_image_4": "shopify://shop_images/peak_scents_wandering_the_west_-26.jpg",
-        "review_image_5": "shopify://shop_images/FACES_FOR_BLOGS_4476cb2c-a9a3-4a57-a436-f09648f0c731.jpg",
-        "review_image_6": "shopify://shop_images/peak_scents_wandering_the_west_-30.jpg",
+        "review_image_4": "shopify://shop_images/image_20.png",
+        "review_image_5": "shopify://shop_images/2025_KISH_Peak-Scents_DK34242.jpg",
+        "review_image_6": "shopify://shop_images/image_19.png",
         "review_stars_2": "shopify://shop_images/Vector.png",
         "reviews_text_2": "<p>“The biggest and best compliment I always receive is about my clear and glowy skin, and I owe it all to Peak Scents! Their all-natural skincare products are perfectly compatible with my sensitive skin. The organic RosePhyto3 cleansing milk, facial toner, and facial oil make for the best 3-step skin care routine, I look forward to applying it every night!Their commitment to using all natural ingredients gives me peace of mind knowing that I'm nourishing my skin without harsh chemicals. I couldn't be happier with how my skin looks and feels, and I highly recommend Peak Scents to anyone looking for skincare products that deliver amazing results!”</p>"
       }
@@ -1131,19 +1131,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "newsletter-index-section": {
-      "type": "section-newsletter",
-      "custom_css": [],
-      "settings": {
-        "title": "Be the first to know about offers",
-        "richtext": "<p>Get 15% off your first order & be the first to know about new arrivals, sales and special events. Promise no Spam!</p>",
-        "bg_image": "shopify://shop_images/ShellyStrazis-08954_1af0327a-23ca-4aec-993b-fd689005cc31_2.png",
-        "bg": "palette--bright bg--bright",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
@@ -1165,7 +1152,6 @@
     "f5fe8fb1-11f7-4615-93ae-e901e813b1fa",
     "images_reviews_jPDfyf",
     "1cd43d81-d574-4089-a637-f7b75336651f",
-    "1731969586e2acf898",
-    "newsletter-index-section"
+    "1731969586e2acf898"
   ]
 }
