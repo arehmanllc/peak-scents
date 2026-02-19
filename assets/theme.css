@@ -30532,7 +30532,7 @@ body:not(.focus-enabled) .plyr.plyr--full-ui.plyr--video {
 .product__rating__star:before {
   content: "★";
   color: var(--primary);
-  margin: 0 4px;
+  /* margin: 0 4px; */
 }
 
 /* Product grid item reviews */
