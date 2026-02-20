@@ -11,6 +11,19 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "section_newsletter_YMXRtd": {
+      "type": "section-newsletter",
+      "custom_css": [],
+      "settings": {
+        "title": "Be the first to know about offers",
+        "richtext": "<p>Get 15% off your first order & be the first to know about new arrivals, sales and special events. Promise no Spam!</p>",
+        "bg_image": "shopify://shop_images/ShellyStrazis-08954_1af0327a-23ca-4aec-993b-fd689005cc31_2.png",
+        "bg": "palette--bright bg--bright",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "ss_footer_3_TrCnXW": {
       "type": "ss-footer-3",
       "custom_css": [
@@ -115,9 +128,9 @@
         "background_color": "#40656e",
         "background_gradient": "",
         "border_color": "#000000",
-        "margin_top": 32,
+        "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 44,
+        "padding_top": 36,
         "padding_bottom": 0,
         "padding_horizontal": 1,
         "padding_horizontal_mobile": 1,
@@ -125,19 +138,6 @@
         "content_width": 290,
         "border_thickness": 0,
         "lazy": true
-      }
-    },
-    "section_newsletter_YMXRtd": {
-      "type": "section-newsletter",
-      "custom_css": [],
-      "settings": {
-        "title": "Be the first to know about offers",
-        "richtext": "<p>Get 15% off your first order & be the first to know about new arrivals, sales and special events. Promise no Spam!</p>",
-        "bg_image": "shopify://shop_images/ShellyStrazis-08954_1af0327a-23ca-4aec-993b-fd689005cc31_2.png",
-        "bg": "palette--bright bg--bright",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
       }
     },
     "footer": {

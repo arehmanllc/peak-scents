@@ -610,7 +610,7 @@
           "type": "ai_gen_block_9841a88",
           "settings": {
             "heading": "Level up skincare routine with our bundles",
-            "heading_color": "#000000",
+            "heading_color": "#494441",
             "bundle_image": "shopify://shop_images/Untitled_design_-_2024-09-25T150842.529_1.png",
             "product_1": "babchi-beauty-bundle",
             "product_2": "organic-herbal-hair-and-scalp-treatment",
@@ -621,7 +621,7 @@
             "card_border_color": "#e0e0e0",
             "text_color": "#000000",
             "price_color": "#000000",
-            "show_rating": false,
+            "show_rating": true,
             "star_color": "#ffa500",
             "button_color": "#40656e",
             "button_text_color": "#ffffff",
@@ -630,7 +630,9 @@
             "bundle_button_text": "Buy this bundle",
             "bundle_button_color": "#40656e",
             "bundle_button_text_color": "#ffffff",
-            "bundle_button_hover_color": "#2e4a52"
+            "bundle_button_hover_color": "#2e4a52",
+            "shop_all_link": "shopify://collections",
+            "shop_all_text": "Shop all bundles"
           },
           "blocks": {}
         }
@@ -685,13 +687,14 @@
       ],
       "name": "Image banner",
       "settings": {
-        "image": "shopify://shop_images/Banner_ffbaf3a3-27a9-4e55-b3db-cd9b967fd4ec.png",
-        "height": "use_screen_two_thirds",
+        "image": "shopify://shop_images/Banner_1.png",
+        "mobile_image": "shopify://shop_images/Banner_2.png",
+        "height": "use_image",
         "overlay_opacity": 15,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
-        "preload_image": false,
-        "content_width": 2000,
+        "preload_image": true,
+        "content_width": 700,
         "text_align": "align--top-center",
         "text_color": "text--white",
         "color_bg": "hero__content--transparent",
@@ -703,11 +706,28 @@
     "section_list_collections_LCFALM": {
       "type": "section-list-collections",
       "blocks": {
-        "collection_8r84bg": {
+        "collection_N3EBDM": {
           "type": "collection",
           "settings": {
             "collection": "combination-to-oily-skin",
-            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-114_1.png",
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-114_1_1.png",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": false,
+            "bottom_text": "",
+            "bottom_text_disabled": false,
+            "collection_url": "",
+            "text_color": "text--white"
+          }
+        },
+        "collection_8r84bg": {
+          "type": "collection",
+          "settings": {
+            "collection": "dry-skin-solutions",
+            "image": "shopify://shop_images/Untitled_design_-_2024-09-25T151200.572_1_1.png",
             "overlay_color": "#000000",
             "overlay_opacity": 15,
             "top_text": "",
@@ -723,8 +743,8 @@
         "collection_KnjwEH": {
           "type": "collection",
           "settings": {
-            "collection": "dry-skin-solutions",
-            "image": "shopify://shop_images/Untitled_design_-_2024-09-25T151200.572_1.png",
+            "collection": "normal-skincare-routines",
+            "image": "shopify://shop_images/ShellyStrazis-08911_1.png",
             "overlay_color": "#000000",
             "overlay_opacity": 15,
             "top_text": "",
@@ -740,7 +760,8 @@
         "collection_HaXQkE": {
           "type": "collection",
           "settings": {
-            "collection": "body-nurish",
+            "collection": "graceful-aging",
+            "image": "shopify://shop_images/Untitled_design_-_2024-03-14T141843.516_1.png",
             "overlay_color": "#000000",
             "overlay_opacity": 15,
             "top_text": "",
@@ -756,23 +777,8 @@
         "collection_Micqhw": {
           "type": "collection",
           "settings": {
-            "collection": "peak-scents",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15,
-            "top_text": "",
-            "top_text_disabled": false,
-            "title": "",
-            "title_disabled": false,
-            "bottom_text": "",
-            "bottom_text_disabled": false,
-            "collection_url": "",
-            "text_color": "text--white"
-          }
-        },
-        "collection_UdT4DL": {
-          "type": "collection",
-          "settings": {
-            "collection": "wandering-the-west-apothecary-products",
+            "collection": "sensitive",
+            "image": "shopify://shop_images/Untitled_design_-_2024-09-25T152443.688_1.png",
             "overlay_color": "#000000",
             "overlay_opacity": 15,
             "top_text": "",
@@ -787,11 +793,11 @@
         }
       },
       "block_order": [
+        "collection_N3EBDM",
         "collection_8r84bg",
         "collection_KnjwEH",
         "collection_HaXQkE",
-        "collection_Micqhw",
-        "collection_UdT4DL"
+        "collection_Micqhw"
       ],
       "name": "Collection list",
       "settings": {
@@ -817,9 +823,9 @@
         "title_4qdWBY": {
           "type": "title",
           "settings": {
-            "text_size": 9,
-            "product_show_cutline": true,
-            "show_rating": true,
+            "text_size": 7,
+            "product_show_cutline": false,
+            "show_rating": false,
             "show_rating_count": false,
             "padding_bottom": 20
           }
@@ -828,7 +834,7 @@
           "type": "price",
           "settings": {
             "price_size": 5,
-            "padding_bottom": 40
+            "padding_bottom": 6
           }
         },
         "judge_me_reviews_preview_badge_qmFcTB": {
@@ -843,7 +849,7 @@
             "icon_size": 50,
             "icon_color": "#4b4b4b",
             "text": "<p>Vegan</p>",
-            "padding_bottom": 8
+            "padding_bottom": 14
           }
         },
         "icon_zHcmGm": {
@@ -854,7 +860,7 @@
             "icon_size": 50,
             "icon_color": "#4b4b4b",
             "text": "<p>Free Shipping on Orders $99+</p>",
-            "padding_bottom": 8
+            "padding_bottom": 14
           }
         },
         "variant_selectors_hmYrBD": {
@@ -880,49 +886,13 @@
             "padding_bottom": 20
           }
         },
-        "size_remaining_yLBfzB": {
-          "type": "size-remaining",
-          "settings": {
-            "info_page": "",
-            "title": "",
-            "show_remaining": true,
-            "show_remaining_style": "low",
-            "countdown": 10,
-            "padding_bottom": 0
-          }
-        },
         "add_buttons_nPdPNh": {
           "type": "add-buttons",
+          "disabled": true,
           "settings": {
-            "enable_payment_button": true,
-            "enable_gift_card_recipient": true,
-            "padding_bottom": 20
-          }
-        },
-        "description_Ge38Dx": {
-          "type": "description",
-          "settings": {
-            "style": "accordions",
-            "enable_description": true,
-            "read_more": true,
-            "icon_description": "",
-            "description_expanded": true,
-            "title_1": "Information",
-            "icon_name_1": "",
-            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
-            "title_2": "Details",
-            "icon_name_2": "",
-            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.</p>",
-            "title_3": "",
-            "icon_name_3": "",
-            "raw_content_3": "",
-            "title_4": "",
-            "icon_name_4": "",
-            "raw_content_4": "",
-            "title_5": "",
-            "icon_name_5": "",
-            "raw_content_5": "",
-            "padding_bottom": 20
+            "enable_payment_button": false,
+            "enable_gift_card_recipient": false,
+            "padding_bottom": 0
           }
         }
       },
@@ -935,9 +905,7 @@
         "variant_selectors_hmYrBD",
         "subscription_gkxHpg",
         "quantity_pVBGNJ",
-        "size_remaining_yLBfzB",
-        "add_buttons_nPdPNh",
-        "description_Ge38Dx"
+        "add_buttons_nPdPNh"
       ],
       "name": "Featured product",
       "settings": {
@@ -1034,10 +1002,10 @@
       ],
       "name": "Scrolling promotion",
       "settings": {
-        "bg_color": "#98a5a6",
+        "bg_color": "#d6dbdb",
         "color": "#545454",
         "text_size": 7,
-        "padding_top": 70,
+        "padding_top": 66,
         "padding_bottom": 70
       }
     },
@@ -1048,7 +1016,7 @@
           "type": "heading",
           "settings": {
             "heading": "Love for Peak Scents",
-            "text_size": 9
+            "text_size": 5
           }
         }
       },
@@ -1057,7 +1025,7 @@
       ],
       "settings": {
         "align_text": "text-center",
-        "text_color": "text--black",
+        "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
         "width": "wrapper--full",
@@ -1069,16 +1037,62 @@
       "type": "images-reviews",
       "name": "Images Reviews",
       "settings": {
-        "review_image_1": "shopify://shop_images/Untitled_design_6.jpg",
+        "review_video_1": "shopify://files/videos/Gratitude for You Black Friday Sale at Peak Scents Plant Based Skin Care.mp4",
         "review_image_2": "shopify://shop_images/2025_KISH_Peak-Scents_DK35685.jpg",
         "review_image_3": "shopify://shop_images/image_18.png",
         "review_stars_1": "shopify://shop_images/Vector.png",
         "reviews_text_1": "<p>I've been using Peak Scents regularly for the past year and my once acne prone, dull skin is so glow-y I truly rarely wear make-up. A make-up day for me a year or two ago would mean big insecurities, like \"Yeah, I know..somethings different...\", it now is my regular, confident daily. The Power Repair bundle truly repaired my acne scared skin and left me feeling beautiful, adding the Babchi Serum lifted any remaining dark spots and left me a glowing miracle.</p>",
-        "review_image_4": "shopify://shop_images/image_20.png",
+        "review_video_2": "shopify://files/videos/Peak Scents Header Video.mp4",
         "review_image_5": "shopify://shop_images/2025_KISH_Peak-Scents_DK34242.jpg",
         "review_image_6": "shopify://shop_images/image_19.png",
         "review_stars_2": "shopify://shop_images/Vector.png",
         "reviews_text_2": "<p>“The biggest and best compliment I always receive is about my clear and glowy skin, and I owe it all to Peak Scents! Their all-natural skincare products are perfectly compatible with my sensitive skin. The organic RosePhyto3 cleansing milk, facial toner, and facial oil make for the best 3-step skin care routine, I look forward to applying it every night!Their commitment to using all natural ingredients gives me peace of mind knowing that I'm nourishing my skin without harsh chemicals. I couldn't be happier with how my skin looks and feels, and I highly recommend Peak Scents to anyone looking for skincare products that deliver amazing results!”</p>"
+      }
+    },
+    "177162681272b20123": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_cards_carousel_fhGfYU": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "all",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "review_text_only",
+            "max_reviews": 20,
+            "review_length": "medium",
+            "text_size": "medium",
+            "image_ratio": "1",
+            "reviews_shown": 4,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": true,
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#F9F9F9",
+            "stars_color": "",
+            "arrows_color": "#000000",
+            "transition_speed": 5,
+            "header_text": "Recent Reviews for Peak Scents Products",
+            "show_average_rating": true
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_cards_carousel_fhGfYU"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1cd43d81-d574-4089-a637-f7b75336651f": {
@@ -1087,9 +1101,9 @@
         "p {font-size: 16px;}"
       ],
       "settings": {
-        "height": "use_screen_one_half",
-        "heading": "",
-        "address": "<h5><strong>Visit The Refill Shop</strong></h5><p>No appointment needed. Just drop in!<br/>1000 E Butler Ave Suite 101, Flagstaff, AZ 86001</p><p><strong>Store Hours</strong></p><p>Monday & Tuesday<strong> 9AM-4PM</strong></p><p><strong>Wednesday - Friday 9AM-5PM</strong></p><p>Saturday<strong> 10AM-3PM</strong></p><p>Sunday<strong> CLOSED </strong></p><p><strong>Our Retail Store Offerings Include:</strong><em><strong><br/></strong></em><em>Eco-Friendly Housewares, Bodycare, Soaps, and Skincare!</em></p>",
+        "height": "use_image",
+        "heading": "Visit The Refill Shop",
+        "address": "<p>No appointment needed. Just drop in!<br/>1000 E Butler Ave Suite 101, Flagstaff, AZ 86001</p><p><strong>Store Hours</strong></p><p>Monday & Tuesday<strong> 9AM-4PM</strong></p><p><strong>Wednesday - Friday 9AM-5PM</strong></p><p>Saturday<strong> 10AM-3PM</strong></p><p>Sunday<strong> CLOSED </strong></p><p><strong>Our Retail Store Offerings Include:</strong><em><strong><br/></strong></em><em>Eco-Friendly Housewares, Bodycare, Soaps, and Skincare!</em></p>",
         "button": "",
         "button_style": "btn",
         "style": "default",
@@ -1109,27 +1123,27 @@
     "1731969586e2acf898": {
       "type": "apps",
       "blocks": {
-        "greenspark_static_widgets_v2_pVPq7H": {
-          "type": "shopify://apps/greenspark/blocks/static-widgets-v2/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
+        "instafeed_app_block_4rrpKk": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "widget_type": "total_impact",
-            "horizontal_alignment": "center",
-            "greenspark_widget_color": "transparent",
-            "size": "full_width",
-            "fullwidth_justification": "center",
-            "trees_stat_type": true,
-            "plastic_stat_type": true,
-            "carbon_stat_type": true,
-            "kelp_stat_type": true,
-            "water_stat_type": true,
-            "bees_stat_type": true,
-            "enable_popup": true,
-            "greenspark_popup_theme": "light"
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
           }
         }
       },
       "block_order": [
-        "greenspark_static_widgets_v2_pVPq7H"
+        "instafeed_app_block_4rrpKk"
       ],
       "settings": {
         "text_color": "text--neutral",
@@ -1159,6 +1173,7 @@
     "section_announcement_w3jNqB",
     "f5fe8fb1-11f7-4615-93ae-e901e813b1fa",
     "images_reviews_jPDfyf",
+    "177162681272b20123",
     "1cd43d81-d574-4089-a637-f7b75336651f",
     "1731969586e2acf898"
   ]
