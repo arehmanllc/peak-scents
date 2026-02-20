@@ -21953,6 +21953,7 @@ Collection grid item
   overflow: hidden;
   position: relative;
   border-radius: 10px;
+  box-shadow: -4px 0px 10px 0px #00000040;
 }
 
 .brick__block__image.brick__block__image--hotspots {

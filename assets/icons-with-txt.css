@@ -2,8 +2,37 @@
   font-size: 12px;
 }
 .section-icons h2{
-  font-size: clamp(24px, 5vw, 42px);
+  font-size: clamp(24px, 3.5vw, 42px);
 }
-.section-icons .grid--slider {
-  display: flex;
+.section-icons .float-grid {
+  display: grid;
+  gap:13px;
+  grid-template-columns: repeat(5,1fr);
+  justify-items: center;
+}
+.section-icons .icon__column__heading{
+  font-size: clamp(12px,3vw,24px);
+  text-transform: capitalize;
+  line-height: clamp(20px,2vw,30px);
+}
+.section-icons .grid__item{
+  max-width: 250px;
+}
+
+.section-icons .grid__item:not(:first-child) .icon__column{
+  padding-top: 0;
+}
+@media screen and (max-width:767px){
+  .section-icons .float-grid {
+    grid-template-columns: repeat(6,1fr);
+  }
+  .section-icons .float-grid > :nth-child(-n+3) {
+  grid-column: span 2;   /* 6 / 3 = 2 */
+}
+
+/* Second row (2 equal items) */
+.section-icons .float-grid > :nth-child(4),
+.section-icons .float-grid > :nth-child(5) {
+  grid-column: span 3;   /* 6 / 2 = 3 */
+}
 }

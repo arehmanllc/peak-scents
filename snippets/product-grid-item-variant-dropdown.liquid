@@ -50,7 +50,7 @@
         {%- endfor -%}
       </select>
       <div class="custom-select-arrow">
-        {% render 'icon-core-chevron-down' %}
+        <img src="{{ 'caret-down.svg' | asset_url }}" alt="Open options" class="product-variant-caret">
       </div>
     </div>
   </div>
@@ -143,10 +143,17 @@
   z-index: 1;
 }
 
-.custom-select-arrow svg {
+.custom-select-arrow svg,
+.custom-select-arrow img {
   width: 12px;
   height: 12px;
   fill: #666;
+}
+
+.product-variant-caret {
+  display: block;
+  width: 12px;
+  height: 12px;
 }
 
 .product-grid-item__add-to-bag-wrapper {

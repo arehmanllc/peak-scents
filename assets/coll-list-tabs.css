@@ -4,6 +4,7 @@
   font-weight: 400;
   letter-spacing: 0;
   color: #494441;
+  margin-bottom: 0;
 }
 .collection-tabs .product__grid__info .product__grid__title__wrapper{
   flex-direction: column;
@@ -12,4 +13,15 @@
 .collection-tabs .product__grid__title {
   font-size: clamp(12px,2vw,14px);
   font-weight: 500;
+}
+.collection-tabs .cta-collection-btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+.collection-tabs .cta-collection-btn-container .prd-slider-btn{
+  font-size: clamp(10px, 2vw, 14px);
+    letter-spacing: 1.5px;
+    padding: 15px 25px;
 }

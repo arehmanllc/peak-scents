@@ -4,9 +4,13 @@
 .hero__content .standard__cta.hero__btn{
   font-size: clamp(10px,2vw,14px);
   letter-spacing: 1.5px;
+  padding: 15px 25px;
 }
 @media screen and (max-width: 767px){
   .hero__content__wrapper {
     align-items: flex-start;
+  }
+  .section-video .hero__content__wrapper{
+    align-items: center;
   }
 }
