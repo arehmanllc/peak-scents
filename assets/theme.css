@@ -25137,6 +25137,8 @@ body.focus-enabled .subcollection__link:focus {
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-ACCENT));
   line-height: var(--leading-normal);
   padding-bottom: var(--PT);
+  letter-spacing: 0;
+  text-transform: capitalize;
 }
 
 .breadcrumb a,
@@ -25666,8 +25668,7 @@ a.product__form__link:after {
 .product-single .product__inner.bg {
   /* margin: 0 auto; */
   margin-left: 50px;
-  background: rgba(152, 165, 166, 0.5);
-  padding: 24px;
+padding: 24px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -32525,8 +32526,7 @@ a.siblings__more-link {
 }
 .product__block__quantity{
   display: flex;
-  gap: 12px;
-}
+  gap: 12px;align-items: flex-end;}
 .product__block__quantity [data-product-form-outer]{
   width:100%;
 }
