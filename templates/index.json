@@ -196,7 +196,7 @@
       ],
       "settings": {
         "title": "Shop Our Best Sellers",
-        "progress_bar": "both",
+        "progress_bar": "hidden",
         "grid_large": 4,
         "grid_medium": 2,
         "grid_mobile": 1.2,
@@ -210,29 +210,21 @@
     "section_video_8p8qyV": {
       "type": "section-video",
       "blocks": {
-        "heading_THYBG8": {
-          "type": "heading",
-          "settings": {
-            "title": "Our Story",
-            "text_size": 10
-          }
-        },
         "video_hKpYbx": {
           "type": "video",
           "settings": {
             "video_link": "https://vimeo.com/467464460",
-            "popup_text": "Peak Scents Brand Story",
-            "button_width": 80,
+            "popup_text": "",
+            "button_width": 94,
             "button_color": "text--white"
           }
         }
       },
       "block_order": [
-        "heading_THYBG8",
         "video_hKpYbx"
       ],
       "settings": {
-        "height": "use_screen_three_quarters",
+        "height": "use_image",
         "color_bg": "palette--light bg--neutral",
         "object_position": "right-center",
         "image": "shopify://shop_images/DeeAnn_Tracy_Founder_Peak_Scents_jpg_1.jpg",
@@ -454,10 +446,10 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-earth",
-            "icon_alt": "shopify://shop_images/Frame.png",
+            "icon_alt": "shopify://shop_images/2_26_1.png",
             "icon_color": "#40656e",
-            "title": "Made by Hand in the USA",
-            "text": "<p>All of our products are made by our team at our Flagstaff, Arizona location. Come say hi if you're in town! </p>",
+            "title": "Made by Hand in Arizona, USA",
+            "text": "",
             "link_text": "",
             "link_url": ""
           }
@@ -466,10 +458,10 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-animal-paw",
-            "icon_alt": "shopify://shop_images/Frame_1.png",
+            "icon_alt": "shopify://shop_images/2_27_1.png",
             "icon_color": "#40656e",
             "title": "Cruelty Free & beegan",
-            "text": "<p>Our products are never tested on animals and we let you know when they are free of beeswax.</p>",
+            "text": "",
             "link_text": "",
             "link_url": ""
           }
@@ -478,10 +470,10 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-recycled",
-            "icon_alt": "shopify://shop_images/Frame_2.png",
+            "icon_alt": "shopify://shop_images/3_1_1.png",
             "icon_color": "#40656e",
             "title": "Ethical & Sustainable",
-            "text": "<p>Peak Scents is committed to creating skin care products that make a difference.</p>",
+            "text": "",
             "link_text": "",
             "link_url": ""
           }
@@ -490,10 +482,10 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-store",
-            "icon_alt": "shopify://shop_images/Frame_3.png",
+            "icon_alt": "shopify://shop_images/3_2_1.png",
             "icon_color": "#40656e",
             "title": "Women Owned & Operated",
-            "text": "<p>Founded by second-generation herbalist DeeAnn Tracy<br/><br/></p>",
+            "text": "",
             "link_text": "",
             "link_url": ""
           }
@@ -502,10 +494,10 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-leaf",
-            "icon_alt": "shopify://shop_images/Frame_4.png",
+            "icon_alt": "shopify://shop_images/4_1_1.png",
             "icon_color": "#40656e",
-            "title": "Non - Toxic ingredients",
-            "text": "<p>We believe in the power of plants. You won't find anything harmful here.</p>",
+            "title": "clean-beauty since 1993",
+            "text": "",
             "link_text": "",
             "link_url": ""
           }
@@ -522,13 +514,26 @@
       "settings": {
         "title": "Why Peak Scents",
         "bg": "palette--bright bg--bright",
-        "icons_size": 50,
+        "icons_size": 54,
         "icon_alignment": "icon--top",
         "layout": "grid--slider",
         "align_text": "text-center",
         "width": "wrapper--full",
         "padding_top": 40,
         "padding_bottom": 40
+      }
+    },
+    "section_richtext_EdkbAD": {
+      "type": "section-richtext",
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 0
       }
     },
     "double": {
@@ -538,8 +543,8 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "Meet Our Founder",
-            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
+            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
+            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed Southwest School of Botanical Medicine. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
             "font_size": 4,
             "text_columns": 1,
             "align_text": "text-center",
@@ -547,14 +552,14 @@
             "button_url": "",
             "button_color": "btn--secondary",
             "button_style": "btn btn--long",
-            "text_color": "text--black",
-            "bg_color": "#ffffff"
+            "text_color": "text--neutral",
+            "bg_color": "#c4c4c4"
           }
         },
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2025_KISH_DeeAnn-Tracy_Peak-Scents_DK32053_1.jpg",
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1_1.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -575,14 +580,14 @@
         "image"
       ],
       "settings": {
-        "height": "use_image",
+        "height": "use_pixels_500",
         "brick_gutter": 0,
         "borders": false,
-        "bg_color": "#ffffff",
+        "bg_color": "#c4c4c4",
         "preload_image": true,
         "width": "wrapper--full",
-        "padding_top": 22,
-        "padding_bottom": 34
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "prd_img_ingrediants_eaxEAf": {
@@ -1144,6 +1149,7 @@
     "section_richtext_aF8AjU",
     "section_product_PQ7wdH",
     "section_icons_6wWwpx",
+    "section_richtext_EdkbAD",
     "double",
     "prd_img_ingrediants_eaxEAf",
     "1771158895953b43ac",
