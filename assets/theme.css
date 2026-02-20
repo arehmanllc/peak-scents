@@ -24,7 +24,7 @@
 @font-face {
   font-family: 'Prata-Regular';
   src: url("Prata-Regular.woff") format('woff'),
-       url("Prata-Regular.woff2") format('woff2');
+    url("Prata-Regular.woff2") format('woff2');
 }
 
 .flickity-disabled-mobile:after {
@@ -14100,8 +14100,8 @@ button.button-with-underline {
 
 [data-add-to-cart] {
   position: relative;
-    min-height: 50px;
-    border-radius: 5px;
+  min-height: 50px;
+  border-radius: 5px;
 }
 
 [data-add-to-cart].loading .btn-state-ready,
@@ -18342,7 +18342,7 @@ body .shopify-email-marketing-confirmation__container {
   letter-spacing: 0;
 }
 .highlight--link > .navtext{
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .navlink {
@@ -18575,14 +18575,14 @@ body:not(.theme-animate-hover) .header__desktop__buttons--icons .header__desktop
 
 
 @media screen and (max-width: 1024px){
-.js__show__mobile .header__desktop,
-[data-header-style=drawer] .header__desktop {
-  display: none;
-}
-.js__show__mobile .header__mobile,
-[data-header-style=drawer] .header__mobile {
-  display: grid;
-}
+  .js__show__mobile .header__desktop,
+  [data-header-style=drawer] .header__desktop {
+    display: none;
+  }
+  .js__show__mobile .header__mobile,
+  [data-header-style=drawer] .header__mobile {
+    display: grid;
+  }
 }
 .theme__header__toolbar__text {
   overflow: hidden;
@@ -23530,9 +23530,9 @@ Collection grid item
   position: relative;
   text-align: center;
   height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product-grid-item a {
@@ -25666,8 +25666,8 @@ a.product__form__link:after {
 .product-single .product__inner.bg {
   /* margin: 0 auto; */
   margin-left: 50px;
-        background: rgba(152, 165, 166, 0.5);
-        padding: 24px;
+  background: rgba(152, 165, 166, 0.5);
+  padding: 24px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -32518,4 +32518,15 @@ a.siblings__more-link {
 
 .\[\&\>svg\]\:inline-block>svg {
   display: inline-block;
+}
+
+.jdgm-widget.jdgm-widget {
+  margin-bottom: 16px;
+}
+.product__block__quantity{
+  display: flex;
+  gap: 12px;
+}
+.product__block__quantity [data-product-form-outer]{
+  width:100%;
 }

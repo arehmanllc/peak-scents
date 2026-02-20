@@ -4,8 +4,8 @@
     <div class="reviews-images-container">
       <div class="reviews-images-block">
         <div class="reviews-image">
-          {% if section.settings.review_image_1 != blank %}
-            <img src="{{ section.settings.review_image_1 | img_url: 'large' }}" alt="Review Image 1">
+          {% if section.settings.review_video_1 != blank %}
+            {{ section.settings.review_video_1 | video_tag: autoplay: true, loop: true, muted: true, playsinline: true, controls: false, class: 'review-video' }}
           {% else %}
            {{ 'image' | placeholder_svg_tag }}  
           {% endif %}
@@ -51,8 +51,8 @@
           </div>
         </div>
         <div class="reviews-image">
-          {% if section.settings.review_image_4 != blank %}
-            <img src="{{ section.settings.review_image_4 | img_url: 'large' }}" alt="Review Image 4">
+          {% if section.settings.review_video_2 != blank %}
+            {{ section.settings.review_video_2 | video_tag: autoplay: true, loop: true, muted: true, playsinline: true, controls: false, class: 'review-video' }}
           {% else %}
            {{ 'image' | placeholder_svg_tag }}  
           {% endif %}
@@ -78,10 +78,10 @@
       <div class="reviews-images-block-mobile">
         <div class="reviews-images-mobile-container">
           <div class="reviews-image">
-            {% if section.settings.review_image_1 != blank %}
-              <img src="{{ section.settings.review_image_1 | img_url: 'large' }}" alt="Review Image 1">
+            {% if section.settings.review_video_1 != blank %}
+              {{ section.settings.review_video_1 | video_tag: autoplay: true, loop: true, muted: true, playsinline: true, controls: false, class: 'review-video' }}
             {% else %}
-            {{ 'image' | placeholder_svg_tag }}  
+              {{ 'image' | placeholder_svg_tag }}  
             {% endif %}
           </div>
           <div class="reviews-image">
@@ -115,9 +115,9 @@
               {% endif %}
             </div>
             <div class="reviews-image">
-              {% if section.settings.review_image_4 != blank %}
-                <img src="{{ section.settings.review_image_4 | img_url: 'large' }}" alt="Review Image 4">
-              {% else %}
+              {% if section.settings.review_video_2 != blank %}
+              {{ section.settings.review_video_2 | video_tag: autoplay: true, loop: true, muted: true, playsinline: true, controls: false, class: 'review-video' }}
+            {% else %}
               {{ 'image' | placeholder_svg_tag }}  
               {% endif %}
             </div>
@@ -163,10 +163,10 @@
     "name": "Images Reviews",
     "class": "images-reviews",
     "settings": [
-      {
-        "type": "image_picker",
-        "id": "review_image_1",
-        "label": "Review Image 1"
+    {
+        "type": "video",
+        "id": "review_video_1",
+        "label": "Review Video 1"
       },
       {
         "type": "image_picker",
@@ -188,9 +188,9 @@
         "label": "Reviews Text 1"
       },
       {
-        "type": "image_picker",
-        "id": "review_image_4",
-        "label": "Review Image 4"
+        "type": "video",
+        "id": "review_video_2",
+        "label": "Review Video 2"
       },
       {
         "type": "image_picker",
