@@ -14062,9 +14062,9 @@ table[border] td:last-child {
 }
 
 .btn--long {
-  padding: var(--space-8) var(--space-11);
+  padding: 15px 24px;
   max-width: 100%;
-  min-width: min(220px, 100%);
+  min-width: min(350px, 100%);
 }
 
 .btn--full {
