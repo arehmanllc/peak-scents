@@ -57,18 +57,18 @@
       "name": "Image banner",
       "settings": {
         "image": "shopify://shop_images/2024-may-peakscents-72_In_store_plastic_free_home_product_refill_shop.jpg",
-        "height": "use_image",
-        "overlay_opacity": 5,
+        "height": "use_pixels_650",
+        "overlay_opacity": 40,
         "overlay_color": "#252525",
         "enable_overlay_text": false,
-        "preload_image": false,
+        "preload_image": true,
         "content_width": 2000,
         "text_align": "align--middle-center",
         "text_color": "text--invert--secondary",
         "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 80
       }
     },
     "section_text_spotlight_YTb6bk": {
@@ -79,7 +79,7 @@
           "settings": {
             "text": "Our goal is to make<em><strong> low-waste living</strong></em><strong> </strong><em>simple</em>, <strong>accessible</strong>, and <em><strong>stress-free</strong></em>.",
             "break_newline": false,
-            "highlight_color": "#e5efea",
+            "highlight_color": "#40656e",
             "highlight_appearance": "full"
           },
           "blocks": {}
@@ -91,8 +91,8 @@
       "name": "Spotlight Text",
       "settings": {
         "align_text": "text-center",
-        "text_color": "text--neutral",
-        "bg": "palette--light bg--accent",
+        "text_color": "text--bright--secondary",
+        "bg": "palette--bright bg--bright--accent",
         "text_size": 10,
         "font_family": "heading",
         "enable_scroll_animation": true,
@@ -140,7 +140,7 @@
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
         "width": "wrapper",
-        "padding_top": 36,
+        "padding_top": 80,
         "padding_bottom": 36
       }
     },
@@ -152,7 +152,7 @@
           "settings": {
             "image": "shopify://shop_images/Gemini_Generated_Image_f2de1zf2de1zf2de_1.png",
             "overlay_opacity": 15,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
             "title": "",
@@ -169,8 +169,8 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "Weigh Your Empty Vessel",
-            "text": "<p>Place your clean container on the refill station scale and record the empty weight before filling.</p>",
+            "title": "Clean + Ready to Refill",
+            "text": "<p>All cream and serum containers must be brought in clean, dry, and empty—including the pump, cap, or lid. This ensures we can safely refill your product and maintain the integrity of the formula.</p>",
             "font_size": 2,
             "text_columns": 1,
             "align_text": "text-center",
@@ -194,7 +194,7 @@
         "borders": false,
         "bg_color": "",
         "preload_image": false,
-        "width": "wrapper",
+        "width": "wrapper--full",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -206,8 +206,8 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "Fill to Your Desired Level",
-            "text": "<p>Choose your favorite formula and refill your bottle to the amount that suits your routine.</p>",
+            "title": "Fresh Formula Integrity",
+            "text": "<p>Our gentle, food-grade preservative system is carefully balanced for freshness. Mixing with leftover product can compromise its effectiveness, so we kindly ask that all containers are completely emptied and cleaned before refill.</p>",
             "font_size": 2,
             "text_columns": 1,
             "align_text": "text-center",
@@ -224,7 +224,7 @@
           "settings": {
             "image": "shopify://shop_images/Gemini_Generated_Image_f2de1zf2de1zf2de_2.png",
             "overlay_opacity": 15,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
             "title": "",
@@ -249,7 +249,7 @@
         "borders": false,
         "bg_color": "",
         "preload_image": false,
-        "width": "wrapper",
+        "width": "wrapper--full",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -262,7 +262,7 @@
           "settings": {
             "image": "shopify://shop_images/Gemini_Generated_Image_f2de1zf2de1zf2de_2.png",
             "overlay_opacity": 15,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
             "title": "",
@@ -279,8 +279,8 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "Record the Filled Weight",
-            "text": "<p>Weigh your refilled vessel and note the filled weight so we can calculate the product amount.</p>",
+            "title": "Oils: Simply Fully Drained",
+            "text": "<p>Facial and body oil bottles do not need to be washed, please just make sure they are fully drained with no oil remaining in the bottle.</p>",
             "font_size": 2,
             "text_columns": 1,
             "align_text": "text-center",
@@ -304,7 +304,7 @@
         "borders": false,
         "bg_color": "",
         "preload_image": false,
-        "width": "wrapper",
+        "width": "wrapper--full",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -316,8 +316,8 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "Simple Checkout Process",
-            "text": "<p>Bring your filled containers to the counter and we will calculate the refill cost at checkout.</p>",
+            "title": "Not All Packaging is Refillable",
+            "text": "<p>Some formulas, like our balms, are poured warm during production and must be filled at the time they’re made to ensure proper texture and performance. For this reason, balms and airless pump containers are not refillable.</p>",
             "font_size": 2,
             "text_columns": 1,
             "align_text": "text-center",
@@ -334,7 +334,7 @@
           "settings": {
             "image": "shopify://shop_images/Gemini_Generated_Image_f2de1zf2de1zf2de_2_1.png",
             "overlay_opacity": 15,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
             "title": "",
@@ -359,7 +359,7 @@
         "borders": false,
         "bg_color": "",
         "preload_image": false,
-        "width": "wrapper",
+        "width": "wrapper--full",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -371,6 +371,7 @@
           "type": "collection",
           "settings": {
             "collection": "organic-rose-phyto3",
+            "image": "shopify://shop_images/2024-July-PeakScents-140_1.png",
             "overlay_color": "#000000",
             "overlay_opacity": 15,
             "top_text": "",
@@ -387,6 +388,7 @@
           "type": "collection",
           "settings": {
             "collection": "power-repair",
+            "image": "shopify://shop_images/Dry_2.png",
             "overlay_color": "#000000",
             "overlay_opacity": 15,
             "top_text": "",
@@ -403,6 +405,7 @@
           "type": "collection",
           "settings": {
             "collection": "body-nurish",
+            "image": "shopify://shop_images/Balanced_1.png",
             "overlay_color": "#000000",
             "overlay_opacity": 15,
             "top_text": "",
@@ -419,6 +422,7 @@
           "type": "collection",
           "settings": {
             "collection": "peak-scents",
+            "image": "shopify://shop_images/Mature_1.png",
             "overlay_color": "#000000",
             "overlay_opacity": 15,
             "top_text": "",
@@ -469,6 +473,44 @@
         "title_size": 5,
         "accent_size": 3,
         "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_rmJTEA": {
+      "type": "section-richtext",
+      "blocks": {
+        "button_6yg3LD": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Peak Scents refills save 10%",
+            "link_1": "shopify://collections/all",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--medium",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--neutral"
+          }
+        }
+      },
+      "block_order": [
+        "button_6yg3LD"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -551,7 +593,7 @@
         "enable_latlong": false,
         "lat": "",
         "long": "",
-        "width": "wrapper--none",
+        "width": "wrapper--full",
         "padding_top": 0,
         "padding_bottom": 44
       }
@@ -587,7 +629,7 @@
         "content_width": 2000,
         "width": "wrapper",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 80
       }
     }
   },
@@ -601,6 +643,7 @@
     "section_double_36x9Hx",
     "section_double_6ALreU",
     "section_list_collections_YwdgRk",
+    "section_richtext_rmJTEA",
     "section_faq_PzeEEL",
     "section_map_NiBcBK",
     "section_richtext_UNPPTT"

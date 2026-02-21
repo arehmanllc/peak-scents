@@ -9,40 +9,72 @@
  */
 {
   "sections": {
-    "custom-content-feature": {
-      "type": "section-custom-content",
+    "section_hero_AcH9YJ": {
+      "type": "section-hero",
       "blocks": {
-        "text_nPqQFE": {
-          "type": "text",
+        "button_U7PzNk": {
+          "type": "button",
           "settings": {
-            "kicker": "Welcome to our Journal - the blog",
-            "title": "",
-            "text": "",
-            "font_size": 4,
-            "text_columns": 1,
-            "align_text": "text-center",
-            "button_text": "",
-            "button_url": "shopify://collections/all",
-            "button_color": "btn--neutral",
-            "button_style": "btn--outline btn--long",
-            "text_color": "text--neutral",
-            "bg_color": ""
+            "link_text_1": "Our Blogs",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
           }
         }
       },
       "block_order": [
-        "text_nPqQFE"
+        "button_U7PzNk"
       ],
-      "custom_css": [],
+      "name": "Image banner",
       "settings": {
-        "height": "use_screen_one_fifth",
-        "brick_gutter": 0,
-        "borders": false,
-        "bg_color": "",
-        "preload_image": false,
+        "image": "shopify://shop_images/palo-santo-clearing-protection-spray-6_1_1_9acf081a-0e76-42a9-a8cb-44a89aa328c0.png",
+        "height": "use_pixels_650",
+        "overlay_opacity": 0,
+        "overlay_color": "#252525",
+        "enable_overlay_text": false,
+        "preload_image": true,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--invert--secondary",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "section_richtext_CFLTh3": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_8rTENK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to our Blogs page",
+            "text_size": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_8rTENK"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--bright bg--bright--accent",
+        "content_width": 850,
         "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 78,
+        "padding_bottom": 78
       }
     },
     "blog-section-featured-article": {
@@ -85,9 +117,10 @@
         "blog-section-featured-article-block-2",
         "blog-section-featured-article-block-3"
       ],
+      "disabled": true,
       "settings": {
         "article": "peak-scents/plant-seed-oils-plant-butters-beeswax-and-beef-tallow-what-really-belongs-on-your-skin",
-        "image_full_width": false,
+        "image_full_width": true,
         "height": "use_screen_two_thirds",
         "overlay_opacity": 15,
         "overlay_color": "#000000",
@@ -102,26 +135,15 @@
         "padding_bottom": 100
       }
     },
-    "section_newsletter_rhWqYG": {
-      "type": "section-newsletter",
-      "settings": {
-        "title": "Sign up to be in the natural know",
-        "richtext": "<h3>We'll let you know when we have something new to share.</h3>",
-        "bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "main-blog": {
       "type": "blog",
       "settings": {
         "heading": "Journal",
         "show_heading": false,
         "tag_label": "",
-        "tags": false,
+        "tags": true,
         "text_align": "text-left",
-        "post_grid": 3,
+        "post_grid": 2,
         "rows": 3,
         "wh_ratio": 1.7,
         "show_author": false,
@@ -138,12 +160,180 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "section_icons_GAVXbw": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_k3mKPC": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/2_26_1.png",
+            "icon_color": "#40656e",
+            "title": "Made by Hand in Arizona, USA",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_AgwCR7": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-animal-paw",
+            "icon_alt": "shopify://shop_images/2_27_1.png",
+            "icon_color": "#40656e",
+            "title": "Cruelty Free & beegan",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_DNFF6V": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-recycled",
+            "icon_alt": "shopify://shop_images/3_1_1.png",
+            "icon_color": "#40656e",
+            "title": "Ethical & Sustainable",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_TNB7gC": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-store",
+            "icon_alt": "shopify://shop_images/3_2_1.png",
+            "icon_color": "#40656e",
+            "title": "Women Owned & Operated",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_fdjfkD": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/4_1_1.png",
+            "icon_color": "#40656e",
+            "title": "clean-beauty since 1993",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_k3mKPC",
+        "icon_block_AgwCR7",
+        "icon_block_DNFF6V",
+        "icon_block_TNB7gC",
+        "icon_block_fdjfkD"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Why Peak Scents",
+        "bg": "palette--bright bg--bright",
+        "icons_size": 54,
+        "icon_alignment": "icon--top",
+        "layout": "grid--slider",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_richtext_EhFH4K": {
+      "type": "section-richtext",
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_Miy88k": {
+      "type": "section-double",
+      "blocks": {
+        "text_9KXNMG": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
+            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed Southwest School of Botanical Medicine. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--secondary",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": "#c4c4c4"
+          }
+        },
+        "image_7qRpMm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1_1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "text_9KXNMG",
+        "image_7qRpMm"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#fdfdfd",
+        "preload_image": true,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_UaUVt8": {
+      "type": "section-richtext",
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "custom-content-feature",
+    "section_hero_AcH9YJ",
+    "section_richtext_CFLTh3",
     "blog-section-featured-article",
-    "section_newsletter_rhWqYG",
-    "main-blog"
+    "main-blog",
+    "section_icons_GAVXbw",
+    "section_richtext_EhFH4K",
+    "section_double_Miy88k",
+    "section_richtext_UaUVt8"
   ]
 }

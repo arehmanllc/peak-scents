@@ -25953,7 +25953,7 @@ a.product__form__link:after {
 .popout--footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   margin: 0;
 }
 
@@ -26647,6 +26647,8 @@ a.product__form__link:after {
 
 .article__item-title {
   word-break: break-word;
+  font-family: var(--FONT-STACK-BODY);
+  font-size: 20px;
 }
 
 .article__item-title a {
