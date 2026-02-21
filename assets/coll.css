@@ -1,0 +1,18 @@
+.product__grid__info .product__grid__title__wrapper{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.collection__filters__toggle{
+  font-family: var(--FONT-STACK-HEADING);
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #22292D;
+  letter-spacing: 0;
+}
+.collection__nav__buttons{
+  justify-content: space-between;
+  width: 100%;
+}
+.product__grid__dropdown-section .btn-state-ready{
+  flex-wrap: wrap;
+}
