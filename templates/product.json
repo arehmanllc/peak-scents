@@ -22,11 +22,11 @@
             "padding_bottom": 10
           }
         },
-        "price_JU33gh": {
+        "price_kVx8Hd": {
           "type": "price",
           "settings": {
-            "price_size": 4,
-            "padding_bottom": 0
+            "price_size": 5,
+            "padding_bottom": 40
           }
         },
         "judge_me_reviews_preview_badge_6BHWhJ": {
@@ -47,6 +47,17 @@
           "settings": {
             "show_quantity": true,
             "padding_bottom": 20
+          }
+        },
+        "sizes-remaining": {
+          "type": "size-remaining",
+          "settings": {
+            "info_page": "",
+            "title": "",
+            "show_remaining": true,
+            "show_remaining_style": "always",
+            "countdown": 10,
+            "padding_bottom": 0
           }
         },
         "description": {
@@ -81,14 +92,9 @@
             "title": "Buy it with",
             "upsell_type": "product_single",
             "product": "{{ product.metafields.theme.upsell.value }}",
-            "upsell_product_list": [
-              "babchi-beauty-bundle",
-              "power-repair™-clear-skin-kit",
-              "balm-mist-duo",
-              "organic-herbal-hair-and-scalp-treatment"
-            ],
-            "upsell_list_limit": 2,
-            "padding_bottom": 26
+            "upsell_product_list": [],
+            "upsell_list_limit": 3,
+            "padding_bottom": 20
           }
         },
         "sharing": {
@@ -96,7 +102,7 @@
           "settings": {
             "share_label": "Share",
             "target_device": "",
-            "padding_bottom": 0
+            "padding_bottom": 20
           }
         },
         "icon_3tmUky": {
@@ -120,28 +126,20 @@
             "text": "<p>Free Shipping on Orders $99+</p>",
             "padding_bottom": 8
           }
-        },
-        "complimentary_xMPzRC": {
-          "type": "complimentary",
-          "settings": {
-            "title": "Bought together",
-            "complimentary_list_limit": 3,
-            "padding_bottom": 20
-          }
         }
       },
       "block_order": [
         "title",
-        "price_JU33gh",
+        "price_kVx8Hd",
         "judge_me_reviews_preview_badge_6BHWhJ",
         "variants",
         "quantity",
+        "sizes-remaining",
         "description",
         "upsell",
         "sharing",
         "icon_3tmUky",
-        "f999f4d3-3108-48a4-ab3c-c92c2be6780d",
-        "complimentary_xMPzRC"
+        "f999f4d3-3108-48a4-ab3c-c92c2be6780d"
       ],
       "custom_css": [],
       "settings": {
@@ -181,7 +179,7 @@
         "product_recently_minimum": 4,
         "product_recently_heading": "Recently viewed",
         "width": "wrapper",
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -199,10 +197,10 @@
             "align_text": "text-left",
             "button_text": "",
             "button_url": "",
-            "button_color": "btn--white",
+            "button_color": "btn--neutral",
             "button_style": "caps--link",
             "text_color": "text--primary",
-            "bg_color": "#f3f3f3"
+            "bg_color": "#c4c4c4"
           }
         },
         "image": {
@@ -230,98 +228,14 @@
       ],
       "custom_css": [],
       "settings": {
-        "height": "use_pixels_800",
+        "height": "use_image",
         "brick_gutter": 0,
-        "borders": false,
-        "bg_color": "#fdfdfd",
+        "borders": true,
+        "bg_color": "",
         "preload_image": true,
         "width": "wrapper--full",
-        "padding_top": 0,
-        "padding_bottom": 42
-      }
-    },
-    "section_icons_yJQA4A": {
-      "type": "section-icons",
-      "blocks": {
-        "icon_block_LxVTLc": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-earth",
-            "icon_alt": "shopify://shop_images/2_26_1.png",
-            "icon_color": "#40656e",
-            "title": "Made by Hand in Arizona, USA",
-            "text": "",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "icon_block_tnK8UB": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-animal-paw",
-            "icon_alt": "shopify://shop_images/2_27_1.png",
-            "icon_color": "#40656e",
-            "title": "Cruelty Free & beegan",
-            "text": "",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "icon_block_Y4KtkY": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-recycled",
-            "icon_alt": "shopify://shop_images/3_1_1.png",
-            "icon_color": "#40656e",
-            "title": "Ethical & Sustainable",
-            "text": "",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "icon_block_3hEzK8": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-store",
-            "icon_alt": "shopify://shop_images/3_2_1.png",
-            "icon_color": "#40656e",
-            "title": "Women Owned & Operated",
-            "text": "",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "icon_block_x7DxNq": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-leaf",
-            "icon_alt": "shopify://shop_images/4_1_1.png",
-            "icon_color": "#40656e",
-            "title": "clean-beauty since 1993",
-            "text": "",
-            "link_text": "",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "icon_block_LxVTLc",
-        "icon_block_tnK8UB",
-        "icon_block_Y4KtkY",
-        "icon_block_3hEzK8",
-        "icon_block_x7DxNq"
-      ],
-      "custom_css": [],
-      "settings": {
-        "title": "Why Peak Scents",
-        "bg": "palette--bright bg--bright",
-        "icons_size": 54,
-        "icon_alignment": "icon--top",
-        "layout": "grid--slider",
-        "align_text": "text-center",
-        "width": "wrapper--full",
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "1714693561402a548e": {
@@ -348,7 +262,91 @@
         "padding_bottom": 36
       }
     },
-    "section_richtext_e6XmyP": {
+    "section_icons_DfhXxk": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_kN84Vc": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/2_26_1.png",
+            "icon_color": "#40656e",
+            "title": "Made by Hand in Arizona, USA",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_tgfggb": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-animal-paw",
+            "icon_alt": "shopify://shop_images/2_27_1.png",
+            "icon_color": "#40656e",
+            "title": "Cruelty Free & beegan",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_AWFEYz": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-recycled",
+            "icon_alt": "shopify://shop_images/3_1_1.png",
+            "icon_color": "#40656e",
+            "title": "Ethical & Sustainable",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_jPgCTB": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-store",
+            "icon_alt": "shopify://shop_images/3_2_1.png",
+            "icon_color": "#40656e",
+            "title": "Women Owned & Operated",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_7xLkD4": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/4_1_1.png",
+            "icon_color": "#40656e",
+            "title": "clean-beauty since 1993",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_kN84Vc",
+        "icon_block_tgfggb",
+        "icon_block_AWFEYz",
+        "icon_block_jPgCTB",
+        "icon_block_7xLkD4"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Why Peak Scents",
+        "bg": "palette--bright bg--bright",
+        "icons_size": 54,
+        "icon_alignment": "icon--top",
+        "layout": "grid--slider",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_richtext_hLTt8x": {
       "type": "section-richtext",
       "name": "Rich text",
       "settings": {
@@ -357,14 +355,14 @@
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
         "width": "wrapper",
-        "padding_top": 50,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "section_double_zqPhFR": {
+    "section_double_p9zhh8": {
       "type": "section-double",
       "blocks": {
-        "text_kAhkj7": {
+        "text_bEDKJ9": {
           "type": "text",
           "settings": {
             "kicker": "",
@@ -381,7 +379,7 @@
             "bg_color": "#c4c4c4"
           }
         },
-        "image_6mTgFx": {
+        "image_pGyaPp": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1_1.png",
@@ -401,8 +399,8 @@
         }
       },
       "block_order": [
-        "text_kAhkj7",
-        "image_6mTgFx"
+        "text_bEDKJ9",
+        "image_pGyaPp"
       ],
       "settings": {
         "height": "use_pixels_500",
@@ -456,7 +454,7 @@
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "width": "wrapper",
-        "padding_top": 84,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -477,10 +475,10 @@
     "main",
     "related",
     "image-with-text",
-    "section_icons_yJQA4A",
     "1714693561402a548e",
-    "section_richtext_e6XmyP",
-    "section_double_zqPhFR",
+    "section_icons_DfhXxk",
+    "section_richtext_hLTt8x",
+    "section_double_p9zhh8",
     "section_faq_kGJQwN",
     "reviews"
   ]
