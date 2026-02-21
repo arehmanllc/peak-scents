@@ -16645,8 +16645,8 @@ html:not(.no-js) body:not(.focus-enabled) *:focus {
   padding-bottom: var(--inner);
   position: relative;
   text-align: center;
-  font-size: clamp(24px, 3vw, 42px);
-  margin-bottom: 0;
+  font-size: clamp(24px, 2.5vw, 42px);
+  margin-bottom: 10px;
 }
 
 .kicker-flourished:after {
@@ -17110,7 +17110,7 @@ html:not(.no-js) body:not(.focus-enabled) *:focus {
   font-weight: var(--FONT-WEIGHT-HEADING);
   letter-spacing: var(--FONT-HEADING-LETTER-SPACING);
   text-transform: var(--FONT-HEADING-TRANSFORM);
-  font-size: clamp(24px, 5vw, 42px);
+  font-size: clamp(24px, 2.5vw, 42px);
 }
 
 .standard__kicker,
@@ -25668,7 +25668,7 @@ a.product__form__link:after {
 
 .product-single .product__inner.bg {
   /* margin: 0 auto; */
-  margin-left: 50px;
+  margin-left: 30px;
 /* padding: 24px; */
   padding-left: 0;
 }

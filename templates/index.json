@@ -874,6 +874,7 @@
         },
         "subscription_gkxHpg": {
           "type": "subscription",
+          "disabled": true,
           "settings": {
             "subscriptions_enable_selectors": true,
             "padding_bottom": 20
@@ -1075,7 +1076,7 @@
             "corner_styling": "soft",
             "header_text_color": "#000000",
             "text_color": "#000000",
-            "card_color": "#F9F9F9",
+            "card_color": "#f9f9f9",
             "stars_color": "",
             "arrows_color": "#000000",
             "transition_speed": 5,
