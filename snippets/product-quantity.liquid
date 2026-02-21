@@ -130,7 +130,7 @@
                     {{ button_text }}
                   </span>
                   {% if current_variant %}
-                    <span class="cta__dot opacity-50">•</span>
+                    {% comment %} <span class="cta__dot opacity-50">•</span> {% endcomment %}
                     <span
                       data-button-price
                       x-text="$formatCurrency({{- price -}} * Math.max(quantity, 1), { form: 'short', currency: '{{ cart.currency.iso_code }}' })"

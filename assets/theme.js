@@ -27918,16 +27918,16 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
             productId: productId,
             selectedVariantId: initialVariantId,
             formattedPrice: '',
-            
+
             init() {
                 this.updateFormattedPrice();
             },
-            
+
             updateVariant(variantId) {
                 this.selectedVariantId = variantId;
                 const select = document.getElementById(`variant-select-${productId}`);
                 const selectedOption = select.options[select.selectedIndex];
-                
+
                 // Update the form variant ID
                 const form = this.$el.closest('form');
                 if (form) {
@@ -27936,27 +27936,27 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
                         variantInput.value = variantId;
                     }
                 }
-                
+
                 this.updateFormattedPrice();
-                
+
                 // Update button disabled state
                 const button = this.$el.querySelector('button[data-add-to-cart]');
                 if (button) {
                     const isAvailable = selectedOption.dataset.available === 'true';
                     button.disabled = !isAvailable;
-                    
+
                     const buttonText = button.querySelector('.btn-state-ready span:first-child');
                     if (buttonText) {
                         buttonText.textContent = isAvailable ? 'ADD TO BAG' : 'Sold Out';
                     }
                 }
             },
-            
+
             updateFormattedPrice() {
                 const select = document.getElementById(`variant-select-${this.productId}`);
                 const selectedOption = select.options[select.selectedIndex];
                 const price = parseFloat(selectedOption.dataset.price);
-                
+
                 // Format price using Shopify's format
                 this.formattedPrice = (price / 100).toLocaleString(Shopify.locale, {
                     style: 'currency',
