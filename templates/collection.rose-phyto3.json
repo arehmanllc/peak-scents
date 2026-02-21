@@ -115,7 +115,7 @@
         "video_TNyq9r"
       ],
       "settings": {
-        "height": "use_screen_one_half",
+        "height": "use_pixels_650",
         "color_bg": "palette--light bg--neutral",
         "object_position": "right-center",
         "image": "shopify://shop_images/10_SIZZLE_01_07_HEADER_VIDEO_16x9_4K.00_00_01_21.Still001_1.png",
