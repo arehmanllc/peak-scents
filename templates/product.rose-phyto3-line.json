@@ -197,10 +197,10 @@
             "align_text": "text-left",
             "button_text": "",
             "button_url": "",
-            "button_color": "btn--white",
+            "button_color": "btn--neutral",
             "button_style": "caps--link",
-            "text_color": "text--white",
-            "bg_color": "#d5d0cc"
+            "text_color": "text--primary",
+            "bg_color": "#c4c4c4"
           }
         },
         "image": {
@@ -228,11 +228,11 @@
       ],
       "custom_css": [],
       "settings": {
-        "height": "use_pixels_650",
+        "height": "use_image",
         "brick_gutter": 0,
         "borders": true,
         "bg_color": "",
-        "preload_image": false,
+        "preload_image": true,
         "width": "wrapper--full",
         "padding_top": 36,
         "padding_bottom": 0
@@ -262,82 +262,82 @@
         "padding_bottom": 36
       }
     },
-    "section_icons_txNTqP": {
+    "section_icons_DfhXxk": {
       "type": "section-icons",
       "blocks": {
-        "icon_block_zDNmUk": {
+        "icon_block_kN84Vc": {
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-earth",
-            "icon_alt": "shopify://shop_images/Frame.png",
+            "icon_alt": "shopify://shop_images/2_26_1.png",
             "icon_color": "#40656e",
-            "title": "Made by Hand in the USA",
-            "text": "<p>All of our products are made by our team at our Flagstaff, Arizona location. Come say hi if you're in town! </p>",
+            "title": "Made by Hand in Arizona, USA",
+            "text": "",
             "link_text": "",
             "link_url": ""
           }
         },
-        "icon_block_KCcMHU": {
+        "icon_block_tgfggb": {
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-animal-paw",
-            "icon_alt": "shopify://shop_images/Frame_1.png",
+            "icon_alt": "shopify://shop_images/2_27_1.png",
             "icon_color": "#40656e",
             "title": "Cruelty Free & beegan",
-            "text": "<p>Our products are never tested on animals and we let you know when they are free of beeswax.</p>",
+            "text": "",
             "link_text": "",
             "link_url": ""
           }
         },
-        "icon_block_RRT9wc": {
+        "icon_block_AWFEYz": {
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-recycled",
-            "icon_alt": "shopify://shop_images/Frame_2.png",
+            "icon_alt": "shopify://shop_images/3_1_1.png",
             "icon_color": "#40656e",
             "title": "Ethical & Sustainable",
-            "text": "<p>Peak Scents is committed to creating skin care products that make a difference.</p>",
+            "text": "",
             "link_text": "",
             "link_url": ""
           }
         },
-        "icon_block_9bXKWD": {
+        "icon_block_jPgCTB": {
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-store",
-            "icon_alt": "shopify://shop_images/Frame_3.png",
+            "icon_alt": "shopify://shop_images/3_2_1.png",
             "icon_color": "#40656e",
             "title": "Women Owned & Operated",
-            "text": "<p>Founded by second-generation herbalist DeeAnn Tracy<br/><br/></p>",
+            "text": "",
             "link_text": "",
             "link_url": ""
           }
         },
-        "icon_block_xhVN4A": {
+        "icon_block_7xLkD4": {
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-leaf",
-            "icon_alt": "shopify://shop_images/Frame_4.png",
+            "icon_alt": "shopify://shop_images/4_1_1.png",
             "icon_color": "#40656e",
-            "title": "Non - Toxic ingredients",
-            "text": "<p>We believe in the power of plants. You won't find anything harmful here.</p>",
+            "title": "clean-beauty since 1993",
+            "text": "",
             "link_text": "",
             "link_url": ""
           }
         }
       },
       "block_order": [
-        "icon_block_zDNmUk",
-        "icon_block_KCcMHU",
-        "icon_block_RRT9wc",
-        "icon_block_9bXKWD",
-        "icon_block_xhVN4A"
+        "icon_block_kN84Vc",
+        "icon_block_tgfggb",
+        "icon_block_AWFEYz",
+        "icon_block_jPgCTB",
+        "icon_block_7xLkD4"
       ],
       "custom_css": [],
       "settings": {
         "title": "Why Peak Scents",
         "bg": "palette--bright bg--bright",
-        "icons_size": 50,
+        "icons_size": 54,
         "icon_alignment": "icon--top",
         "layout": "grid--slider",
         "align_text": "text-center",
@@ -346,15 +346,28 @@
         "padding_bottom": 40
       }
     },
-    "section_double_ePr8rL": {
+    "section_richtext_hLTt8x": {
+      "type": "section-richtext",
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_p9zhh8": {
       "type": "section-double",
       "blocks": {
-        "text_G7WdHm": {
+        "text_bEDKJ9": {
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "Meet Our Founder",
-            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
+            "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
+            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed Southwest School of Botanical Medicine. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
             "font_size": 4,
             "text_columns": 1,
             "align_text": "text-center",
@@ -362,14 +375,14 @@
             "button_url": "",
             "button_color": "btn--secondary",
             "button_style": "btn btn--long",
-            "text_color": "text--black",
-            "bg_color": "#ffffff"
+            "text_color": "text--neutral",
+            "bg_color": "#c4c4c4"
           }
         },
-        "image_xweLmJ": {
+        "image_pGyaPp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2025_KISH_DeeAnn-Tracy_Peak-Scents_DK32053_1.jpg",
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1_1.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -386,18 +399,18 @@
         }
       },
       "block_order": [
-        "text_G7WdHm",
-        "image_xweLmJ"
+        "text_bEDKJ9",
+        "image_pGyaPp"
       ],
       "settings": {
-        "height": "use_image",
+        "height": "use_pixels_500",
         "brick_gutter": 0,
         "borders": false,
-        "bg_color": "#ffffff",
+        "bg_color": "#c4c4c4",
         "preload_image": true,
         "width": "wrapper--full",
-        "padding_top": 22,
-        "padding_bottom": 34
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_faq_kGJQwN": {
@@ -434,7 +447,7 @@
       "settings": {
         "title": "Frequently Asked Questions",
         "title_align": "text-center",
-        "title_size": 9,
+        "title_size": 7,
         "heading_size": 4,
         "text_size": 3,
         "faqs_image": "shopify://shop_images/2025_KISH_Peak-Scents_DK34958_1.png",
@@ -445,41 +458,9 @@
         "padding_bottom": 36
       }
     },
-    "173197099281d2d7be": {
-      "type": "apps",
-      "blocks": {
-        "greenspark_static_widgets_v2_qzANzT": {
-          "type": "shopify://apps/greenspark/blocks/static-widgets-v2/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
-          "settings": {
-            "widget_type": "total_impact",
-            "horizontal_alignment": "center",
-            "greenspark_widget_color": "grey",
-            "size": "full_width",
-            "fullwidth_justification": "center",
-            "trees_stat_type": true,
-            "plastic_stat_type": true,
-            "carbon_stat_type": true,
-            "kelp_stat_type": true,
-            "water_stat_type": true,
-            "bees_stat_type": true,
-            "enable_popup": true,
-            "greenspark_popup_theme": "light"
-          }
-        }
-      },
-      "block_order": [
-        "greenspark_static_widgets_v2_qzANzT"
-      ],
-      "settings": {
-        "text_color": "text--neutral",
-        "bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "reviews": {
       "type": "reviews",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "product_reviews_enable": true,
@@ -495,10 +476,10 @@
     "related",
     "image-with-text",
     "1714693561402a548e",
-    "section_icons_txNTqP",
-    "section_double_ePr8rL",
+    "section_icons_DfhXxk",
+    "section_richtext_hLTt8x",
+    "section_double_p9zhh8",
     "section_faq_kGJQwN",
-    "173197099281d2d7be",
     "reviews"
   ]
 }
