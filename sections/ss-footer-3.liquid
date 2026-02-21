@@ -168,11 +168,20 @@
     gap: 24px;
     padding-bottom: 40px;
   }
-
+.caller{
+  display: flex;
+  gap: 8px;
+  color: #ffffff;
+  margin-block: 20px;
+}
   .footer-newsletter-row-{{ section.id }} {
     position: relative;
   }
-
+.subfooter__item .popout__toggle{
+      color: #ffffff;
+      border-color: #ffffff;
+      font-size: 10px;
+    }
   .footer-newsletter-input-{{ section.id }} {
     width: 100%;
     margin: 0;
@@ -725,6 +734,7 @@
       font-weight: {{ title_font.weight }};
       font-style: {{ title_font.style }};
     }
+    
   </style>
 {% endif %}
 {% if copy_custom %}
@@ -931,6 +941,15 @@
               </a>
             </div>
           {% endif %}
+        </div>
+        <div class="caller">
+          {%- render 'icon-call' -%} {{ section.settings.paragraph }}
+        </div>
+        <div class="subfooter__item subfooter__item--selects">
+            {%- form 'localization', class: 'popout--footer', id: 'localization-form-footer' -%}
+                {%- render 'select-locale', form: form, unique: 'localization-form-footer', wrapper_class: 'subfooter__select subfooter__select--locale' -%}
+                {%- render 'select-currency', form: form, unique: 'localization-form-footer', select_type: settings.currency_select_type, wrapper_class: 'subfooter__select subfooter__select--currency' -%}
+            {%- endform -%}
         </div>
       </div>
     </div>
@@ -1457,6 +1476,10 @@
     {
       "type": "header",
       "content": "Footer Newsletter Settings"
+    },{
+      "type": "richtext",
+      "id": "paragraph",
+      "label": "Paragraph"
     },
     {
       "type": "checkbox",
