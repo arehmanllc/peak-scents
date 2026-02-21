@@ -85,7 +85,7 @@
         "copy_size": 13,
         "copy_size_mobile": 13,
         "copy_height": 130,
-        "paragraph": "<p><a href=\"tel:+1 (800)630-9499\" target=\"_blank\" title=\"tel:+1 (800)630-9499\">+1 (800)630-9499</a></p>",
+        "paragraph": "<p><a href=\"tel:+1 (800)630-9499\" target=\"_blank\" title=\"tel:+1 (800)630-9499\"><strong>+1 (800)630-9499</strong></a></p>",
         "use_newsletter": false,
         "input_padding_vertical": 10,
         "input_padding_horizontal": 12,
