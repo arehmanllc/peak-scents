@@ -113,7 +113,7 @@
       "settings": {
         "header_style": "menu_center",
         "logo": "shopify://shop_images/Landscape_Logo_Full_Design_Blue_Web_PNG_1_1.png",
-        "logo_max_limit": 240,
+        "logo_max_limit": 210,
         "logo_padding": 5,
         "logo_text_size": 5,
         "main_menu_linklist": "downstream-main-navigation-demo",

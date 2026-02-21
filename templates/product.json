@@ -15,11 +15,18 @@
         "title": {
           "type": "title",
           "settings": {
-            "text_size": 8,
-            "product_show_cutline": true,
-            "show_rating": true,
-            "show_rating_count": true,
-            "padding_bottom": 20
+            "text_size": 7,
+            "product_show_cutline": false,
+            "show_rating": false,
+            "show_rating_count": false,
+            "padding_bottom": 10
+          }
+        },
+        "price_JU33gh": {
+          "type": "price",
+          "settings": {
+            "price_size": 4,
+            "padding_bottom": 0
           }
         },
         "judge_me_reviews_preview_badge_6BHWhJ": {
@@ -40,43 +47,6 @@
           "settings": {
             "show_quantity": true,
             "padding_bottom": 20
-          }
-        },
-        "sizes-remaining": {
-          "type": "size-remaining",
-          "settings": {
-            "info_page": "",
-            "title": "",
-            "show_remaining": true,
-            "show_remaining_style": "always",
-            "countdown": 10,
-            "padding_bottom": 0
-          }
-        },
-        "buttons": {
-          "type": "add-buttons",
-          "settings": {
-            "enable_payment_button": true,
-            "enable_gift_card_recipient": true,
-            "padding_bottom": 20
-          }
-        },
-        "pickup": {
-          "type": "pickup",
-          "settings": {
-            "padding_bottom": 20
-          }
-        },
-        "greenspark_product_widgets_ccq9yQ": {
-          "type": "shopify://apps/greenspark/blocks/product-widgets/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
-          "settings": {
-            "horizontal_alignment": "center",
-            "style": "simplified",
-            "size": "regular",
-            "fullwidth_justification": "flex-start",
-            "greenspark_widget_color": "#3B755F",
-            "enable_popup": true,
-            "greenspark_popup_theme": "light"
           }
         },
         "description": {
@@ -111,9 +81,14 @@
             "title": "Buy it with",
             "upsell_type": "product_single",
             "product": "{{ product.metafields.theme.upsell.value }}",
-            "upsell_product_list": [],
-            "upsell_list_limit": 1,
-            "padding_bottom": 20
+            "upsell_product_list": [
+              "babchi-beauty-bundle",
+              "power-repair™-clear-skin-kit",
+              "balm-mist-duo",
+              "organic-herbal-hair-and-scalp-treatment"
+            ],
+            "upsell_list_limit": 2,
+            "padding_bottom": 26
           }
         },
         "sharing": {
@@ -121,7 +96,7 @@
           "settings": {
             "share_label": "Share",
             "target_device": "",
-            "padding_bottom": 20
+            "padding_bottom": 0
           }
         },
         "icon_3tmUky": {
@@ -145,22 +120,28 @@
             "text": "<p>Free Shipping on Orders $99+</p>",
             "padding_bottom": 8
           }
+        },
+        "complimentary_xMPzRC": {
+          "type": "complimentary",
+          "settings": {
+            "title": "Bought together",
+            "complimentary_list_limit": 3,
+            "padding_bottom": 20
+          }
         }
       },
       "block_order": [
         "title",
+        "price_JU33gh",
         "judge_me_reviews_preview_badge_6BHWhJ",
         "variants",
         "quantity",
-        "sizes-remaining",
-        "buttons",
-        "pickup",
-        "greenspark_product_widgets_ccq9yQ",
         "description",
         "upsell",
         "sharing",
         "icon_3tmUky",
-        "f999f4d3-3108-48a4-ab3c-c92c2be6780d"
+        "f999f4d3-3108-48a4-ab3c-c92c2be6780d",
+        "complimentary_xMPzRC"
       ],
       "custom_css": [],
       "settings": {
@@ -200,7 +181,7 @@
         "product_recently_minimum": 4,
         "product_recently_heading": "Recently viewed",
         "width": "wrapper",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -220,8 +201,8 @@
             "button_url": "",
             "button_color": "btn--white",
             "button_style": "caps--link",
-            "text_color": "text--white",
-            "bg_color": "#d5d0cc"
+            "text_color": "text--primary",
+            "bg_color": "#f3f3f3"
           }
         },
         "image": {
@@ -249,14 +230,98 @@
       ],
       "custom_css": [],
       "settings": {
-        "height": "use_pixels_650",
+        "height": "use_pixels_800",
         "brick_gutter": 0,
-        "borders": true,
-        "bg_color": "",
-        "preload_image": false,
+        "borders": false,
+        "bg_color": "#fdfdfd",
+        "preload_image": true,
         "width": "wrapper--full",
-        "padding_top": 36,
-        "padding_bottom": 0
+        "padding_top": 0,
+        "padding_bottom": 42
+      }
+    },
+    "section_icons_yJQA4A": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_LxVTLc": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify://shop_images/2_26_1.png",
+            "icon_color": "#40656e",
+            "title": "Made by Hand in Arizona, USA",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_tnK8UB": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-animal-paw",
+            "icon_alt": "shopify://shop_images/2_27_1.png",
+            "icon_color": "#40656e",
+            "title": "Cruelty Free & beegan",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_Y4KtkY": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-recycled",
+            "icon_alt": "shopify://shop_images/3_1_1.png",
+            "icon_color": "#40656e",
+            "title": "Ethical & Sustainable",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_3hEzK8": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-store",
+            "icon_alt": "shopify://shop_images/3_2_1.png",
+            "icon_color": "#40656e",
+            "title": "Women Owned & Operated",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_x7DxNq": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/4_1_1.png",
+            "icon_color": "#40656e",
+            "title": "clean-beauty since 1993",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_LxVTLc",
+        "icon_block_tnK8UB",
+        "icon_block_Y4KtkY",
+        "icon_block_3hEzK8",
+        "icon_block_x7DxNq"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Why Peak Scents",
+        "bg": "palette--bright bg--bright",
+        "icons_size": 54,
+        "icon_alignment": "icon--top",
+        "layout": "grid--slider",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "1714693561402a548e": {
@@ -283,99 +348,28 @@
         "padding_bottom": 36
       }
     },
-    "section_icons_txNTqP": {
-      "type": "section-icons",
-      "blocks": {
-        "icon_block_zDNmUk": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-earth",
-            "icon_alt": "shopify://shop_images/Frame.png",
-            "icon_color": "#40656e",
-            "title": "Made by Hand in the USA",
-            "text": "<p>All of our products are made by our team at our Flagstaff, Arizona location. Come say hi if you're in town! </p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "icon_block_KCcMHU": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-animal-paw",
-            "icon_alt": "shopify://shop_images/Frame_1.png",
-            "icon_color": "#40656e",
-            "title": "Cruelty Free & beegan",
-            "text": "<p>Our products are never tested on animals and we let you know when they are free of beeswax.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "icon_block_RRT9wc": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-recycled",
-            "icon_alt": "shopify://shop_images/Frame_2.png",
-            "icon_color": "#40656e",
-            "title": "Ethical & Sustainable",
-            "text": "<p>Peak Scents is committed to creating skin care products that make a difference.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "icon_block_9bXKWD": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-store",
-            "icon_alt": "shopify://shop_images/Frame_3.png",
-            "icon_color": "#40656e",
-            "title": "Women Owned & Operated",
-            "text": "<p>Founded by second-generation herbalist DeeAnn Tracy<br/><br/></p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "icon_block_xhVN4A": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-leaf",
-            "icon_alt": "shopify://shop_images/Frame_4.png",
-            "icon_color": "#40656e",
-            "title": "Non - Toxic ingredients",
-            "text": "<p>We believe in the power of plants. You won't find anything harmful here.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "icon_block_zDNmUk",
-        "icon_block_KCcMHU",
-        "icon_block_RRT9wc",
-        "icon_block_9bXKWD",
-        "icon_block_xhVN4A"
-      ],
-      "custom_css": [],
+    "section_richtext_e6XmyP": {
+      "type": "section-richtext",
+      "name": "Rich text",
       "settings": {
-        "title": "Why Peak Scents",
-        "bg": "palette--bright bg--bright",
-        "icons_size": 50,
-        "icon_alignment": "icon--top",
-        "layout": "grid--slider",
-        "align_text": "text-center",
-        "width": "wrapper--full",
-        "padding_top": 40,
-        "padding_bottom": 40
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 0
       }
     },
-    "section_double_ePr8rL": {
+    "section_double_zqPhFR": {
       "type": "section-double",
       "blocks": {
-        "text_G7WdHm": {
+        "text_kAhkj7": {
           "type": "text",
           "settings": {
             "kicker": "",
             "title": "Meet Our Founder & Herbalist Extraordinaire, DeeAnn Tracy",
-            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed <strong>Southwest School of Botanical Medicine</strong>. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
+            "text": "<p>At the heart of Peak Scents is our founder and visionary product developer, DeeAnn Tracy. A true embodiment of the brand's ethos, DeeAnn is a second-generation herbalist whose passion for botanical remedies was nurtured through her studies at the esteemed Southwest School of Botanical Medicine. Her expertise in the field of herbalism infuses every product with a deep understanding of the power and potential of natural ingredients.</p>",
             "font_size": 4,
             "text_columns": 1,
             "align_text": "text-center",
@@ -383,14 +377,14 @@
             "button_url": "",
             "button_color": "btn--secondary",
             "button_style": "btn btn--long",
-            "text_color": "text--black",
-            "bg_color": "#ffffff"
+            "text_color": "text--neutral",
+            "bg_color": "#c4c4c4"
           }
         },
-        "image_xweLmJ": {
+        "image_6mTgFx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1.png",
+            "image": "shopify://shop_images/Peak-Scents-Branding-Photo-Gallery-AM-Photography-83_1_1.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -407,18 +401,18 @@
         }
       },
       "block_order": [
-        "text_G7WdHm",
-        "image_xweLmJ"
+        "text_kAhkj7",
+        "image_6mTgFx"
       ],
       "settings": {
-        "height": "use_image",
+        "height": "use_pixels_500",
         "brick_gutter": 0,
         "borders": false,
-        "bg_color": "#ffffff",
+        "bg_color": "#c4c4c4",
         "preload_image": true,
         "width": "wrapper--full",
-        "padding_top": 22,
-        "padding_bottom": 34
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_faq_kGJQwN": {
@@ -455,52 +449,20 @@
       "settings": {
         "title": "Frequently Asked Questions",
         "title_align": "text-center",
-        "title_size": 9,
+        "title_size": 7,
         "heading_size": 4,
         "text_size": 3,
         "faqs_image": "shopify://shop_images/2025_KISH_Peak-Scents_DK34958_1.png",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "173197099281d2d7be": {
-      "type": "apps",
-      "blocks": {
-        "greenspark_static_widgets_v2_qzANzT": {
-          "type": "shopify://apps/greenspark/blocks/static-widgets-v2/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
-          "settings": {
-            "widget_type": "total_impact",
-            "horizontal_alignment": "center",
-            "greenspark_widget_color": "grey",
-            "size": "full_width",
-            "fullwidth_justification": "center",
-            "trees_stat_type": true,
-            "plastic_stat_type": true,
-            "carbon_stat_type": true,
-            "kelp_stat_type": true,
-            "water_stat_type": true,
-            "bees_stat_type": true,
-            "enable_popup": true,
-            "greenspark_popup_theme": "light"
-          }
-        }
-      },
-      "block_order": [
-        "greenspark_static_widgets_v2_qzANzT"
-      ],
-      "settings": {
-        "text_color": "text--neutral",
-        "bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
+        "padding_top": 84,
         "padding_bottom": 36
       }
     },
     "reviews": {
       "type": "reviews",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "product_reviews_enable": true,
@@ -515,11 +477,11 @@
     "main",
     "related",
     "image-with-text",
+    "section_icons_yJQA4A",
     "1714693561402a548e",
-    "section_icons_txNTqP",
-    "section_double_ePr8rL",
+    "section_richtext_e6XmyP",
+    "section_double_zqPhFR",
     "section_faq_kGJQwN",
-    "173197099281d2d7be",
     "reviews"
   ]
 }

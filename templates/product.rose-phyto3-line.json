@@ -15,11 +15,18 @@
         "title": {
           "type": "title",
           "settings": {
-            "text_size": 8,
-            "product_show_cutline": true,
-            "show_rating": true,
-            "show_rating_count": true,
-            "padding_bottom": 20
+            "text_size": 7,
+            "product_show_cutline": false,
+            "show_rating": false,
+            "show_rating_count": false,
+            "padding_bottom": 10
+          }
+        },
+        "price_kVx8Hd": {
+          "type": "price",
+          "settings": {
+            "price_size": 5,
+            "padding_bottom": 40
           }
         },
         "judge_me_reviews_preview_badge_6BHWhJ": {
@@ -51,32 +58,6 @@
             "show_remaining_style": "always",
             "countdown": 10,
             "padding_bottom": 0
-          }
-        },
-        "buttons": {
-          "type": "add-buttons",
-          "settings": {
-            "enable_payment_button": true,
-            "enable_gift_card_recipient": true,
-            "padding_bottom": 20
-          }
-        },
-        "pickup": {
-          "type": "pickup",
-          "settings": {
-            "padding_bottom": 20
-          }
-        },
-        "greenspark_product_widgets_ccq9yQ": {
-          "type": "shopify://apps/greenspark/blocks/product-widgets/8c13bd86-5fb4-4c2e-83b1-e3a158a87952",
-          "settings": {
-            "horizontal_alignment": "center",
-            "style": "simplified",
-            "size": "regular",
-            "fullwidth_justification": "flex-start",
-            "greenspark_widget_color": "#3B755F",
-            "enable_popup": true,
-            "greenspark_popup_theme": "light"
           }
         },
         "description": {
@@ -112,7 +93,7 @@
             "upsell_type": "product_single",
             "product": "{{ product.metafields.theme.upsell.value }}",
             "upsell_product_list": [],
-            "upsell_list_limit": 1,
+            "upsell_list_limit": 3,
             "padding_bottom": 20
           }
         },
@@ -149,13 +130,11 @@
       },
       "block_order": [
         "title",
+        "price_kVx8Hd",
         "judge_me_reviews_preview_badge_6BHWhJ",
         "variants",
         "quantity",
         "sizes-remaining",
-        "buttons",
-        "pickup",
-        "greenspark_product_widgets_ccq9yQ",
         "description",
         "upsell",
         "sharing",
