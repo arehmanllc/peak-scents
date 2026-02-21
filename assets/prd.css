@@ -1,0 +1,90 @@
+.product-section .product__title{
+  color: #494441;
+}
+.product-section .radio__legend span{
+  color: #494441;
+  font-weight: 600;
+}
+.product-section .rc-widget .rc-option--active{
+  border-color: #40656E !important;
+  background-color: rgba(64, 101, 110, 0.3) !important;
+  color: #40656E !important;
+}
+
+.product-section .rc-template__button-group .rc-radio:nth-child(2) .rc-radio__label{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-section .rc-template__button-group .rc-radio:nth-child(1) .rc-radio__label{
+  display:grid;
+  grid-template-columns: 1fr 3fr 0.1fr;
+  align-items: center;
+}
+.product-section .rc-template__button-group .rc-radio:nth-child(1) .rc-radio__label .rc-option__discount{
+  justify-self: flex-start;
+}
+.product-section .rc-template__button-group .rc-radio .rc-option__price{
+  margin-top: 0;
+  font-weight: 400;
+  font-size: clamp(12px,1.5vw,14px);
+}
+.product-section .rc-template__button-group .rc-radio{
+  border-radius: 0 !important;
+  min-height: 64px;
+  font-size: clamp(12px,1.5vw,14px);
+  border: 2px solid #C7B6A8;
+}
+.product-section .radio__fieldset .radio__button label{
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+.product-section .product-grid-item__add-to-bag-btn{
+  font-size: clamp(12px,1.4vw,14px);
+  text-transform: uppercase;
+  min-height: 47px;
+  letter-spacing: 1.5px;
+}
+.product-section .rc-template__button-group .rc-radio:first-child{
+  margin-right: 0;
+}
+.product-section .btn-state-ready{
+  justify-content: center;
+  gap: 10px;
+}
+.product-section .product__block__quantity > .quantity__wrapper{
+  max-width: 150px;
+}
+.product-section .quantity__button{
+  border: 1px solid #40656E;
+  padding: 0 18px;
+}
+.product-section .product__block__quantity > .quantity__wrapper .quantity__input{
+  border: 1px solid #40656E;
+}
+.product-section .green-bgd{
+  background-color:rgba(152, 165, 166, 0.5);
+  padding: 24px;
+}
+.product-section .grey-bgd{
+  margin-top: 24px;
+  background-color:rgba(196, 196, 196, 0.3);
+  padding: 24px;
+  border-radius: 10px;
+}
+.product-section .product-accordion .accordion__title{
+  color: #494441;
+  letter-spacing: 0;
+}
+.product-section .accordion__body{
+  font-size: 14px;
+}
+.product-section .rc-template__button-group .rc-radio-group__options{
+  flex-wrap: wrap;
+  gap: 12px;
+}
+@media screen and (max-width:767px){
+  .product-single .product__inner.bg{
+    margin-left: 0 !important;
+  }
+}

@@ -1,4 +1,5 @@
 <!-- /sections/product.liquid -->
+ {{ 'prd.css' |  asset_url | stylesheet_tag }}
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
 
@@ -236,32 +237,30 @@
               {{ breadcrumbs_markup }}
             </nav>
           {% endif %}
-
-          {% for block in section.blocks %}
-            {% case block.type %}
-              {%- when '@app' -%}
-                <div class='contents' data-morph-skip>
-                  {% render block %}
-                </div>
-              {% when 'title' %}
-                {% render 'product-title', product: product, block: block, section: section %}
-              {% when 'price' %}
-                {% render 'product-price', product: product, block: block, section: section %}
-              {% when 'add-buttons' %}
-                {% render 'product-buttons' product: product, uniq_id: product_form_id, block: block %}
-              {% when 'quantity' %}
-                {% render 'product-quantity' product: product, uniq_id: product_form_id, block: block %}
-              {% when 'variant-selectors' %}
-                {% render 'product-variant-options' product: product, uniq_id: product_form_id, block: block, has_alt_text_filtered_images: has_alt_text_filtered_images %}
-              {% when 'siblings' %}
-                {% render 'product-siblings' product: product, uniq_id: product_form_id, block: block %}
-              {% when 'subscription' %}
-                {%- if block.settings.subscriptions_enable_selectors -%}
-                  {% render 'product-subscription' product: product, uniq_id: product_form_id, block: block %}
-                {%- endif -%}
-              {% when 'size-remaining' %}
-                {% render 'product-size-and-remaining' product: product, block: block %}
-              {% when 'description' %}
+					<div class="green-bgd">
+						{% for block in section.blocks %}
+							{% case block.type %}
+										{% when 'title' %}
+											{% render 'product-title', product: product, block: block, section: section %}
+										{% when 'price' %}
+											{% render 'product-price', product: product, block: block, section: section %}
+										{% when 'quantity' %}
+											{% render 'product-quantity' product: product, uniq_id: product_form_id, block: block %}
+										{% when 'variant-selectors' %}
+											{% render 'product-variant-options' product: product, uniq_id: product_form_id, block: block, has_alt_text_filtered_images: has_alt_text_filtered_images %}
+										{% when 'add-buttons' %}
+											{% render 'product-buttons' product: product, uniq_id: product_form_id, block: block %}	
+										{%- when '@app' -%}
+                			<div class='contents' data-morph-skip>
+                  			{% render block %}
+                			</div>	
+							{% endcase %}
+						{% endfor %}	
+					</div>	
+					<div class="grey-bgd">
+						{% for block in section.blocks %}
+							{% case block.type %}
+										{% when 'description' %}
                 <div data-morph-skip class="product__block__description rte body-size-4" style="--PB: {{ block.settings.padding_bottom }}px;" {{ block.shopify_attributes }}>
                   {%- assign product_description_content = product.description | strip -%}
                   {%- assign truncate_string = 'products.general.read_more' | t -%}
@@ -289,6 +288,21 @@
                     </div>
                   {%- endif -%}
                 </div>
+							{% endcase %}
+						{% endfor %}	
+					</div>	
+          {% for block in section.blocks %}
+            {% case block.type %}
+              
+              {% when 'siblings' %}
+                {% render 'product-siblings' product: product, uniq_id: product_form_id, block: block %}
+              {% when 'subscription' %}
+                {%- if block.settings.subscriptions_enable_selectors -%}
+                  {% render 'product-subscription' product: product, uniq_id: product_form_id, block: block %}
+                {%- endif -%}
+              {% when 'size-remaining' %}
+                {% render 'product-size-and-remaining' product: product, block: block %}
+              
               {% when 'sharing' %}
                 <div class="product__block__share {{ block.settings.target_device }}" style="--PB: {{ block.settings.padding_bottom }}px;" {{ block.shopify_attributes }}>
                   {% render 'share' product: product, label: block.settings.share_label, block: block %}

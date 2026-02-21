@@ -16645,7 +16645,8 @@ html:not(.no-js) body:not(.focus-enabled) *:focus {
   padding-bottom: var(--inner);
   position: relative;
   text-align: center;
-  font-size: clamp(24px, 5vw, 42px);
+  font-size: clamp(24px, 3vw, 42px);
+  margin-bottom: 0;
 }
 
 .kicker-flourished:after {
@@ -25668,7 +25669,8 @@ a.product__form__link:after {
 .product-single .product__inner.bg {
   /* margin: 0 auto; */
   margin-left: 50px;
-padding: 24px;
+/* padding: 24px; */
+  padding-left: 0;
 }
 
 @media only screen and (min-width: 768px) {
