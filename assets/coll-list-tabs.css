@@ -1,5 +1,5 @@
 .collection-tabs h2{
-  font-size: clamp(24px, 5vw, 42px);
+  font-size: clamp(24px, 2.5vw, 42px);
   text-transform: capitalize;
   font-weight: 400;
   letter-spacing: 0;

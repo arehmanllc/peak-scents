@@ -2,7 +2,7 @@
   font-size: 12px;
 }
 .section-icons h2{
-  font-size: clamp(24px, 3.5vw, 42px);
+  font-size: clamp(24px, 2.5vw, 42px);
 }
 .section-icons .float-grid {
   display: grid;
@@ -11,9 +11,9 @@
   justify-items: center;
 }
 .section-icons .icon__column__heading{
-  font-size: clamp(12px,3vw,24px);
+  font-size: clamp(12px,1.5vw,24px);
   text-transform: capitalize;
-  line-height: clamp(20px,2vw,30px);
+  line-height: clamp(20px,1.5vw,30px);
 }
 .section-icons .grid__item{
   max-width: 250px;
